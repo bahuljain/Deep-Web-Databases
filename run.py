@@ -5,6 +5,7 @@ import urllib2
 import base64
 import json
 import pickle
+from hashlib import sha256
 
 GRAPH = {
     "Root": ["Computers", "Health", "Sports"],
@@ -33,7 +34,6 @@ def getResults(website, resPath):
     cache = {}
     #queries = reduce(list.__add__, resDict.values())
     #urlSet = set()
-    #matches = dict()
     for key in resDict:
         cache[key] = {}
         for query in resDict[key][:3]:
@@ -44,8 +44,6 @@ def getResults(website, resPath):
                 'urls': set([result['Url'] for result in result['Web']])
             }
             #urlSet = urlSet.union(urls)
-            #webTotal = json_result['d']['results'][0]['WebTotal']
-            #matches.update({query:webTotal})
     return cache
 
 # using two threshold values tc and ts, the database is classified to a particular category
@@ -60,16 +58,16 @@ def classify(website, tc, ts):
             cache = getResults(website, 'resources/' + category + '.pickle')
             data.update(cache)
             covDict = categoryCoverage(cache)
-            print covDict
-            print ""
             specDict = specificity(covDict)
             print specDict
             for key in covDict:
+                print key + ": Specificity - " + `specDict[key]` + ", Coverage - " + `covDict[key]`
                 if (covDict[key] >= tc and specDict[key] >= ts):
+                    print "Adding " + key + " to categories"
                     categories.append(key)
-    print data
-    print ''
-    return categories
+    print categories
+    urlDict = getUrls(categories, data)
+    return urlDict
 
 # find the coverage of the database for different categories
 def categoryCoverage(cache):
@@ -84,21 +82,35 @@ def specificity(covDict):
     specDict = {key: covDict[key]/totalCount for key in covDict}
     return specDict
 
-# based on categories stitch url lists and form content summaries
-def getUrls():
-    return
-
-
-
+# based on categories stitch url lists and form separate url lists according to
+# sub-categorisation
+def getUrls(categories, data):
+    urlDict = {}
+    urlSet = set()
+    for key in data:
+        for query in data[key]:
+            urlSet = urlSet.union(data[key][query]["urls"])
+    urlDict["Root"] = urlSet
+    if len(categories) > 1:
+        urlSet = set()
+        category = categories[1]
+        keys = GRAPH.get(category)
+        for key in keys:
+            #urlSet = [urlSet.union(data[key][query]["urls"]) for query in data[key]]
+            for query in data[key]:
+                urlSet = urlSet.union(data[key][query]["urls"])
+        urlDict[category] = urlSet
+    return urlDict
 
 
 def getVocabList():
-    urls = getResults('fifa.com', 'resources/Root.pickle')[0]
-    print urls
-    vocabList = [getVocab(url) for url in urls]
-    completeVocab = reduce(lambda a,b:a.union(b), vocabList, set())
-    writeToFile(getDocFrequency(vocabList, completeVocab), 'contentSummary.txt')
-    print ''
+    urlDict = classify('fifa.com', 10000, 0.7)
+    for key in urlDict:
+        print "Fetching " + `len(urlDict[key])` + " documents"
+        vocabList = [getVocab(url) for url in urlDict[key]]
+        completeVocab = reduce(lambda a,b:a.union(b), vocabList, set())
+        writeToFile(getDocFrequency(vocabList, completeVocab), key + '-contentSummary.txt')
+        print ''
 
     #return completeVocab
 def getDocFrequency(vocabList, completeVocab):
@@ -108,17 +120,27 @@ def getDocFrequency(vocabList, completeVocab):
     return docFreq
 
 def getPageContent(url):
-    p = Popen(["lynx", "--dump", url], stdin=PIPE, stdout=PIPE, stderr=PIPE)
-    output, err = p.communicate()
-    return output if not err else None
+    print "Crawling through : " + url
+    fname = "cache/documents/" + sha256(fname).hexdigest()
+    output = None
+    if os.path.isfile(filename):
+        with open(filename, 'r') as f:
+            output = f.read()
+    else:
+        p = Popen(["lynx", "--dump", url], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+        output, err = p.communicate()
+        if output:
+            with open(filename, 'w') as f:
+                output = f.write(output)
+    return output
 
 def getVocab(url):
-    print "Crawling through : " + url
     content = getPageContent(url)
-    end = content.find("\nReferences\n")
-    content = content[:end] if (end > 0) else content
-    content = re.sub(r'\[(.*?)\]', '', re.sub(r'\n', "", content))
-    vocab = set([w.lower() for w in re.split(r'\W+', content) if str.isalpha(w)])
+    if content:
+        end = content.find("\nReferences\n")
+        content = content[:end] if (end > 0) else content
+        content = re.sub(r'\[(.*?)\]', '', re.sub(r'\n', "", content))
+        vocab = set([w.lower() for w in re.split(r'\W+', content) if str.isalpha(w)])
     return vocab
 
 def writeToFile(wordMap, filename):
@@ -126,6 +148,9 @@ def writeToFile(wordMap, filename):
         for word, count in sorted(wordMap.iteritems()):
             f.write("{0}#{1}#-1.0\n".format(word, count))
 
+
+
 #getResults('fifa.com', 'resources/Root.pickle')
 #getVocabList()
-print classify('fifa.com', 10000, 0.7)
+#print classify('fifa.com', 10000, 0.7)
+print getUrls()
