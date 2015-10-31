@@ -1,0 +1,30 @@
+bios 3260
+motherboard 3710
+board fsb 407
+board overclocking 2720
+fsb overclocking 822
+bios controller ide 487
+cables drive floppy 83
+actionlistener 0
+algorithms 8
+alias 9
+alloc 3
+ansi 7
+api 13
+applet 10
+argument 24
+array 92
+binary 15
+boolean 1
+borland 7
+char 2
+class 94
+code 10300
+compile 7
+compiler 7
+component 94
+container 8
+controls 89
+cpan 0
+java 25
+perl 5

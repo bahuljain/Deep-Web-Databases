@@ -1,0 +1,66 @@
+cpu 1
+java 68
+module 39
+multimedia 7
+perl 7
+vb 3
+agp card 0
+application windows 15
+applet code 0
+array code 7
+audio file 3
+avi file 0
+bios 5
+buffer code 1
+bytes code 2
+shareware 0
+card drivers 10
+card graphics 6
+card pc 36
+pc windows 10
+acupuncture 8840
+aerobic 17200
+aerobics 14200
+aids 25400
+cancer 396000
+cardiology 2660
+cholesterol 396000
+diabetes 392000
+diet 399000
+fitness 396000
+hiv 11800
+insulin 13300
+nurse 11800
+squats 16700
+treadmill 17700
+walkers 72
+calories fat 177000
+carb carbs 63600
+doctor health 174000
+doctor medical 176000
+eating fat 227000
+fat muscle 100000
+health medicine 240000
+health nutritional 232000
+hospital medical 78900
+hospital patients 36700
+medical patient 126000
+medical treatment 452000
+patients treatment 126000
+laker 0
+ncaa 22
+pacers 0
+soccer 13300
+teams 2630
+wnba 4
+nba 31
+avg league 0
+avg nba 5
+ball league 14
+ball referee 16
+ball team 86
+blazers game 1
+championship team 12
+club league 6
+fans football 17800
+game league 53

@@ -1,0 +1,29 @@
+aids 25800
+cancer 398000
+dental 15400
+diabetes 401000
+hiv 12300
+cardiology 2690
+aspirin cardiologist 13200
+aspirin cholesterol 15400
+blood heart 88300
+blood insulin 32100
+cholesterol doctor 177000
+cholesterol lipitor 18200
+heart surgery 42000
+radiation treatment 12900
+aerobic 17400
+fat 389000
+fitness 397000
+walking 18000
+workout 405000
+acid diets 95800
+bodybuilding protein 39300
+calories protein 85000
+calories weight 184000
+challenge walk 29100
+dairy milk 42200
+eating protein 165000
+eating weight 244000
+exercise protein 68100
+exercise weight 237000

@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+import pickle
+from cache import Cache
+
+resPath = "resources/Sports.txt"
+cachePath = "cache/diabetes.org-Health.txt"
+
+c = Cache()
+
+dictionary = c.readCache(cachePath)
+
+with open('resources/diabetes.org-Health.pickle', 'wb') as handle:
+  pickle.dump(dictionary, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+with open('resources/diabetes.org-Health.pickle', 'rb') as handle:
+  b = pickle.load(handle)
+
+print b
