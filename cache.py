@@ -10,7 +10,7 @@ import pickle
 #diabetes.org: Root/Health
 #hardwarecentral.com:  Root/Computers
 class Cache:
-       
+
     def readCache(self, path):
         handle = open(path, 'r')
         dictionary = dict()
@@ -21,8 +21,8 @@ class Cache:
         with open('path.pickle', 'wb') as handle:
             pickle.dump(dictionary, handle)
         return dictionary
-        
-    
+
+
     def createDefaultDictionary(self,path):
         handle = open(path, 'r')
         dictionary = collections.defaultdict(list)
@@ -31,7 +31,7 @@ class Cache:
             dictionary[line[0]].append(' '.join(line[1:len(line)]))
         handle.close()
         return dictionary
-    
+
     def writeCache(self, website, outpath, resPath):
         resDict = self.createDefaultDictionary(resPath);
         handle = open(outpath,'w')
@@ -46,13 +46,14 @@ class Cache:
                 response = urllib2.urlopen(req)
                 content = response.read()
                 json_result = json.loads(content)
+                urls = set([result['Url'] for result in json_result['d']['results'][0]['Web']])
                 matches = json_result['d']['results'][0]['WebTotal']
                 handle.write(queryTerm + ' ' + matches+'\n')
                 print queryTerm + ' ' + matches
         handle.close()
 
 #websites = ['health.com','yahoo.com','fifa.com', 'diabetes.org', 'hardwarecentral.com']
-#writeCache(websites[4],'cache/hardwarecentral.com.txt')        
+#writeCache(websites[4],'cache/hardwarecentral.com.txt')
 #website = 'hardwarecentral.com'
 #resPath = 'resources/Computers.txt'
 #outPath = 'cache/hardwarecentral.com-Computers.txt'
