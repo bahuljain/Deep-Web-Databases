@@ -6,6 +6,7 @@ import base64
 import json
 import pickle
 from hashlib import sha256
+import os
 
 GRAPH = {
     "Root": ["Computers", "Health", "Sports"],
@@ -37,8 +38,8 @@ def getResults(website, resPath):
     #queries = reduce(list.__add__, resDict.values())
     for key in resDict:
         cache[key] = {}
-        for query in resDict[key][:3]:
-            print query
+        for query in resDict[key][:2]:
+            print "Getting Results for Query: " + query
             result = getBingResult(website, query)
             cache[key][query] = {
                 'matches': float(result['WebTotal']),
@@ -53,7 +54,10 @@ def getResults(website, resPath):
 def classify(website, tc, ts):
     categories = ["Root"]
     data = {}
+    classification = "Root"
     for category in categories:
+        print "\nAdding " + category + " to Categories\n" if category != "Root" else ""
+
         keys = GRAPH.get(category)
         if keys:
             cache = getResults(website, 'resources/' + category + '.pickle')
@@ -63,14 +67,13 @@ def classify(website, tc, ts):
             for key in covDict:
                 print key + ": Specificity - " + `specDict[key]` + ", Coverage - " + `covDict[key]`
                 if (covDict[key] >= tc and specDict[key] >= ts):
-                    print "Adding " + key + " to Categories"
+                    classification = classification + "/" + key
                     categories.append(key)
-    classification = categories[0]
-    classification = [classification + "/" + category for category in categories if category != "Root"]
-    print website + ": " + classification
+    print '\n' + website + ': ' + classification + '\n'
 
     urlDict = getUrls(categories, data)
-    return urlDict
+
+    return data, urlDict
 
 # find the coverage of the database for different categories
 def categoryCoverage(cache):
@@ -85,7 +88,7 @@ def specificity(covDict):
     specDict = {key: covDict[key]/totalCount for key in covDict}
     return specDict
 
-# based on categories stitch url sets and form separate url sets according to
+# based on categories stitch url sets and form separate url set according to
 # sub-categorisation (since a set of urls is formed, no duplicate urls will be present)
 def getUrls(categories, data):
     urlDict = {}
@@ -99,26 +102,33 @@ def getUrls(categories, data):
         category = categories[1]
         keys = GRAPH.get(category)
         for key in keys:
-            #urlSet = [urlSet.union(data[key][query]["urls"]) for query in data[key]]
             for query in data[key]:
                 urlSet = urlSet.union(data[key][query]["urls"])
         urlDict[category] = urlSet
     return urlDict
 
 # prepare contentSummaries
-def getContentSummary():
-    urlDict = classify('fifa.com', 10000, 0.7)
+def getContentSummary(website, tc, ts):
+    data, urlDict = classify(website, tc, ts)
+    finalData = dict()
+    for key in data:
+        finalData.update(data[key])
+
     for key in urlDict:
-        print "Fetching " + `len(urlDict[key])` + " documents for category '" + key + "'"
+        print "\nFetching " + `len(urlDict[key])` + " documents for category '" + key + "'\n"
         vocabList = [getVocab(url) for url in urlDict[key]]
         completeVocab = reduce(lambda a,b:a.union(b), vocabList, set())
-        writeToFile(getDocFrequency(vocabList, completeVocab), key + '-contentSummary.txt')
+        print '\nTotal Words in Content Summary of Category ' + key + ': ' + `len(completeVocab)` + '\n'
+
+        writeToFile(getDocFrequency(vocabList, completeVocab), finalData, key + '-contentSummary.txt')
+
     print "...Completed!!"
 
 # gets the entire vocabulary from the contents of the given url (this includes
 # cleaning and pre-processing the contents)
 def getVocab(url):
     content = getPageContent(url)
+    vocab = set()
     if content:
         end = content.find("\nReferences\n")
         content = content[:end] if (end > 0) else content
@@ -133,30 +143,30 @@ def getPageContent(url):
     print "Crawling through : " + url
     fname = "cache/documents/" + sha256(url).hexdigest()
     output = None
-    if os.path.isfile(filename):
-        with open(filename, 'r') as f:
+    if os.path.isfile(fname):
+        with open(fname, 'r') as f:
             output = f.read()
     else:
         p = Popen(["lynx", "--dump", url], stdin=PIPE, stdout=PIPE, stderr=PIPE)
         output, err = p.communicate()
         if output:
-            with open(filename, 'w') as f:
-                output = f.write(output)
+            with open(fname, 'w') as f:
+                f.write(output)
     return output
 
 
-def writeToFile(wordMap, filename):
-    with open(filename, 'w') as f:
+def writeToFile(wordMap, finalData, fname):
+    with open(fname, 'w') as f:
         for word, count in sorted(wordMap.iteritems()):
-            f.write("{0}#{1}#-1.0\n".format(word, count))
+            if word in finalData.keys():
+                f.write("{0}#{1}#{2}\n".format(word, count, finalData[word]['matches']))
+            else:
+                f.write("{0}#{1}#-1.0\n".format(word, count))
 
 def getDocFrequency(vocabList, completeVocab):
     docFreq = dict.fromkeys(completeVocab, 0)
     for word in completeVocab:
-        docFreq[word] = sum([1 for vocab in vocabList if word in vocab])
+        docFreq[word] = float(sum([1 for vocab in vocabList if word in vocab]))
     return docFreq
 
-#getResults('fifa.com', 'resources/Root.pickle')
-#getVocabList()
-#print classify('fifa.com', 10000, 0.7)
-getContentSummary()
+getContentSummary('fifa.com', 100, 0.7)
