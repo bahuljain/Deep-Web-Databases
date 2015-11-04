@@ -45,4 +45,4 @@ The content summary consists of the words (in alphabetical order) their document
 Note: In the list of query words there were few phrases as well, we have not included them in the content summary.
 
 5) Your Bing account key (so we can test your project)
-Bing Account Key - '2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8'
+Bing Account Key - 
