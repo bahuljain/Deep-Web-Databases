@@ -11,7 +11,7 @@ resources/Sports.pickle
 resources/Health.pickle
 
 3) A clear description of how to run your program (note that your project must compile/run under Linux in your CS account)
-  Th
+
 
 4) A clear description of the internal design of your project, for each part of the project
 The program takes 4 inputs:
@@ -65,17 +65,7 @@ The content summary consists of the words (in alphabetical order) their document
 document set and their absolute document frequency. Since absolute document frequency is known only for all words that were
 also query words previously, -1 is written for words that were not query words.
 
-Note: In the list of query words there were few phrases as well, we have not included them in the content summary. 
-
-
-
-
-
-
-  If the
-
+Note: In the list of query words there were few phrases as well, we have not included them in the content summary.
 
 5) Your Bing account key (so we can test your project)
 Bing Account Key - '2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8'
-
-6) Any additional information that you consider significant
