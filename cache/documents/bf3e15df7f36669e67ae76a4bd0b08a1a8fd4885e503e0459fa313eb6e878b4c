@@ -1,0 +1,742 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums -
+   Networking and the Internet - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Networking and the Internet
+     * Can I assign a drive letter to a local directory?
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 15 of 15
+
+Thread: [27]Can I assign a drive letter to a local directory?
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. May 22nd, 2000, 01:26 PM [38]#1
+       [39]LwoodPDowd
+          + [40]View Profile
+          + [41]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+Can I assign a drive letter to a local directory?
+
+     I'm running a simple peer to peer network with 6 computers (all
+     running win9x, connected with linksys router and hub). I have one
+     workstation that holds the majority of user files.
+     An online program we just started using sets up the download
+     directory in the online settings and not in the local set up of the
+     program, so while i can set up the program to download to the
+     pseudo-file server from the other computers, if i download from the
+     workstation that acts as the fileserver, it cannot find the
+     directory because it is looking in h://computername/directory
+     instead of C:/directory/
+     What i was wondering is if there is a way to assign a drive letter
+     to a local directory? That would allow me to set up one drive letter
+     and directory for all computers.
+
+     my e. coli cures cancer
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. May 22nd, 2000, 03:52 PM [44]#2
+       [45]PanDebit
+          + [46]View Profile
+          + [47]View Forum Posts
+       PanDebit is offline Member
+
+        Join Date
+                Mar 2000
+
+        Location
+                Chicago
+
+        Posts
+                427
+
+     If I am understanding you correctly, you want to assign, let's say,
+     x to h:\somedirectory? If so, you can setup a share name for the
+     folder, and then map a drive on the users machines to that share
+     under any drive letter you want. So lets say you set the
+     somedirectory folder to a share name of tempfolder. You can then map
+     a drive on everyones machine. Say assign x to
+     \\machinename\tempfolder, and they will access that folder directly.
+     Is that what you mean, or did I just go on a tangent?
+     ------------------
+     My computer may be possessed, but at least it's not re-possessed.
+
+     GO BEARS!!
+       [48]Reply With Quote Reply With Quote [49]Share on Google+
+         ______________________________________________________________
+
+    3. May 22nd, 2000, 04:54 PM [50]#3
+       [51]LwoodPDowd
+          + [52]View Profile
+          + [53]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+     That is what i am talking about, but, while the other computers can
+     assign it a consistant drive letter, the computer the directory is
+     on will not let me assign it a drive letter at all. When i try to
+     assign it a drive letter (from the computer the directory is on) it
+     says the computer or sharename cannot be found. Getting the other
+     computers to map it is no problem.
+
+     my e. coli cures cancer
+       [54]Reply With Quote Reply With Quote [55]Share on Google+
+         ______________________________________________________________
+
+    4. May 25th, 2000, 02:58 PM [56]#4
+       [57]LwoodPDowd
+          + [58]View Profile
+          + [59]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+     just bringing the post back to the top
+
+     my e. coli cures cancer
+       [60]Reply With Quote Reply With Quote [61]Share on Google+
+         ______________________________________________________________
+
+    5. May 25th, 2000, 03:22 PM [62]#5
+       [63]Bossk
+          + [64]View Profile
+          + [65]View Forum Posts
+          + [66]Visit Homepage
+       Bossk is offline 5000
+
+        Join Date
+                Apr 2000
+
+        Location
+                Toronto, Ontario, Canada
+
+        Posts
+                75
+
+     Map the drive with the same letter across the network, that should
+     do what you want no problem. Thats all we do here. if x:\blah is on
+     the server and we want x:\blah to be drive t: then when we map it we
+     just specify it to be t:\blah. Get it, sorry I'm tired and rambling
+     -Jon
+       [67]Reply With Quote Reply With Quote [68]Share on Google+
+         ______________________________________________________________
+
+    6. May 25th, 2000, 04:07 PM [69]#6
+       [70]LwoodPDowd
+          + [71]View Profile
+          + [72]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+     I've done that, BUT the server is also a workstation (mine) and i
+     need to be able to use the same online program.
+     I have not figured out a way to assign a drive letter to a directory
+     on the computer i am using.
+
+     my e. coli cures cancer
+       [73]Reply With Quote Reply With Quote [74]Share on Google+
+         ______________________________________________________________
+
+    7. May 25th, 2000, 04:21 PM [75]#7
+       [76]LwoodPDowd
+          + [77]View Profile
+          + [78]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+     The way it's set up now, when users on the other computers save the
+     documents they get saved on X:\blah, but when I try and save from
+     the program (using the computer where x:\blah is located) it says
+     x:\blah cannot be located. I then have to change the settings to
+     save to the appropriate directory and then reset them to x:\blah
+     when i am done.
+     This problem is even worse when other people (who's computer skills
+     are basically non-existant) use this computer and who don't
+     understand why or how to change the directory, no matter how slowly
+     and clearly it's explained to them, or don't remember to change it
+     back to x:\blah, and therefor the other computers aren't set
+     properly and those computer users are either inconvinienced (if they
+     can figure out the situation) or can't save at all.
+     Basically this setup needs to be idiot-proof, or at least
+     idiot-resistant.
+     [This message has been edited by LwoodPDowd (edited 05-25-2000).]
+
+     my e. coli cures cancer
+       [79]Reply With Quote Reply With Quote [80]Share on Google+
+         ______________________________________________________________
+
+    8. May 25th, 2000, 04:22 PM [81]#8
+       [82]Bossk
+          + [83]View Profile
+          + [84]View Forum Posts
+          + [85]Visit Homepage
+       Bossk is offline 5000
+
+        Join Date
+                Apr 2000
+
+        Location
+                Toronto, Ontario, Canada
+
+        Posts
+                75
+
+     Ok I see what you mean, yeah I don't think that can be done. Unless
+     you can map the folder thats on your system, try'd that yet? Just
+     going out on a whim here with that.
+     -Jon
+       [86]Reply With Quote Reply With Quote [87]Share on Google+
+         ______________________________________________________________
+
+    9. May 25th, 2000, 05:39 PM [88]#9
+       [89]dynamo|x
+          + [90]View Profile
+          + [91]View Forum Posts
+       dynamo|x is offline 5000
+
+        Join Date
+                Dec 1999
+
+        Location
+                Atlanta
+
+        Posts
+                118
+
+     hmm..good idea Bossk. Put a small batch file in the start up folder
+     that maps the share point that's located on the local pc. Actually i
+     just tried it a few seconds ago. It does work. So basically a shared
+     the folder as X. And then i just mapped to it as \\computername\x
+     I don't know if that's what you need.
+       [92]Reply With Quote Reply With Quote [93]Share on Google+
+         ______________________________________________________________
+
+   10. May 25th, 2000, 07:50 PM [94]#10
+       [95]LwoodPDowd
+          + [96]View Profile
+          + [97]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+     Originally posted by dynamo|x:
+     hmm..good idea Bossk. Put a small batch file in the start up folder
+     that maps the share point that's located on the local pc. Actually i
+     just tried it a few seconds ago. It does work. So basically a shared
+     the folder as X. And then i just mapped to it as \\computername\x
+     I don't know if that's what you need.
+     Sweet, could you give me some more details on the batch file (ie the
+     commands necessary)
+
+     my e. coli cures cancer
+       [98]Reply With Quote Reply With Quote [99]Share on Google+
+         ______________________________________________________________
+
+   11. May 25th, 2000, 10:34 PM [100]#11
+       [101]Bossk
+          + [102]View Profile
+          + [103]View Forum Posts
+          + [104]Visit Homepage
+       Bossk is offline 5000
+
+        Join Date
+                Apr 2000
+
+        Location
+                Toronto, Ontario, Canada
+
+        Posts
+                75
+
+     Originally posted by dynamo|x:
+     hmm..good idea Bossk. Put a small batch file in the start up folder
+     that maps the share point that's located on the local pc. Actually i
+     just tried it a few seconds ago. It does work. So basically a shared
+     the folder as X. And then i just mapped to it as \\computername\x
+     I don't know if that's what you need.
+     Guess a week without sleep and gallons of coffee can inspire a
+     decent idea or two! Once its mapped though shouln't it just do it if
+     he states reconnect at login? I'll try here and see what my results
+     are.
+     -Jon
+       [105]Reply With Quote Reply With Quote [106]Share on Google+
+         ______________________________________________________________
+
+   12. May 26th, 2000, 01:17 AM [107]#12
+       [108]msuyao
+          + [109]View Profile
+          + [110]View Forum Posts
+       msuyao is offline 5000
+
+        Join Date
+                Feb 2000
+
+        Location
+                Canada
+
+        Posts
+                174
+
+     not sure if this would help but you can try
+     inserting a line in autoexec.bat:
+     SUBST X: c:\blah..blah
+     [This message has been edited by msuyao (edited 05-27-2000).]
+       [111]Reply With Quote Reply With Quote [112]Share on Google+
+         ______________________________________________________________
+
+   13. May 26th, 2000, 01:28 AM [113]#13
+       [114]dynamo|x
+          + [115]View Profile
+          + [116]View Forum Posts
+       dynamo|x is offline 5000
+
+        Join Date
+                Dec 1999
+
+        Location
+                Atlanta
+
+        Posts
+                118
+
+     Don't put anything in autoexe.bat. Open Notepad and type:
+     net use i: \\computername\sharepoint
+     use whatever letter u need for i:. Save as filename.bat and put it
+     in your startup folder, that's it.
+       [117]Reply With Quote Reply With Quote [118]Share on Google+
+         ______________________________________________________________
+
+   14. May 26th, 2000, 06:12 PM [119]#14
+       [120]LwoodPDowd
+          + [121]View Profile
+          + [122]View Forum Posts
+       LwoodPDowd is offline 5000
+
+        Join Date
+                Jan 2000
+
+        Location
+                Houston, TX, USA
+
+        Posts
+                33
+
+     WhoooHoooo it's working!
+     The net use command wouldn't work, it still said it couldn't find
+     the computer (which i guess means that my computer must be going
+     thru some kind of identity crisis and just doesn't know who it is I
+     made a batch file with the subst command (subst x: c:\projects) and
+     it worked like a charm.
+     Thanks everyone for all your help.
+
+     my e. coli cures cancer
+       [123]Reply With Quote Reply With Quote [124]Share on Google+
+         ______________________________________________________________
+
+   15. May 27th, 2000, 11:00 AM [125]#15
+       [126]dynamo|x
+          + [127]View Profile
+          + [128]View Forum Posts
+       dynamo|x is offline 5000
+
+        Join Date
+                Dec 1999
+
+        Location
+                Atlanta
+
+        Posts
+                118
+
+     So u used (subst x: c:\projects) ?? That's very interesting command
+     that i never heard before. I am suprised that net use did not work,
+     but it's good that you got it to work.
+       [129]Reply With Quote Reply With Quote [130]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [131]Networking and the Internet [132]Top
+     * Site Areas
+     * [133]Settings
+     * [134]Private Messages
+     * [135]Subscriptions
+     * [136]Who's Online
+     * [137]Search Forums
+     * [138]Forums Home
+     * Forums
+     * [139]General Forums
+         1. [140]General Tech Talk and Support
+         2. [141]PC and Console Gaming
+         3. [142]Software
+     * [143]Hardware Forums
+         1. [144]CPUs and Motherboards
+         2. [145]Cases, Cooling, and Overclocking
+         3. [146]PC Audio and Home Theater
+         4. [147]PC Video, Digital Imaging, and Displays
+         5. [148]Storage and Peripherals
+         6. [149]Networking and the Internet
+         7. [150]Mobile Technology
+     * [151]Community
+         1. [152]HWC Feedback
+         2. [153]Central Lounge
+         3. [154]For Sale Or Trade
+
+   « [155]Previous Thread | [156]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [157]BB code is On
+     * [158]Smilies are On
+     * [159][IMG] code is On
+     * [160][VIDEO] code is On
+     * HTML code is Off
+
+   [161]Forum Rules
+   [-- hardwarecentral yellow]
+     * [162]Contact Us
+     * [163]HardwareCentral Forums
+     * [164]Archive
+     * [165]Top
+
+   IFRAME:
+   [166]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:11 PM.
+
+   Powered by [167]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=15
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=104377&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=104377
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=104377
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=104377&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529003&mode=threaded#post529003
+  38. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529003#post529003
+  39. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529003
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529003#post529003
+  44. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529004#post529004
+  45. http://www.hardwarecentral.com/member.php?17821-PanDebit&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?17821-PanDebit&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=17821&contenttype=vBForum_Post&showposts=1
+  48. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529004
+  49. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529004#post529004
+  50. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529005#post529005
+  51. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+  54. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529005
+  55. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529005#post529005
+  56. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529006#post529006
+  57. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  58. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+  60. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529006
+  61. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529006#post529006
+  62. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529007#post529007
+  63. http://www.hardwarecentral.com/member.php?20715-Bossk&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/member.php?20715-Bossk&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=20715&contenttype=vBForum_Post&showposts=1
+  66. http://www.redrover.net/
+  67. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529007
+  68. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529007#post529007
+  69. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529008#post529008
+  70. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+  73. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529008
+  74. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529008#post529008
+  75. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529009#post529009
+  76. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+  79. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529009
+  80. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529009#post529009
+  81. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529010#post529010
+  82. http://www.hardwarecentral.com/member.php?20715-Bossk&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/member.php?20715-Bossk&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=20715&contenttype=vBForum_Post&showposts=1
+  85. http://www.redrover.net/
+  86. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529010
+  87. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529010#post529010
+  88. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529011#post529011
+  89. http://www.hardwarecentral.com/member.php?13494-dynamo-x&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?13494-dynamo-x&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=13494&contenttype=vBForum_Post&showposts=1
+  92. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529011
+  93. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529011#post529011
+  94. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529012#post529012
+  95. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  96. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+  98. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529012
+  99. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529012#post529012
+ 100. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529013#post529013
+ 101. http://www.hardwarecentral.com/member.php?20715-Bossk&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/member.php?20715-Bossk&s=af52edabdca22194a05a25ea9dfcc77f
+ 103. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=20715&contenttype=vBForum_Post&showposts=1
+ 104. http://www.redrover.net/
+ 105. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529013
+ 106. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529013#post529013
+ 107. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529014#post529014
+ 108. http://www.hardwarecentral.com/member.php?16927-msuyao&s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/member.php?16927-msuyao&s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=16927&contenttype=vBForum_Post&showposts=1
+ 111. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529014
+ 112. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529014#post529014
+ 113. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529015#post529015
+ 114. http://www.hardwarecentral.com/member.php?13494-dynamo-x&s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/member.php?13494-dynamo-x&s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=13494&contenttype=vBForum_Post&showposts=1
+ 117. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529015
+ 118. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529015#post529015
+ 119. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529016#post529016
+ 120. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/member.php?14332-LwoodPDowd&s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14332&contenttype=vBForum_Post&showposts=1
+ 123. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529016
+ 124. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529016#post529016
+ 125. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&p=529017#post529017
+ 126. http://www.hardwarecentral.com/member.php?13494-dynamo-x&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/member.php?13494-dynamo-x&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=13494&contenttype=vBForum_Post&showposts=1
+ 129. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=529017
+ 130. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?104377&p=529017#post529017
+ 131. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory#top
+ 133. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 136. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 147. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 151. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 154. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 156. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 157. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 158. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 159. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 160. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 161. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 162. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/
+ 164. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory#top
+ 166. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 167. https://www.vbulletin.com/
+
+   Hidden links:
+ 169. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529003%23post529003&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 170. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529003%23post529003&source=webclient
+ 171. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529003%23post529003&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 172. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529004%23post529004&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 173. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529004%23post529004&source=webclient
+ 174. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529004%23post529004&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 175. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529005%23post529005&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 176. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529005%23post529005&source=webclient
+ 177. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529005%23post529005&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 178. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529006%23post529006&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 179. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529006%23post529006&source=webclient
+ 180. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529006%23post529006&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 181. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529007%23post529007&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 182. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529007%23post529007&source=webclient
+ 183. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529007%23post529007&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 184. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529008%23post529008&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 185. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529008%23post529008&source=webclient
+ 186. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529008%23post529008&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 187. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529009%23post529009&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 188. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529009%23post529009&source=webclient
+ 189. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529009%23post529009&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 190. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529010%23post529010&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 191. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529010%23post529010&source=webclient
+ 192. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529010%23post529010&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 193. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529011%23post529011&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 194. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529011%23post529011&source=webclient
+ 195. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529011%23post529011&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 196. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529012%23post529012&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 197. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529012%23post529012&source=webclient
+ 198. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529012%23post529012&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 199. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529013%23post529013&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 200. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529013%23post529013&source=webclient
+ 201. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529013%23post529013&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 202. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529014%23post529014&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 203. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529014%23post529014&source=webclient
+ 204. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529014%23post529014&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 205. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529015%23post529015&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 206. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529015%23post529015&source=webclient
+ 207. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529015%23post529015&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 208. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529016%23post529016&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 209. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529016%23post529016&source=webclient
+ 210. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529016%23post529016&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 211. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529017%23post529017&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 212. http://twitter.com/share?text=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529017%23post529017&source=webclient
+ 213. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F104377%26p%3D529017%23post529017&title=Can%20I%20assign%20a%20drive%20letter%20to%20a%20local%20directory?&summary=&source=HardwareCentral%20Forums
+ 214. http://www.hardwarecentral.com/showthread.php?104377-Can-I-assign-a-drive-letter-to-a-local-directory#top

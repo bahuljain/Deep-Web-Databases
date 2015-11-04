@@ -1,0 +1,642 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Cases,
+   Cooling, and Overclocking - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Cases, Cooling, and Overclocking
+     * Case/Motherboard Compatibility
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 9 of 9
+
+Thread: [27]Case/Motherboard Compatibility
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. October 15th, 2001, 04:47 PM [38]#1
+       [39]stevieB
+          + [40]View Profile
+          + [41]View Forum Posts
+       stevieB is offline 5000
+
+        Join Date
+                Oct 2001
+
+        Posts
+                3
+
+Case/Motherboard Compatibility
+
+     As I am new to computers and interested in building one how do I
+     recognise case and motherboard compatibility. (I have been given a
+     case) and now wish to purchase a suitable Motherboard.
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. October 15th, 2001, 05:01 PM [44]#2
+       [45]Toolbox
+          + [46]View Profile
+          + [47]View Forum Posts
+          + [48]Visit Homepage
+       Toolbox is offline Quantum Physics
+
+        Join Date
+                Apr 1999
+
+        Location
+                Manila, Philippines
+
+        Posts
+                13,273
+
+     This is going to be quite tough unless you can post a picture of it.
+     Most cases don't even have their names on it.
+     Look in the back... you know where the motherboard ports are
+     supposed to protrude through the case... are they horizontal or
+     vertical?
+     Let's start there.
+
+     ? Quantum Physics ? Light travels faster than sound. This is why
+     some people appear bright until you hear them speak.
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. October 15th, 2001, 10:33 PM [51]#3
+       [52]Shinma's Avatar
+       [53]Shinma
+          + [54]View Profile
+          + [55]View Forum Posts
+       Shinma is offline ____________
+
+        Join Date
+                Mar 2000
+
+        Posts
+                27,283
+
+     ?!
+     The computer case/chassis is one of the last items to be considered.
+     Post all information about the case if you insist on working in
+     reverse.
+     Desktop form factors specifications at the following link, click
+     [56]HERE.
+     ------------------
+     "I know nothing."
+     Cheers.
+
+     "I know nothing."
+     Cheers.
+       [57]Reply With Quote Reply With Quote [58]Share on Google+
+         ______________________________________________________________
+
+    4. October 16th, 2001, 12:40 AM [59]#4
+       [60]Todd a's Avatar
+       [61]Todd a
+          + [62]View Profile
+          + [63]View Forum Posts
+          + [64]Visit Homepage
+       Todd a is offline HWC Master
+
+        Join Date
+                Dec 1998
+
+        Location
+                Grand Haven, Michigan, USA
+
+        Posts
+                11,332
+
+     Most cases are either AT or ATX. ATX uses and I/O shield about 2"x6"
+     just above the expansion slots for all the connections (Mouse,
+     keyboard, seriel...) An AT case only has a spot for the keyboard and
+     it is larger. All other plugs use individual knock-outs or risers in
+     the expansion slots. Also an ATX uses a click-on/click-off power
+     button. You can put an ATX motherboard in an AT case, but it will
+     require hacking a hole in the back to make room for the I/O shield.
+     You will also need a new power supply and you will need a new power
+     button (or you can connect the power to the reset button).
+     The other thing is the size. Most are either a micro or mid tower
+     case. You can not fit a full ATX motherboard in a micro case.
+     Another thing is the location of the power supply. Some smaller
+     mid-tower cases turn the power supply on its side to fit the
+     motherboard behind it. This is realy bad for most full ATX
+     motherboards. This usually barries the CPU behind the power supply.
+     This really restricts the cooling.
+     Another thing is the cooling. You really need at least one spot for
+     a fan up front and one in back (other than the power supply fan).
+     If it comes with a power supply it will likely be junk. Most OEMs
+     use the smallest power supply they can get away with and most newer
+     CPUs (and systems in general) use a lot of power. Chance are you
+     will need to upgrade the PS.
+     Last and most important is that most major OEM companies (like Dell,
+     Compaq, Gateway...) use prepriatory cases and motherboards. You will
+     have a hard time using an over the counter motherboard in on of
+     these cases. They use odd rizer cards and power supplies with
+     non-standard connectors. They want you to goto them for upgrades and
+     repairs. This sucks.
+     ------------------
+     The COMPUTER is your FRIEND!
+     Happiness is manditory.
+
+     AMD Phenom II x4 945 3Ghz | ASUS M4A77TD | 2X WD 1TB SATA 2 hard
+     drive | 2x2GB Corsair XMS3 | nVidia GeForce 8800 GTS | ATI TV Wonder
+     Theater Pro 550 | Antec P-160 case | Antec 650w Earth Watts | LG
+     Blu-ray Super Drive | LG DVD RW | Windows 7 Pro
+       [65]Reply With Quote Reply With Quote [66]Share on Google+
+         ______________________________________________________________
+
+    5. October 17th, 2001, 02:30 PM [67]#5
+       [68]stevieB
+          + [69]View Profile
+          + [70]View Forum Posts
+       stevieB is offline 5000
+
+        Join Date
+                Oct 2001
+
+        Posts
+                3
+
+     Thanks for the prompt reply, I'll give you as much info as possible.
+     The case is midi sized, made in Thailand so is obviously at the
+     cutting edge!!
+     The ports are vertical (3 of them)
+     There is a sticker on the back of the case with "Model - CT-V" on
+     it. There is a fan located inside the front panel
+     Inside, there are 6 location brackets which, I assume are for the
+     M/Board they are arranged thus: 2 at the top, pitch=132mm
+     2 in the middle pitch = 155mm
+     and 2 at the bottom, pitch = 155mm
+     The 3 brackets near to the front of the case are in line, with the
+     top one at the rear being offset. The Vertical pitch is thus top to
+     middle = 155mm, middle to bottom = 125mm.
+     Hope that this is of some use, really appreciate the help.best
+     regards,
+     Stevie B.
+
+     Originally posted by Toolbox:
+     This is going to be quite tough unless you can post a picture of it.
+     Most cases don't even have their names on it.
+     Look in the back... you know where the motherboard ports are
+     supposed to protrude through the case... are they horizontal or
+     vertical?
+     Let's start there.
+       [71]Reply With Quote Reply With Quote [72]Share on Google+
+         ______________________________________________________________
+
+    6. October 17th, 2001, 07:38 PM [73]#6
+       [74]Chiles4
+          + [75]View Profile
+          + [76]View Forum Posts
+       Chiles4 is offline Senior Member
+
+        Join Date
+                Jan 2000
+
+        Location
+                Albuquerque, NM
+
+        Posts
+                593
+
+     By chance, do you have a power supply within that case? If so, you
+     could probably read right off it what type of power supply it is
+     thereby determining what type of case it is. Describing the main
+     power connector would probably do it to. Most likely it's an ATX
+     case - ATs are hard to come by these days.
+     ------------------
+     Re-elect Gore-Lieberman!
+       [77]Reply With Quote Reply With Quote [78]Share on Google+
+         ______________________________________________________________
+
+    7. October 18th, 2001, 07:44 PM [79]#7
+       [80]Todd a's Avatar
+       [81]Todd a
+          + [82]View Profile
+          + [83]View Forum Posts
+          + [84]Visit Homepage
+       Todd a is offline HWC Master
+
+        Join Date
+                Dec 1998
+
+        Location
+                Grand Haven, Michigan, USA
+
+        Posts
+                11,332
+
+     OK, I didn't quite understand all this so I will try it with visual
+     aids.
+     This is a standard ATX Mid-Tower case:
+     The I/O sheild (rectangle thing with lots of holes for things like
+     keyboard and mouse) is on the upper/left. This indicates ATX. The
+     horizontle slots taking up the bottom of the case are expansion
+     slots. 7 is normal (8 on some larger AT cases).
+     Ther power supply above actually is positioned across from where the
+     processor goes (on Full ATX motherboards). This is bad for cooling
+     as the heat builds up pretty bad and larger heatsinks just might not
+     fit. This is a better way for the power supply to be located:
+     Notice the spot in back for the extra case fan and the location of
+     the power supply. This is a good lay-out. The other thing is if the
+     power supply is ATX or AT and how many watts. It should say on the
+     power supply itself.
+     This is a micro ATX case. Notice the PS at the top and only 4
+     expansion slots. You can only fit small motherboards in these case
+     (not full ATX).
+     This is a Full Tower case. They are very big:
+     This is the smallest case of them all, the Flex ATX case. They use
+     special PS and really cram things in so cooling is not very good.
+     Other than that the number of drive bays and cooling options ar
+     really important. Some cases do offer easier to remove panels, drive
+     rails, tooless entry, locks, intrusion alarms, snap on fan bezals...
+     ------------------
+     The COMPUTER is your FRIEND!
+     Happiness is manditory.
+
+     AMD Phenom II x4 945 3Ghz | ASUS M4A77TD | 2X WD 1TB SATA 2 hard
+     drive | 2x2GB Corsair XMS3 | nVidia GeForce 8800 GTS | ATI TV Wonder
+     Theater Pro 550 | Antec P-160 case | Antec 650w Earth Watts | LG
+     Blu-ray Super Drive | LG DVD RW | Windows 7 Pro
+       [85]Reply With Quote Reply With Quote [86]Share on Google+
+         ______________________________________________________________
+
+    8. October 18th, 2001, 08:53 PM [87]#8
+       [88]davecreek's Avatar
+       [89]davecreek
+          + [90]View Profile
+          + [91]View Forum Posts
+          + [92]Visit Homepage
+       davecreek is offline Member
+
+        Join Date
+                Jul 2001
+
+        Location
+                Hokitika, New Zealand
+
+        Posts
+                380
+
+     Originally posted by stevieB:
+     As I am new to computers and interested in building one how do I
+     recognise case and motherboard compatibility. (I have been given a
+     case) and now wish to purchase a suitable Motherboard.
+     I recently purchased CPU,128Mb RAM mainboard and a case with power
+     supply from a Darryn Hadland who trades as Personal Computer
+     Services. His supplier was Super Services 61 Queen Street Auckland
+     New Zealand.
+     Im assembled the lot and found that I can have a CD ROM in top slot
+     in case but if I put one in any of the next two down - they don't
+     fit!
+     Unfortunately components on the mainboard get in the way of the CD
+     ROM sliding right back into place. This also means that there are no
+     holes with which to secure the additional CD ROM's.
+     THe additional units stick out about half an inch and looks ugly as
+     well as the fact I have to drill holes foe securing them.
+     THe case is a 'case' and is chinese as I suspect the people at Super
+     Services Ltd are.
+     It is an okay case - just doesn't fit thats all.
+     Cheers Dave Creek
+     ------------------
+     I have yet to meet the person who's life has been enriched by
+     alcohol
+
+     To err is human to forgive is.... er something.
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    9. October 20th, 2001, 03:56 AM [95]#9
+       [96]stevieB
+          + [97]View Profile
+          + [98]View Forum Posts
+       stevieB is offline 5000
+
+        Join Date
+                Oct 2001
+
+        Posts
+                3
+
+     Thanks for the information, it is most definitely the 2nd one of the
+     images shown (The good layout). The info on the power supply is
+     thus: Pan Star, model PSA-230P, AC input 115-/6A. 230-/9.5A, then it
+     shows a number of DC outputs. it is switchable between the 2 AC
+     inputs. Appreciate the assistance.
+     Best Regards.
+
+     Originally posted by Todd a:
+     OK, I didn't quite understand all this so I will try it with visual
+     aids.
+     This is a standard ATX Mid-Tower case:
+     The I/O sheild (rectangle thing with lots of holes for things like
+     keyboard and mouse) is on the upper/left. This indicates ATX. The
+     horizontle slots taking up the bottom of the case are expansion
+     slots. 7 is normal (8 on some larger AT cases).
+     Ther power supply above actually is positioned across from where the
+     processor goes (on Full ATX motherboards). This is bad for cooling
+     as the heat builds up pretty bad and larger heatsinks just might not
+     fit. This is a better way for the power supply to be located:
+     Notice the spot in back for the extra case fan and the location of
+     the power supply. This is a good lay-out. The other thing is if the
+     power supply is ATX or AT and how many watts. It should say on the
+     power supply itself.
+     This is a micro ATX case. Notice the PS at the top and only 4
+     expansion slots. You can only fit small motherboards in these case
+     (not full ATX).
+     This is a Full Tower case. They are very big:
+     This is the smallest case of them all, the Flex ATX case. They use
+     special PS and really cram things in so cooling is not very good.
+     Other than that the number of drive bays and cooling options ar
+     really important. Some cases do offer easier to remove panels, drive
+     rails, tooless entry, locks, intrusion alarms, snap on fan bezals...
+       [99]Reply With Quote Reply With Quote [100]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [101]Cases, Cooling, and Overclocking [102]Top
+     * Site Areas
+     * [103]Settings
+     * [104]Private Messages
+     * [105]Subscriptions
+     * [106]Who's Online
+     * [107]Search Forums
+     * [108]Forums Home
+     * Forums
+     * [109]General Forums
+         1. [110]General Tech Talk and Support
+         2. [111]PC and Console Gaming
+         3. [112]Software
+     * [113]Hardware Forums
+         1. [114]CPUs and Motherboards
+         2. [115]Cases, Cooling, and Overclocking
+         3. [116]PC Audio and Home Theater
+         4. [117]PC Video, Digital Imaging, and Displays
+         5. [118]Storage and Peripherals
+         6. [119]Networking and the Internet
+         7. [120]Mobile Technology
+     * [121]Community
+         1. [122]HWC Feedback
+         2. [123]Central Lounge
+         3. [124]For Sale Or Trade
+
+   « [125]Previous Thread | [126]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [127]BB code is On
+     * [128]Smilies are On
+     * [129][IMG] code is On
+     * [130][VIDEO] code is On
+     * HTML code is Off
+
+   [131]Forum Rules
+   [-- hardwarecentral yellow]
+     * [132]Contact Us
+     * [133]HardwareCentral Forums
+     * [134]Archive
+     * [135]Top
+
+   IFRAME:
+   [136]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:11 PM.
+
+   Powered by [137]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=16
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=124291&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=124291
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=124291
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=124291&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658012&mode=threaded#post658012
+  38. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658012#post658012
+  39. http://www.hardwarecentral.com/member.php?35537-stevieB&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?35537-stevieB&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=35537&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658012
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658012#post658012
+  44. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658013#post658013
+  45. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5040&contenttype=vBForum_Post&showposts=1
+  48. http://www.motorcycleasia.com/
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658013
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658013#post658013
+  51. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658014#post658014
+  52. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18693&contenttype=vBForum_Post&showposts=1
+  56. http://www.formfactors.org/formfactors/form_factors.htm
+  57. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658014
+  58. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658014#post658014
+  59. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658015#post658015
+  60. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1408&contenttype=vBForum_Post&showposts=1
+  64. http://www.geocities.com/todd_e_abbott/HomePage.html
+  65. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658015
+  66. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658015#post658015
+  67. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658016#post658016
+  68. http://www.hardwarecentral.com/member.php?35537-stevieB&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/member.php?35537-stevieB&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=35537&contenttype=vBForum_Post&showposts=1
+  71. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658016
+  72. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658016#post658016
+  73. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658017#post658017
+  74. http://www.hardwarecentral.com/member.php?14603-Chiles4&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/member.php?14603-Chiles4&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=14603&contenttype=vBForum_Post&showposts=1
+  77. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658017
+  78. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658017#post658017
+  79. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658018#post658018
+  80. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1408&contenttype=vBForum_Post&showposts=1
+  84. http://www.geocities.com/todd_e_abbott/HomePage.html
+  85. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658018
+  86. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658018#post658018
+  87. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658019#post658019
+  88. http://www.hardwarecentral.com/member.php?34178-davecreek&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/member.php?34178-davecreek&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?34178-davecreek&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=34178&contenttype=vBForum_Post&showposts=1
+  92. http://shell.world-net.co.nz/~drcreek/index.html
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658019
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658019#post658019
+  95. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&p=658020#post658020
+  96. http://www.hardwarecentral.com/member.php?35537-stevieB&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?35537-stevieB&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=35537&contenttype=vBForum_Post&showposts=1
+  99. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=658020
+ 100. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?124291&p=658020#post658020
+ 101. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility#top
+ 103. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 105. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 126. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 127. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 128. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 129. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 130. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 131. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 132. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/
+ 134. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility#top
+ 136. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 137. https://www.vbulletin.com/
+
+   Hidden links:
+ 139. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658012%23post658012&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 140. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658012%23post658012&source=webclient
+ 141. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658012%23post658012&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 142. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658013%23post658013&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 143. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658013%23post658013&source=webclient
+ 144. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658013%23post658013&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 145. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658014%23post658014&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 146. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658014%23post658014&source=webclient
+ 147. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658014%23post658014&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 148. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658015%23post658015&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 149. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658015%23post658015&source=webclient
+ 150. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658015%23post658015&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 151. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658016%23post658016&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 152. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658016%23post658016&source=webclient
+ 153. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658016%23post658016&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 154. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658017%23post658017&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 155. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658017%23post658017&source=webclient
+ 156. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658017%23post658017&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 157. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658018%23post658018&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 158. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658018%23post658018&source=webclient
+ 159. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658018%23post658018&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 160. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658019%23post658019&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 161. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658019%23post658019&source=webclient
+ 162. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658019%23post658019&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 163. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658020%23post658020&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 164. http://twitter.com/share?text=Case/Motherboard%20Compatibility&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658020%23post658020&source=webclient
+ 165. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F124291%26p%3D658020%23post658020&title=Case/Motherboard%20Compatibility&summary=&source=HardwareCentral%20Forums
+ 166. http://www.hardwarecentral.com/showthread.php?124291-Case-Motherboard-Compatibility#top

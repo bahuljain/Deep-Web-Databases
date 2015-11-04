@@ -1,0 +1,909 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - CPUs
+   and Motherboards - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]CPUs and Motherboards
+     * AMD taking a page from Intel history
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   [27]Page 1 of 2 [28]1[29]2 [30]Next [31]Last Last
+     * Jump to page: ____ Go
+
+   Results 1 to 15 of 28
+
+Thread: [32]AMD taking a page from Intel history
+
+   [33]Tweet
+     * [34]Thread Tools
+          + [35]Show Printable Version
+          + [36]Email this Page…
+          + [37]Subscribe to this Thread…
+     * [38]Search Thread
+          + Search...___________ Search
+          +
+            [39]Advanced Search
+     * [40]Display
+          + Linear Mode
+          + [41]Switch to Hybrid Mode
+          + [42]Switch to Threaded Mode
+
+    1. July 2nd, 2003, 06:58 AM [43]#1
+       [44]OneEng's Avatar
+       [45]OneEng
+          + [46]View Profile
+          + [47]View Forum Posts
+       OneEng is offline Speculator Extraordinaire
+
+        Join Date
+                Jan 1999
+
+        Location
+                MI
+
+        Posts
+                4,144
+
+AMD taking a page from Intel history
+
+     When P4 was released, it entered a market where the fastest speed
+     grade of P4 was equaled or beaten by its younger brother PIII. Worse
+     yet, it was beaten about the head and shoulders by the lower clocked
+     1.2Ghz Athlon from its competition..... but Intel had a plan.
+     SSE2 was a very powerful instruction set. Recent compiler
+     comparisons show that use of Intel's own compiler over standard
+     compilers like MS Visual Studio improve application performance on
+     P4 by leaps and bounds. This took a while to become prolific in the
+     industry, but today we stand with P4 optimized applications eating
+     the poor Barton for lunch.
+     Intel had yet another ace in their sleeve though. P4 was designed
+     from the ground up to be a bandwidth monster. From day one, moving
+     volumes of data across the FSB was a strong point for P4. Intel has
+     made huge inroads into nearly ever benchmark suit so that benchmarks
+     now have many items in their suit that depend heavily on bandwidth.
+     Enter K8.
+     With SSE2 built in, the advantage Intel created nearly 2 years ago
+     is now finally removed. K8 isn't a bandwidth king, but it holds its
+     own even with a single channel due to effeciency gained from the
+     IMC.
+     But the really interesting thing about K8 is its latent
+     potential...... 64bit.
+     In 64 bit mode, K8 has a lot more than just double the register
+     width to use to its advantage .... it has more registers to work
+     with (double). For those of you that don't know microarchitecture,
+     this is a HUGE advantage.
+     From here: [48]http://www.theinquirer.net/?article=10292
+     You can see that the SPEC scores for K8 will be greatly effected by
+     compiler optimizations. Already we have seen games like UT2003
+     recompiled for x86-64 and receive >30% improvement in frame rates
+     from just a few days of conversion.
+     It will be interesting to see the results in September when Athlon64
+     is released. Even in 32bit mode, the direct low latency AGP
+     controller on K8 promises to make K8 THE MACHINE for the up comming
+     DOOM II. With UT2003 already ported to 64bit, there can be little
+     doubt that DOOM II will also support the port. High end rendering
+     programs will also be a high target for a re-compile option. Maybe
+     Hoyle will get his super workstation after all?
+
+     With greater knowledge comes greater understanding!
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    2. July 2nd, 2003, 11:16 AM [51]#2
+       [52]Leoslocks's Avatar
+       [53]Leoslocks
+          + [54]View Profile
+          + [55]View Forum Posts
+       Leoslocks is offline _ _ _ _ _ _ _ _
+
+        Join Date
+                Sep 2000
+
+        Location
+                Memphis Tennessee
+
+        Posts
+                4,930
+
+     This information is much like Hoyle's post. How much of this is
+     spin?
+     [56]AMD Announces AMD Core Math Library Availability; Co-developed
+     with Numerical Algorithms Group, new tool promotes accelerated AMD64
+     optimized software
+     "This vital tool promotes the adoption of AMD64 clusters for more
+     powerful financial, biotechnology, education, government and
+     research computing."
+       [57]Reply With Quote Reply With Quote [58]Share on Google+
+         ______________________________________________________________
+
+    3. July 2nd, 2003, 10:54 PM [59]#3
+       [60]Hoyle's Avatar
+       [61]Hoyle
+          + [62]View Profile
+          + [63]View Forum Posts
+       Hoyle is offline HWC Master
+
+        Join Date
+                Sep 1999
+
+        Location
+                York, PA, USA
+
+        Posts
+                9,736
+
+     High end rendering programs will also be a high target for a
+     re-compile option. Maybe Hoyle will get his super workstation after
+     all?
+     Hey, if it beats the P4 at the same price points (and exists in the
+     high end) I'd be happy to use it.
+     It will be interesting indeed to see if apps really do gain anything
+     like a 30% boost in 64 bit mode. I actually hope they do. If not, it
+     will be difficult to convince software writers to optimize for a
+     small gain on a very small-volume platform (at least in the next
+     year). With a substantial gain, it would not only make the Opteron a
+     more viable option, but would provide tangible reasons to optimize.
+     However, if these gains are not realized, I think it will be very
+     rare to see an x86-64 application. For the sake of the eventual
+     adoption of the X86-64 standard industry wide (read: By Intel, too)
+     (I have no wish to see the PC market fragmented into yet another
+     compatibility devide like the one apple shouts across), I hope it
+     performs well. Certainly, the benchmark on AMD's sight don't look
+     too good going from AI-32 to X86-64, but they were not using a
+     particularly mature compiler... soooo... we'll see, I guess.
+     A 2 GHx Opteron part on the 7th of July would also be welcome. I
+     think it would give the K8 family enough juice to withstand the
+     Itanium 3 / Xeon MP assault, and move server price/performance up a
+     notch. That's always a good thing. It should represent better than a
+     10% performance gain for the platform, and... well... it could use
+     it. If apps also see 30% going to X86-64, AMD will have one of the
+     fastest options around. However, I'm going to have to remain
+     skeptical on this point.
+
+     We all Think Different too.
+       [64]Reply With Quote Reply With Quote [65]Share on Google+
+         ______________________________________________________________
+
+    4. July 3rd, 2003, 08:21 AM [66]#4
+       [67]OneEng's Avatar
+       [68]OneEng
+          + [69]View Profile
+          + [70]View Forum Posts
+       OneEng is offline Speculator Extraordinaire
+
+        Join Date
+                Jan 1999
+
+        Location
+                MI
+
+        Posts
+                4,144
+
+     Leoslocks,
+     Some of it is spin for sure. It doesn't seem at all unusual that a
+     compiler that can utilize the additional registers in x86-64 would
+     gain 30% performance though. This isn't a benchmark based number
+     either, it is from the port of UT2003 that EPIC quoted numbers on
+     earlier. It is possible that with the latest compilers, this number
+     will even improve from that.
+     Hoyle,
+     The Inquirer is now reporting that AMD will release Athlon64 the 3rd
+     week in September due to pressure from OEM's. The clip says that the
+     original date was September 30th.
+     With a decent compiler to bolster its scores, I can see Opteron and
+     Athlon64 doing quite well in SPEC scores which allow optimised
+     compiling for the benchmark.
+     IMHO, K8 is going to be successful in the workstation/server market
+     due entirely to its performance. A 2.0Ghz Opteron with a recompiled
+     app using 64bit mode would have performance equal to around a 3.9Ghz
+     P4. Put 2 of these together on a dual motherboard and you would
+     really have something.
+     Games and workstation programs will likely get re-compiled just
+     because it is so easy to do and the return on investment is so
+     great.
+     Games remain Athlon64's strong point though. Even without a
+     recompile, that direct AGP connection and low latency memory
+     controller are really going to be hard to touch. Doom II should be
+     here for this Christmas. I expect to see alot of Athlon64 + Doom II
+     combinations out there. It will be quite the setup.
+
+     With greater knowledge comes greater understanding!
+       [71]Reply With Quote Reply With Quote [72]Share on Google+
+         ______________________________________________________________
+
+    5. July 3rd, 2003, 10:22 AM [73]#5
+       [74]Dr. Data
+          + [75]View Profile
+          + [76]View Forum Posts
+       Dr. Data is offline Senior Member
+
+        Join Date
+                Jun 2002
+
+        Posts
+                853
+
+     Im already putting together a machine. I have the case/400w dual fan
+     ps (6x80mm and 1x60mm case fans). Im about to order 2 serial ATA
+     drives (for Raid 0-hopefully it will be natively supported on the
+     chipsets), Ill be using my 9700pro (till early spring then Ill
+     upgrade vid again) and Ill probably go ahead and order some crosair
+     PC3700 in August.
+     By September Ill just be waiting for a mobo and chip....
+     Its not going to be a loyalty situation either, Im going to put in
+     the faster platform available at the time of DoomIII. What will it
+     be?
+
+     Nforce 2 Mobo-oem stock
+     Athlon Xp3000-Stock
+     768 mgs PC2100 @ 2.5/3/3
+     Radeon 9700 PRO/365/342
+     Western Digital 8mg cache ATA-133/160G/7200 HD
+     Win XP Home SP1
+     19" KDS "Extreme Flat"
+     Laptop
+     Athlon 64 3200+
+     512mg Ram
+     Mobile Radeon 9600
+     80G Hard Drive
+       [77]Reply With Quote Reply With Quote [78]Share on Google+
+         ______________________________________________________________
+
+    6. July 3rd, 2003, 02:16 PM [79]#6
+       [80]glussier's Avatar
+       [81]glussier
+          + [82]View Profile
+          + [83]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Most companies developping software for the open market won't use
+     the Portland Group c++ compiler or Intel C++ compiler. Most of these
+     companies use Microsoft vc++. Now, intel sells the optimising tools
+     which integrates with vc++, because of this, you have more chances
+     of seeing software optimized for the Northwood and Prescott than you
+     will have to see software optmized for the C-hammer. The Portland
+     compiler, which btw is not available for win64 x86-64bit Opteron,
+     will be used more for inhouse developpement and server based
+     applications.
+     I do not believe that a game company would purchase a compiler to
+     optimize code for the win32 c-hammer and skip optimization on the
+     most popular processor available. Plus, I don't see companies
+     releasing 2 win32 versions of the same software, one optimized for
+     intel and the other optimized for the c-hammer.
+
+     Gilles Lussier
+     [84]HWC Folding@Home Team
+       [85]Reply With Quote Reply With Quote [86]Share on Google+
+         ______________________________________________________________
+
+    7. July 3rd, 2003, 03:15 PM [87]#7
+       [88]USSVoyager's Avatar
+       [89]USSVoyager
+          + [90]View Profile
+          + [91]View Forum Posts
+       USSVoyager is offline Excuse the name
+
+        Join Date
+                Nov 1999
+
+        Location
+                Suffolk, UK
+
+        Posts
+                3,849
+
+     Well Epic is releasing UT2003 optimised for x86-64, so at least one
+     company is.
+       [92]Reply With Quote Reply With Quote [93]Share on Google+
+         ______________________________________________________________
+
+    8. July 3rd, 2003, 03:20 PM [94]#8
+       [95]Dr. Data
+          + [96]View Profile
+          + [97]View Forum Posts
+       Dr. Data is offline Senior Member
+
+        Join Date
+                Jun 2002
+
+        Posts
+                853
+
+     I was under the impression that it took like 2 guys 1/2 a weekend to
+     do the UT2003 port.
+     I would think if it is that easy everyone would spend the extra
+     $500-$2,000 to optimize for C-hammer
+
+     Nforce 2 Mobo-oem stock
+     Athlon Xp3000-Stock
+     768 mgs PC2100 @ 2.5/3/3
+     Radeon 9700 PRO/365/342
+     Western Digital 8mg cache ATA-133/160G/7200 HD
+     Win XP Home SP1
+     19" KDS "Extreme Flat"
+     Laptop
+     Athlon 64 3200+
+     512mg Ram
+     Mobile Radeon 9600
+     80G Hard Drive
+       [98]Reply With Quote Reply With Quote [99]Share on Google+
+         ______________________________________________________________
+
+    9. July 3rd, 2003, 03:36 PM [100]#9
+       [101]glussier's Avatar
+       [102]glussier
+          + [103]View Profile
+          + [104]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Originally posted by USSVoyager
+     Well Epic is releasing UT2003 optimised for x86-64, so at least one
+     company is.
+     Yes, how many people will purchase ut2003 for the 64bit c-hammer
+     under Linux. If you look at the Portland website, they will release
+     x86-32 and 64bit compilers for Linux and only 32bit win32 x86-32
+     compiler. So, how many copies of x86-64 ut2003 for linux will be
+     sold?
+
+     Gilles Lussier
+     [105]HWC Folding@Home Team
+       [106]Reply With Quote Reply With Quote [107]Share on Google+
+         ______________________________________________________________
+
+   10. July 4th, 2003, 09:38 AM [108]#10
+       [109]OneEng's Avatar
+       [110]OneEng
+          + [111]View Profile
+          + [112]View Forum Posts
+       OneEng is offline Speculator Extraordinaire
+
+        Join Date
+                Jan 1999
+
+        Location
+                MI
+
+        Posts
+                4,144
+
+     At a worst case scenereo, a $2K investment for the port on a program
+     that costs ~50.00 to purchase would require only 40 copies to break
+     even. I would expect they do alright on this one.
+
+     With greater knowledge comes greater understanding!
+       [113]Reply With Quote Reply With Quote [114]Share on Google+
+         ______________________________________________________________
+
+   11. July 4th, 2003, 12:33 PM [115]#11
+       [116]USSVoyager's Avatar
+       [117]USSVoyager
+          + [118]View Profile
+          + [119]View Forum Posts
+       USSVoyager is offline Excuse the name
+
+        Join Date
+                Nov 1999
+
+        Location
+                Suffolk, UK
+
+        Posts
+                3,849
+
+     Yes, how many people will purchase ut2003 for the 64bit c-hammer
+     under Linux. If you look at the Portland website, they will release
+     x86-32 and 64bit compilers for Linux and only 32bit win32 x86-32
+     compiler. So, how many copies of x86-64 ut2003 for linux will be
+     sold?
+     I wasn't aware it was Linux only. Surely they would do the x86-64
+     port for Windows as well - that would be time better spent.
+       [120]Reply With Quote Reply With Quote [121]Share on Google+
+         ______________________________________________________________
+
+   12. July 4th, 2003, 01:45 PM [122]#12
+       [123]glussier's Avatar
+       [124]glussier
+          + [125]View Profile
+          + [126]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Originally posted by OneEng
+     At a worst case scenereo, a $2K investment for the port on a program
+     that costs ~50.00 to purchase would require only 40 copies to break
+     even. I would expect they do alright on this one.
+     Lol, I'm sure you're not in retailing. What about the
+     200intermediates which have to make their profit on each sale?
+
+     Gilles Lussier
+     [127]HWC Folding@Home Team
+       [128]Reply With Quote Reply With Quote [129]Share on Google+
+         ______________________________________________________________
+
+   13. July 4th, 2003, 01:54 PM [130]#13
+       [131]jankerson's Avatar
+       [132]jankerson
+          + [133]View Profile
+          + [134]View Forum Posts
+       jankerson is offline Super Moderator
+
+        Join Date
+                Jun 1999
+
+        Location
+                North Carolina
+
+        Posts
+                12,263
+
+     Originally posted by USSVoyager
+     I wasn't aware it was Linux only. Surely they would do the x86-64
+     port for Windows as well - that would be time better spent.
+     Yes I think so too.
+     But I am not sure how many people would be willing to buy the 64bit
+     vers of Win XP.
+
+     Intel I5 750 @ 2.67 Ghz, 4gb GSkill DDR3 1600, GB P55M-UD2, XFX
+     Radeon 5850. , Seagate Constellation ES 1 TB, Seasonic Gold 620w,
+     Win Vista Ultimate, Toshiba 32" HDTV
+     E6750 Core 2 Duo, 2GB Corsair XMS2 DDR2 800, GB P35C-DS3R MB, ATI
+     Radeon X1950XT, Seagate 7200.9 320GB, Win XP Pro SP2, Enermax
+     Liberty 500w
+     [135]HWC Folding@Home Team -- [136]Learn How to Join the Team Here
+     ---[137]Detailed Stats
+       [138]Reply With Quote Reply With Quote [139]Share on Google+
+         ______________________________________________________________
+
+   14. July 4th, 2003, 04:46 PM [140]#14
+       [141]Dr. Data
+          + [142]View Profile
+          + [143]View Forum Posts
+       Dr. Data is offline Senior Member
+
+        Join Date
+                Jun 2002
+
+        Posts
+                853
+
+     What about all the hype you hear about game makers multi-million
+     dollar budgets these days? Surely the "must have" titles would be
+     easily ported.
+     Also, does anyone think it possible the xp64 could be purchased as a
+     seperate add on for less $ or would it have to be an independant
+     product?
+
+     Nforce 2 Mobo-oem stock
+     Athlon Xp3000-Stock
+     768 mgs PC2100 @ 2.5/3/3
+     Radeon 9700 PRO/365/342
+     Western Digital 8mg cache ATA-133/160G/7200 HD
+     Win XP Home SP1
+     19" KDS "Extreme Flat"
+     Laptop
+     Athlon 64 3200+
+     512mg Ram
+     Mobile Radeon 9600
+     80G Hard Drive
+       [144]Reply With Quote Reply With Quote [145]Share on Google+
+         ______________________________________________________________
+
+   15. July 4th, 2003, 08:37 PM [146]#15
+       [147]OneEng's Avatar
+       [148]OneEng
+          + [149]View Profile
+          + [150]View Forum Posts
+       OneEng is offline Speculator Extraordinaire
+
+        Join Date
+                Jan 1999
+
+        Location
+                MI
+
+        Posts
+                4,144
+
+     Lol, I'm sure you're not in retailing. What about the
+     200intermediates which have to make their profit on each sale?
+     Yes, Yes, Yes. And what about the cost of archiving 2 versions, the
+     cost of having 2 sets of disks, the marketing costs, management
+     overhead ..... I know.
+     Still, the fact remains that if the port was made in such a short
+     time for Linux, it will certianly be done for Windows also. While
+     the estimate of 40 copies to cover the cost was a stretch, it is
+     still quite reasonable to expect Epic will cover their costs with
+     this port don't you think?
+     Yes I think so too.
+     But I am not sure how many people would be willing to buy the 64bit
+     vers of Win XP.
+     I suspect that OEM's will simply put Win64 on the box when shipped.
+     I doubt there will be much difference in price from Win32. I also
+     think it unlikely that many end consumers will buy Win64 as an
+     upgrade; however, I think it likely that many OEM's will have it as
+     a standard load for their K8 boxes.
+
+     With greater knowledge comes greater understanding!
+       [151]Reply With Quote Reply With Quote [152]Share on Google+
+         ______________________________________________________________
+
+   [153]Page 1 of 2 [154]1[155]2 [156]Next [157]Last Last
+     * Jump to page: ____ Go
+
+   Quick Navigation [158]CPUs and Motherboards [159]Top
+     * Site Areas
+     * [160]Settings
+     * [161]Private Messages
+     * [162]Subscriptions
+     * [163]Who's Online
+     * [164]Search Forums
+     * [165]Forums Home
+     * Forums
+     * [166]General Forums
+         1. [167]General Tech Talk and Support
+         2. [168]PC and Console Gaming
+         3. [169]Software
+     * [170]Hardware Forums
+         1. [171]CPUs and Motherboards
+         2. [172]Cases, Cooling, and Overclocking
+         3. [173]PC Audio and Home Theater
+         4. [174]PC Video, Digital Imaging, and Displays
+         5. [175]Storage and Peripherals
+         6. [176]Networking and the Internet
+         7. [177]Mobile Technology
+     * [178]Community
+         1. [179]HWC Feedback
+         2. [180]Central Lounge
+         3. [181]For Sale Or Trade
+
+   « [182]Previous Thread | [183]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [184]BB code is On
+     * [185]Smilies are On
+     * [186][IMG] code is On
+     * [187][VIDEO] code is On
+     * HTML code is Off
+
+   [188]Forum Rules
+   [-- hardwarecentral yellow]
+     * [189]Contact Us
+     * [190]HardwareCentral Forums
+     * [191]Archive
+     * [192]Top
+
+   IFRAME:
+   [193]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:08 PM.
+
+   Powered by [194]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=7
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. javascript:///
+  28. javascript:///
+  29. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  30. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  31. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  32. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f
+  33. https://twitter.com/share
+  34. javascript:///
+  35. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=147805&pp=15&page=1
+  36. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=147805
+  37. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=147805
+  38. javascript:///
+  39. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=147805&contenttype=vBForum_Post
+  40. javascript:///
+  41. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  42. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812592&mode=threaded#post812592
+  43. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812592#post812592
+  44. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  45. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=973&contenttype=vBForum_Post&showposts=1
+  48. http://www.theinquirer.net/?article=10292
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812592
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812592#post812592
+  51. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812633#post812633
+  52. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=26654&contenttype=vBForum_Post&showposts=1
+  56. https://us.etrade.com/e/t/invest/Story?ID=STORYID=etrade_2003_07_01_eng-etrade_cbs2_market_watch_eng-etrade_cbs2_market_watch_26601258-2AAF-4B18-9CE0-55BFD4850C64&provider=BusinessWire
+  57. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812633
+  58. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812633#post812633
+  59. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812759#post812759
+  60. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9694&contenttype=vBForum_Post&showposts=1
+  64. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812759
+  65. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812759#post812759
+  66. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812839#post812839
+  67. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=973&contenttype=vBForum_Post&showposts=1
+  71. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812839
+  72. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812839#post812839
+  73. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812863#post812863
+  74. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38605&contenttype=vBForum_Post&showposts=1
+  77. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812863
+  78. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812863#post812863
+  79. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812889#post812889
+  80. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  84. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  85. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812889
+  86. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812889#post812889
+  87. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812908#post812908
+  88. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=12398&contenttype=vBForum_Post&showposts=1
+  92. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812908
+  93. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812908#post812908
+  94. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812909#post812909
+  95. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  96. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38605&contenttype=vBForum_Post&showposts=1
+  98. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812909
+  99. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812909#post812909
+ 100. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=812911#post812911
+ 101. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 103. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+ 105. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 106. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=812911
+ 107. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=812911#post812911
+ 108. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=813046#post813046
+ 109. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=973&contenttype=vBForum_Post&showposts=1
+ 113. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=813046
+ 114. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=813046#post813046
+ 115. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=813089#post813089
+ 116. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=12398&contenttype=vBForum_Post&showposts=1
+ 120. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=813089
+ 121. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=813089#post813089
+ 122. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=813100#post813100
+ 123. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+ 127. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 128. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=813100
+ 129. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=813100#post813100
+ 130. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=813102#post813102
+ 131. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37514&contenttype=vBForum_Post&showposts=1
+ 135. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 136. http://discussions.hardwarecentral.com/showthread.php?p=963597#post963597
+ 137. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+ 138. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=813102
+ 139. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=813102#post813102
+ 140. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=813135#post813135
+ 141. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38605&contenttype=vBForum_Post&showposts=1
+ 144. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=813135
+ 145. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=813135#post813135
+ 146. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&p=813171#post813171
+ 147. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=973&contenttype=vBForum_Post&showposts=1
+ 151. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=813171
+ 152. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?147805&p=813171#post813171
+ 153. javascript:///
+ 154. javascript:///
+ 155. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 156. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 157. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 158. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f
+ 159. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history#top
+ 160. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 162. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 166. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 167. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 168. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 169. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 170. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 175. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 176. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 177. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 178. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 179. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 180. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 181. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 182. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 183. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 184. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 185. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 186. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 187. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 188. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 189. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 190. http://www.hardwarecentral.com/
+ 191. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 192. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history#top
+ 193. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 194. https://www.vbulletin.com/
+
+   Hidden links:
+ 196. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812592%23post812592&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 197. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812592%23post812592&source=webclient
+ 198. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812592%23post812592&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 199. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812633%23post812633&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 200. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812633%23post812633&source=webclient
+ 201. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812633%23post812633&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 202. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812759%23post812759&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 203. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812759%23post812759&source=webclient
+ 204. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812759%23post812759&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 205. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812839%23post812839&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 206. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812839%23post812839&source=webclient
+ 207. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812839%23post812839&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 208. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812863%23post812863&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 209. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812863%23post812863&source=webclient
+ 210. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812863%23post812863&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 211. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812889%23post812889&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 212. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812889%23post812889&source=webclient
+ 213. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812889%23post812889&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 214. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812908%23post812908&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 215. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812908%23post812908&source=webclient
+ 216. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812908%23post812908&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 217. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812909%23post812909&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 218. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812909%23post812909&source=webclient
+ 219. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812909%23post812909&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 220. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812911%23post812911&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 221. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812911%23post812911&source=webclient
+ 222. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D812911%23post812911&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 223. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813046%23post813046&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 224. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813046%23post813046&source=webclient
+ 225. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813046%23post813046&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 226. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813089%23post813089&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 227. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813089%23post813089&source=webclient
+ 228. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813089%23post813089&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 229. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813100%23post813100&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 230. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813100%23post813100&source=webclient
+ 231. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813100%23post813100&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 232. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813102%23post813102&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 233. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813102%23post813102&source=webclient
+ 234. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813102%23post813102&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 235. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813135%23post813135&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 236. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813135%23post813135&source=webclient
+ 237. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813135%23post813135&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 238. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813171%23post813171&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 239. http://twitter.com/share?text=AMD%20taking%20a%20page%20from%20Intel%20history&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813171%23post813171&source=webclient
+ 240. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F147805%26p%3D813171%23post813171&title=AMD%20taking%20a%20page%20from%20Intel%20history&summary=&source=HardwareCentral%20Forums
+ 241. http://www.hardwarecentral.com/showthread.php?147805-AMD-taking-a-page-from-Intel-history#top

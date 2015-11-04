@@ -1,0 +1,320 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums -
+   Networking and the Internet - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Networking and the Internet
+     * Finding network printer path?
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 3 of 3
+
+Thread: [27]Finding network printer path?
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. September 11th, 2000, 12:44 AM [38]#1
+       [39]coreo
+          + [40]View Profile
+          + [41]View Forum Posts
+          + [42]Visit Homepage
+       coreo is offline Junior Member
+
+        Join Date
+                Sep 2000
+
+        Location
+                Melbourne, VIC, Australia
+
+        Posts
+                2
+
+Finding network printer path?
+
+     How do I easily find the path of a network printer? I need to copy a
+     file to it, but need \\servername\printername. I would like to do
+     this using a system call from VB. The only place I can find it is
+     buried deep within the registry. Any help would be most appreciated.
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. September 11th, 2000, 12:54 AM [45]#2
+       [46]Daniel Ellis
+          + [47]View Profile
+          + [48]View Forum Posts
+       Daniel Ellis is offline 5000
+
+        Join Date
+                Mar 2000
+
+        Location
+                California
+
+        Posts
+                39
+
+     What operating system are you using Win98 NT or what? I know that
+     you can go to the "My Computer and then double click the printer
+     folder, then double click add printer then choose Network click next
+     and then you well see the "Enter the Network Queue name or
+     path,click Browse and you should see the computer that has the
+     printer double click on the name of the computer then the printer,
+     and it will install. That is for Win98 or NT I'm not sure about
+     other operating systems.
+     Dan
+     Originally posted by coreo:
+     How do I easily find the path of a network printer? I need to copy a
+     file to it, but need \\servername\printername. I would like to do
+     this using a system call from VB. The only place I can find it is
+     buried deep within the registry. Any help would be most appreciated.
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. September 11th, 2000, 01:34 AM [51]#3
+       [52]coreo
+          + [53]View Profile
+          + [54]View Forum Posts
+          + [55]Visit Homepage
+       coreo is offline Junior Member
+
+        Join Date
+                Sep 2000
+
+        Location
+                Melbourne, VIC, Australia
+
+        Posts
+                2
+
+     I am using Win2000.
+     You can see it when adding a printer, but I can't seem to see it
+     again once it has actually been added.
+       [56]Reply With Quote Reply With Quote [57]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [58]Networking and the Internet [59]Top
+     * Site Areas
+     * [60]Settings
+     * [61]Private Messages
+     * [62]Subscriptions
+     * [63]Who's Online
+     * [64]Search Forums
+     * [65]Forums Home
+     * Forums
+     * [66]General Forums
+         1. [67]General Tech Talk and Support
+         2. [68]PC and Console Gaming
+         3. [69]Software
+     * [70]Hardware Forums
+         1. [71]CPUs and Motherboards
+         2. [72]Cases, Cooling, and Overclocking
+         3. [73]PC Audio and Home Theater
+         4. [74]PC Video, Digital Imaging, and Displays
+         5. [75]Storage and Peripherals
+         6. [76]Networking and the Internet
+         7. [77]Mobile Technology
+     * [78]Community
+         1. [79]HWC Feedback
+         2. [80]Central Lounge
+         3. [81]For Sale Or Trade
+
+   « [82]Previous Thread | [83]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [84]BB code is On
+     * [85]Smilies are On
+     * [86][IMG] code is On
+     * [87][VIDEO] code is On
+     * HTML code is Off
+
+   [88]Forum Rules
+   [-- hardwarecentral yellow]
+     * [89]Contact Us
+     * [90]HardwareCentral Forums
+     * [91]Archive
+     * [92]Top
+
+   IFRAME:
+   [93]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecen
+   tral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLis
+   ting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:10 PM.
+
+   Powered by [94]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=15
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=105091&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=105091
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=105091
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=105091&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&p=532307&mode=threaded#post532307
+  38. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&p=532307#post532307
+  39. http://www.hardwarecentral.com/member.php?26623-coreo&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?26623-coreo&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=26623&contenttype=vBForum_Post&showposts=1
+  42. http://www.berty.com/
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=532307
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?105091&p=532307#post532307
+  45. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&p=532308#post532308
+  46. http://www.hardwarecentral.com/member.php?19071-Daniel-Ellis&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?19071-Daniel-Ellis&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=19071&contenttype=vBForum_Post&showposts=1
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=532308
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?105091&p=532308#post532308
+  51. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&p=532309#post532309
+  52. http://www.hardwarecentral.com/member.php?26623-coreo&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?26623-coreo&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=26623&contenttype=vBForum_Post&showposts=1
+  55. http://www.berty.com/
+  56. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=532309
+  57. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?105091&p=532309#post532309
+  58. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path#top
+  60. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+  83. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+  84. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+  85. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+  86. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+  87. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+  88. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+  89. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/
+  91. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path#top
+  93. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+  94. https://www.vbulletin.com/
+
+   Hidden links:
+  96. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532307%23post532307&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+  97. http://twitter.com/share?text=Finding%20network%20printer%20path?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532307%23post532307&source=webclient
+  98. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532307%23post532307&title=Finding%20network%20printer%20path?&summary=&source=HardwareCentral%20Forums
+  99. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532308%23post532308&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 100. http://twitter.com/share?text=Finding%20network%20printer%20path?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532308%23post532308&source=webclient
+ 101. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532308%23post532308&title=Finding%20network%20printer%20path?&summary=&source=HardwareCentral%20Forums
+ 102. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532309%23post532309&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 103. http://twitter.com/share?text=Finding%20network%20printer%20path?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532309%23post532309&source=webclient
+ 104. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F105091%26p%3D532309%23post532309&title=Finding%20network%20printer%20path?&summary=&source=HardwareCentral%20Forums
+ 105. http://www.hardwarecentral.com/showthread.php?105091-Finding-network-printer-path#top

@@ -1,0 +1,163 @@
+     * [1]Home
+     * [2]Mail
+     * [3]News
+     * [4]Sports
+     * [5]Finance
+     * [6]Weather
+     * [7]Games
+     * [8]Groups
+     * [9]Answers
+     * [10]Screen
+     * [11]Flickr
+     * [12]Mobile
+     * [13]More
+
+   ____________________ Search
+   [14]My Apps [15]Sign in
+
+Welcome to the .NET Developer Center
+
+   [info_metro12_1.gif] Yahoo! Language centers have been deprecated. If
+   you have any concerns or questions, please don't hesitate to contact us
+   in [16]General Discussion at YDN forum.
+
+   This site is your source for information about using the .NET Framework
+   with Yahoo! Web Services and APIs. Here you'll find:
+     * [17]HOWTO Articles to help you understand our technologies and how
+       you can use them better with .NET.
+     * [18]Download the sample browser, utility libraries and source code.
+     * [19]Other Resources on the web where you can find source code and
+       helpful tools.
+     * [20]Community Resources where you can join our mailing list and
+       discuss the Yahoo! APIs with us and with other .NET developers.
+
+HOWTO Articles
+
+   Get comfortable using .NET with Yahoo! Web Services
+     * HOWTO: Make Yahoo! Web Service REST calls with [21]C# and
+       [22]VB.NET
+     * HOWTO: Using Returned XML with [23]C# and [24]VB.NET
+     * HOWTO: Cache API Calls Using [25]C# and [26]VB.NET
+     * HOWTO: Access Yahoo! Web Services Using [27]XAML
+
+Downloads
+
+   In this section you'll find the source code for the samples used in the
+   HOWTO articles and ready-to-use Browser-Based Authentication utility
+   libraries for .NET 1.1 and 2.0 along with full source code.
+     * [28]HOWTO article sample browser with source code
+     * [29]Compiled OAuth Authorization and OpenID library for .NET
+     * [30]OAuth Authorization class source code (C#)
+     * [31]OAuth Authorization class source code (VB)
+     * [32]Yahoo! Music Jukebox Remote .NET 1.1 wrapper class and source
+     * [33]Yahoo! Music Jukebox plug-in VS 2003 project wizards
+
+Other resources
+
+   In this section you'll find links to external sites and articles that
+   may be useful as you work with the .NET Framwork.
+     * [34]Microsoft Developer Network is the ultimate .NET resource site.
+     * [35]The Microsoft .NET 3.0 Community site is a one stop shop for
+       .NET 3.0 news, samples, forums and blogs.
+     * [36]The Code Project has an extensive library of articles,
+       tutorials and code samples for .NET.
+     * [37]4 Guys From Rolla.com is an excellent source of information on
+       all things ASP.NET.
+     * [38]AspAlliance offers free tutorials, articles, examples and code
+       snippets.
+     * [39]OAuth.net lists a page of [40]OAuth libraries that include ones
+       for .NET.
+     * [41]Madgex has the tutorial [42]Getting Started Building a Fire
+       Eagle Consumer with OAuth.net.
+
+Community Resources
+
+   Discuss how to work with the Yahoo! Web Services and other APIs using
+   .NET on the [43]ydn-dotnet mailing list. Please note that this is not a
+   general .NET programming questions list; try to keep your questions
+   focused to discussion about the Yahoo! APIs.
+
+   We also provide individual lists for each of the web services and APIs
+   we support; your questions are always welcome there as well. See the
+   [44]Yahoo! Developer Network Community page for more information on
+   these mailing lists.
+
+Yahoo Forum Discussions
+
+     * [45]Products
+     * [46]Blog
+     * [47]Forums
+     * [48]My Apps
+     * [49]Careers
+     * [50]Privacy
+     * [51]Terms
+
+   Follow us on
+     *
+     *
+     *
+     *
+     *
+
+References
+
+   Visible links
+   1. https://www.yahoo.com/
+   2. https://mail.yahoo.com/
+   3. http://news.yahoo.com/
+   4. http://sports.yahoo.com/
+   5. http://finance.yahoo.com/
+   6. https://weather.yahoo.com/
+   7. https://games.yahoo.com/
+   8. https://groups.yahoo.com/
+   9. https://answers.yahoo.com/
+  10. https://screen.yahoo.com/
+  11. https://www.flickr.com/
+  12. https://mobile.yahoo.com/
+  13. https://everything.yahoo.com/
+  14. https://developer.apps.yahoo.com/
+  15. https://login.yahoo.com/config/login?.done=https://developer.yahoo.com
+  16. https://developer.yahoo.com/forum/General-Discussion-at-YDN/
+  17. https://developer.yahoo.com/dotnet/#howto
+  18. https://developer.yahoo.com/dotnet/#download
+  19. https://developer.yahoo.com/dotnet/#resources
+  20. https://developer.yahoo.com/dotnet/#community
+  21. https://developer.yahoo.com/dotnet/howto-rest_cs.html
+  22. https://developer.yahoo.com/dotnet/howto-rest_vb.html
+  23. https://developer.yahoo.com/dotnet/howto-xml_cs.html
+  24. https://developer.yahoo.com/dotnet/howto-xml_vb.html
+  25. https://developer.yahoo.com/dotnet/howto-caching_cs.html
+  26. https://developer.yahoo.com/dotnet/howto-caching_vb.html
+  27. https://developer.yahoo.com/dotnet/howto-wpf_xaml.html
+  28. https://developer.yahoo.com/dotnet/samplebrowser.zip
+  29. https://www.ohloh.net/p/dotnetopenauth/download?filename=DotNetOpenAuth-3.4.3.10103.zip
+  30. http://oauth.googlecode.com/svn/code/csharp/OAuthBase.cs
+  31. http://oauth.googlecode.com/svn/code/vbnet/oAuth.vb
+  32. http://www.bliny.net/yahoo/ymj/YMERemote.html
+  33. http://www.bliny.net/yahoo/ymj/VS2003Wizards.html
+  34. http://msdn.microsoft.com/
+  35. http://www.netfx3.com/
+  36. http://www.codeproject.com/
+  37. http://www.4guysfromrolla.com/
+  38. http://aspalliance.com/
+  39. http://oauth.net/
+  40. http://oauth.net/code/
+  41. http://madgex.com/
+  42. http://lab.madgex.com/oauth-net/gettingatarted01.aspx
+  43. http://groups.yahoo.com/group/ydn-dotnet/
+  44. https://developer.yahoo.com/community
+  45. https://developer.yahoo.com/everything.html
+  46. http://yahoodevelopers.tumblr.com/
+  47. https://developer.yahoo.com/forums
+  48. https://developer.apps.yahoo.com/
+  49. http://yhoo.it/1iLIFlr
+  50. https://info.yahoo.com/privacy/us/yahoo/devel/details.html
+  51. https://info.yahoo.com/legal/us/yahoo/api/api-2140.html
+
+   Hidden links:
+  53. https://developer.yahoo.com/
+  54. http://yahoodevelopers.tumblr.com/
+  55. https://twitter.com/ydn
+  56. https://www.facebook.com/yahoodevelopernetwork
+  57. https://github.com/yahoo
+  58. https://www.youtube.com/user/ydntheater

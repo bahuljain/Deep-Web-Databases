@@ -1,0 +1,724 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Mobile
+   Technology - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Mobile Technology
+     * Compaq Laptop wireless/BIOS issues
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 13 of 13
+
+Thread: [27]Compaq Laptop wireless/BIOS issues
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. August 11th, 2005, 12:35 PM [38]#1
+       [39]Dood
+          + [40]View Profile
+          + [41]View Forum Posts
+       Dood is offline Junior Member
+
+        Join Date
+                Aug 2002
+
+        Location
+                Right here, right now
+
+        Posts
+                191
+
+Compaq Laptop wireless/BIOS issues
+
+     I just installed a D-Link DWL-G630 wireless cardbuss adapter in my
+     Compaq Presario 2100 laptop, running WinXPsp2. The only way the card
+     will work is if I eject it after windows is running and then plug it
+     back in. Then it seems to work fine. However, each time I boot I get
+     the message that windows has found new hardware, a PCMCIA-MTD-0002.
+     After doing a search I found this:
+     " This problem was found on some Compaq laptops using the Phoenix
+     BIOS, which creates a hardware conflict problem. To resolve this
+     issue, disable the Sound Blaster setting in the Phoenix BIOS, but do
+     not disable Onboard PCI Audio in the Phoenix BIOS."
+     [42]http://www.ndclan.com/Support/FAQs/nwh61003.htm
+     The problem is, when I go into the BIOS I don't have that option, in
+     fact I have very few options compared to most BIOS's I've dealt
+     with. I thought maybe there was some "admin" setting or something,
+     but the admin password in the bios is marked "disabled" and the
+     passwords are clear. I flashed to the newest BIOS and nothing
+     changed. Don't know if it's relevant, but all instructions tell me
+     to press f1 or f10 to get into the BIOS, but f2 is what actually
+     works on this computer. Any thoughts?
+     ps. I haven't been here in a while and the new forum looks great!
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. August 11th, 2005, 04:33 PM [45]#2
+       [46]DanceMan's Avatar
+       [47]DanceMan
+          + [48]View Profile
+          + [49]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     If you've flashed a new bios, you've probably checked the HP/Compaq
+     site for any help.
+     Laptop bios are always more limited than desktops and oem bios for
+     either are generally limited.
+     Since this is a hardware resource conflict, I wonder if you could go
+     into Device Manager and resolve it there? The risk is that Win will
+     redetect the Soundblaster at every reboot and reinstall it. However,
+     if there is an IRQ free, perhaps you can reassign to solve this.
+
+     Go Silent [50]SPCR
+     [51]Useful PSU info
+       [52]Reply With Quote Reply With Quote [53]Share on Google+
+         ______________________________________________________________
+
+    3. August 11th, 2005, 06:45 PM [54]#3
+       [55]Dood
+          + [56]View Profile
+          + [57]View Forum Posts
+       Dood is offline Junior Member
+
+        Join Date
+                Aug 2002
+
+        Location
+                Right here, right now
+
+        Posts
+                191
+
+     Yeah, no help at HP/Compaq site. There is no "sound blaster" in
+     device manager, I'm assuming they mean a legacy Sound Blaster
+     setting in the BIOS.
+     The thing is, in the read me for the Phoenix BIOS, they show many
+     more settings than are available.
+     After some more searching it looks as if there are major issues with
+     this card and compaq laptops:
+     "The D-Link DWL-G630 wireless card wasn't recognized by my Compaq
+     Presario 2170US laptop with WindowsXP, being displayed as "PCMCIA
+     MTD-0002". I had to flash the BIOS, (risky for a novice?),
+     instructions are at [58]http://h18000.www1.hp.com/ , click on
+     Product Support Information, and search for "Compaq Presario 2170US
+     BIOS". Even after doing this, I still have to pop-out the card, and
+     pop-it back everytime XP is restarted for the card to be recognized.
+     Good Luck!"
+     and more at:
+     [59]http://mehmet.com/cgi-bin/amazon/ind...C&ReviewPage=2
+     I haven't given up yet, but it's not looking good.
+       [60]Reply With Quote Reply With Quote [61]Share on Google+
+         ______________________________________________________________
+
+    4. August 11th, 2005, 06:51 PM [62]#4
+       [63]DanceMan's Avatar
+       [64]DanceMan
+          + [65]View Profile
+          + [66]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     This is a long shot, because it sounds like you've checked
+     everything out thoroughly, but you're sure there isn't anywhere in
+     the bios that you can get to a sub-page of advanced settings that
+     might have the Soundbaster switch?
+
+     Go Silent [67]SPCR
+     [68]Useful PSU info
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    5. August 11th, 2005, 07:55 PM [71]#5
+       [72]Dood
+          + [73]View Profile
+          + [74]View Forum Posts
+       Dood is offline Junior Member
+
+        Join Date
+                Aug 2002
+
+        Location
+                Right here, right now
+
+        Posts
+                191
+
+     That's what I've been looking for. If it's there I haven't found it.
+     This is my 3rd go at wireless cards, on 2 different computers, and
+     it's never gone smoothly. grrrrrr
+       [75]Reply With Quote Reply With Quote [76]Share on Google+
+         ______________________________________________________________
+
+    6. October 13th, 2005, 07:06 AM [77]#6
+       [78]ibdunn
+          + [79]View Profile
+          + [80]View Forum Posts
+       ibdunn is offline Junior Member
+
+        Join Date
+                Oct 2005
+
+        Posts
+                2
+
+Exclamation similar issues compaq/ pcmcia card not seen
+
+     d-link wireless card which was working just fine--all of a sudden no
+     longer seen. Nothing inserted in Pcmcia slot is recognised althouhg
+     the computer says device itself working fine. i've tried a USB hub
+     as well as the d-link aircard.
+     Did a clean install of windows xp first with sp2 (which is what i
+     had on it) then i formatted again and did a clean install of xp-sp1.
+     Added the compaq drivers, flashed the bios with latest version
+     --still pcmcia device (one slot) seen by computer to be working fine
+     -
+     today i had a completely new msg and one which i'm hoping will shed
+     some light on where to turn...
+     "the device pci-1410 cardbus controller
+     has detected a cardbus in its slot
+     but the firmware on this system
+     is not configured to
+     run in the cardbus mode
+     the op syst will currently accept on" that's all the msg diplayed
+     so does anyone know how to configure the firmware to "run in cardbus
+     mode"
+     i've gone in the very limited bios--looked as other poster for some
+     way to turn of the soundblaster thing..nothing--very limited bios
+     indeed..but there must be an answer out there...anybody??
+       [81]Reply With Quote Reply With Quote [82]Share on Google+
+         ______________________________________________________________
+
+    7. October 13th, 2005, 09:20 PM [83]#7
+       [84]DanceMan's Avatar
+       [85]DanceMan
+          + [86]View Profile
+          + [87]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     This probably is of no help, but I just had a problem with a LAN
+     card in a pc card slot. It had been previously installed and a
+     driver found, but I got a msg about a missing file on a subsequent
+     boot. I had the LAN card in a different pc card slot. Moving it to
+     the other slot solved the problem.
+
+     Go Silent [88]SPCR
+     [89]Useful PSU info
+       [90]Reply With Quote Reply With Quote [91]Share on Google+
+         ______________________________________________________________
+
+    8. October 17th, 2005, 02:33 PM [92]#8
+       [93]ibdunn
+          + [94]View Profile
+          + [95]View Forum Posts
+       ibdunn is offline Junior Member
+
+        Join Date
+                Oct 2005
+
+        Posts
+                2
+
+     unfortunately only one pcmcia slot on computer
+       [96]Reply With Quote Reply With Quote [97]Share on Google+
+         ______________________________________________________________
+
+    9. October 17th, 2005, 09:36 PM [98]#9
+       [99]Hoyle's Avatar
+       [100]Hoyle
+          + [101]View Profile
+          + [102]View Forum Posts
+       Hoyle is offline HWC Master
+
+        Join Date
+                Sep 1999
+
+        Location
+                York, PA, USA
+
+        Posts
+                9,736
+
+     I've had similar issues on a couple of computers recognizing
+     hot-swap USB-2 devices... The best I could come up with was that
+     doing complete Windows updates for a few days eventually fished
+     better USB drivers from the MS website.
+     In this case, it does seem like a firmware issue, but I've not
+     encountered this one before.
+
+     We all Think Different too.
+       [103]Reply With Quote Reply With Quote [104]Share on Google+
+         ______________________________________________________________
+
+   10. January 16th, 2007, 12:53 PM [105]#10
+       [106]DVS65
+          + [107]View Profile
+          + [108]View Forum Posts
+       DVS65 is offline Junior Member
+
+        Join Date
+                Jan 2007
+
+        Posts
+                1
+
+     Dood,
+     Did you ever resolve this problem? I have exactly the same problem
+     and cannot find a fix.
+       [109]Reply With Quote Reply With Quote [110]Share on Google+
+         ______________________________________________________________
+
+   11. March 11th, 2007, 12:10 PM [111]#11
+       [112]Dood
+          + [113]View Profile
+          + [114]View Forum Posts
+       Dood is offline Junior Member
+
+        Join Date
+                Aug 2002
+
+        Location
+                Right here, right now
+
+        Posts
+                191
+
+     I stopped watching this thread a while back, sorry I didn't see your
+     question sooner.
+     If you're still looking the answer is "no". I just used it and
+     ejected and reinserted each time. Seems the Compaqs just have this
+     problem with this and some other cards.
+       [115]Reply With Quote Reply With Quote [116]Share on Google+
+         ______________________________________________________________
+
+   12. September 5th, 2008, 02:52 PM [117]#12
+       [118]sirblackjack
+          + [119]View Profile
+          + [120]View Forum Posts
+       sirblackjack is offline Junior Member
+
+        Join Date
+                Sep 2008
+
+        Posts
+                1
+
+Talking
+
+     I had exactly the same problem with a Presario 2100 laptop and my
+     wireless card. I had to eject and plug back the card everytime I
+     booted into Windows.
+     I searched in google day and night for a solution with no avail.
+     I figured out that if you disable/enable the O2Micro Controller
+     under "PCMCIA adapters" on the device manager, it also works. So I
+     found a way to do this automatically =)
+     So...this is not really a fix but rather a workaround (but it
+     works!)
+     1. First make sure you have installed the PCMCIA drivers. They
+     didn't install automatically when I re-installed Windows.
+     2. You can download them from [121]here
+     3. Extract the download file, run the setup.exe file and restart
+     4. Download DevCon package from Microsoft.com by clicking [122]here
+     and extract the package and copy the appropriate version (file in
+     I386 folder for 32 bit Windows or file in Ia64 folder for 64 bit
+     windows) to the C:\windows\system32\ folder.
+     7. Click start and right click on My Computer and select Properties.
+     8. Click the Hardware tab at the top.
+     9. Click on the Device Manager button.
+     10. Click on "PCMCIA adapters"
+     11. Right click on "O2Micro Controller" and Select "Propierties".
+     12. Click the "Details" tab at the top.
+     13. Look in for the device name of the O2Micro Controller, for
+     example
+     PCI\VEN_1217&DEV_6972&SUBSYS_00000000&REV_00\3&61AAA01&0&50
+     In the above line the device instance ID is "DEV_6972"
+     14. Right click on your desktop
+     15. Click on new -> Text document
+     16. Open the new document
+     17. Write the following:
+     @echo off
+     c:\windows\system32\devcon disable *DEV_6972*
+     c:\windows\system32\devcon enable *DEV_6972*
+     18. Click on "File" -> "Save as"
+     19. Under "File name" write restart.bat and click on save
+     20. Now you will have an icon on your desktop named restart. You can
+     click it everytime you reboot, or you can drag it to "Start" -> "All
+     programs" -> "Startup". And it will run automatically each time you
+     boot into Windows.
+     Hope it helps!!
+       [123]Reply With Quote Reply With Quote [124]Share on Google+
+         ______________________________________________________________
+
+   13. November 25th, 2008, 11:00 PM [125]#13
+       [126]RyanMeray
+          + [127]View Profile
+          + [128]View Forum Posts
+       RyanMeray is offline Junior Member
+
+        Join Date
+                Nov 2008
+
+        Posts
+                1
+
+     Sirblackjack, you, sir, are awesome. You not only introduced a
+     useful little applet, but also solved the very same problem I was
+     having elegantly and simply.
+     Thanks!
+       [129]Reply With Quote Reply With Quote [130]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [131]Mobile Technology [132]Top
+     * Site Areas
+     * [133]Settings
+     * [134]Private Messages
+     * [135]Subscriptions
+     * [136]Who's Online
+     * [137]Search Forums
+     * [138]Forums Home
+     * Forums
+     * [139]General Forums
+         1. [140]General Tech Talk and Support
+         2. [141]PC and Console Gaming
+         3. [142]Software
+     * [143]Hardware Forums
+         1. [144]CPUs and Motherboards
+         2. [145]Cases, Cooling, and Overclocking
+         3. [146]PC Audio and Home Theater
+         4. [147]PC Video, Digital Imaging, and Displays
+         5. [148]Storage and Peripherals
+         6. [149]Networking and the Internet
+         7. [150]Mobile Technology
+     * [151]Community
+         1. [152]HWC Feedback
+         2. [153]Central Lounge
+         3. [154]For Sale Or Trade
+
+   « [155]Previous Thread | [156]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [157]BB code is On
+     * [158]Smilies are On
+     * [159][IMG] code is On
+     * [160][VIDEO] code is On
+     * HTML code is Off
+
+   [161]Forum Rules
+   [-- hardwarecentral yellow]
+     * [162]Contact Us
+     * [163]HardwareCentral Forums
+     * [164]Archive
+     * [165]Top
+
+   IFRAME:
+   [166]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:12 PM.
+
+   Powered by [167]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=28
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=166510&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=166510
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=166510
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=166510&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=940829&mode=threaded#post940829
+  38. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=940829#post940829
+  39. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39212&contenttype=vBForum_Post&showposts=1
+  42. http://www.ndclan.com/Support/FAQs/nwh61003.htm
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=940829
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=940829#post940829
+  45. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=940864#post940864
+  46. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  49. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+  50. http://www.silentpcreview.com/
+  51. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+  52. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=940864
+  53. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=940864#post940864
+  54. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=940888#post940888
+  55. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+  56. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39212&contenttype=vBForum_Post&showposts=1
+  58. http://h18000.www1.hp.com/
+  59. http://mehmet.com/cgi-bin/amazon/index.cgi?Operation=ItemLookup&myOperation=CustomerReviews&ItemId=B0001PFO3C&ReviewPage=2
+  60. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=940888
+  61. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=940888#post940888
+  62. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=940890#post940890
+  63. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+  67. http://www.silentpcreview.com/
+  68. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=940890
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=940890#post940890
+  71. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=940911#post940911
+  72. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39212&contenttype=vBForum_Post&showposts=1
+  75. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=940911
+  76. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=940911#post940911
+  77. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=948539#post948539
+  78. http://www.hardwarecentral.com/member.php?45121-ibdunn&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/member.php?45121-ibdunn&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=45121&contenttype=vBForum_Post&showposts=1
+  81. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=948539
+  82. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=948539#post948539
+  83. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=948649#post948649
+  84. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+  88. http://www.silentpcreview.com/
+  89. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+  90. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=948649
+  91. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=948649#post948649
+  92. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=949239#post949239
+  93. http://www.hardwarecentral.com/member.php?45121-ibdunn&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/member.php?45121-ibdunn&s=af52edabdca22194a05a25ea9dfcc77f
+  95. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=45121&contenttype=vBForum_Post&showposts=1
+  96. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=949239
+  97. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=949239#post949239
+  98. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=949316#post949316
+  99. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9694&contenttype=vBForum_Post&showposts=1
+ 103. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=949316
+ 104. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=949316#post949316
+ 105. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=1001500#post1001500
+ 106. http://www.hardwarecentral.com/member.php?48304-DVS65&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/member.php?48304-DVS65&s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=48304&contenttype=vBForum_Post&showposts=1
+ 109. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1001500
+ 110. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=1001500#post1001500
+ 111. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=1005525#post1005525
+ 112. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/member.php?39212-Dood&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39212&contenttype=vBForum_Post&showposts=1
+ 115. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005525
+ 116. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=1005525#post1005525
+ 117. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=1033268#post1033268
+ 118. http://www.hardwarecentral.com/member.php?55199-sirblackjack&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/member.php?55199-sirblackjack&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=55199&contenttype=vBForum_Post&showposts=1
+ 121. http://ftp.us.dell.com/Security/R144793.EXE
+ 122. http://download.microsoft.com/download/1/1/f/11f7dd10-272d-4cd2-896f-9ce67f3e0240/devcon.exe
+ 123. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1033268
+ 124. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=1033268#post1033268
+ 125. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&p=1035020#post1035020
+ 126. http://www.hardwarecentral.com/member.php?55534-RyanMeray&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/member.php?55534-RyanMeray&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=55534&contenttype=vBForum_Post&showposts=1
+ 129. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1035020
+ 130. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166510&p=1035020#post1035020
+ 131. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues#top
+ 133. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 136. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 147. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 151. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 154. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 156. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 157. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 158. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 159. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 160. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 161. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 162. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/
+ 164. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues#top
+ 166. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 167. https://www.vbulletin.com/
+
+   Hidden links:
+ 169. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940829%23post940829&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 170. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940829%23post940829&source=webclient
+ 171. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940829%23post940829&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 172. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940864%23post940864&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 173. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940864%23post940864&source=webclient
+ 174. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940864%23post940864&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 175. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940888%23post940888&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 176. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940888%23post940888&source=webclient
+ 177. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940888%23post940888&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 178. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940890%23post940890&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 179. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940890%23post940890&source=webclient
+ 180. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940890%23post940890&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 181. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940911%23post940911&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 182. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940911%23post940911&source=webclient
+ 183. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D940911%23post940911&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 184. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D948539%23post948539&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 185. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D948539%23post948539&source=webclient
+ 186. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D948539%23post948539&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 187. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D948649%23post948649&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 188. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D948649%23post948649&source=webclient
+ 189. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D948649%23post948649&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 190. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D949239%23post949239&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 191. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D949239%23post949239&source=webclient
+ 192. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D949239%23post949239&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 193. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D949316%23post949316&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 194. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D949316%23post949316&source=webclient
+ 195. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D949316%23post949316&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 196. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1001500%23post1001500&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 197. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1001500%23post1001500&source=webclient
+ 198. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1001500%23post1001500&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 199. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1005525%23post1005525&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 200. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1005525%23post1005525&source=webclient
+ 201. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1005525%23post1005525&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 202. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1033268%23post1033268&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 203. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1033268%23post1033268&source=webclient
+ 204. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1033268%23post1033268&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 205. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1035020%23post1035020&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 206. http://twitter.com/share?text=Compaq%20Laptop%20wireless/BIOS%20issues&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1035020%23post1035020&source=webclient
+ 207. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166510%26p%3D1035020%23post1035020&title=Compaq%20Laptop%20wireless/BIOS%20issues&summary=&source=HardwareCentral%20Forums
+ 208. http://www.hardwarecentral.com/showthread.php?166510-Compaq-Laptop-wireless-BIOS-issues#top

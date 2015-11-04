@@ -1,0 +1,760 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Storage
+   and Peripherals - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Storage and Peripherals
+     * HELP! I lost my RAID 5 array
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 13 of 13
+
+Thread: [27]HELP! I lost my RAID 5 array
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. November 27th, 2005, 01:17 PM [38]#1
+       [39]Turtleggjp
+          + [40]View Profile
+          + [41]View Forum Posts
+       Turtleggjp is offline Member
+
+        Join Date
+                Oct 2000
+
+        Posts
+                336
+
+Unhappy HELP! I lost my RAID 5 array
+
+     I have a Gigabyte K8N Ultra 9 (nForce4 ultra Socket 939) with a
+     built-in SiI 3114 controller. I have four Maxtor SATA 80GB drives
+     connected to the 3114 controller in a RAID 5 array. Last night, out
+     of the blue, two of the drives lost power (loose connector I'm
+     guessing). Of course, Windows freaked out because on of its disks
+     had just disappeared (the RAID array), so I quickly shut down the
+     computer, wiggled the power cords, and powered back up again. All 4
+     drives are now back again, but the controller says that the array is
+     now invalid! Instead of just shutting off the other two drives that
+     were still powered, it marked them as orphans, so when I booted up
+     again with all 4 drives, I now have 3 orphans and 1 available drive.
+     It seems that some simple modification of the RAID metadata on the
+     drives would fix this situation, but I have not been able to find
+     any way to do this with the RAID Tools utility that came with the
+     motherboard. Are there any such tools to do this kind of repair?
+     Thanks.
+     Matt
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. November 27th, 2005, 07:50 PM [44]#2
+       [45]wrathchild_67's Avatar
+       [46]wrathchild_67
+          + [47]View Profile
+          + [48]View Forum Posts
+       wrathchild_67 is offline Hidden Member
+
+        Join Date
+                Nov 2000
+
+        Location
+                Connecticut
+
+        Posts
+                6,459
+
+     Your array is dead, no recovering it. Whenever you lose more than
+     one drive, all data is lost. RAID5 is nice because you have a 1
+     drive failure limit to keep the array going, but when you lose two
+     or more drives like that the RAID5 has no way to do XOR calculations
+     which keep the array going.
+
+     [49]My Guitar Hero 2 Xbox Live Ranking
+     [50]Main Rig (click this link for specs)
+     Certified in: Nothing at all!
+     Certifiable: 100% hands-on, real-world experience
+       [51]Reply With Quote Reply With Quote [52]Share on Google+
+         ______________________________________________________________
+
+    3. November 27th, 2005, 09:23 PM [53]#3
+       [54]nodnod's Avatar
+       [55]nodnod
+          + [56]View Profile
+          + [57]View Forum Posts
+       nodnod is offline Dismember
+
+        Join Date
+                Jul 2000
+
+        Location
+                Nova Scotia, Canada
+
+        Posts
+                1,461
+
+     That's why I'd never use a raid configuration like that.
+
+     CPU: Athlon X2 7850 Blackbox edition o/c'd to 3400mhz
+     Motherboard: Asus M2N68-AM SE2
+     Memory: 4gb Kingston KVR RAM
+     Video: BFG Geforce gtx 260 oc v2
+     Hard Drives: 1TB Barracuda 7200.12, 500GB WD, 320GB WD, 320GB WD
+     250GB WD, 250GB Seagate
+     Case: APEVIA X-CRUISER-BK Black Steel case
+     Power Supply: OCZ 700W StealthXStream Power Supply
+     Optical: 22x LG DVD R/W
+       [58]Reply With Quote Reply With Quote [59]Share on Google+
+         ______________________________________________________________
+
+    4. November 27th, 2005, 09:45 PM [60]#4
+       [61]Turtleggjp
+          + [62]View Profile
+          + [63]View Forum Posts
+       Turtleggjp is offline Member
+
+        Join Date
+                Oct 2000
+
+        Posts
+                336
+
+     I understand that if two drives die, the array is dead. However, the
+     drives didn't die, they just lost power temporarily. The drives are
+     still perfectly healthy and their data should be intact. The RAID
+     controller just doesn't know that, since it marked the two drives
+     that didn't lose power as orphans. I'm hoping that I can somehow
+     tweak the RAID controller's data on the drives so that it will see
+     them as healthy again.
+     Matt
+       [64]Reply With Quote Reply With Quote [65]Share on Google+
+         ______________________________________________________________
+
+    5. November 28th, 2005, 01:00 AM [66]#5
+       [67]wrathchild_67's Avatar
+       [68]wrathchild_67
+          + [69]View Profile
+          + [70]View Forum Posts
+       wrathchild_67 is offline Hidden Member
+
+        Join Date
+                Nov 2000
+
+        Location
+                Connecticut
+
+        Posts
+                6,459
+
+     Quote Originally Posted by Turtleggjp
+
+     I understand that if two drives die, the array is dead. However, the
+     drives didn't die, they just lost power temporarily. The drives are
+     still perfectly healthy and their data should be intact. The RAID
+     controller just doesn't know that, since it marked the two drives
+     that didn't lose power as orphans. I'm hoping that I can somehow
+     tweak the RAID controller's data on the drives so that it will see
+     them as healthy again.
+     Matt
+     Losing an array also consists of losing power to the drives. If two
+     drives lose sync with the array for any reason, the array is dead.
+     Quote Originally Posted by nodnod
+
+     That's why I'd never use a raid configuration like that.
+     Really, then what RAID configuration would you use? The only thing
+     more redundant and financially feasible would be a RAID 50
+     configuration.
+
+     [71]My Guitar Hero 2 Xbox Live Ranking
+     [72]Main Rig (click this link for specs)
+     Certified in: Nothing at all!
+     Certifiable: 100% hands-on, real-world experience
+       [73]Reply With Quote Reply With Quote [74]Share on Google+
+         ______________________________________________________________
+
+    6. November 28th, 2005, 06:03 PM [75]#6
+       [76]krupted's Avatar
+       [77]krupted
+          + [78]View Profile
+          + [79]View Forum Posts
+       krupted is offline HWC Elite Member
+
+        Join Date
+                Jan 2002
+
+        Posts
+                6,334
+
+     not saying this had anything to do with it or not, but i have had
+     problems with onboard raid controllers of the Silicon Image brand.
+     im not saying that yours is bad, but to me it seems using a windows
+     software raid setup would be a little safer- as you can usually fix
+     software problems
+
+
+       [80]Reply With Quote Reply With Quote [81]Share on Google+
+         ______________________________________________________________
+
+    7. November 28th, 2005, 09:38 PM [82]#7
+       [83]TurtleMan's Avatar
+       [84]TurtleMan
+          + [85]View Profile
+          + [86]View Forum Posts
+       TurtleMan is offline Chelonian Member
+
+        Join Date
+                Apr 2004
+
+        Location
+                San Jose, CA USA
+
+        Posts
+                313
+
+     Earlier today, I posted a link to a WinXP hack that enables RAID 5.
+     That post is obviously no longer here. I'd like to know if it was
+     deleted by the moderator or just got lost in cyberspace.
+     t-man
+
+     A64 3500+
+     Asus A8V Deluxe
+     Antec 480W Trupower II
+     2 X Corsair CMX512-3200C2PT
+     PNY 6800GT
+     Turtle Beach Santa Cruz
+     Plextor PX-716SA DVD/CD burner
+     Memorex 52X CD reader
+     Western Digital 300GB IDE
+     Maxtor 300GBSATA
+     Seagate 300GB SATA
+     W2K Pro
+       [87]Reply With Quote Reply With Quote [88]Share on Google+
+         ______________________________________________________________
+
+    8. November 28th, 2005, 10:35 PM [89]#8
+       [90]Turtleggjp
+          + [91]View Profile
+          + [92]View Forum Posts
+       Turtleggjp is offline Member
+
+        Join Date
+                Oct 2000
+
+        Posts
+                336
+
+     Well, given the current situation, I don't think I will be setting
+     up another RAID 5, whether I get this one back or not. I've always
+     been afraid of something happening to my array, since it is so
+     complicated, and Silicon Image RAID 5 controllers are seemingly non
+     existant except on motherboards. That means I'd have to replace the
+     motherboard if the array ever went out due to a controller
+     malfunction, and even then there's no guarantee I could get it back.
+     I've built a few mirror arrays lately, and I like how you can
+     usually connect the individual HDDs by themselves and evacuate data
+     if needed. No way you could do this with a RAID 5 array, hence I am
+     in trouble unless I can find some kind of utility to help me tweak
+     the metadata. Maybe if I had finished my Computer Science degree, I
+     could write such a utility myself.
+     BTW, this is my second one of these Gigabyte boards. With the first
+     one, the RAID 5 controller didn't work at all. I could never get an
+     array successfully created and initialized. I guess I should have
+     read that as a bad omen. This one has worked great for the past few
+     months that I have used it. Write speed totally ****s (3-5 MB/sec )
+     but since I used it mainly for storage of TV Shows and music, I
+     didn't write to it that often.
+     Matt
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    9. November 28th, 2005, 11:21 PM [95]#9
+       [96]Sir Flannel's Avatar
+       [97]Sir Flannel
+          + [98]View Profile
+          + [99]View Forum Posts
+       Sir Flannel is offline Resident Curmudgeon
+
+        Join Date
+                May 1999
+
+        Location
+                Home Sweet Home
+
+        Posts
+                705
+
+     Quote Originally Posted by TurtleMan
+
+     Earlier today, I posted a link to a WinXP hack that enables RAID 5.
+     That post is obviously no longer here. I'd like to know if it was
+     deleted by the moderator or just got lost in cyberspace.
+     t-man
+     It's there.... just saw it, thanks BTW
+
+     There's no place like 127.0.0.1
+     "Secular nations have one thing in common-mass graves, and the
+     reason is that they believe the government is the final arbiter of
+     right and wrong and good and evil." -Rob Schenk
+     "I cannot undertake to lay my finger on that article of the
+     Constitution which granted a right to Congress of expending, on the
+     objects of benevolence, the money of their constituents." -James
+     Madison
+       [100]Reply With Quote Reply With Quote [101]Share on Google+
+         ______________________________________________________________
+
+   10. November 29th, 2005, 03:58 AM [102]#10
+       [103]TurtleMan's Avatar
+       [104]TurtleMan
+          + [105]View Profile
+          + [106]View Forum Posts
+       TurtleMan is offline Chelonian Member
+
+        Join Date
+                Apr 2004
+
+        Location
+                San Jose, CA USA
+
+        Posts
+                313
+
+     Wow, it's back again: I must be working too hard. (Not likely).
+     Cyberspace warp?
+     Anyhow, it looks like a solid method if you're brave enough.
+     t-man
+
+     A64 3500+
+     Asus A8V Deluxe
+     Antec 480W Trupower II
+     2 X Corsair CMX512-3200C2PT
+     PNY 6800GT
+     Turtle Beach Santa Cruz
+     Plextor PX-716SA DVD/CD burner
+     Memorex 52X CD reader
+     Western Digital 300GB IDE
+     Maxtor 300GBSATA
+     Seagate 300GB SATA
+     W2K Pro
+       [107]Reply With Quote Reply With Quote [108]Share on Google+
+         ______________________________________________________________
+
+   11. November 29th, 2005, 03:59 AM [109]#11
+       [110]TurtleMan's Avatar
+       [111]TurtleMan
+          + [112]View Profile
+          + [113]View Forum Posts
+       TurtleMan is offline Chelonian Member
+
+        Join Date
+                Apr 2004
+
+        Location
+                San Jose, CA USA
+
+        Posts
+                313
+
+     It's not back again... signing off
+     t-man
+
+     A64 3500+
+     Asus A8V Deluxe
+     Antec 480W Trupower II
+     2 X Corsair CMX512-3200C2PT
+     PNY 6800GT
+     Turtle Beach Santa Cruz
+     Plextor PX-716SA DVD/CD burner
+     Memorex 52X CD reader
+     Western Digital 300GB IDE
+     Maxtor 300GBSATA
+     Seagate 300GB SATA
+     W2K Pro
+       [114]Reply With Quote Reply With Quote [115]Share on Google+
+         ______________________________________________________________
+
+   12. November 29th, 2005, 11:30 AM [116]#12
+       [117]wrathchild_67's Avatar
+       [118]wrathchild_67
+          + [119]View Profile
+          + [120]View Forum Posts
+       wrathchild_67 is offline Hidden Member
+
+        Join Date
+                Nov 2000
+
+        Location
+                Connecticut
+
+        Posts
+                6,459
+
+     Quote Originally Posted by TurtleMan
+
+     It's not back again... signing off
+     t-man
+     [121]http://discussions.hardwarecentral.c...768#post942809
+
+     [122]My Guitar Hero 2 Xbox Live Ranking
+     [123]Main Rig (click this link for specs)
+     Certified in: Nothing at all!
+     Certifiable: 100% hands-on, real-world experience
+       [124]Reply With Quote Reply With Quote [125]Share on Google+
+         ______________________________________________________________
+
+   13. November 29th, 2005, 09:28 PM [126]#13
+       [127]Turtleggjp
+          + [128]View Profile
+          + [129]View Forum Posts
+       Turtleggjp is offline Member
+
+        Join Date
+                Oct 2000
+
+        Posts
+                336
+
+     I'm still not ready to give up on this yet. I still think that all
+     it will take to fix this array is just a little tweaking of the raid
+     metadata. It's like deleting a file. The data is still there on the
+     disk, but with nothing in the file system pointing to it, it is
+     simply treated as garbage data until something else writes over it.
+     After seeing that the array was corrupted, I have since disabled the
+     RAID controller in the BIOS, so nothing else should have done
+     anything to these drives. So even if there is no utility for helping
+     me directly, is there any other utility that would allow me to check
+     or modify data in the boot sector of a hard drive (or wherever this
+     metadata is stored)?
+     Matt
+       [130]Reply With Quote Reply With Quote [131]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [132]Storage and Peripherals [133]Top
+     * Site Areas
+     * [134]Settings
+     * [135]Private Messages
+     * [136]Subscriptions
+     * [137]Who's Online
+     * [138]Search Forums
+     * [139]Forums Home
+     * Forums
+     * [140]General Forums
+         1. [141]General Tech Talk and Support
+         2. [142]PC and Console Gaming
+         3. [143]Software
+     * [144]Hardware Forums
+         1. [145]CPUs and Motherboards
+         2. [146]Cases, Cooling, and Overclocking
+         3. [147]PC Audio and Home Theater
+         4. [148]PC Video, Digital Imaging, and Displays
+         5. [149]Storage and Peripherals
+         6. [150]Networking and the Internet
+         7. [151]Mobile Technology
+     * [152]Community
+         1. [153]HWC Feedback
+         2. [154]Central Lounge
+         3. [155]For Sale Or Trade
+
+   « [156]Previous Thread | [157]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [158]BB code is On
+     * [159]Smilies are On
+     * [160][IMG] code is On
+     * [161][VIDEO] code is On
+     * HTML code is Off
+
+   [162]Forum Rules
+   [-- hardwarecentral yellow]
+     * [163]Contact Us
+     * [164]HardwareCentral Forums
+     * [165]Archive
+     * [166]Top
+
+   IFRAME:
+   [167]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:11 PM.
+
+   Powered by [168]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=9
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=168248&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=168248
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=168248
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=168248&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954136&mode=threaded#post954136
+  38. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954136#post954136
+  39. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27936&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954136
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954136#post954136
+  44. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954174#post954174
+  45. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28565&contenttype=vBForum_Post&showposts=1
+  49. http://www.flickr.com/photos/53286536@N00/445541035/
+  50. http://www.flickr.com/photos/53286536@N00/sets/72157600012502163/
+  51. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954174
+  52. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954174#post954174
+  53. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954193#post954193
+  54. http://www.hardwarecentral.com/member.php?23851-nodnod&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/member.php?23851-nodnod&s=af52edabdca22194a05a25ea9dfcc77f
+  56. http://www.hardwarecentral.com/member.php?23851-nodnod&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23851&contenttype=vBForum_Post&showposts=1
+  58. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954193
+  59. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954193#post954193
+  60. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954196#post954196
+  61. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27936&contenttype=vBForum_Post&showposts=1
+  64. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954196
+  65. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954196#post954196
+  66. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954215#post954215
+  67. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28565&contenttype=vBForum_Post&showposts=1
+  71. http://www.flickr.com/photos/53286536@N00/445541035/
+  72. http://www.flickr.com/photos/53286536@N00/sets/72157600012502163/
+  73. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954215
+  74. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954215#post954215
+  75. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954311#post954311
+  76. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36893&contenttype=vBForum_Post&showposts=1
+  80. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954311
+  81. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954311#post954311
+  82. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954338#post954338
+  83. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=42916&contenttype=vBForum_Post&showposts=1
+  87. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954338
+  88. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954338#post954338
+  89. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954348#post954348
+  90. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27936&contenttype=vBForum_Post&showposts=1
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954348
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954348#post954348
+  95. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954363#post954363
+  96. http://www.hardwarecentral.com/member.php?5808-Sir-Flannel&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?5808-Sir-Flannel&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/member.php?5808-Sir-Flannel&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5808&contenttype=vBForum_Post&showposts=1
+ 100. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954363
+ 101. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954363#post954363
+ 102. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954383#post954383
+ 103. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 105. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=42916&contenttype=vBForum_Post&showposts=1
+ 107. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954383
+ 108. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954383#post954383
+ 109. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954384#post954384
+ 110. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/member.php?42916-TurtleMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=42916&contenttype=vBForum_Post&showposts=1
+ 114. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954384
+ 115. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954384#post954384
+ 116. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954413#post954413
+ 117. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/member.php?28565-wrathchild_67&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28565&contenttype=vBForum_Post&showposts=1
+ 121. http://discussions.hardwarecentral.com/showthread.php?t=166768#post942809
+ 122. http://www.flickr.com/photos/53286536@N00/445541035/
+ 123. http://www.flickr.com/photos/53286536@N00/sets/72157600012502163/
+ 124. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954413
+ 125. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954413#post954413
+ 126. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&p=954453#post954453
+ 127. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/member.php?27936-Turtleggjp&s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27936&contenttype=vBForum_Post&showposts=1
+ 130. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=954453
+ 131. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?168248&p=954453#post954453
+ 132. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array#top
+ 134. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 136. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 147. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 151. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 154. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 156. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 157. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 158. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 159. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 160. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 161. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 162. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 163. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/
+ 165. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 166. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array#top
+ 167. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 168. https://www.vbulletin.com/
+
+   Hidden links:
+ 170. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954136%23post954136&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 171. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954136%23post954136&source=webclient
+ 172. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954136%23post954136&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 173. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954174%23post954174&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 174. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954174%23post954174&source=webclient
+ 175. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954174%23post954174&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 176. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954193%23post954193&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 177. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954193%23post954193&source=webclient
+ 178. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954193%23post954193&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 179. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954196%23post954196&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 180. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954196%23post954196&source=webclient
+ 181. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954196%23post954196&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 182. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954215%23post954215&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 183. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954215%23post954215&source=webclient
+ 184. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954215%23post954215&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 185. http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=225bw&N=0&Dx=mode+matchall&Nty=1&D=225bw&Ntk=All&product_code=341469
+ 186. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954311%23post954311&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 187. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954311%23post954311&source=webclient
+ 188. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954311%23post954311&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 189. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954338%23post954338&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 190. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954338%23post954338&source=webclient
+ 191. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954338%23post954338&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 192. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954348%23post954348&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 193. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954348%23post954348&source=webclient
+ 194. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954348%23post954348&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 195. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954363%23post954363&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 196. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954363%23post954363&source=webclient
+ 197. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954363%23post954363&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 198. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954383%23post954383&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 199. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954383%23post954383&source=webclient
+ 200. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954383%23post954383&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 201. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954384%23post954384&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 202. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954384%23post954384&source=webclient
+ 203. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954384%23post954384&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 204. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954413%23post954413&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 205. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954413%23post954413&source=webclient
+ 206. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954413%23post954413&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 207. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954453%23post954453&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 208. http://twitter.com/share?text=HELP!%20%20I%20lost%20my%20RAID%205%20array&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954453%23post954453&source=webclient
+ 209. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F168248%26p%3D954453%23post954453&title=HELP!%20%20I%20lost%20my%20RAID%205%20array&summary=&source=HardwareCentral%20Forums
+ 210. http://www.hardwarecentral.com/showthread.php?168248-HELP!-I-lost-my-RAID-5-array#top

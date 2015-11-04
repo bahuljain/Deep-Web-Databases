@@ -1,0 +1,514 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums -
+   Software - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]General Forums
+     * [24]Software
+     * Computer Show Two Operating Systems at Startup
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 8 of 8
+
+Thread: [27]Computer Show Two Operating Systems at Startup
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. January 13th, 2006, 12:18 PM [38]#1
+       [39]ggalv
+          + [40]View Profile
+          + [41]View Forum Posts
+       ggalv is offline Senior Member
+
+        Join Date
+                Oct 1999
+
+        Location
+                Los Angeles,CA,USA
+
+        Posts
+                930
+
+Computer Show Two Operating Systems at Startup
+
+     I installed Windows XP on my friends DELL computer, which intially
+     had Windows 2000. While installing Windows XP I deleted the two
+     existing partions and reformatted the partions while installing
+     Windows XP.
+     However, right now when the computer startups I have to select from
+     either Widnows XP or Windows 2000. I either have to press enter on
+     the Windows XP selection or wait about 30 seconds for windows XP. I
+     haven't tried selecting Windows 2000, but I don't think nothing will
+     run since windows 2000 was removed from the system with the format.
+     I guess my question is, is there a way so that I don't have to press
+     enter or wait 30 seconds to startup windows XP.
+     THANKS
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. January 13th, 2006, 12:51 PM [44]#2
+       [45]Shinma's Avatar
+       [46]Shinma
+          + [47]View Profile
+          + [48]View Forum Posts
+       Shinma is offline ____________
+
+        Join Date
+                Mar 2000
+
+        Posts
+                27,283
+
+     Control Panel > System > Advanced tab,
+     In Startup and Recovery section,
+     Click Settings,
+     Change from 30 seconds to desired time.
+     eg. 0
+
+     "I know nothing."
+     Cheers.
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. January 13th, 2006, 12:52 PM [51]#3
+       [52]Justintime's Avatar
+       [53]Justintime
+          + [54]View Profile
+          + [55]View Forum Posts
+       Justintime is offline Super Moderator
+
+        Join Date
+                Nov 2000
+
+        Location
+                London, England
+
+        Posts
+                11,079
+
+     right click my computer - properties - advanced tab - startup and
+     recovery settings, uncheck the display list of operating systems box
+
+       Attached Images Attached Images
+
+          + File Type: jpg [56]srt.JPG (37.0 KB, 2415 views)
+
+     R.I.P Rangeral, To one of HWC's best moderators and a great guy
+     By the way, what does BTW stand for?
+     It is better to be tried by 12, than carried by 6.
+       [57]Reply With Quote Reply With Quote [58]Share on Google+
+         ______________________________________________________________
+
+    4. January 13th, 2006, 12:53 PM [59]#4
+       [60]Justintime's Avatar
+       [61]Justintime
+          + [62]View Profile
+          + [63]View Forum Posts
+       Justintime is offline Super Moderator
+
+        Join Date
+                Nov 2000
+
+        Location
+                London, England
+
+        Posts
+                11,079
+
+     Ha shinma beat me to it with a slightly different way
+
+     R.I.P Rangeral, To one of HWC's best moderators and a great guy
+     By the way, what does BTW stand for?
+     It is better to be tried by 12, than carried by 6.
+       [64]Reply With Quote Reply With Quote [65]Share on Google+
+         ______________________________________________________________
+
+    5. January 13th, 2006, 07:27 PM [66]#5
+       [67]Tuttle's Avatar
+       [68]Tuttle
+          + [69]View Profile
+          + [70]View Forum Posts
+       Tuttle is offline Resident Cynic
+
+        Join Date
+                Dec 1998
+
+        Location
+                Adelaide, South Australia
+
+        Posts
+                6,916
+
+     You can also click on the Edit button in Justintime's screenshot and
+     use that to delete the Windows 2000 line (and only the Windows 2000
+     line).
+
+     Safe computing is a habit, not a toolkit.
+       [71]Reply With Quote Reply With Quote [72]Share on Google+
+         ______________________________________________________________
+
+    6. January 13th, 2006, 09:20 PM [73]#6
+       [74]ggalv
+          + [75]View Profile
+          + [76]View Forum Posts
+       ggalv is offline Senior Member
+
+        Join Date
+                Oct 1999
+
+        Location
+                Los Angeles,CA,USA
+
+        Posts
+                930
+
+     I unchecked the display list of operating systems and the computer
+     does not boot up.
+     I get a message stating that windows could not start because of a
+     computer disk hardware configuration problem.
+     Appreciate your help, if you guys can help into getting back to
+     windows.
+     Thanks
+       [77]Reply With Quote Reply With Quote [78]Share on Google+
+         ______________________________________________________________
+
+    7. January 13th, 2006, 11:31 PM [79]#7
+       [80]Tuttle's Avatar
+       [81]Tuttle
+          + [82]View Profile
+          + [83]View Forum Posts
+       Tuttle is offline Resident Cynic
+
+        Join Date
+                Dec 1998
+
+        Location
+                Adelaide, South Australia
+
+        Posts
+                6,916
+
+     That makes no sense at all, but anyway, hopefully the problem is
+     somehow related to unchecking that box...
+     Boot from the Windows XP CD, and when you get a chance, press R to
+     enter the recovery console. You'll need to know the Administrator
+     password you used (even if blank).
+     Once in the recovery console, run "MAP" to see what Windows is
+     calling the physical hard drives. Assuming you only have one, it'll
+     probably be \Device\HardDisk0. Work out what the first drive is
+     called, then run "FIXMBR \Device\HardDisk0".
+     Finally, run "FIXBOOT C:" (assuming C: is the drive where you
+     installed XP) and then "EXIT" to reboot.
+
+     Safe computing is a habit, not a toolkit.
+       [84]Reply With Quote Reply With Quote [85]Share on Google+
+         ______________________________________________________________
+
+    8. January 14th, 2006, 05:44 AM [86]#8
+       [87]Justintime's Avatar
+       [88]Justintime
+          + [89]View Profile
+          + [90]View Forum Posts
+       Justintime is offline Super Moderator
+
+        Join Date
+                Nov 2000
+
+        Location
+                London, England
+
+        Posts
+                11,079
+
+     Quote Originally Posted by ggalv
+
+     I unchecked the display list of operating systems and the computer
+     does not boot up.
+     I get a message stating that windows could not start because of a
+     computer disk hardware configuration problem.
+     Appreciate your help, if you guys can help into getting back to
+     windows.
+     Thanks
+     Was XP set to boot first?
+
+     R.I.P Rangeral, To one of HWC's best moderators and a great guy
+     By the way, what does BTW stand for?
+     It is better to be tried by 12, than carried by 6.
+       [91]Reply With Quote Reply With Quote [92]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [93]Software [94]Top
+     * Site Areas
+     * [95]Settings
+     * [96]Private Messages
+     * [97]Subscriptions
+     * [98]Who's Online
+     * [99]Search Forums
+     * [100]Forums Home
+     * Forums
+     * [101]General Forums
+         1. [102]General Tech Talk and Support
+         2. [103]PC and Console Gaming
+         3. [104]Software
+     * [105]Hardware Forums
+         1. [106]CPUs and Motherboards
+         2. [107]Cases, Cooling, and Overclocking
+         3. [108]PC Audio and Home Theater
+         4. [109]PC Video, Digital Imaging, and Displays
+         5. [110]Storage and Peripherals
+         6. [111]Networking and the Internet
+         7. [112]Mobile Technology
+     * [113]Community
+         1. [114]HWC Feedback
+         2. [115]Central Lounge
+         3. [116]For Sale Or Trade
+
+   « [117]Previous Thread | [118]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [119]BB code is On
+     * [120]Smilies are On
+     * [121][IMG] code is On
+     * [122][VIDEO] code is On
+     * HTML code is Off
+
+   [123]Forum Rules
+   [-- hardwarecentral yellow]
+     * [124]Contact Us
+     * [125]HardwareCentral Forums
+     * [126]Archive
+     * [127]Top
+
+   IFRAME:
+   [128]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:12 PM.
+
+   Powered by [129]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=13
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=169091&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=169091
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=169091
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=169091&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=960964&mode=threaded#post960964
+  38. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=960964#post960964
+  39. http://www.hardwarecentral.com/member.php?10786-ggalv&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?10786-ggalv&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=10786&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=960964
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=960964#post960964
+  44. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=960969#post960969
+  45. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18693&contenttype=vBForum_Post&showposts=1
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=960969
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=960969#post960969
+  51. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=960970#post960970
+  52. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28368&contenttype=vBForum_Post&showposts=1
+  56. http://www.hardwarecentral.com/attachment.php?s=af52edabdca22194a05a25ea9dfcc77f&attachmentid=2156&d=1137171156
+  57. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=960970
+  58. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=960970#post960970
+  59. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=960971#post960971
+  60. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28368&contenttype=vBForum_Post&showposts=1
+  64. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=960971
+  65. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=960971#post960971
+  66. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=961036#post961036
+  67. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1444&contenttype=vBForum_Post&showposts=1
+  71. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=961036
+  72. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=961036#post961036
+  73. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=961062#post961062
+  74. http://www.hardwarecentral.com/member.php?10786-ggalv&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/member.php?10786-ggalv&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=10786&contenttype=vBForum_Post&showposts=1
+  77. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=961062
+  78. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=961062#post961062
+  79. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=961070#post961070
+  80. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1444&contenttype=vBForum_Post&showposts=1
+  84. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=961070
+  85. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=961070#post961070
+  86. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&p=961104#post961104
+  87. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28368&contenttype=vBForum_Post&showposts=1
+  91. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=961104
+  92. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?169091&p=961104#post961104
+  93. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup#top
+  95. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  96. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 103. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 105. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 118. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 119. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 120. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 121. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 122. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 123. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 124. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/
+ 126. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup#top
+ 128. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 129. https://www.vbulletin.com/
+
+   Hidden links:
+ 131. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960964%23post960964&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 132. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960964%23post960964&source=webclient
+ 133. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960964%23post960964&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 134. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960969%23post960969&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 135. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960969%23post960969&source=webclient
+ 136. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960969%23post960969&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 137. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960970%23post960970&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 138. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960970%23post960970&source=webclient
+ 139. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960970%23post960970&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 140. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960971%23post960971&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 141. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960971%23post960971&source=webclient
+ 142. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D960971%23post960971&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 143. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961036%23post961036&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 144. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961036%23post961036&source=webclient
+ 145. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961036%23post961036&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 146. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961062%23post961062&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 147. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961062%23post961062&source=webclient
+ 148. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961062%23post961062&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 149. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961070%23post961070&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 150. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961070%23post961070&source=webclient
+ 151. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961070%23post961070&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 152. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961104%23post961104&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 153. http://twitter.com/share?text=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961104%23post961104&source=webclient
+ 154. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F169091%26p%3D961104%23post961104&title=Computer%20Show%20Two%20Operating%20Systems%20at%20Startup&summary=&source=HardwareCentral%20Forums
+ 155. http://www.hardwarecentral.com/showthread.php?169091-Computer-Show-Two-Operating-Systems-at-Startup#top

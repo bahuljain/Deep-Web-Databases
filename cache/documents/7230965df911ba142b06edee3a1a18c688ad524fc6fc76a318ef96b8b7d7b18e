@@ -1,0 +1,445 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Audio and Home Theater - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Audio and Home Theater
+     * Microsoft® Digital Sound System 80
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 5 of 5
+
+Thread: [27]Microsoft® Digital Sound System 80
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. March 18th, 1999, 05:54 PM [38]#1
+       [39]johnny
+          + [40]View Profile
+          + [41]View Forum Posts
+          + [42]Visit Homepage
+       johnny is offline 5000
+
+        Join Date
+                Dec 1998
+
+        Location
+                chattanooga, TN
+
+        Posts
+                15
+
+Microsoft® Digital Sound System 80
+
+     I'm thinking about purchasing these speakers (only $92 at buycomp
+     minus $50 rebate=$42 bucks!) Anyway, does anyone have any opinions
+     about this system? I'll probably also be purchasing a SB Live value
+     card too. What do ya'll think?
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. March 25th, 1999, 12:17 PM [45]#2
+       [46]Polaris
+          + [47]View Profile
+          + [48]View Forum Posts
+       Polaris is offline Member
+
+        Join Date
+                Mar 1999
+
+        Location
+                Canada
+
+        Posts
+                249
+
+     johnny,
+     I'm not sure if you're still monitoring this forum thread but in
+     case you are the MS DSS 80 is a USB contraption that obviates your
+     need for a sound card, therefore your SBLIVE! purchase decision may
+     be a ludicrous waste of money (maybe). Here's why:
+     1. the digital audio signals are piped directly through the USB to
+     the subwoofer then the signals are converted to analog to drive the
+     speakers. Sounds neat huh? NOT!
+     2. These babies use 3-D positional audio using the DirectX API and
+     Microsoft Surround Sound. To date that's the only API they support
+     so you lose out on games that really rock using an A3D/EAX API
+     iteration.
+     Don't quote me on that one.
+     3. Do you even have a USB port on your rig? This port is also
+     bandwidth limited in its current version.
+     4. CD audio through USB demands a CD-ROM drive that can extract
+     digital audio data from a music CD. If you're not enabled forget
+     that nifty eq that comes with this speaker set. Surround won't
+     function either! This is where that maybe comes in. Now you GOTTA
+     buy that SBLIVE! since that's the only way you'll overcome the
+     limitation. Then it's back to the lovely hissing and popping
+     associated with analog "noise inside". Confused yet? There's more...
+     5. One dubious but impressive benefit is the emi (electromagnetic
+     interference) negation that occurs since your unit works outside the
+     noisy pc (o/cers with raucous coolers take note). However you have
+     that puny wire connecting this sh*t that is susceptible to
+     inductives from your system's power supply. The measureable impact
+     of this hasn't been formalized yet but it's not a perfect scenario.
+     6. You can connect this con game directly to your soundcard for a
+     best case scenario (sic).
+     In closing I'd like to qualify my irritation with this trend. There
+     are hard-working engineers out there that are pumping vast
+     quantities of sweat equity and passion into developing mind-altering
+     APIs that enhance our listening pleasure. These people stand to lose
+     out big time in the worst case scenario. MS has crafted an admirable
+     product that has invited evangelical-like praise from questionable
+     audiophiles who tire of the noisy vortex swirling around the insides
+     of todays computers. But as history has proved, when MS wins hordes
+     of people lose. For the record I'm neither a sound engineer,
+     although I've studied it, nor affiliated with anyone working past or
+     present in the pc audio domain. The people that stand to gain the
+     most from this trend are the OEMs that can now bundle this number,
+     without a sound card, in all their shipments. And we all know how
+     much influence MS has over those poor sods.
+     Sorry about this rant...I'm just thinking about some hapless
+     consumers' choices once again being ransomed to the lowest common
+     denominator...forget I said anything.
+     Cheers anyway,
+     ------------------
+     "Too bad Gates didn't consult with Chrysler CEO
+     Lee Iococca or real estate mogul Donald Trump
+     before starting out. These two fellow members
+     of the business elite at least knew how to tell an
+     entertaining tale. Faced with the prospect of
+     rereading this book, I would rather have my
+     brains ripped out by a plastic fork."
+     On Gates' "Business at the Speed of Thought" Charles Cooper, ZDNet
+     News
+
+     "Everyone should be humiliate themselves before learning any
+     things." - Chuawa
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. March 25th, 1999, 01:08 PM [51]#3
+       [52]tazman
+          + [53]View Profile
+          + [54]View Forum Posts
+       tazman is offline Junior Member
+
+        Join Date
+                Mar 1999
+
+        Posts
+                1
+
+     hi i bought that system and i guess i dont know enough about
+     computers but i tried installing it and it didnt work so i hooked my
+     old speakers back up and i dont have any sound now so now im waiting
+     (in silence) for someone to come fix it. so i guess the moral of the
+     story is if you aint a computer wizard stay away from that thing
+     even if the $50 rebate sounds good your computer wont.
+       [55]Reply With Quote Reply With Quote [56]Share on Google+
+         ______________________________________________________________
+
+    4. March 25th, 1999, 01:43 PM [57]#4
+       [58]johnny
+          + [59]View Profile
+          + [60]View Forum Posts
+          + [61]Visit Homepage
+       johnny is offline 5000
+
+        Join Date
+                Dec 1998
+
+        Location
+                chattanooga, TN
+
+        Posts
+                15
+
+     Thanks for the replies everyone. I already purchased this system and
+     intend to use it with the soundblaster live value card for the
+     reasons polaris stated in his reply. Also because i'm concerned
+     about the cpu utilization associated with the USB hookup. I figured
+     maybe one day it would hookup to my USB complient Home Receiver or
+     Portable MP3 player but for now I will use the old fashion analog
+     soundcard/speaker setup. Remember i'm only paying 42 bucks for these
+     speakers (after rebate)! Gosh, if i don't like them, I'll just dish
+     them off to my mom or something
+       [62]Reply With Quote Reply With Quote [63]Share on Google+
+         ______________________________________________________________
+
+    5. March 30th, 1999, 12:15 AM [64]#5
+       [65]Battman42
+          + [66]View Profile
+          + [67]View Forum Posts
+       Battman42 is offline 5000
+
+        Join Date
+                Mar 1999
+
+        Location
+                N.California
+
+        Posts
+                56
+
+     A side note on the DSS-80 I also was sucked in by the $50 rebate but
+     the vendor sold the system to me for $55 plus shiping so I got this
+     thing for $28. The question is was it worth the hours spent to make
+     it work. Here is the rub When you use Video capture the sound is fed
+     either through the CD pass thru or the audio in on your sound card.
+     Well you can listen to it but you can't record the sound when
+     editing videos. The other issue not mentioned is that my Joy stick
+     is connected to the port on you guessed it the sound card.... I
+     suppose I should go spring for one of those new USB joysticks.
+     Also with this configuration I have lots of hoops to jump thru to
+     get things to run with no conflicts. The good news is that the
+     sounds in Panzer General ll are dynomite....
+     and watchin the History channel in Dolby stereo W/simulated surround
+     can't be beat.
+     I like the sound and wholeheartedly recommend Don't get the DSS-80.
+       [68]Reply With Quote Reply With Quote [69]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [70]PC Audio and Home Theater [71]Top
+     * Site Areas
+     * [72]Settings
+     * [73]Private Messages
+     * [74]Subscriptions
+     * [75]Who's Online
+     * [76]Search Forums
+     * [77]Forums Home
+     * Forums
+     * [78]General Forums
+         1. [79]General Tech Talk and Support
+         2. [80]PC and Console Gaming
+         3. [81]Software
+     * [82]Hardware Forums
+         1. [83]CPUs and Motherboards
+         2. [84]Cases, Cooling, and Overclocking
+         3. [85]PC Audio and Home Theater
+         4. [86]PC Video, Digital Imaging, and Displays
+         5. [87]Storage and Peripherals
+         6. [88]Networking and the Internet
+         7. [89]Mobile Technology
+     * [90]Community
+         1. [91]HWC Feedback
+         2. [92]Central Lounge
+         3. [93]For Sale Or Trade
+
+   « [94]Previous Thread | [95]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [96]BB code is On
+     * [97]Smilies are On
+     * [98][IMG] code is On
+     * [99][VIDEO] code is On
+     * HTML code is Off
+
+   [100]Forum Rules
+   [-- hardwarecentral yellow]
+     * [101]Contact Us
+     * [102]HardwareCentral Forums
+     * [103]Archive
+     * [104]Top
+
+   IFRAME:
+   [105]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:06 PM.
+
+   Powered by [106]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=6
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=299&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=299
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=299
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=299&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&p=825&mode=threaded#post825
+  38. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&p=825#post825
+  39. http://www.hardwarecentral.com/member.php?2272-johnny&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?2272-johnny&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=2272&contenttype=vBForum_Post&showposts=1
+  42. http://www.vol.com/
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=825
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?299&p=825#post825
+  45. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&p=826#post826
+  46. http://www.hardwarecentral.com/member.php?3977-Polaris&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?3977-Polaris&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=3977&contenttype=vBForum_Post&showposts=1
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=826
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?299&p=826#post826
+  51. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&p=827#post827
+  52. http://www.hardwarecentral.com/member.php?4138-tazman&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?4138-tazman&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=4138&contenttype=vBForum_Post&showposts=1
+  55. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=827
+  56. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?299&p=827#post827
+  57. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&p=828#post828
+  58. http://www.hardwarecentral.com/member.php?2272-johnny&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/member.php?2272-johnny&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=2272&contenttype=vBForum_Post&showposts=1
+  61. http://www.vol.com/
+  62. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=828
+  63. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?299&p=828#post828
+  64. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&p=829#post829
+  65. http://www.hardwarecentral.com/member.php?3376-Battman42&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/member.php?3376-Battman42&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=3376&contenttype=vBForum_Post&showposts=1
+  68. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=829
+  69. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?299&p=829#post829
+  70. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80#top
+  72. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+  95. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+  96. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+  97. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+  98. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+  99. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 100. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 101. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/
+ 103. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/showthread.php?299-Microsoft®-Digital-Sound-System-80#top
+ 105. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 106. https://www.vbulletin.com/
+
+   Hidden links:
+ 108. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D825%23post825&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 109. http://twitter.com/share?text=Microsoft%C2%AE%20Digital%20Sound%20System%2080&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D825%23post825&source=webclient
+ 110. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D825%23post825&title=Microsoft%C2%AE%20Digital%20Sound%20System%2080&summary=&source=HardwareCentral%20Forums
+ 111. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D826%23post826&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 112. http://twitter.com/share?text=Microsoft%C2%AE%20Digital%20Sound%20System%2080&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D826%23post826&source=webclient
+ 113. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D826%23post826&title=Microsoft%C2%AE%20Digital%20Sound%20System%2080&summary=&source=HardwareCentral%20Forums
+ 114. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D827%23post827&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 115. http://twitter.com/share?text=Microsoft%C2%AE%20Digital%20Sound%20System%2080&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D827%23post827&source=webclient
+ 116. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D827%23post827&title=Microsoft%C2%AE%20Digital%20Sound%20System%2080&summary=&source=HardwareCentral%20Forums
+ 117. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D828%23post828&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 118. http://twitter.com/share?text=Microsoft%C2%AE%20Digital%20Sound%20System%2080&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D828%23post828&source=webclient
+ 119. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D828%23post828&title=Microsoft%C2%AE%20Digital%20Sound%20System%2080&summary=&source=HardwareCentral%20Forums
+ 120. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D829%23post829&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 121. http://twitter.com/share?text=Microsoft%C2%AE%20Digital%20Sound%20System%2080&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D829%23post829&source=webclient
+ 122. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F299%26p%3D829%23post829&title=Microsoft%C2%AE%20Digital%20Sound%20System%2080&summary=&source=HardwareCentral%20Forums
+ 123. http://www.hardwarecentral.com/showthread.php?299-Microsoft%C2%AE-Digital-Sound-System-80#top

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/yrss.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <ttl>10</ttl>
+    <copyright>Copyright (c) 2015 Yahoo!, Inc. All rights reserved.</copyright>
+    <language>en-us</language>
+    <image>
+      <width>126</width>
+      <height>15</height>
+      <link>http://sports.yahoo.com</link>
+      <title>Yahoo Sports</title>
+      <url>http://l.yimg.com/rz/d/yahoo_sports_en-US_s_f_p_182x21_sports.gif</url>
+    </image>
+    <title>Yahoo Sports - WNBA News</title>
+    <link>http://sports.yahoo.com/wnba</link>
+    <description>Latest news and information about the WNBA.</description>
+    <item>
+      <title>WNBA franchise in North Texas area to be called Dallas Wings (The Associated Press)</title>
+      <link>http://us.rd.yahoo.com/sports/rss/wnba/SIG=13957j95c/*http%3A//sports.yahoo.com/news/wnba-franchise-north-texas-area-called-dallas-wings-212904612--wnba.html</link>
+      <description>ARLINGTON, Texas (AP) -- The WNBA team relocating to North Texas will be called the Dallas Wings.</description>
+      <pubDate>Mon, 02 Nov 2015 13:29:04 PST</pubDate>
+      <category>WNBA</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,5aa04f3e-a47c-308b-8543-ac4a3fa72186-l:1</guid>
+    </item>
+    <lastBuildDate>Mon, 02 Nov 2015 13:29:04 PST</lastBuildDate>
+  </channel>
+</rss>
+
+<!-- fe100.sports.bf1.yahoo.com Wed Nov  4 00:33:43 PST 2015 -->

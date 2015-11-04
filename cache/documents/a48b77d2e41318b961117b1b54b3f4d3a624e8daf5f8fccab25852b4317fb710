@@ -1,0 +1,656 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Audio and Home Theater - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Audio and Home Theater
+     * [RESOLVED] wave volume control keeps turning down
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 13 of 13
+
+Thread: [27][RESOLVED] wave volume control keeps turning down
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. July 25th, 2001, 05:14 PM [38]#1
+       [39]monkapotomus
+          + [40]View Profile
+          + [41]View Forum Posts
+       monkapotomus is offline Senior Member
+
+        Join Date
+                Mar 2000
+
+        Location
+                El Paso, TX, USA
+
+        Posts
+                567
+
+Thumbs up [RESOLVED] wave volume control keeps turning down
+
+     This is getting really aggrivating. whenever i open an mp3, the
+     sound is really low, so i have to go into my volume controls and
+     raise the WAVE volume, cuz it is almost all the way down. even after
+     i raise it up, once i open a new mp3 file, it is back down really
+     low. how can i get this dang thing to stay up? thanks guys.
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. July 25th, 2001, 07:33 PM [44]#2
+       [45]Luis G's Avatar
+       [46]Luis G
+          + [47]View Profile
+          + [48]View Forum Posts
+       Luis G is offline Natural Disaster
+
+        Join Date
+                Apr 2000
+
+        Location
+                Morelia, Mexico
+
+        Posts
+                1,717
+
+     Increase the volume from within the application, that should fix it.
+     Which player are you using?
+
+     If you were in a world full of crazy people, who would be the crazy
+     person?
+     [49]OTCentral
+       [50]Reply With Quote Reply With Quote [51]Share on Google+
+         ______________________________________________________________
+
+    3. July 26th, 2001, 03:14 AM [52]#3
+       [53]monkapotomus
+          + [54]View Profile
+          + [55]View Forum Posts
+       monkapotomus is offline Senior Member
+
+        Join Date
+                Mar 2000
+
+        Location
+                El Paso, TX, USA
+
+        Posts
+                567
+
+     Using Winamp, but doesn't matter what i do to winamp, whenever i
+     start a new mp3, the volume control (under Volume Control in
+     Windows) goes down, so i have to adjust those settings, not winamps
+     settings
+       [56]Reply With Quote Reply With Quote [57]Share on Google+
+         ______________________________________________________________
+
+    4. July 26th, 2001, 03:51 AM [58]#4
+       [59]Berserker's Avatar
+       [60]Berserker
+          + [61]View Profile
+          + [62]View Forum Posts
+       Berserker is offline HWC Special Advisor
+
+        Join Date
+                Jul 1999
+
+        Location
+                Sarawak, Malaysia
+
+        Posts
+                4,807
+
+     Sounds like that the sound setting is controlled by the sound card
+     volume.
+     What soundcard are you using?
+     Try looking in the sound card option if there is any option to save
+     the volume setting or not.
+     I have the same problem with a SBLive Value before.
+     ------------------
+     May I know why is there a Reset Button on my casing?
+     I have a Windows PC that likes the Reset Button very much.
+       [63]Reply With Quote Reply With Quote [64]Share on Google+
+         ______________________________________________________________
+
+    5. July 26th, 2001, 06:15 PM [65]#5
+       [66]monkapotomus
+          + [67]View Profile
+          + [68]View Forum Posts
+       monkapotomus is offline Senior Member
+
+        Join Date
+                Mar 2000
+
+        Location
+                El Paso, TX, USA
+
+        Posts
+                567
+
+     i am using onboard sound (cheesy, but works) AC97. There is no
+     option to save the settings, before this started to occur, it would
+     save itself when i just closed the options. but now is where i get
+     the problem. i figure it is probably just a windows thing, and it
+     has been a while since i have reformatted, so maybe it is just time
+     to do the whole thing over. still open to suggestions before i
+     format though. thanks
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    6. July 26th, 2001, 10:23 PM [71]#6
+       [72]Tuttle's Avatar
+       [73]Tuttle
+          + [74]View Profile
+          + [75]View Forum Posts
+       Tuttle is offline Resident Cynic
+
+        Join Date
+                Dec 1998
+
+        Location
+                Adelaide, South Australia
+
+        Posts
+                6,916
+
+     In WinAmp's properties, go to the properties for the WaveOut Output
+     Plugin and disable the volume control there.
+
+     Safe computing is a habit, not a toolkit.
+       [76]Reply With Quote Reply With Quote [77]Share on Google+
+         ______________________________________________________________
+
+    7. July 26th, 2001, 10:44 PM [78]#7
+       [79]terrylhouse
+          + [80]View Profile
+          + [81]View Forum Posts
+       terrylhouse is offline Member
+
+        Join Date
+                Oct 2000
+
+        Location
+                Tucson Az USA
+
+        Posts
+                440
+
+     That should do the problem... Your sound system is ok?
+
+     They all fall the first time! "The Matrix" The Movie, or was it?
+       [82]Reply With Quote Reply With Quote [83]Share on Google+
+         ______________________________________________________________
+
+    8. July 26th, 2001, 11:13 PM [84]#8
+       [85]The*Q*'s Avatar
+       [86]The*Q*
+          + [87]View Profile
+          + [88]View Forum Posts
+       The*Q* is offline Been Around A While!
+
+        Join Date
+                Nov 2000
+
+        Location
+                Escanaba, MI.
+
+        Posts
+                3,064
+
+     Bring up Windows media player and slam the throttle to the max. It
+     likes to control everything.This should fix it.
+     ------------------
+     Man who stand on toilet is high on pot.
+
+     *This space for rent*
+       [89]Reply With Quote Reply With Quote [90]Share on Google+
+         ______________________________________________________________
+
+    9. July 27th, 2001, 05:02 PM [91]#9
+       [92]monkapotomus
+          + [93]View Profile
+          + [94]View Forum Posts
+       monkapotomus is offline Senior Member
+
+        Join Date
+                Mar 2000
+
+        Location
+                El Paso, TX, USA
+
+        Posts
+                567
+
+     Ok, tried all of those things, nothings worked, so i just
+     reformatted my HD, now it is fine. i don't know if it was a problem
+     with windows or winamp, but when i opened a song, it would play 1
+     note, then lower the sound automatically in windows sound
+     properties. oh well, just one of those unsolved mysteries i guess.
+     thanks anyways guys
+       [95]Reply With Quote Reply With Quote [96]Share on Google+
+         ______________________________________________________________
+
+   10. May 25th, 2008, 03:07 PM [97]#10
+       [98]mangrove
+          + [99]View Profile
+          + [100]View Forum Posts
+       mangrove is offline Junior Member
+
+        Join Date
+                May 2008
+
+        Posts
+                2
+
+     I had this problem in Win2k after a fresh system install with the
+     SiS 7018 audio driver that installs automatically. I finally
+     resolved by uninstalling SiS 7018 audio driver, installing the
+     latest(?) Realtek AC' 97 audio driver (and applications.) Upon
+     reboot the SiS 7018 audio driver installed automatically, but this
+     time after setting the wave and line-in volume controls where I want
+     them, they did not reset themselves upon each opening of an
+     application that uses either. Don't know if uninstalling the SiS
+     7018 Audio driver first is necessary.
+     7 years too late for monkapotomus, but maybe someone else having
+     this problem.
+       [101]Reply With Quote Reply With Quote [102]Share on Google+
+         ______________________________________________________________
+
+   11. May 25th, 2008, 06:17 PM [103]#11
+       [104]G4mingEvolution's Avatar
+       [105]G4mingEvolution
+          + [106]View Profile
+          + [107]View Forum Posts
+          + [108]Visit Homepage
+       G4mingEvolution is offline Member
+
+        Join Date
+                Jul 2002
+
+        Location
+                New Jersey
+
+        Posts
+                287
+
+     What kind of keyboard and mouse are you using? I have had similar
+     issues in the past that were related to wireless mouse and
+     keyboards. Sometimes when the batteries are low strange stuff can
+     happen. Also if youre kb or mouse has volume controls its real easy
+     to accidently hit them which can cause the volume to reset.
+     In your case it sounds like it was an application issue. Some of the
+     media player applications will reset the wav volume level upon
+     starting.
+       [109]Reply With Quote Reply With Quote [110]Share on Google+
+         ______________________________________________________________
+
+   12. May 25th, 2008, 09:19 PM [111]#12
+       [112]mangrove
+          + [113]View Profile
+          + [114]View Forum Posts
+       mangrove is offline Junior Member
+
+        Join Date
+                May 2008
+
+        Posts
+                2
+
+     New info which revises my prior post...
+     It turns out that the AC' 97 audio driver (or whichever driver
+     applies to your onboard audio controller) was not the real problem
+     or resolution for me. It just seemed that way due to trying multiple
+     things at once. The real problem was that I had a virtual device
+     audio driver (Total Recorder WDM) controlling the master volume.
+     (Actually it was the master volume, not the wave volume, with which
+     I was having the problem originally.)
+     I am only able to set the master volume and keep it there by
+     selecting Total Recorder as the preferred playback device (via audio
+     properties.) Once set, I can select the 7018 Wave device (onboard
+     audio) as the preferred playback without the volume resetting. The
+     master volume control for that device can be set a different level
+     only while the audio player is open or until another instance of
+     that player or another player is opened.
+       [115]Reply With Quote Reply With Quote [116]Share on Google+
+         ______________________________________________________________
+
+   13. January 9th, 2011, 10:39 PM [117]#13
+       [118]popeye67
+          + [119]View Profile
+          + [120]View Forum Posts
+       popeye67 is offline Junior Member
+
+        Join Date
+                Jan 2011
+
+        Posts
+                1
+
+     had similar problemto this, its a very common problem on windows7,
+     try going into control panel > sound > select speaker >
+     communications > select do nothing > apply - hope this os of help.
+       [121]Reply With Quote Reply With Quote [122]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [123]PC Audio and Home Theater [124]Top
+     * Site Areas
+     * [125]Settings
+     * [126]Private Messages
+     * [127]Subscriptions
+     * [128]Who's Online
+     * [129]Search Forums
+     * [130]Forums Home
+     * Forums
+     * [131]General Forums
+         1. [132]General Tech Talk and Support
+         2. [133]PC and Console Gaming
+         3. [134]Software
+     * [135]Hardware Forums
+         1. [136]CPUs and Motherboards
+         2. [137]Cases, Cooling, and Overclocking
+         3. [138]PC Audio and Home Theater
+         4. [139]PC Video, Digital Imaging, and Displays
+         5. [140]Storage and Peripherals
+         6. [141]Networking and the Internet
+         7. [142]Mobile Technology
+     * [143]Community
+         1. [144]HWC Feedback
+         2. [145]Central Lounge
+         3. [146]For Sale Or Trade
+
+   « [147]Previous Thread | [148]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [149]BB code is On
+     * [150]Smilies are On
+     * [151][IMG] code is On
+     * [152][VIDEO] code is On
+     * HTML code is Off
+
+   [153]Forum Rules
+   [-- hardwarecentral yellow]
+     * [154]Contact Us
+     * [155]HardwareCentral Forums
+     * [156]Archive
+     * [157]Top
+
+   IFRAME:
+   [158]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:07 PM.
+
+   Powered by [159]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=6
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=67024&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=67024
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=67024
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=67024&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374780&mode=threaded#post374780
+  38. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374780#post374780
+  39. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18380&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374780
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374780#post374780
+  44. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374781#post374781
+  45. http://www.hardwarecentral.com/member.php?20148-Luis-G&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?20148-Luis-G&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?20148-Luis-G&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=20148&contenttype=vBForum_Post&showposts=1
+  49. http://www.otcentral.com/forum/index.php?referrerid=88
+  50. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374781
+  51. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374781#post374781
+  52. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374782#post374782
+  53. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18380&contenttype=vBForum_Post&showposts=1
+  56. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374782
+  57. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374782#post374782
+  58. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374783#post374783
+  59. http://www.hardwarecentral.com/member.php?7170-Berserker&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/member.php?7170-Berserker&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?7170-Berserker&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7170&contenttype=vBForum_Post&showposts=1
+  63. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374783
+  64. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374783#post374783
+  65. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374784#post374784
+  66. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18380&contenttype=vBForum_Post&showposts=1
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374784
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374784#post374784
+  71. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374785#post374785
+  72. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1444&contenttype=vBForum_Post&showposts=1
+  76. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374785
+  77. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374785#post374785
+  78. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374786#post374786
+  79. http://www.hardwarecentral.com/member.php?28198-terrylhouse&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/member.php?28198-terrylhouse&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28198&contenttype=vBForum_Post&showposts=1
+  82. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374786
+  83. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374786#post374786
+  84. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374787#post374787
+  85. http://www.hardwarecentral.com/member.php?28370-The*Q*&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/member.php?28370-The*Q*&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/member.php?28370-The*Q*&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28370&contenttype=vBForum_Post&showposts=1
+  89. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374787
+  90. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374787#post374787
+  91. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=374788#post374788
+  92. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/member.php?18380-monkapotomus&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18380&contenttype=vBForum_Post&showposts=1
+  95. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=374788
+  96. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=374788#post374788
+  97. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=1030607#post1030607
+  98. http://www.hardwarecentral.com/member.php?54049-mangrove&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/member.php?54049-mangrove&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=54049&contenttype=vBForum_Post&showposts=1
+ 101. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1030607
+ 102. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=1030607#post1030607
+ 103. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=1030617#post1030617
+ 104. http://www.hardwarecentral.com/member.php?38750-G4mingEvolution&s=af52edabdca22194a05a25ea9dfcc77f
+ 105. http://www.hardwarecentral.com/member.php?38750-G4mingEvolution&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/member.php?38750-G4mingEvolution&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38750&contenttype=vBForum_Post&showposts=1
+ 108. http://www.superiorsurveys.com/
+ 109. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1030617
+ 110. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=1030617#post1030617
+ 111. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=1030631#post1030631
+ 112. http://www.hardwarecentral.com/member.php?54049-mangrove&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/member.php?54049-mangrove&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=54049&contenttype=vBForum_Post&showposts=1
+ 115. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1030631
+ 116. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=1030631#post1030631
+ 117. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&p=1045503#post1045503
+ 118. http://www.hardwarecentral.com/member.php?57623-popeye67&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/member.php?57623-popeye67&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=57623&contenttype=vBForum_Post&showposts=1
+ 121. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1045503
+ 122. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?67024&p=1045503#post1045503
+ 123. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down#top
+ 125. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 136. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 147. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 148. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 149. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 150. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 151. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 152. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 153. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 154. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/
+ 156. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 157. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down#top
+ 158. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 159. https://www.vbulletin.com/
+
+   Hidden links:
+ 161. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374780%23post374780&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 162. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374780%23post374780&source=webclient
+ 163. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374780%23post374780&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 164. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374781%23post374781&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 165. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374781%23post374781&source=webclient
+ 166. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374781%23post374781&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 167. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374782%23post374782&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 168. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374782%23post374782&source=webclient
+ 169. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374782%23post374782&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 170. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374783%23post374783&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 171. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374783%23post374783&source=webclient
+ 172. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374783%23post374783&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 173. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374784%23post374784&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 174. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374784%23post374784&source=webclient
+ 175. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374784%23post374784&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 176. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374785%23post374785&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 177. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374785%23post374785&source=webclient
+ 178. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374785%23post374785&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 179. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374786%23post374786&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 180. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374786%23post374786&source=webclient
+ 181. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374786%23post374786&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 182. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374787%23post374787&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 183. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374787%23post374787&source=webclient
+ 184. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374787%23post374787&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 185. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374788%23post374788&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 186. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374788%23post374788&source=webclient
+ 187. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D374788%23post374788&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 188. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030607%23post1030607&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 189. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030607%23post1030607&source=webclient
+ 190. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030607%23post1030607&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 191. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030617%23post1030617&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 192. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030617%23post1030617&source=webclient
+ 193. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030617%23post1030617&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 194. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030631%23post1030631&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 195. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030631%23post1030631&source=webclient
+ 196. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1030631%23post1030631&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 197. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1045503%23post1045503&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 198. http://twitter.com/share?text=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1045503%23post1045503&source=webclient
+ 199. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F67024%26p%3D1045503%23post1045503&title=[RESOLVED]%20wave%20volume%20control%20keeps%20turning%20down&summary=&source=HardwareCentral%20Forums
+ 200. http://www.hardwarecentral.com/showthread.php?67024-RESOLVED-wave-volume-control-keeps-turning-down#top

@@ -1,0 +1,604 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Video, Digital Imaging, and Displays - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Video, Digital Imaging, and Displays
+     * HDTV Component Output with ATI card help
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 9 of 9
+
+Thread: [27]HDTV Component Output with ATI card help
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. March 9th, 2007, 06:09 PM [38]#1
+       [39]krupted's Avatar
+       [40]krupted
+          + [41]View Profile
+          + [42]View Forum Posts
+       krupted is offline HWC Elite Member
+
+        Join Date
+                Jan 2002
+
+        Posts
+                6,334
+
+HDTV Component Output with ATI card help
+
+     this is for my media center pc, and i have been searching up and
+     down google but the results are very confusing
+     I have a 32" jvc crt tv, with component inputs (and composite+svid).
+     I have a x850xt with hdtv out via component, but its not working. i
+     know the video card is OK, i know the component in works on the tv
+     (it does with my dvd player) and i can even see a glimpse of the
+     video when i select the input on the tv (it flashes the screen while
+     its changing inputs and i can see breifly the full desktop, so it
+     seems like its trying).
+     i tried hooking it up via s-video (still had to use force-detect
+     tv), but i only get black and white. btw, i am using the original
+     component adapters that came with the card (it does make a
+     difference i guess, the nvidia ones wont work). im not too worried
+     about this since its just svid and not what i want anyway, but im
+     wondering if the problems are related (same port on the card is used
+     for either).
+     any ideas? my htpc is finally functional. i also cant use realvnc
+     while media center is running, but i want to get my tv working
+     first...
+
+
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. March 10th, 2007, 01:36 PM [45]#2
+       [46]jankerson's Avatar
+       [47]jankerson
+          + [48]View Profile
+          + [49]View Forum Posts
+       jankerson is offline Super Moderator
+
+        Join Date
+                Jun 1999
+
+        Location
+                North Carolina
+
+        Posts
+                12,263
+
+     Could be a setting on the TV possibly?
+
+     Intel I5 750 @ 2.67 Ghz, 4gb GSkill DDR3 1600, GB P55M-UD2, XFX
+     Radeon 5850. , Seagate Constellation ES 1 TB, Seasonic Gold 620w,
+     Win Vista Ultimate, Toshiba 32" HDTV
+     E6750 Core 2 Duo, 2GB Corsair XMS2 DDR2 800, GB P35C-DS3R MB, ATI
+     Radeon X1950XT, Seagate 7200.9 320GB, Win XP Pro SP2, Enermax
+     Liberty 500w
+     [50]HWC Folding@Home Team -- [51]Learn How to Join the Team Here
+     ---[52]Detailed Stats
+       [53]Reply With Quote Reply With Quote [54]Share on Google+
+         ______________________________________________________________
+
+    3. March 10th, 2007, 02:37 PM [55]#3
+       [56]edhe62's Avatar
+       [57]edhe62
+          + [58]View Profile
+          + [59]View Forum Posts
+       edhe62 is offline HWC Technician
+
+        Join Date
+                Sep 2002
+
+        Location
+                Raymond, WA
+
+        Posts
+                1,081
+
+     Is there a setting on the v-card or in Media Center that needs to be
+     changed to make it send the output through the component jacks?
+
+     AMD AM2 5600+ Arctic Cooling Freezer 64Pro Asus M2N 2gb Corsair XMS2
+     250gb SATA Seagate Barracuda XFX GTX260 Core 216 LeadTek PVR2000
+     Capture Card CoolerMaster Centurian 5 case Corsair VX550 PSU 19' DCL
+     LCD Vista Home Premium 64
+     [60]Folding@Home Stats [61]Join the Team
+       [62]Reply With Quote Reply With Quote [63]Share on Google+
+         ______________________________________________________________
+
+    4. March 10th, 2007, 03:19 PM [64]#4
+       [65]krupted's Avatar
+       [66]krupted
+          + [67]View Profile
+          + [68]View Forum Posts
+       krupted is offline HWC Elite Member
+
+        Join Date
+                Jan 2002
+
+        Posts
+                6,334
+
+     thanks for the replies guys
+     no and no. i think i know whats going on though. first of all, my
+     video card was no screwed in fully straight, so the case was
+     interfering with me pushing the svideo jack in all the way, so at
+     least now i have color svideo.
+     but the component still doesnt work. well, like i said i do see
+     breif flashes of the image on my tv, so im almost certain the pc is
+     outputting the signal correctly. its my tv. i think because its not
+     a high-def screen (but it does have component inputs) its just not
+     seeing the signal quite right. its a bummer only because the s-video
+     is pretty poor in terms of color reproduction, but i have to admit
+     the resolution from the svid is fine. i honestly cant tell the
+     difference from hooking the cable straight into the tv or going
+     through media center with the svid jack (my tv does a damn good job
+     of cleaning up and presenting video).
+     my lesson from all of this is just dont buy a tv without dvi or hdmi
+     input. simple as that. a couple years ago when i bought this tv
+     there wasnt many options for inputs but in these days there isnt
+     much excuse. in a few more years nobody will have to worry about
+     these problems as i think all tv's will just have two inputs,
+     composite (not component) and hdmi.
+     ps- and it seems ultr@vnc does work with media center, as long as
+     media center is running before you login with vnc (sort of tricks it
+     into working) still a pita though, because if the pc or mc needs to
+     be restarted for any reason, i have no choice but to go to the
+     family room and open media center first. there is a microsoft
+     service that allows you to work the channel guide from a remote pc,
+     i may look into that.
+
+     Last edited by krupted; March 10th, 2007 at 03:23 PM.
+
+
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    5. March 10th, 2007, 03:25 PM [71]#5
+       [72]jankerson's Avatar
+       [73]jankerson
+          + [74]View Profile
+          + [75]View Forum Posts
+       jankerson is offline Super Moderator
+
+        Join Date
+                Jun 1999
+
+        Location
+                North Carolina
+
+        Posts
+                12,263
+
+     Yeah I can understand that.
+     I haven't hooked up a TV to my PC's although I could as I my Plasma
+     has a DVI input.
+
+     Intel I5 750 @ 2.67 Ghz, 4gb GSkill DDR3 1600, GB P55M-UD2, XFX
+     Radeon 5850. , Seagate Constellation ES 1 TB, Seasonic Gold 620w,
+     Win Vista Ultimate, Toshiba 32" HDTV
+     E6750 Core 2 Duo, 2GB Corsair XMS2 DDR2 800, GB P35C-DS3R MB, ATI
+     Radeon X1950XT, Seagate 7200.9 320GB, Win XP Pro SP2, Enermax
+     Liberty 500w
+     [76]HWC Folding@Home Team -- [77]Learn How to Join the Team Here
+     ---[78]Detailed Stats
+       [79]Reply With Quote Reply With Quote [80]Share on Google+
+         ______________________________________________________________
+
+    6. March 11th, 2007, 04:33 PM [81]#6
+       [82]krupted's Avatar
+       [83]krupted
+          + [84]View Profile
+          + [85]View Forum Posts
+       krupted is offline HWC Elite Member
+
+        Join Date
+                Jan 2002
+
+        Posts
+                6,334
+
+     ill tell you what though, having a small low power pc for media
+     center just kills any set-top cable box. of course the experience is
+     not as nice with sattelite or digital cable, but thats only because
+     pc's cannot input high-def signals. there is no such thing as a
+     component input for pc's, and that ****S! media center can actually
+     control cable box's really well, and i was watching digital cable on
+     my media center for awhile, but the picutre quality over composite
+     was just bad. i went for the happy medium, i ditched all of the
+     digital cable service, went back to just plain analog and bought a
+     ati tv650 so i can get the local high-def channels, and still get my
+     cable tv in full quality. the results are outstanding, the tv650
+     theater card is amazing, there is no other tv tuner that looks this
+     good. my analog cable looks better then i ever thought it could, and
+     the high-def programs actually reveal how normal my lcd monitor is
+     (now i want a high-end lcd! )
+
+
+       [86]Reply With Quote Reply With Quote [87]Share on Google+
+         ______________________________________________________________
+
+    7. March 11th, 2007, 11:05 PM [88]#7
+       [89]equinoxe3d's Avatar
+       [90]equinoxe3d
+          + [91]View Profile
+          + [92]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     Just a shot in the dark here, but could it be because the TV doesn't
+     support progressive scan (480p) on component inputs, and the signal
+     the video card spits out via component is progressive?
+     There's a great deal of CRT TVs out there that have component inputs
+     but no 480p support.
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [93]Join the HwC Folding@Home team!
+       [94]Reply With Quote Reply With Quote [95]Share on Google+
+         ______________________________________________________________
+
+    8. March 11th, 2007, 11:06 PM [96]#8
+       [97]equinoxe3d's Avatar
+       [98]equinoxe3d
+          + [99]View Profile
+          + [100]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     (sorry double post)
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [101]Join the HwC Folding@Home team!
+       [102]Reply With Quote Reply With Quote [103]Share on Google+
+         ______________________________________________________________
+
+    9. March 12th, 2007, 02:37 AM [104]#9
+       [105]krupted's Avatar
+       [106]krupted
+          + [107]View Profile
+          + [108]View Forum Posts
+       krupted is offline HWC Elite Member
+
+        Join Date
+                Jan 2002
+
+        Posts
+                6,334
+
+     probably. its a really nice looking screen, but you can tell the
+     component inputs are not a main feature. come to think of it, i dont
+     ever remember being able to use progressive from my dvd player, but
+     at least that could just use interlace. i bet youre right... that
+     would explain why i could see one flash of the desktop and thats it.
+
+
+       [109]Reply With Quote Reply With Quote [110]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [111]PC Video, Digital Imaging, and Displays [112]Top
+     * Site Areas
+     * [113]Settings
+     * [114]Private Messages
+     * [115]Subscriptions
+     * [116]Who's Online
+     * [117]Search Forums
+     * [118]Forums Home
+     * Forums
+     * [119]General Forums
+         1. [120]General Tech Talk and Support
+         2. [121]PC and Console Gaming
+         3. [122]Software
+     * [123]Hardware Forums
+         1. [124]CPUs and Motherboards
+         2. [125]Cases, Cooling, and Overclocking
+         3. [126]PC Audio and Home Theater
+         4. [127]PC Video, Digital Imaging, and Displays
+         5. [128]Storage and Peripherals
+         6. [129]Networking and the Internet
+         7. [130]Mobile Technology
+     * [131]Community
+         1. [132]HWC Feedback
+         2. [133]Central Lounge
+         3. [134]For Sale Or Trade
+
+   « [135]Previous Thread | [136]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [137]BB code is On
+     * [138]Smilies are On
+     * [139][IMG] code is On
+     * [140][VIDEO] code is On
+     * HTML code is Off
+
+   [141]Forum Rules
+   [-- hardwarecentral yellow]
+     * [142]Contact Us
+     * [143]HardwareCentral Forums
+     * [144]Archive
+     * [145]Top
+
+   IFRAME:
+   [146]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:09 PM.
+
+   Powered by [147]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=8
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=175624&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=175624
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=175624
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=175624&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005413&mode=threaded#post1005413
+  38. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005413#post1005413
+  39. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  42. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36893&contenttype=vBForum_Post&showposts=1
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005413
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005413#post1005413
+  45. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005453#post1005453
+  46. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  49. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37514&contenttype=vBForum_Post&showposts=1
+  50. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  51. http://discussions.hardwarecentral.com/showthread.php?p=963597#post963597
+  52. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+  53. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005453
+  54. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005453#post1005453
+  55. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005458#post1005458
+  56. http://www.hardwarecentral.com/member.php?39585-edhe62&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/member.php?39585-edhe62&s=af52edabdca22194a05a25ea9dfcc77f
+  58. http://www.hardwarecentral.com/member.php?39585-edhe62&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39585&contenttype=vBForum_Post&showposts=1
+  60. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+  61. http://discussions.hardwarecentral.com/showthread.php?t=169431
+  62. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005458
+  63. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005458#post1005458
+  64. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005461#post1005461
+  65. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36893&contenttype=vBForum_Post&showposts=1
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005461
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005461#post1005461
+  71. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005462#post1005462
+  72. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37514&contenttype=vBForum_Post&showposts=1
+  76. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  77. http://discussions.hardwarecentral.com/showthread.php?p=963597#post963597
+  78. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+  79. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005462
+  80. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005462#post1005462
+  81. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005547#post1005547
+  82. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36893&contenttype=vBForum_Post&showposts=1
+  86. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005547
+  87. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005547#post1005547
+  88. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005583#post1005583
+  89. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+  93. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  94. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005583
+  95. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005583#post1005583
+  96. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005584#post1005584
+  97. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+ 101. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 102. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005584
+ 103. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005584#post1005584
+ 104. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&p=1005597#post1005597
+ 105. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36893&contenttype=vBForum_Post&showposts=1
+ 109. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1005597
+ 110. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?175624&p=1005597#post1005597
+ 111. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help#top
+ 113. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 136. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 137. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 138. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 139. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 140. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 141. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 142. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/
+ 144. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help#top
+ 146. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 147. https://www.vbulletin.com/
+
+   Hidden links:
+ 149. http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=225bw&N=0&Dx=mode+matchall&Nty=1&D=225bw&Ntk=All&product_code=341469
+ 150. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005413%23post1005413&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 151. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005413%23post1005413&source=webclient
+ 152. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005413%23post1005413&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 153. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005453%23post1005453&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 154. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005453%23post1005453&source=webclient
+ 155. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005453%23post1005453&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 156. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005458%23post1005458&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 157. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005458%23post1005458&source=webclient
+ 158. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005458%23post1005458&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 159. http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=225bw&N=0&Dx=mode+matchall&Nty=1&D=225bw&Ntk=All&product_code=341469
+ 160. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005461%23post1005461&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 161. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005461%23post1005461&source=webclient
+ 162. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005461%23post1005461&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 163. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005462%23post1005462&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 164. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005462%23post1005462&source=webclient
+ 165. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005462%23post1005462&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 166. http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=225bw&N=0&Dx=mode+matchall&Nty=1&D=225bw&Ntk=All&product_code=341469
+ 167. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005547%23post1005547&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 168. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005547%23post1005547&source=webclient
+ 169. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005547%23post1005547&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 170. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005583%23post1005583&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 171. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005583%23post1005583&source=webclient
+ 172. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005583%23post1005583&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 173. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005584%23post1005584&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 174. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005584%23post1005584&source=webclient
+ 175. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005584%23post1005584&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 176. http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=225bw&N=0&Dx=mode+matchall&Nty=1&D=225bw&Ntk=All&product_code=341469
+ 177. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005597%23post1005597&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 178. http://twitter.com/share?text=HDTV%20Component%20Output%20with%20ATI%20card%20help&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005597%23post1005597&source=webclient
+ 179. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F175624%26p%3D1005597%23post1005597&title=HDTV%20Component%20Output%20with%20ATI%20card%20help&summary=&source=HardwareCentral%20Forums
+ 180. http://www.hardwarecentral.com/showthread.php?175624-HDTV-Component-Output-with-ATI-card-help#top

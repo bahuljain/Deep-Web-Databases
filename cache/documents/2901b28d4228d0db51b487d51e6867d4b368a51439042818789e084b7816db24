@@ -1,0 +1,432 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums -
+   Networking and the Internet - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Networking and the Internet
+     * Data Center - Server Naming Convention
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 5 of 5
+
+Thread: [27]Data Center - Server Naming Convention
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. March 9th, 2004, 07:24 PM [38]#1
+       [39]Pseudocyber's Avatar
+       [40]Pseudocyber
+          + [41]View Profile
+          + [42]View Forum Posts
+       Pseudocyber is offline HWC Technician
+
+        Join Date
+                Sep 2002
+
+        Location
+                Earth\US\NC\Charlotte
+
+        Posts
+                1,002
+
+Question Data Center - Server Naming Convention
+
+     I'm asking this question in this forum because it doesn't really
+     apply to a specific OS and I thought this forum is likely to be
+     frequented by IT Professionals.
+     We have approximately 400+ servers in our Data Center - a mixture of
+     about 60% Windows, 30% Solaris, and 10% other. We're in the process
+     of totally redoing our data center - new uniform racks, redesign
+     layout because of cooling issues, cable management, moving servers,
+     etc.
+     I would like to solicit expert's opinions & experience on a naming
+     convention for the servers. We have four offices across the country
+     so we like to start everything with "cX" where X is a number from 1
+     to 4 to indicate the office (Corporate office 1, and so on).
+     After the cX it's kind of wide open. We're thinking something along
+     the lines of purpose (as in AP for Application, FS for File Server,
+     WB for Web Server, DB for data base, and so on). Then a two letter
+     indicator for business unit such as HR for HR, FI for Finance, and
+     so on. Then just a three digit number such as 001 to indicate the
+     number of the server in that unit. I think OS would be helpful, as
+     the operations teams are split into Windows, Unix, Database, App
+     Dev, etc. So, something like MS for Microsoft, SO for Solaris, RH
+     for Red Hat Linux, AX for AIX, etc.
+     Put these all together and we might get c3fshr001 for Corporate 3
+     location, File Server, HR department, #001. I like the OS in front
+     of the purpose - so it could be c3msfshr001.
+     These names need to work with DNS (Windows and BIND), WINS, and AD.
+     Thanks for your interest.
+
+     POS
+     Super Moderator of [43]networkstoday.com, Moderator
+     at[44]icertify.net, Moderator at [45]techsupportforum.com
+       [46]Reply With Quote Reply With Quote [47]Share on Google+
+         ______________________________________________________________
+
+    2. March 10th, 2004, 02:04 PM [48]#2
+       [49]Silicon Scream's Avatar
+       [50]Silicon Scream
+          + [51]View Profile
+          + [52]View Forum Posts
+       Silicon Scream is offline Junior Member
+
+        Join Date
+                Aug 1999
+
+        Posts
+                186
+
+     I would think you could possibly change the office naming portion of
+     the computer name to something a little less cryptic like so:
+     For an office in Boston you could do bosmsfshr001
+     You might also think about moving the type of server to be after the
+     dept. Since you probably have 50 or so file servers alone, if you're
+     trying to track down a departmental thing, it would be easier to go
+     by Office - Dept - Type - #001
+     or
+     boshrfs001
+     If you have multiple offices in the same city, it would be easier to
+     use bos1 and bos2 respectively than just c1 and c2.
+     This to me makes more sense as it's probably how you also should
+     setup sites & services for printer mapping etc...
+     in that case we presently use /Office/Bldg/Floor/Location
+
+     Systems Administrator
+       [53]Reply With Quote Reply With Quote [54]Share on Google+
+         ______________________________________________________________
+
+    3. March 11th, 2004, 10:44 PM [55]#3
+       [56]puritan3638
+          + [57]View Profile
+          + [58]View Forum Posts
+       puritan3638 is offline 5000
+
+        Join Date
+                Sep 2003
+
+        Location
+                Cincinnati, Oh
+
+        Posts
+                77
+
+     I have to agree with Silicon Scream here. go with a city code, dept,
+     app type and then id number. You end up with 10 characters, which
+     keeps you safe as far an naming limitations go for system names.
+     puritan
+       [59]Reply With Quote Reply With Quote [60]Share on Google+
+         ______________________________________________________________
+
+    4. March 12th, 2004, 09:30 AM [61]#4
+       [62]Pseudocyber's Avatar
+       [63]Pseudocyber
+          + [64]View Profile
+          + [65]View Forum Posts
+       Pseudocyber is offline HWC Technician
+
+        Join Date
+                Sep 2002
+
+        Location
+                Earth\US\NC\Charlotte
+
+        Posts
+                1,002
+
+     Thanks for the advice guys.
+
+     POS
+     Super Moderator of [66]networkstoday.com, Moderator
+     at[67]icertify.net, Moderator at [68]techsupportforum.com
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    5. March 18th, 2004, 06:11 PM [71]#5
+       [72]Gary73UK
+          + [73]View Profile
+          + [74]View Forum Posts
+          + [75]Visit Homepage
+       Gary73UK is offline 5000
+
+        Join Date
+                Jun 2002
+
+        Location
+                Manchester, UK
+
+        Posts
+                47
+
+     We have 4 Data Centers and approx 4000+ Servers in each......
+     We have the following STRICT naming convention:
+     Hardware Manufacturer, Hardware Model, Operating System, Location,
+     Integer Counter
+     Example:
+     HP Supderdome running HP-Unix in Mitcham and Server 00001
+     HPSDUXMIT00001
+     ICL Mainframe running VME in Manchester and server 00014
+     ICLVMEMAN00014
+     We then ALWAYS setup a 'freindly alias' for admin staff and user
+     connections as well as application support.
+
+     Apple Powermac G5, Dual 1.8 IBM G5 Processors, 1gb Crucial DDR400
+     Ram, 512mb Samsung DDR400 Ram, 160gb SATA-150 Drive, Superdrive
+     DVD±RW, Geforce FX Graphics, 21" TFT Monitor
+     AMD AthlonXP 2400+, 512mb Ram, 120gb HDD, DVD±RW, Geforce 4 TI4800SE
+     128mb Graphics, Nforce 2 Motherboard
+       [76]Reply With Quote Reply With Quote [77]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [78]Networking and the Internet [79]Top
+     * Site Areas
+     * [80]Settings
+     * [81]Private Messages
+     * [82]Subscriptions
+     * [83]Who's Online
+     * [84]Search Forums
+     * [85]Forums Home
+     * Forums
+     * [86]General Forums
+         1. [87]General Tech Talk and Support
+         2. [88]PC and Console Gaming
+         3. [89]Software
+     * [90]Hardware Forums
+         1. [91]CPUs and Motherboards
+         2. [92]Cases, Cooling, and Overclocking
+         3. [93]PC Audio and Home Theater
+         4. [94]PC Video, Digital Imaging, and Displays
+         5. [95]Storage and Peripherals
+         6. [96]Networking and the Internet
+         7. [97]Mobile Technology
+     * [98]Community
+         1. [99]HWC Feedback
+         2. [100]Central Lounge
+         3. [101]For Sale Or Trade
+
+   « [102]Previous Thread | [103]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [104]BB code is On
+     * [105]Smilies are On
+     * [106][IMG] code is On
+     * [107][VIDEO] code is On
+     * HTML code is Off
+
+   [108]Forum Rules
+   [-- hardwarecentral yellow]
+     * [109]Contact Us
+     * [110]HardwareCentral Forums
+     * [111]Archive
+     * [112]Top
+
+   IFRAME:
+   [113]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 08:56 PM.
+
+   Powered by [114]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=15
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=155746&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=155746
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=155746
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=155746&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&p=865098&mode=threaded#post865098
+  38. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&p=865098#post865098
+  39. http://www.hardwarecentral.com/member.php?39575-Pseudocyber&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?39575-Pseudocyber&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/member.php?39575-Pseudocyber&s=af52edabdca22194a05a25ea9dfcc77f
+  42. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39575&contenttype=vBForum_Post&showposts=1
+  43. http://www.networkstoday.com/
+  44. http://www.icertify.net/
+  45. http://www.techsupportforum.com/
+  46. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=865098
+  47. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?155746&p=865098#post865098
+  48. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&p=865236#post865236
+  49. http://www.hardwarecentral.com/member.php?7681-Silicon-Scream&s=af52edabdca22194a05a25ea9dfcc77f
+  50. http://www.hardwarecentral.com/member.php?7681-Silicon-Scream&s=af52edabdca22194a05a25ea9dfcc77f
+  51. http://www.hardwarecentral.com/member.php?7681-Silicon-Scream&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7681&contenttype=vBForum_Post&showposts=1
+  53. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=865236
+  54. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?155746&p=865236#post865236
+  55. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&p=865489#post865489
+  56. http://www.hardwarecentral.com/member.php?41825-puritan3638&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/member.php?41825-puritan3638&s=af52edabdca22194a05a25ea9dfcc77f
+  58. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=41825&contenttype=vBForum_Post&showposts=1
+  59. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=865489
+  60. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?155746&p=865489#post865489
+  61. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&p=865531#post865531
+  62. http://www.hardwarecentral.com/member.php?39575-Pseudocyber&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/member.php?39575-Pseudocyber&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/member.php?39575-Pseudocyber&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=39575&contenttype=vBForum_Post&showposts=1
+  66. http://www.networkstoday.com/
+  67. http://www.icertify.net/
+  68. http://www.techsupportforum.com/
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=865531
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?155746&p=865531#post865531
+  71. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&p=866663#post866663
+  72. http://www.hardwarecentral.com/member.php?38533-Gary73UK&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?38533-Gary73UK&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38533&contenttype=vBForum_Post&showposts=1
+  75. http://www.bowers1.com/
+  76. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=866663
+  77. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?155746&p=866663#post866663
+  78. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention#top
+  80. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  95. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  96. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 103. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 104. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 105. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 106. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 107. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 108. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 109. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/
+ 111. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention#top
+ 113. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 114. https://www.vbulletin.com/
+
+   Hidden links:
+ 116. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865098%23post865098&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 117. http://twitter.com/share?text=Data%20Center%20-%20Server%20Naming%20Convention&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865098%23post865098&source=webclient
+ 118. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865098%23post865098&title=Data%20Center%20-%20Server%20Naming%20Convention&summary=&source=HardwareCentral%20Forums
+ 119. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865236%23post865236&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 120. http://twitter.com/share?text=Data%20Center%20-%20Server%20Naming%20Convention&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865236%23post865236&source=webclient
+ 121. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865236%23post865236&title=Data%20Center%20-%20Server%20Naming%20Convention&summary=&source=HardwareCentral%20Forums
+ 122. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865489%23post865489&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 123. http://twitter.com/share?text=Data%20Center%20-%20Server%20Naming%20Convention&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865489%23post865489&source=webclient
+ 124. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865489%23post865489&title=Data%20Center%20-%20Server%20Naming%20Convention&summary=&source=HardwareCentral%20Forums
+ 125. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865531%23post865531&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 126. http://twitter.com/share?text=Data%20Center%20-%20Server%20Naming%20Convention&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865531%23post865531&source=webclient
+ 127. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D865531%23post865531&title=Data%20Center%20-%20Server%20Naming%20Convention&summary=&source=HardwareCentral%20Forums
+ 128. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D866663%23post866663&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 129. http://twitter.com/share?text=Data%20Center%20-%20Server%20Naming%20Convention&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D866663%23post866663&source=webclient
+ 130. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F155746%26p%3D866663%23post866663&title=Data%20Center%20-%20Server%20Naming%20Convention&summary=&source=HardwareCentral%20Forums
+ 131. http://www.hardwarecentral.com/showthread.php?155746-Data-Center-Server-Naming-Convention#top

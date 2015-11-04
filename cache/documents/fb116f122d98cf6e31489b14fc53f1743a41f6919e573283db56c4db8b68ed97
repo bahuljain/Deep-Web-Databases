@@ -1,0 +1,846 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - CPUs
+   and Motherboards - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]CPUs and Motherboards
+     * How to replace CPU pins????
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   [27]Page 1 of 2 [28]1[29]2 [30]Next [31]Last Last
+     * Jump to page: ____ Go
+
+   Results 1 to 15 of 23
+
+Thread: [32]How to replace CPU pins????
+
+   [33]Tweet
+     * [34]Thread Tools
+          + [35]Show Printable Version
+          + [36]Email this Page…
+          + [37]Subscribe to this Thread…
+     * [38]Search Thread
+          + Search...___________ Search
+          +
+            [39]Advanced Search
+     * [40]Display
+          + Linear Mode
+          + [41]Switch to Hybrid Mode
+          + [42]Switch to Threaded Mode
+
+    1. February 9th, 2003, 09:34 PM [43]#1
+       [44]Hemiboy
+          + [45]View Profile
+          + [46]View Forum Posts
+       Hemiboy is offline Huge Member
+
+        Join Date
+                Oct 2000
+
+        Location
+                Ontario Canada
+
+        Posts
+                350
+
+How to replace CPU pins????
+
+     Subject sais it all.
+     I have a friend who gets damaged CPUs for almost nothing. I'm
+     curious as to how to replace a CPU pin. Is there any website that
+     describes how? what tools are needed? anything to watch out for
+     (heat, solder type, Damage to motherboard, ect)
+     Thanks
+
+     For fellow Canadians ONLY:
+     Visit [47]Canada's Air Miles Online Shopping Mall - YourShops.ca
+     Earn AIR MILES on every purchase!
+     All stores ship to Canada!
+       [48]Reply With Quote Reply With Quote [49]Share on Google+
+         ______________________________________________________________
+
+    2. February 9th, 2003, 09:59 PM [50]#2
+       [51]glussier's Avatar
+       [52]glussier
+          + [53]View Profile
+          + [54]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     You can't replace cpu pins. However, Depending on which pin(s)
+     is/are broken the cpu could still be in working condition. I,m sure
+     I could take any processor P3. p4 or Athlon and snip out 1 to 2
+     dozen pins of my own chosing and the processor would still be
+     working. There is a lot of redundancy in the processor's connectors.
+
+     Gilles Lussier
+     [55]HWC Folding@Home Team
+       [56]Reply With Quote Reply With Quote [57]Share on Google+
+         ______________________________________________________________
+
+    3. February 9th, 2003, 10:01 PM [58]#3
+       [59]Hemiboy
+          + [60]View Profile
+          + [61]View Forum Posts
+       Hemiboy is offline Huge Member
+
+        Join Date
+                Oct 2000
+
+        Location
+                Ontario Canada
+
+        Posts
+                350
+
+     why CANT I replace cpu pins?
+     Not even with the right tools???
+
+     For fellow Canadians ONLY:
+     Visit [62]Canada's Air Miles Online Shopping Mall - YourShops.ca
+     Earn AIR MILES on every purchase!
+     All stores ship to Canada!
+       [63]Reply With Quote Reply With Quote [64]Share on Google+
+         ______________________________________________________________
+
+    4. February 9th, 2003, 10:18 PM [65]#4
+       [66]glussier's Avatar
+       [67]glussier
+          + [68]View Profile
+          + [69]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     You'll need to wait for a reply from the cpu pins specialist.
+
+     Gilles Lussier
+     [70]HWC Folding@Home Team
+       [71]Reply With Quote Reply With Quote [72]Share on Google+
+         ______________________________________________________________
+
+    5. February 9th, 2003, 10:21 PM [73]#5
+       [74]Hemiboy
+          + [75]View Profile
+          + [76]View Forum Posts
+       Hemiboy is offline Huge Member
+
+        Join Date
+                Oct 2000
+
+        Location
+                Ontario Canada
+
+        Posts
+                350
+
+     ok.....
+     waiting.....
+     in the mean time, does anyone know where I can get pictures and
+     diagrams of what pins are useless on different CPUs????
+
+     For fellow Canadians ONLY:
+     Visit [77]Canada's Air Miles Online Shopping Mall - YourShops.ca
+     Earn AIR MILES on every purchase!
+     All stores ship to Canada!
+       [78]Reply With Quote Reply With Quote [79]Share on Google+
+         ______________________________________________________________
+
+    6. February 9th, 2003, 10:36 PM [80]#6
+       [81]glussier's Avatar
+       [82]glussier
+          + [83]View Profile
+          + [84]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     There is no useless pin as such and no document to describe them,
+     but you can get a description of most Athlon cpu pins in the Athlon
+     databook which can be found at
+     [85]http://cdrom.amd.com/21860/25175.pdf
+
+     Gilles Lussier
+     [86]HWC Folding@Home Team
+       [87]Reply With Quote Reply With Quote [88]Share on Google+
+         ______________________________________________________________
+
+    7. February 9th, 2003, 10:56 PM [89]#7
+       [90]ol' man
+          + [91]View Profile
+          + [92]View Forum Posts
+       ol' man is offline workin fingas to the bone
+
+        Join Date
+                Oct 2000
+
+        Posts
+                9,664
+
+     You can sometimes replace pins with conductive epoxy and others have
+     soldered new pins on them. I am not a pins specialists but it would
+     seem that gluss has been studying the pin layout of the tbred.
+     I have suggested before that maybe you can soldered to contacts
+     together on the back of a sock A mobo to unlock the multi's instead
+     of doing it on the CPU. It would seem that some of the mobo makers
+     have figured this out now and they automatically unlock the
+     processor for you through the mobo itself. This further supports my
+     belief that you could unlock a CPU on the back side of the AMD mobo.
+     TO me if all it entails is soldering two contacts together on the
+     back it could help a whole heap of problems and take alot less time.
+
+     [93]HWC top 100 posters link
+     These are modifications not for the faint of heart.
+     [94]Have you hacked your MSN NetDSL 800 modem yet today?
+     [95]Gigabyte GA-8IPE 1000L memory voltage modification
+     [96]Radeon Cooling Mod tutorial.
+       [97]Reply With Quote Reply With Quote [98]Share on Google+
+         ______________________________________________________________
+
+    8. February 9th, 2003, 11:26 PM [99]#8
+       [100]glussier's Avatar
+       [101]glussier
+          + [102]View Profile
+          + [103]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Originally posted by ol' man
+     You can sometimes replace pins with conductive epoxy and others have
+     soldered new pins on them. I am not a pins specialists but it would
+     seem that gluss has been studying the pin layout of the tbred.
+     I have suggested before that maybe you can soldered to contacts
+     together on the back of a sock A mobo to unlock the multi's instead
+     of doing it on the CPU. It would seem that some of the mobo makers
+     have figured this out now and they automatically unlock the
+     processor for you through the mobo itself. This further supports my
+     belief that you could unlock a CPU on the back side of the AMD mobo.
+     TO me if all it entails is soldering two contacts together on the
+     back it could help a whole heap of problems and take alot less time.
+     I have an msi kt3 ultra2, and while the bios gave me control over
+     the lower multipliers, it didn't give me control over the high
+     multiplier (13 and up), so I used a single pole double throw
+     micro-switch and tied one end to vcc and the other to vss so that I
+     could send bp_fid4 to ground (vss) or to vcc, this way I can control
+     the fifth bit which gives access to the low and high multipliers.
+
+     Gilles Lussier
+     [104]HWC Folding@Home Team
+       [105]Reply With Quote Reply With Quote [106]Share on Google+
+         ______________________________________________________________
+
+    9. February 10th, 2003, 12:08 AM [107]#9
+       [108]ol' man
+          + [109]View Profile
+          + [110]View Forum Posts
+       ol' man is offline workin fingas to the bone
+
+        Join Date
+                Oct 2000
+
+        Posts
+                9,664
+
+     Originally posted by glussier
+     I have an msi kt3 ultra2, and while the bios gave me control over
+     the lower multipliers, it didn't give me control over the high
+     multiplier (13 and up), so I used a single pole double throw
+     micro-switch and tied one end to vcc and the other to vss so that I
+     could send bp_fid4 to ground (vss) or to vcc, this way I can control
+     the fifth bit which gives access to the low and high multipliers.
+     So you were studying the data sheets. So you did this mod to the
+     mobo and not the CPU? You are the first person I have heard of not
+     doing the mod on the chip. Most likely those people trying to solder
+     the CPU itself would have found it much easier to solder on the back
+     of the mobo. I know I sure have.
+
+     [111]HWC top 100 posters link
+     These are modifications not for the faint of heart.
+     [112]Have you hacked your MSN NetDSL 800 modem yet today?
+     [113]Gigabyte GA-8IPE 1000L memory voltage modification
+     [114]Radeon Cooling Mod tutorial.
+       [115]Reply With Quote Reply With Quote [116]Share on Google+
+         ______________________________________________________________
+
+   10. February 10th, 2003, 12:10 AM [117]#10
+       [118]NewBlackDak's Avatar
+       [119]NewBlackDak
+          + [120]View Profile
+          + [121]View Forum Posts
+       NewBlackDak is offline rm -rf /
+
+        Join Date
+                Jul 2000
+
+        Location
+                East Texas
+
+        Posts
+                2,951
+
+     suweet
+     I'm not brave enough to go soldering on my $130 mobo yet
+
+     Opteron 148@2805(255x11-1.4v)
+     Stock cooling(until I get a water block)
+     Asrock 939Dual-SATAII
+     1GB PC3200 OCZ Gold EL(2-2-2-8-2 1T 5:6 Divider)
+     Sapphire X800GTO2(520/580 - Unlocked 16 Pipes)
+     Antec TruePower 550 vmodded
+     2x Western Digital WD-1200JS(RAID0)
+     Lite-ON 1633S DVDRW
+     Gentoo 2.6.14-nitro2
+       [122]Reply With Quote Reply With Quote [123]Share on Google+
+         ______________________________________________________________
+
+   11. February 10th, 2003, 12:20 AM [124]#11
+       [125]DEAN's Avatar
+       [126]DEAN
+          + [127]View Profile
+          + [128]View Forum Posts
+       DEAN is offline AMD/ATI Fanboy
+
+        Join Date
+                Jul 1999
+
+        Location
+                Huntington Beach, CA.
+
+        Posts
+                2,906
+
+     The pins are broken clean off???
+     I remeber in the K62-days I bent a few , completely made them
+     crushed into a ball, but I manged to straighten them out no problem,
+     the brass or whatever is extremely flexible in these pins.....
+       [129]Reply With Quote Reply With Quote [130]Share on Google+
+         ______________________________________________________________
+
+   12. February 10th, 2003, 12:29 AM [131]#12
+       [132]glussier's Avatar
+       [133]glussier
+          + [134]View Profile
+          + [135]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Originally posted by ol' man
+     So you were studying the data sheets. So you did this mod to the
+     mobo and not the CPU? You are the first person I have heard of not
+     doing the mod on the chip. Most likely those people trying to solder
+     the CPU itself would have found it much easier to solder on the back
+     of the mobo. I know I sure have.
+     I was not comfortable modding the cpu, so I modded the mobo, it is
+     much easier.
+     BTW, If some people are interested, I can probably take a few pics
+     and document the mod.
+
+     Last edited by glussier; February 10th, 2003 at 12:41 AM.
+
+     Gilles Lussier
+     [136]HWC Folding@Home Team
+       [137]Reply With Quote Reply With Quote [138]Share on Google+
+         ______________________________________________________________
+
+   13. February 10th, 2003, 03:35 AM [139]#13
+       [140]DuronClocker
+          + [141]View Profile
+          + [142]View Forum Posts
+          + [143]Visit Homepage
+       DuronClocker is offline .
+
+        Join Date
+                Sep 2001
+
+        Location
+                Bloomingdale, IL, USA
+
+        Posts
+                5,206
+
+     Originally posted by glussier
+     BTW, If some people are interested, I can probably take a few pics
+     and document the mod.
+     If you'd like some place to host it for you, I'm sure I can get it
+     onto Xibase's site in the soon-to-be articles/how-to's section. Let
+     me know when you get it done We're always looking for more content
+     there
+
+     Intel Pentium 4 2.53B C1 @2.85GHz (stock volts), watercooled @ 27*C
+     load
+     MSI 865PE Neo2-P (i865PE + ICH5), 1GB PC3200 DDR RAM
+     ATi Radeon X700Pro 256MB AGP8x
+     Seagate Barracuda 7200.9 160GB SATA, Maxtor DiamondMax 9 Plus 80GB
+     NEC DVD-RW (ND-3520A), Lite-On 52/32/52x CD-RW (LTR-52327S)
+     Microsoft Windows XP Professional SP2
+     [144]My Heatware | [145]My Beerology | [146]My eBay rating
+       [147]Reply With Quote Reply With Quote [148]Share on Google+
+         ______________________________________________________________
+
+   14. February 10th, 2003, 03:38 AM [149]#14
+       [150]DuronClocker
+          + [151]View Profile
+          + [152]View Forum Posts
+          + [153]Visit Homepage
+       DuronClocker is offline .
+
+        Join Date
+                Sep 2001
+
+        Location
+                Bloomingdale, IL, USA
+
+        Posts
+                5,206
+
+     Btw, for fixing pins that aren't broken clean off, I've found that
+     the tips of mechanical pencils work best. Always handy to have both
+     a .5mm and .7mm depending on CPU type. The new P4 chips though
+     appear to have an even smaller pin, though I haven't messed with
+     them and bent pins at all yet
+     I'm sure you could always try to solder pins back on. Use a fine
+     tipped soldering iron and some core-less solder (or rosin core if
+     you can't find any core-less). Preferably use something like SN63
+     (63% tin, 37% lead), or if not, at least use SN60 (60% tin, 40%
+     lead)... The SN63 will melt at a much lower temperature than other
+     solders..
+
+     Intel Pentium 4 2.53B C1 @2.85GHz (stock volts), watercooled @ 27*C
+     load
+     MSI 865PE Neo2-P (i865PE + ICH5), 1GB PC3200 DDR RAM
+     ATi Radeon X700Pro 256MB AGP8x
+     Seagate Barracuda 7200.9 160GB SATA, Maxtor DiamondMax 9 Plus 80GB
+     NEC DVD-RW (ND-3520A), Lite-On 52/32/52x CD-RW (LTR-52327S)
+     Microsoft Windows XP Professional SP2
+     [154]My Heatware | [155]My Beerology | [156]My eBay rating
+       [157]Reply With Quote Reply With Quote [158]Share on Google+
+         ______________________________________________________________
+
+   15. February 10th, 2003, 06:33 AM [159]#15
+       [160]Apple8
+          + [161]View Profile
+          + [162]View Forum Posts
+       Apple8 is offline Member
+
+        Join Date
+                Jun 2001
+
+        Location
+                Australia
+
+        Posts
+                407
+
+     You might be lucky to get away with it, although there is not much
+     room to move between pins.
+     Perhaps a a fine drop of solder on the cpu and then heating a
+     soldered pin which and putting it in place melting the solder on the
+     cpu until cool. Maybe even a longer pin then cutting off to size.
+     One limitation may be mechanical strength of the soldered joint.
+     Just a few thoughts. Good luck if you try.
+       [163]Reply With Quote Reply With Quote [164]Share on Google+
+         ______________________________________________________________
+
+   [165]Page 1 of 2 [166]1[167]2 [168]Next [169]Last Last
+     * Jump to page: ____ Go
+
+   Quick Navigation [170]CPUs and Motherboards [171]Top
+     * Site Areas
+     * [172]Settings
+     * [173]Private Messages
+     * [174]Subscriptions
+     * [175]Who's Online
+     * [176]Search Forums
+     * [177]Forums Home
+     * Forums
+     * [178]General Forums
+         1. [179]General Tech Talk and Support
+         2. [180]PC and Console Gaming
+         3. [181]Software
+     * [182]Hardware Forums
+         1. [183]CPUs and Motherboards
+         2. [184]Cases, Cooling, and Overclocking
+         3. [185]PC Audio and Home Theater
+         4. [186]PC Video, Digital Imaging, and Displays
+         5. [187]Storage and Peripherals
+         6. [188]Networking and the Internet
+         7. [189]Mobile Technology
+     * [190]Community
+         1. [191]HWC Feedback
+         2. [192]Central Lounge
+         3. [193]For Sale Or Trade
+
+   « [194]Previous Thread | [195]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [196]BB code is On
+     * [197]Smilies are On
+     * [198][IMG] code is On
+     * [199][VIDEO] code is On
+     * HTML code is Off
+
+   [200]Forum Rules
+   [-- hardwarecentral yellow]
+     * [201]Contact Us
+     * [202]HardwareCentral Forums
+     * [203]Archive
+     * [204]Top
+
+   IFRAME:
+   [205]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:12 PM.
+
+   Powered by [206]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=7
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. javascript:///
+  28. javascript:///
+  29. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  30. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  31. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  32. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f
+  33. https://twitter.com/share
+  34. javascript:///
+  35. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=141705&pp=15&page=1
+  36. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=141705
+  37. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=141705
+  38. javascript:///
+  39. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=141705&contenttype=vBForum_Post
+  40. javascript:///
+  41. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  42. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774572&mode=threaded#post774572
+  43. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774572#post774572
+  44. http://www.hardwarecentral.com/member.php?27814-Hemiboy&s=af52edabdca22194a05a25ea9dfcc77f
+  45. http://www.hardwarecentral.com/member.php?27814-Hemiboy&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27814&contenttype=vBForum_Post&showposts=1
+  47. http://www.yourshops.ca/
+  48. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774572
+  49. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774572#post774572
+  50. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774577#post774577
+  51. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  55. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  56. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774577
+  57. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774577#post774577
+  58. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774578#post774578
+  59. http://www.hardwarecentral.com/member.php?27814-Hemiboy&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/member.php?27814-Hemiboy&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27814&contenttype=vBForum_Post&showposts=1
+  62. http://www.yourshops.ca/
+  63. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774578
+  64. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774578#post774578
+  65. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774581#post774581
+  66. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  70. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  71. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774581
+  72. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774581#post774581
+  73. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774582#post774582
+  74. http://www.hardwarecentral.com/member.php?27814-Hemiboy&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/member.php?27814-Hemiboy&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27814&contenttype=vBForum_Post&showposts=1
+  77. http://www.yourshops.ca/
+  78. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774582
+  79. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774582#post774582
+  80. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774584#post774584
+  81. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  85. http://cdrom.amd.com/21860/25175.pdf
+  86. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  87. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774584
+  88. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774584#post774584
+  89. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774591#post774591
+  90. http://www.hardwarecentral.com/member.php?27617-ol-man&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/member.php?27617-ol-man&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27617&contenttype=vBForum_Post&showposts=1
+  93. http://discussions.hardwarecentral.com/memberlist.php?order=DESC&sort=posts&pp=100&ltr=
+  94. http://hhrol.50g.com/modemmod/Hack_MSN_NetDSL_800_with_Cisco_67x_modem.htm
+  95. http://hhrol.50g.com/mobomods/Gigabyte.GA8IPE1000L.voltage.modification.htm
+  96. http://hhrol.50g.com/radeonmods/RadeonCoolingMod.htm
+  97. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774591
+  98. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774591#post774591
+  99. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774605#post774605
+ 100. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 103. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+ 104. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 105. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774605
+ 106. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774605#post774605
+ 107. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774617#post774617
+ 108. http://www.hardwarecentral.com/member.php?27617-ol-man&s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/member.php?27617-ol-man&s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=27617&contenttype=vBForum_Post&showposts=1
+ 111. http://discussions.hardwarecentral.com/memberlist.php?order=DESC&sort=posts&pp=100&ltr=
+ 112. http://hhrol.50g.com/modemmod/Hack_MSN_NetDSL_800_with_Cisco_67x_modem.htm
+ 113. http://hhrol.50g.com/mobomods/Gigabyte.GA8IPE1000L.voltage.modification.htm
+ 114. http://hhrol.50g.com/radeonmods/RadeonCoolingMod.htm
+ 115. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774617
+ 116. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774617#post774617
+ 117. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774619#post774619
+ 118. http://www.hardwarecentral.com/member.php?24331-NewBlackDak&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/member.php?24331-NewBlackDak&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/member.php?24331-NewBlackDak&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=24331&contenttype=vBForum_Post&showposts=1
+ 122. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774619
+ 123. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774619#post774619
+ 124. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774620#post774620
+ 125. http://www.hardwarecentral.com/member.php?6837-DEAN&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/member.php?6837-DEAN&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/member.php?6837-DEAN&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=6837&contenttype=vBForum_Post&showposts=1
+ 129. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774620
+ 130. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774620#post774620
+ 131. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774623#post774623
+ 132. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+ 136. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 137. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774623
+ 138. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774623#post774623
+ 139. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774685#post774685
+ 140. http://www.hardwarecentral.com/member.php?34987-DuronClocker&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/member.php?34987-DuronClocker&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=34987&contenttype=vBForum_Post&showposts=1
+ 143. http://www.xibase.com/
+ 144. http://www.heatware.com/eval.php?id=9617
+ 145. http://www.beerology.com/ars/view.cfm?arsID=DuronClocker
+ 146. http://cgi2.ebay.com/aw-cgi/eBayISAPI.dll?ViewFeedback&userid=deanh87
+ 147. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774685
+ 148. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774685#post774685
+ 149. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774687#post774687
+ 150. http://www.hardwarecentral.com/member.php?34987-DuronClocker&s=af52edabdca22194a05a25ea9dfcc77f
+ 151. http://www.hardwarecentral.com/member.php?34987-DuronClocker&s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=34987&contenttype=vBForum_Post&showposts=1
+ 153. http://www.xibase.com/
+ 154. http://www.heatware.com/eval.php?id=9617
+ 155. http://www.beerology.com/ars/view.cfm?arsID=DuronClocker
+ 156. http://cgi2.ebay.com/aw-cgi/eBayISAPI.dll?ViewFeedback&userid=deanh87
+ 157. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774687
+ 158. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774687#post774687
+ 159. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&p=774703#post774703
+ 160. http://www.hardwarecentral.com/member.php?33257-Apple8&s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/member.php?33257-Apple8&s=af52edabdca22194a05a25ea9dfcc77f
+ 162. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=33257&contenttype=vBForum_Post&showposts=1
+ 163. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=774703
+ 164. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?141705&p=774703#post774703
+ 165. javascript:///
+ 166. javascript:///
+ 167. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 168. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 169. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 170. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins#top
+ 172. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 175. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 176. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 177. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 178. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 179. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 180. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 181. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 182. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 183. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 184. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 185. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 186. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 187. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 188. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 189. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 190. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 191. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 192. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 193. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 194. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 195. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 196. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 197. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 198. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 199. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 200. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 201. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 202. http://www.hardwarecentral.com/
+ 203. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 204. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins#top
+ 205. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 206. https://www.vbulletin.com/
+
+   Hidden links:
+ 208. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774572%23post774572&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 209. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774572%23post774572&source=webclient
+ 210. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774572%23post774572&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 211. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774577%23post774577&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 212. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774577%23post774577&source=webclient
+ 213. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774577%23post774577&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 214. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774578%23post774578&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 215. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774578%23post774578&source=webclient
+ 216. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774578%23post774578&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 217. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774581%23post774581&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 218. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774581%23post774581&source=webclient
+ 219. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774581%23post774581&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 220. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774582%23post774582&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 221. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774582%23post774582&source=webclient
+ 222. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774582%23post774582&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 223. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774584%23post774584&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 224. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774584%23post774584&source=webclient
+ 225. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774584%23post774584&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 226. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774591%23post774591&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 227. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774591%23post774591&source=webclient
+ 228. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774591%23post774591&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 229. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774605%23post774605&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 230. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774605%23post774605&source=webclient
+ 231. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774605%23post774605&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 232. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774617%23post774617&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 233. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774617%23post774617&source=webclient
+ 234. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774617%23post774617&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 235. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774619%23post774619&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 236. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774619%23post774619&source=webclient
+ 237. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774619%23post774619&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 238. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774620%23post774620&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 239. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774620%23post774620&source=webclient
+ 240. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774620%23post774620&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 241. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774623%23post774623&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 242. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774623%23post774623&source=webclient
+ 243. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774623%23post774623&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 244. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774685%23post774685&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 245. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774685%23post774685&source=webclient
+ 246. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774685%23post774685&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 247. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774687%23post774687&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 248. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774687%23post774687&source=webclient
+ 249. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774687%23post774687&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 250. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774703%23post774703&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 251. http://twitter.com/share?text=How%20to%20replace%20CPU%20pins????&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774703%23post774703&source=webclient
+ 252. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F141705%26p%3D774703%23post774703&title=How%20to%20replace%20CPU%20pins????&summary=&source=HardwareCentral%20Forums
+ 253. http://www.hardwarecentral.com/showthread.php?141705-How-to-replace-CPU-pins#top

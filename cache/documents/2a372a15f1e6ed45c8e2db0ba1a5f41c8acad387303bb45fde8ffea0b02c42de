@@ -1,0 +1,494 @@
+     * [1]Home
+     * [2]Mail
+     * [3]News
+     * [4]Sports
+     * [5]Finance
+     * [6]Weather
+     * [7]Games
+     * [8]Groups
+     * [9]Answers
+     * [10]Screen
+     * [11]Flickr
+     * [12]Mobile
+     * [13]More
+
+   ____________________ Search
+   [14]My Apps [15]Sign in
+
+Yahoo Design Pattern Library
+
+     * [16]Documentation
+     * [17]Forum
+
+Drag and Drop Modules
+
+   Working Solution · Last modified July 15, 2009
+   [dragdropmod.jpg]
+
+   For each one of multiple event states (or, as we call them, interesting
+   moments), drag and drop interactions must orchestrate a varying number
+   of on-screen elements (actors) that can be styled, positioned or
+   animated.
+
+   For dragging and dropping modules the set of interesting moments and
+   actors is smaller.
+
+   The key interesting moments are initial page rendering, mouse hover
+   over draggable object, drag initiated, drag over valid target, drag
+   over invalid target, drag over original location, drop accepted, drop
+   rejected, and drop back on original location.
+
+   The four interface actors are the cursor, a module (or thumbnail
+   representation of same), the original location of the module, and a
+   drop target.
+   Delicious [18]Bookmark this on Delicious
+
+What Problem Does This Solve?
+
+   The user needs needs to re-arrange the layout of modules on a web page
+   directly with the mouse.
+
+When to Use This Pattern
+
+     * You want to avoid forcing the user to go to another page in order
+       to re-arrange the layout
+     * You are designing a web portal page requiring user personalization
+       (such as [19]http://my.yahoo.com)
+
+What's the Solution?
+
+   Drag and drop interactions can be very complex. The complexity lies in
+   the number of event states (we call these event states interesting
+   moments) that can be used in a specific drag and drop sequence.
+
+   In addition, there are a number of on-screen elements (actors) that can
+   be styled, positioned or animated for each of the given event states.
+   To see the complete list of event states possible for drag and drop,
+   check out the [20]rationale for Drag and Drop.
+
+   For dragging and dropping modules the set of interesting moments and
+   actors is smaller. Here are the most pertinent interesting moments for
+   Drag and Drop Modules:
+     * Page generation (for what gets shown when the page is first
+       rendered)
+     * Mouse hover over draggable object
+     * Drag initiated (mouse down, mouse moves >= 3pixels)
+     * Drag over a valid target area
+     * Drag over an invalid target area
+     * Drag over the original location
+     * Drop accepted
+     * Drop rejected
+     * Drop back on original location
+
+   On a page with content modules, the following user interface elements
+   (actors) may particpate during each interesting moment.
+     * Cursor
+     * Module or thumbnail representation of module
+     * Original location of module being dragged
+     * Drop target (or insertion bar showing where module will be dropped)
+
+Interesting Moments Storyboard Grid
+
+   At each interesting moment in the drag and drop interaction, an actor
+   gets involved. This grid captures each of these interactions that occur
+   while re-arranging page modules during a drag and drop sequence.
+   Page Generation Mouse Hover Drag Initiated Drag over Valid Drag over
+   Invalid Drag over Original Drop Accepted Drop Rejected Drop on Original
+   Page Content Hint N/A N/A N/A N/A N/A N/A N/A N/A
+   Cursor Normal Move Cursor Move Cursor Move Cursor Move Cursor Move
+   Cursor Normal Normal Normal
+   Drag Object Normal Normal Reduced Opacity & Tracking Reduced Opacity &
+   Tracking Reduced Opacity & Tracking + Invalid Badge Reduced Opacity &
+   Tracking
+
+   2. Modules animates into the area just below the insertion bar
+
+   3. Module comes to rest in new area
+
+   4. Modules slide up in a self-healing transition to close hole
+   Normal Opacity + Zoom Back to Original Normal Opacity + Zoom Back to
+   Original
+   Orig Location Normal Normal Hole Opens Hole Remains Hole Remains Hole
+   Remains Hole Remains Hole refilled with drag object Hole refilled with
+   drag object
+   Drop Target Normal Normal Normal Insertion Bar N/A N/A 1. Insertion Bar
+   Removed N/A N/A
+
+   The drag and drop solution is described below in detail.
+
+Page Generation
+
+   Since the idiom of drag and drop is not yet common in web pages,
+       discoverability of the idiom is an issue. One solution is to
+       provide an initial help hint that clues the user that modules may
+       be re-arranged by drag and drop. This hint should go away after the
+       user has used the feature a few times or after a set number of
+       logins.
+
+Mouse Hover
+
+     * Cursor Change. Change the mouse cursor to the CSS:move cursor. This
+       appears as 4 arrows (except on Firefox on the Mac where it shows as
+       an open hand cursor)
+     * Optionally: Provide a tooltip when the mouse hovers over the
+       draggable region of a draggable object. Tooltip informs the user
+       that they can drag and drop the module. In testing, user's did not
+       seen to need this additional feedback. The cursor change provided
+       on hover was sufficient
+
+Drag Initiated (and Tracking)
+
+     * Drag Module
+          + Module moves to match mouse movement (starts tracking with the
+            mouse location).
+          + Opacity is reduced slightly to allow modules and page elements
+            underneath to show through. Reduced opacity is maintained
+            throughout drag experience. Module floats above the other page
+            elements.
+     * Original Area. Since module is moved, a "hole" appears at the
+       module's original location.
+
+Drag over Valid Target Area
+
+     * Drop Target Area. A thin insertion bar is shown where the module
+       would be dropped (between two other modules).
+
+Drag over Invalid Target Area
+
+     * Cursor Badge. An "Invalid Badge" is floated beside the cursor to
+       indicate that dropping here will be rejected.
+     * Drop Target (Insertion Bar). None.
+
+Drag over Original Area (the "hole")
+
+     * Cursor. Move cursor.
+     * Dragged Module. Consistent with dragging (reduced opacity, etc.)
+     * Drop Target (Insertion Bar). None.
+
+Drop Accepted
+
+     * Cursor. Returns to normal cursor
+     * Drop Target. Insertion bar is removed
+     * An animation sequence occurs to put the module into the new
+       location
+          + Drop Target.
+               o Insertion bar is removed.
+               o Hole opens for new area.
+          + Dragged Module.
+               o Dragged Module animates into the new area (as it opens)
+               o Opacity animates to normal
+          + Original Area.
+               o Area closes up with animated transition (Self-Healing
+                 Transition)
+                    # Causes the other modules to close in around the
+                      original hole
+
+Drop Rejected
+
+     * Cursor. Returns to normal.
+     * Dragged Module.
+          + Animates back to original position ("the hole") -- zoom back.
+          + Opacity increases to full opacity.
+     * Original Area. Is not filled with the module back in original
+       position
+
+Drop on Original Area
+
+     * Cursor. Return to normal.
+     * Dragged Module.
+          + Animates back to original position ("the hole") -- zoom back.
+          + Opacity increases to full opacity.
+
+Why Use This Pattern?
+
+   This drag and drop solution varies slightly from google.com/ig,
+   netvibes.com, live.com and other portals that have implemented drag and
+   drop. The main difference is the following concepts:
+     * The drag operation is a preview and not a completed operation.
+       Therefore do not re-arrange anything on the page until the drop has
+       occurred. Instead hint at what is happening by leaving a hole in
+       the original location and highlighting an insertion bar to show
+       where the object will be dropped.
+     * Since the page will re-arrange when the user drops the module,
+       smooth out layout changes by animating transitions. Close the
+       original hole with a Self-Healing Transition. Slide modules into
+       place with Slide Transitions.
+     * The dragged module should not get in the way of re-arranging the
+       layout. We use a diminished opacity to allow what is underneath the
+       dragged module to still appear.
+
+Accessibility
+
+     * Drag and drop is not fully accessible. One way to support
+       accessibility is to provide an alternate way to re-arrange your
+       content modules. On [21]My Yahoo you can select a "Change Layout"
+       feature which takes the user to another page allowing them a way to
+       re-order the content modules in lists.
+     * Module order may not matter as much to a non-sighted user. If the
+       content modules have been created with good structural HTML markup
+       they should be able to move from module to module quickly. However,
+       they may still want to change the order of the content modules
+       allowing them to access the most important modules first.
+     * When highlighting D&D source and destinations, pick colors
+       carefully avoiding strange color combinations and/or lack of
+       contrast. Good contrasting color combinations can help those with
+       limited sight to find targets much easier. Possibly allow users to
+       configure their own selection of colors for future use.
+
+Pattern Information
+
+   Related Patterns
+     * [22]Drop Invitation
+     * [23]Self Healing Transition
+
+   As Used on Yahoo
+     * [24]My Yahoo
+
+   Code Examples
+     * [25]Drag & Drop Utility
+     * [26]Basic Drag & Drop
+     * [27]Drag & Drop Handles
+     * [28]Basic Drag & Drop (on top)
+     * [29]Drag & Drop Swap
+     * [30]Sortable List
+     * [31]Drop Invitation
+     * [32]Draggable & Resizable
+     * [33]Custom Click Validator
+
+   Blog
+     * [34]Blog Article
+
+     * Layout
+          + [35]Page Grids
+     * Navigation
+          + [36]Accordion
+          + [37]Alphanumeric Filter Links
+          + [38]Breadcrumbs
+          + [39]Pagination
+          +
+               o [40]Item Pagination
+               o [41]Search Pagination
+          + [42]Tabs
+          +
+               o [43]Module Tabs
+               o [44]Navigation Tabs
+          + [45]Navigation Bar
+          +
+               o [46]Top Navigation Bar
+               o [47]Left Navigationi Bar
+               o [48]Progress Bar
+     * Selection
+          + [49]Autocomplete
+          + [50]Calendar Picker
+          + [51]Carousel
+     * Rich Interaction
+          + [52]Invitation
+          +
+               o [53]Cursor Invitation
+               o [54]Drop Invitation
+               o [55]Hover Invitation
+               o [56]Tooltip Invitation
+          + [57]Transition
+          +
+               o [58]Animate Transition
+               o [59]Brighten Transition
+               o [60]Collapse Transition
+               o [61]Cross Fade Transition
+               o [62]Dim Transition
+               o [63]Expand Transition
+               o [64]Fade In Transition
+               o [65]Fade Out Transition
+               o [66]Self Healing Transition
+               o [67]Slide Transition
+               o [68]Spotlight Transition
+          + [69]Drag and Drop
+          +
+               o [70]Drag and Drop Modules
+     * Social
+          + [71]Core Principles
+          +
+               o [72]Talk Like a Person
+               o [73]Your vs. My
+          + [74]People
+          +
+               o [75]Engagement
+               o
+                    # [76]Invite
+                    # [77]You're Invited
+                    # [78]Sign-in Continuity
+                    # [79]Terms of Service
+               o [80]Identity
+               o
+                    # [81]Reflector
+                    # [82]User Card
+               o [83]Presence
+               o
+                    # [84]Availability
+                    # [85]Updates
+               o [86]Reputation
+               o
+                    # [87]The Competitive Spectrum
+                    # [88]Collectible Achievements
+                    # [89]Identifying Labels
+                    # [90]Named Levels
+                    # [91]Numbered Levels
+                    # [92]Points
+                    # [93]Ranking
+                    #
+                         @ [94]Leaderboard
+                         @ [95]Top X
+          + [96]Objects
+          +
+               o [97]Collecting
+               o
+                    # [98]Add / Subscribe
+                    # [99]Favorites
+                    # [100]Saving
+               o [101]Feedback
+               o
+                    # [102]Architecture of a Review
+                    # [103]Rating an Object
+                    # [104]Vote to Promote
+                    # [105]Write a Review
+
+Discuss Rich Patterns
+
+     * [106]Products
+     * [107]Blog
+     * [108]Forums
+     * [109]My Apps
+     * [110]Careers
+     * [111]Privacy
+     * [112]Terms
+
+   Follow us on
+     *
+     *
+     *
+     *
+     *
+
+References
+
+   Visible links
+   1. https://www.yahoo.com/
+   2. https://mail.yahoo.com/
+   3. http://news.yahoo.com/
+   4. http://sports.yahoo.com/
+   5. http://finance.yahoo.com/
+   6. https://weather.yahoo.com/
+   7. https://games.yahoo.com/
+   8. https://groups.yahoo.com/
+   9. https://answers.yahoo.com/
+  10. https://screen.yahoo.com/
+  11. https://www.flickr.com/
+  12. https://mobile.yahoo.com/
+  13. https://everything.yahoo.com/
+  14. https://developer.apps.yahoo.com/
+  15. https://login.yahoo.com/config/login?.done=https://developer.yahoo.com
+  16. http://developer.yahoo.com/ypatterns/about/
+  17. http://developer.yahoo.com/forum/Design Patterns
+  18. http://delicious.com/save
+  19. http://my.yahoo.com/
+  20. https://developer.yahoo.com/ypatterns/richinteraction/dragdrop/#Rationale
+  21. http://my.yahoo.com/
+  22. https://developer.yahoo.com/ypatterns/richinteraction/invitation/drop.html
+  23. https://developer.yahoo.com/ypatterns/richinteraction/transition/selfhealing.html
+  24. http://my.yahoo.com/
+  25. https://developer.yahoo.com/yui/dragdrop/index.html
+  26. https://developer.yahoo.com/yui/examples/dragdrop/dd-basic.html
+  27. https://developer.yahoo.com/yui/examples/dragdrop/dd-handles.html
+  28. https://developer.yahoo.com/yui/examples/dragdrop/dd-ontop.html
+  29. https://developer.yahoo.com/yui/examples/dragdrop/dd-proxy.html
+  30. https://developer.yahoo.com/yui/examples/dragdrop/dd-reorder.html
+  31. https://developer.yahoo.com/yui/examples/dragdrop/dd-groups.html
+  32. https://developer.yahoo.com/yui/examples/dragdrop/dd-resize.html
+  33. https://developer.yahoo.com/yui/examples/dragdrop/dd-circle.html
+  34. http://yuiblog.com/blog/2006/02/13/dragdropmodules/
+  35. https://developer.yahoo.com/ypatterns/layout/pagegrids.html
+  36. https://developer.yahoo.com/ypatterns/navigation/accordion.html
+  37. https://developer.yahoo.com/ypatterns/navigation/alphafilterlinks.html
+  38. https://developer.yahoo.com/ypatterns/navigation/breadcrumbs.html
+  39. https://developer.yahoo.com/ypatterns/navigation/pagination/index.html
+  40. https://developer.yahoo.com/ypatterns/navigation/pagination/item.html
+  41. https://developer.yahoo.com/ypatterns/navigation/pagination/search.html
+  42. https://developer.yahoo.com/ypatterns/navigation/tabs/index.html
+  43. https://developer.yahoo.com/ypatterns/navigation/tabs/moduletabs.html
+  44. https://developer.yahoo.com/ypatterns/navigation/tabs/navtabs.html
+  45. https://developer.yahoo.com/ypatterns/navigation/bar/index.html
+  46. https://developer.yahoo.com/ypatterns/navigation/bar/topnav.html
+  47. https://developer.yahoo.com/ypatterns/navigation/bar/leftnav.html
+  48. https://developer.yahoo.com/ypatterns/navigation/bar/progress.html
+  49. https://developer.yahoo.com/ypatterns/selection/autocomplete.html
+  50. https://developer.yahoo.com/ypatterns/selection/calendar.html
+  51. https://developer.yahoo.com/ypatterns/selection/carousel.html
+  52. https://developer.yahoo.com/ypatterns/richinteraction/invitation/index.html
+  53. https://developer.yahoo.com/ypatterns/richinteraction/invitation/cursor.html
+  54. https://developer.yahoo.com/ypatterns/richinteraction/invitation/drop.html
+  55. https://developer.yahoo.com/ypatterns/richinteraction/invitation/hover.html
+  56. https://developer.yahoo.com/ypatterns/richinteraction/invitation/tooltip.html
+  57. https://developer.yahoo.com/ypatterns/richinteraction/transition/index.html
+  58. https://developer.yahoo.com/ypatterns/richinteraction/transition/animate.html
+  59. https://developer.yahoo.com/ypatterns/richinteraction/transition/brighten.html
+  60. https://developer.yahoo.com/ypatterns/richinteraction/transition/collapse.html
+  61. https://developer.yahoo.com/ypatterns/richinteraction/transition/crossfade.html
+  62. https://developer.yahoo.com/ypatterns/richinteraction/transition/dim.html
+  63. https://developer.yahoo.com/ypatterns/richinteraction/transition/expand.html
+  64. https://developer.yahoo.com/ypatterns/richinteraction/transition/fadein.html
+  65. https://developer.yahoo.com/ypatterns/richinteraction/transition/fadeout.html
+  66. https://developer.yahoo.com/ypatterns/richinteraction/transition/selfhealing.html
+  67. https://developer.yahoo.com/ypatterns/richinteraction/transition/slide.html
+  68. https://developer.yahoo.com/ypatterns/richinteraction/transition/spotlight.html
+  69. https://developer.yahoo.com/ypatterns/richinteraction/dragdrop/index.html
+  70. https://developer.yahoo.com/ypatterns/richinteraction/dragdrop/modules.html
+  71. https://developer.yahoo.com/ypatterns/social/core/index.html
+  72. https://developer.yahoo.com/ypatterns/social/core/conversation.html
+  73. https://developer.yahoo.com/ypatterns/social/core/yourvmy.html
+  74. https://developer.yahoo.com/ypatterns/social/people/index.html
+  75. https://developer.yahoo.com/ypatterns/social/people/engagement/index.html
+  76. https://developer.yahoo.com/ypatterns/social/people/engagement/invitation.html
+  77. https://developer.yahoo.com/ypatterns/social/people/engagement/invited.html
+  78. https://developer.yahoo.com/ypatterns/social/people/engagement/continuity.html
+  79. https://developer.yahoo.com/ypatterns/social/people/engagement/tos.html
+  80. https://developer.yahoo.com/ypatterns/social/people/identity/index.html
+  81. https://developer.yahoo.com/ypatterns/social/people/identity/reflector.html
+  82. https://developer.yahoo.com/ypatterns/social/people/identity/usercard.html
+  83. https://developer.yahoo.com/ypatterns/social/people/presence/index.html
+  84. https://developer.yahoo.com/ypatterns/social/people/presence/availability.html
+  85. https://developer.yahoo.com/ypatterns/social/people/presence/updates.html
+  86. https://developer.yahoo.com/ypatterns/social/people/reputation/index.html
+  87. https://developer.yahoo.com/ypatterns/social/people/reputation/competitive.html
+  88. https://developer.yahoo.com/ypatterns/social/people/reputation/achievements.html
+  89. https://developer.yahoo.com/ypatterns/social/people/reputation/identifyinglabels.html
+  90. https://developer.yahoo.com/ypatterns/social/people/reputation/namedlevels.html
+  91. https://developer.yahoo.com/ypatterns/social/people/reputation/numberedlevels.html
+  92. https://developer.yahoo.com/ypatterns/social/people/reputation/points.html
+  93. https://developer.yahoo.com/ypatterns/social/people/reputation/ranking/index.html
+  94. https://developer.yahoo.com/ypatterns/social/people/reputation/ranking/leaderboard.html
+  95. https://developer.yahoo.com/ypatterns/social/people/reputation/ranking/topx.html
+  96. https://developer.yahoo.com/ypatterns/social/objects/
+  97. https://developer.yahoo.com/ypatterns/social/objects/collecting/index.html
+  98. https://developer.yahoo.com/ypatterns/social/objects/collecting/addsubscribe.html
+  99. https://developer.yahoo.com/ypatterns/social/objects/collecting/favorites.html
+ 100. https://developer.yahoo.com/ypatterns/social/objects/collecting/saving.html
+ 101. https://developer.yahoo.com/ypatterns/social/objects/feedback/index.html
+ 102. https://developer.yahoo.com/ypatterns/social/objects/feedback/review.html
+ 103. https://developer.yahoo.com/ypatterns/social/objects/feedback/rating.html
+ 104. https://developer.yahoo.com/ypatterns/social/objects/feedback/votetopromote.html
+ 105. https://developer.yahoo.com/ypatterns/social/objects/feedback/writeareview.html
+ 106. https://developer.yahoo.com/everything.html
+ 107. http://yahoodevelopers.tumblr.com/
+ 108. https://developer.yahoo.com/forums
+ 109. https://developer.apps.yahoo.com/
+ 110. http://yhoo.it/1iLIFlr
+ 111. https://info.yahoo.com/privacy/us/yahoo/devel/details.html
+ 112. https://info.yahoo.com/legal/us/yahoo/api/api-2140.html
+
+   Hidden links:
+ 114. https://developer.yahoo.com/
+ 115. https://developer.yahoo.com/ypatterns/
+ 116. http://yahoodevelopers.tumblr.com/
+ 117. https://twitter.com/ydn
+ 118. https://www.facebook.com/yahoodevelopernetwork
+ 119. https://github.com/yahoo
+ 120. https://www.youtube.com/user/ydntheater

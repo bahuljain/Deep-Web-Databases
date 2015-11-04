@@ -1,0 +1,430 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Video, Digital Imaging, and Displays - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Video, Digital Imaging, and Displays
+     * what is a reference driver??
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 6 of 6
+
+Thread: [27]what is a reference driver??
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. April 14th, 2001, 05:13 AM [38]#1
+       [39]Junior69
+          + [40]View Profile
+          + [41]View Forum Posts
+       Junior69 is offline 5000
+
+        Join Date
+                Apr 2001
+
+        Location
+                usa
+
+        Posts
+                3
+
+what is a reference driver??
+
+     I NEED HELP!!! I need a S3 Savage 3d, savage 4 or a savage 2000
+     video card to play a game I downloaded. I have an S3 Virge video
+     card. somebody told me a reference driver would help. what is a
+     reference driver and were do i get one?? Besides that, does anyone
+     have any ideas on how I could get the game to work??
+     Junior
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. April 14th, 2001, 01:49 PM [44]#2
+       [45]MadCat
+          + [46]View Profile
+          + [47]View Forum Posts
+       MadCat is offline HWC Technician
+
+        Join Date
+                Jan 1999
+
+        Posts
+                1,424
+
+     To quote yourself:
+     "I need a S3 Savage 3d, savage 4 or a savage 2000 video card to play
+     a game I downloaded."
+     So whats the problem here? Go buy one of the above, it probably uses
+     MetaL.
+     You cannot magically turn a ViRge into something better using
+     drivers (of ANY sort).
+     ------------------
+     This signature space FOR SALE
+
+     This signature space FOR SALE
+       [48]Reply With Quote Reply With Quote [49]Share on Google+
+         ______________________________________________________________
+
+    3. April 15th, 2001, 08:34 PM [50]#3
+       [51]Junior69
+          + [52]View Profile
+          + [53]View Forum Posts
+       Junior69 is offline 5000
+
+        Join Date
+                Apr 2001
+
+        Location
+                usa
+
+        Posts
+                3
+
+     sorry u mean *** mother fu**er i didnt know. thanks for insight and
+     u didnt even answer the fu**en question i really i just want 2 know
+     how to play the fu**en game and what the fu**en hell a damn
+     reference driver is.
+       [54]Reply With Quote Reply With Quote [55]Share on Google+
+         ______________________________________________________________
+
+    4. April 15th, 2001, 10:54 PM [56]#4
+       [57]equinoxe3d's Avatar
+       [58]equinoxe3d
+          + [59]View Profile
+          + [60]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     Reference drivers are drivers made by the maker of your chipset (in
+     your case, S3), instead of being made by the board constructor
+     (ex:Creative, Diamond). You may find what you want at
+     [61]www.savagenews.com
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [62]Join the HwC Folding@Home team!
+       [63]Reply With Quote Reply With Quote [64]Share on Google+
+         ______________________________________________________________
+
+    5. April 15th, 2001, 11:56 PM [65]#5
+       [66]MadCat
+          + [67]View Profile
+          + [68]View Forum Posts
+       MadCat is offline HWC Technician
+
+        Join Date
+                Jan 1999
+
+        Posts
+                1,424
+
+     Don't get harsh with me. I answered your question.
+     does anyone have any ideas on how I could get the game to work??
+     If a game requires a Savage-series video card, then an S3 ViRGE just
+     won't cut it. Forget the fact that they're made by the same company,
+     they're two totally different architectures.
+     I'd be happy to help you, but perhaps you could provide me with some
+     more information? What is the name of the game? Do you know if the
+     game supports Direct3D or OpenGL?
+     As for what reference drivers are, I will be happy to explain, but
+     its a little complex.
+     Companies like Nvidia and ST Micro do not manufacture video cards,
+     they simply sell the video processors to other companies. Those
+     companies build and sell video cards using those processors, plus
+     add extra features like TV-out or video in/out.
+     Now, Nvidia usually provides video card manufacturers and end users
+     with reference drivers...these are "generic drivers" that can work
+     with any video card based on their processor. But in order to use
+     the extra features some manufacturers add to their card, you have to
+     use the manufacturer's own drivers.
+     ------------------
+     This signature space FOR SALE
+
+     This signature space FOR SALE
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    6. April 16th, 2001, 05:22 PM [71]#6
+       [72]Junior69
+          + [73]View Profile
+          + [74]View Forum Posts
+       Junior69 is offline 5000
+
+        Join Date
+                Apr 2001
+
+        Location
+                usa
+
+        Posts
+                3
+
+     yea its supported by opengl
+       [75]Reply With Quote Reply With Quote [76]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [77]PC Video, Digital Imaging, and Displays [78]Top
+     * Site Areas
+     * [79]Settings
+     * [80]Private Messages
+     * [81]Subscriptions
+     * [82]Who's Online
+     * [83]Search Forums
+     * [84]Forums Home
+     * Forums
+     * [85]General Forums
+         1. [86]General Tech Talk and Support
+         2. [87]PC and Console Gaming
+         3. [88]Software
+     * [89]Hardware Forums
+         1. [90]CPUs and Motherboards
+         2. [91]Cases, Cooling, and Overclocking
+         3. [92]PC Audio and Home Theater
+         4. [93]PC Video, Digital Imaging, and Displays
+         5. [94]Storage and Peripherals
+         6. [95]Networking and the Internet
+         7. [96]Mobile Technology
+     * [97]Community
+         1. [98]HWC Feedback
+         2. [99]Central Lounge
+         3. [100]For Sale Or Trade
+
+   « [101]Previous Thread | [102]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [103]BB code is On
+     * [104]Smilies are On
+     * [105][IMG] code is On
+     * [106][VIDEO] code is On
+     * HTML code is Off
+
+   [107]Forum Rules
+   [-- hardwarecentral yellow]
+     * [108]Contact Us
+     * [109]HardwareCentral Forums
+     * [110]Archive
+     * [111]Top
+
+   IFRAME:
+   [112]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:14 PM.
+
+   Powered by [113]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=8
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=29376&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=29376
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=29376
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=29376&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177133&mode=threaded#post177133
+  38. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177133#post177133
+  39. http://www.hardwarecentral.com/member.php?32224-Junior69&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?32224-Junior69&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=32224&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=177133
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?29376&p=177133#post177133
+  44. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177134#post177134
+  45. http://www.hardwarecentral.com/member.php?806-MadCat&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?806-MadCat&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=806&contenttype=vBForum_Post&showposts=1
+  48. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=177134
+  49. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?29376&p=177134#post177134
+  50. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177135#post177135
+  51. http://www.hardwarecentral.com/member.php?32224-Junior69&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/member.php?32224-Junior69&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=32224&contenttype=vBForum_Post&showposts=1
+  54. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=177135
+  55. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?29376&p=177135#post177135
+  56. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177136#post177136
+  57. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  58. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+  61. http://www.savagenews.com/
+  62. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  63. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=177136
+  64. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?29376&p=177136#post177136
+  65. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177137#post177137
+  66. http://www.hardwarecentral.com/member.php?806-MadCat&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?806-MadCat&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=806&contenttype=vBForum_Post&showposts=1
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=177137
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?29376&p=177137#post177137
+  71. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&p=177138#post177138
+  72. http://www.hardwarecentral.com/member.php?32224-Junior69&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?32224-Junior69&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=32224&contenttype=vBForum_Post&showposts=1
+  75. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=177138
+  76. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?29376&p=177138#post177138
+  77. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver#top
+  79. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  95. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  96. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 102. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 103. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 104. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 105. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 106. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 107. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 108. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/
+ 110. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver#top
+ 112. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 113. https://www.vbulletin.com/
+
+   Hidden links:
+ 115. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177133%23post177133&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 116. http://twitter.com/share?text=what%20is%20a%20reference%20driver??&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177133%23post177133&source=webclient
+ 117. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177133%23post177133&title=what%20is%20a%20reference%20driver??&summary=&source=HardwareCentral%20Forums
+ 118. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177134%23post177134&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 119. http://twitter.com/share?text=what%20is%20a%20reference%20driver??&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177134%23post177134&source=webclient
+ 120. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177134%23post177134&title=what%20is%20a%20reference%20driver??&summary=&source=HardwareCentral%20Forums
+ 121. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177135%23post177135&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 122. http://twitter.com/share?text=what%20is%20a%20reference%20driver??&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177135%23post177135&source=webclient
+ 123. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177135%23post177135&title=what%20is%20a%20reference%20driver??&summary=&source=HardwareCentral%20Forums
+ 124. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177136%23post177136&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 125. http://twitter.com/share?text=what%20is%20a%20reference%20driver??&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177136%23post177136&source=webclient
+ 126. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177136%23post177136&title=what%20is%20a%20reference%20driver??&summary=&source=HardwareCentral%20Forums
+ 127. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177137%23post177137&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 128. http://twitter.com/share?text=what%20is%20a%20reference%20driver??&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177137%23post177137&source=webclient
+ 129. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177137%23post177137&title=what%20is%20a%20reference%20driver??&summary=&source=HardwareCentral%20Forums
+ 130. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177138%23post177138&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 131. http://twitter.com/share?text=what%20is%20a%20reference%20driver??&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177138%23post177138&source=webclient
+ 132. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F29376%26p%3D177138%23post177138&title=what%20is%20a%20reference%20driver??&summary=&source=HardwareCentral%20Forums
+ 133. http://www.hardwarecentral.com/showthread.php?29376-what-is-a-reference-driver#top

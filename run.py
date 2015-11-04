@@ -17,10 +17,9 @@ GRAPH = {
 
 # this method takes a website (database) and a query word and returns search results of the query word
 # on the given database via bing's search api
-def getBingResult(website, query):
+def getBingResult(website, query, accountKey):
     query = query.replace(' ','%20')
     bingUrl = 'https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Composite?Query=%27site%3a' + website + '%20' + query + '%27&$top=4&$format=JSON'
-    accountKey = '2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8'
     accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
     headers = {'Authorization': 'Basic ' + accountKeyEnc}
     req = urllib2.Request(bingUrl, headers=headers)
@@ -31,16 +30,15 @@ def getBingResult(website, query):
 
 # this method gets the results for every query word in the given category file and stores the number of
 # matches for every word and the urls of the top 4 results
-def getResults(website, resPath):
+def getResults(website, resPath, accountKey):
     with open(resPath, 'rb') as handle:
         resDict = pickle.load(handle)
     cache = {}
-    #queries = reduce(list.__add__, resDict.values())
     for key in resDict:
         cache[key] = {}
-        for query in resDict[key][:2]:
+        for query in resDict[key]:
             print "Getting Results for Query: " + query
-            result = getBingResult(website, query)
+            result = getBingResult(website, query, accountKey)
             cache[key][query] = {
                 'matches': float(result['WebTotal']),
                 'urls': set([result['Url'] for result in result['Web']])
@@ -51,28 +49,26 @@ def getResults(website, resPath):
 # if it successfully finds a category, it tries to further classify the database to a
 # more precise domain. Lastly it collects the neccessary bunch of urls required to
 # prepare content summaries
-def classify(website, tc, ts):
+def classify(website, tc, ts, accountKey):
     categories = ["Root"]
     data = {}
     classification = "Root"
     for category in categories:
         print "\nAdding " + category + " to Categories\n" if category != "Root" else ""
-
         keys = GRAPH.get(category)
         if keys:
-            cache = getResults(website, 'resources/' + category + '.pickle')
+            cache = getResults(website, 'resources/' + category + '.pickle', accountKey)
             data.update(cache)
             covDict = categoryCoverage(cache)
             specDict = specificity(covDict)
+            print ''
             for key in covDict:
                 print key + ": Specificity - " + `specDict[key]` + ", Coverage - " + `covDict[key]`
                 if (covDict[key] >= tc and specDict[key] >= ts):
                     classification = classification + "/" + key
                     categories.append(key)
-    print '\n' + website + ': ' + classification + '\n'
-
+    print '\nClassifcation for ' + website + ': ' + classification + '\n'
     urlDict = getUrls(categories, data)
-
     return data, urlDict
 
 # find the coverage of the database for different categories
@@ -108,8 +104,13 @@ def getUrls(categories, data):
     return urlDict
 
 # prepare contentSummaries
-def getContentSummary(website, tc, ts):
-    data, urlDict = classify(website, tc, ts)
+def getContentSummary():
+    accountKey = raw_input("Enter Bing Account Key (by default - author's key): ")  or '2dyKIv94jDETd7ClbVKoHvJSWFJ73ZvZRc7rjpBdkG8'
+    website = raw_input('Enter Database Name: ')
+    tc = float(raw_input('Enter Coverage Threshold (by default - 100): ') or '100')
+    ts = float(raw_input('Enter Specificity Threshold (by default - 0.6): ') or '0.6')
+
+    data, urlDict = classify(website, tc, ts, accountKey)
     finalData = dict()
     for key in data:
         finalData.update(data[key])
@@ -119,9 +120,7 @@ def getContentSummary(website, tc, ts):
         vocabList = [getVocab(url) for url in urlDict[key]]
         completeVocab = reduce(lambda a,b:a.union(b), vocabList, set())
         print '\nTotal Words in Content Summary of Category ' + key + ': ' + `len(completeVocab)` + '\n'
-
-        writeToFile(getDocFrequency(vocabList, completeVocab), finalData, key + '-contentSummary.txt')
-
+        writeToFile(getDocFrequency(vocabList, completeVocab), finalData, key + '-' + website + '.txt')
     print "...Completed!!"
 
 # gets the entire vocabulary from the contents of the given url (this includes
@@ -141,7 +140,7 @@ def getVocab(url):
 # previously created file with that same url is read.
 def getPageContent(url):
     print "Crawling through : " + url
-    fname = "cache/documents/" + sha256(url).hexdigest()
+    fname = "cache/documents/" + sha256(url.encode("ascii", "ignore")).hexdigest()
     output = None
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
@@ -154,7 +153,7 @@ def getPageContent(url):
                 f.write(output)
     return output
 
-
+# this method writes the content summary in a text file
 def writeToFile(wordMap, finalData, fname):
     with open(fname, 'w') as f:
         for word, count in sorted(wordMap.iteritems()):
@@ -163,10 +162,13 @@ def writeToFile(wordMap, finalData, fname):
             else:
                 f.write("{0}#{1}#-1.0\n".format(word, count))
 
+# retrurns the document frequency of every word in completeVocab in vocabList which contains
+# the vocabList of the individual documents.
 def getDocFrequency(vocabList, completeVocab):
     docFreq = dict.fromkeys(completeVocab, 0)
     for word in completeVocab:
         docFreq[word] = float(sum([1 for vocab in vocabList if word in vocab]))
     return docFreq
 
-getContentSummary('fifa.com', 100, 0.7)
+#begin
+getContentSummary()

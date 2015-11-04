@@ -1,0 +1,244 @@
+     * [1]Home
+     * [2]Mail
+     * [3]News
+     * [4]Sports
+     * [5]Finance
+     * [6]Weather
+     * [7]Games
+     * [8]Groups
+     * [9]Answers
+     * [10]Screen
+     * [11]Flickr
+     * [12]Mobile
+     * [13]More
+
+   ____________________ Search
+   [14]My Apps [15]Sign in
+
+Welcome to the Java Developer Center
+
+   [info_metro12_1.gif] Yahoo! Language centers have been deprecated. If
+   you have any concerns or questions, please don't hesitate to contact us
+   in [16]General Discussion at YDN forum.
+
+   Java is a tried and true programming language that powers many
+   enterprise-class web applications. In the Java Developer Center, you'll
+   find:
+     * [17]HOWTO Articles to help you understand our technologies and how
+       you can use them better with Java.
+          + [18]Prerequisites
+          + [19]Articles
+     * [20]Code Samples Used by our HOWTOs for you to play with. Use them
+       as a starting point for your own applications.
+     * [21]Java Downloads and Libraries to get you started writing great
+       Java code.
+     * [22]More Information About Java Programming out on the Web to help
+       you use Java and the Yahoo! APIs to their fullest.
+     * [23]Community Resources where you can join our mailing list and
+       discuss the Yahoo! APIs with other Java developers.
+
+HOWTO Articles
+
+Prerequisites
+
+   Most of the Java sample code provided in the HOWTO articles require
+   only [24]Java version 1.4.2 or newer which includes the standard
+   javax.xml.* packages and the [25]HTTPClient packages from Apache. The
+   exceptions are the Mail API, which requires either the [26]JAX-WS or
+   [27]Axis2 libraries, and the JSON example which requires the
+   [28]org.json package. [29]Whirlycache is required for the in-memory
+   caching example.
+
+Articles
+
+     * [30]Make Yahoo! Web Service REST Calls with Java
+     * [31]Parse Yahoo! Web Service REST Calls with Java
+     * [32]Cache Yahoo! Web Service REST Calls with Java
+     * [33]Make Authenticated Flickr API Calls and Rotate a Live Image
+
+Code Samples Used by our HOWTOs
+
+   We've got plenty of examples to keep you busy. These examples all come
+   from our HOWTOs listed above.
+
+   Unless otherwise noted, all of the folllowing code samples are provided
+   under the terms of the [34]Yahoo! SDK Software License Agreement.
+     * [35]FlickrAuth.java - Use Flickr Authentication for web services
+     * [36]FlickrRotate.java - Flickr Authentication with file rotation
+     * [37]signpost-core-1.2.1.1.jar - Simple OAuth message signing
+       library
+     * [38]YahooCacheSearchResults.java - File caching example
+     * [39]YahooWhirlyCacheSearchResults.java - In-memory caching example
+     * [40]YahooWebServiceParseErrorCodes.java - Error handling for web
+       services
+     * [41]YahooWebServiceParseResults.java - Parse XML results of web
+       service calls
+     * [42]ParseYahooSearchResultsJSON.java - Parse JSON results
+     * [43]YahooWebServiceGet.java - HTTP GET of web service
+     * [44]YahooWebServicePost.java - HTTP POST of web service
+     * [45]YahooWebServicePostSocket.java - HTTP POST using Sockets
+
+   We also have some [46]Java examples using our Mail API.
+
+   Be sure to review our [47]Best Practices for Speeding Up Your Web Site.
+
+Java Downloads and Libraries
+
+   [48]Java SE Downloads: Java SE includes classes that support the
+   development of Java Web Services and provides the foundation for Java
+   Platform, Enterprise Edition (Java EE).
+
+   [49]Java EE Downloads: Java Platform, Enterprise Edition (Java EE) is
+   the industry standard for developing portable, robust, scalable and
+   secure server-side Java applications.
+
+   [50]JSON in Java: JSON packages for Java from json.org.
+
+   [51]Apache Commons: The Commons is an Apache project focused on all
+   aspects of reusable Java components.
+
+   [52]Whirlycache: Whirlycache is a fast, configurable in-memory object
+   cache for Java.
+
+More Information About Java Programming
+
+   [53]Sun Developer Network (SDN) Java Technology Reference: Includes a
+   vast set of information including API specifications, documentation,
+   and code samples for Java developers.
+
+   [54]Java Web Services Overview : Great for learning about all of the
+   powerful tools available for developing web services with Java.
+
+   [55]JDK™ 6 Documentation: Links to documentation of every component of
+   the JDK and links to additional resources.
+
+   [56]The Java Tutorials: New to Java? Learn by doing with a myriad of
+   Java tutorials covering the basics to advanced Java topics.
+
+   [57]Java Web Services Development Pack : The JWSDP is a free software
+   development kit (SDK) for developing Web Services, Web applications and
+   Java applications with the newest technologies for Java.
+
+   [58]O'Reilly and Associates: Publishes many of the best [59]books on
+   Java.
+
+   [60]NetBeans: Free Java tools for creating cross-platform Java desktop,
+   enterprise and web applications.
+
+   [61]IntelliJ IDEA: Java IDE intensely focused on developer productivity
+   that provides a robust combination of enhanced development tools.
+
+   [62]Eclipse Downloads: Free Java IDE for Java and Java EE developers.
+
+Community Resources
+
+   If you're found the intersection of Java and Yahoo! Web Services but
+   you're not sure which way to turn, join us on the [63]ydn-java mailing
+   list. Please note that this is not a general Java programming questions
+   list; try to keep your questions focused on discussion about Yahoo!
+   APIs.
+
+   We also provide individual lists for each of the web services and APIs
+   we support; your questions are always welcome there as well. See the
+   [64]Yahoo! Developer Network Community page for more information on
+   these mailing lists.
+
+Yahoo Forum Discussions
+
+     * [65]Products
+     * [66]Blog
+     * [67]Forums
+     * [68]My Apps
+     * [69]Careers
+     * [70]Privacy
+     * [71]Terms
+
+   Follow us on
+     *
+     *
+     *
+     *
+     *
+
+References
+
+   Visible links
+   1. https://www.yahoo.com/
+   2. https://mail.yahoo.com/
+   3. http://news.yahoo.com/
+   4. http://sports.yahoo.com/
+   5. http://finance.yahoo.com/
+   6. https://weather.yahoo.com/
+   7. https://games.yahoo.com/
+   8. https://groups.yahoo.com/
+   9. https://answers.yahoo.com/
+  10. https://screen.yahoo.com/
+  11. https://www.flickr.com/
+  12. https://mobile.yahoo.com/
+  13. https://everything.yahoo.com/
+  14. https://developer.apps.yahoo.com/
+  15. https://login.yahoo.com/config/login?.done=https://developer.yahoo.com
+  16. https://developer.yahoo.com/forum/General-Discussion-at-YDN/
+  17. https://developer.yahoo.com/java/#how
+  18. https://developer.yahoo.com/java/#preq
+  19. https://developer.yahoo.com/java/#art
+  20. https://developer.yahoo.com/java/#code
+  21. https://developer.yahoo.com/java/#jlib
+  22. https://developer.yahoo.com/java/#ginfo
+  23. https://developer.yahoo.com/java/#community
+  24. http://java.sun.com/javase/downloads/index.jsp
+  25. http://jakarta.apache.org/httpcomponents/httpclient-3.x/
+  26. https://developer.yahoo.com/mail/code/mail_java_JAX.zip
+  27. http://ws.apache.org/axis2/
+  28. http://www.json.org/java/json.zip
+  29. https://whirlycache.dev.java.net/
+  30. https://developer.yahoo.com/java/howto-reqRestJava.html
+  31. https://developer.yahoo.com/java/howto-parseRestJava.html
+  32. https://developer.yahoo.com/java/howto-cacheRestJava.html
+  33. https://developer.yahoo.com/java/howto-flickrAuth.html
+  34. https://developer.yahoo.com/terms/swlicense.txt
+  35. https://developer.yahoo.com/java/samples/FlickrAuth.java
+  36. https://developer.yahoo.com/java/samples/FlickrRotate.java
+  37. http://oauth-signpost.googlecode.com/files/signpost-core-1.2.1.1.jar
+  38. https://developer.yahoo.com/java/samples/YahooCacheSearchResults.java
+  39. https://developer.yahoo.com/java/samples/YahooWhirlyCacheSearchResults.java
+  40. https://developer.yahoo.com/java/samples/YahooWebServiceParseErrorCodes.java
+  41. https://developer.yahoo.com/java/samples/YahooWebServiceParseResults.java
+  42. https://developer.yahoo.com/java/samples/ParseYahooSearchResultsJSON.java
+  43. https://developer.yahoo.com/java/samples/YahooWebServiceGet.java
+  44. https://developer.yahoo.com/java/samples/YahooWebServicePost.java
+  45. https://developer.yahoo.com/java/samples/YahooWebServicePostSocket.java
+  46. https://developer.yahoo.com/mail/code/
+  47. https://developer.yahoo.com/performance/rules.html
+  48. http://java.sun.com/javase/downloads/index.jsp
+  49. http://java.sun.com/javaee/downloads/index.jsp
+  50. http://www.json.org/java
+  51. http://commons.apache.org/
+  52. https://whirlycache.dev.java.net/
+  53. http://java.sun.com/reference/
+  54. http://java.sun.com/webservices/index.jsp
+  55. http://java.sun.com/javase/6/docs/
+  56. http://java.sun.com/docs/books/tutorial/index.html
+  57. http://en.wikipedia.org/wiki/JWSDP
+  58. http://www.ora.com/
+  59. http://search.atomz.com/search/?sp-a=sp1000a5a9&sp-f=ISO-8859-1&sp-t=store&sp-x-1=cat&sp-q-1=&sp-x-2=cat2&sp-q-2=Books&sp-c=25&sp-p=Books&sp-k=Books&c=&p=Books&sp-t=general&sp-q=java
+  60. http://www.netbeans.org/
+  61. http://www.jetbrains.com/idea/
+  62. http://www.eclipse.org/downloads/
+  63. http://groups.yahoo.com/group/ydn-java/
+  64. https://developer.yahoo.com/community
+  65. https://developer.yahoo.com/everything.html
+  66. http://yahoodevelopers.tumblr.com/
+  67. https://developer.yahoo.com/forums
+  68. https://developer.apps.yahoo.com/
+  69. http://yhoo.it/1iLIFlr
+  70. https://info.yahoo.com/privacy/us/yahoo/devel/details.html
+  71. https://info.yahoo.com/legal/us/yahoo/api/api-2140.html
+
+   Hidden links:
+  73. https://developer.yahoo.com/
+  74. http://yahoodevelopers.tumblr.com/
+  75. https://twitter.com/ydn
+  76. https://www.facebook.com/yahoodevelopernetwork
+  77. https://github.com/yahoo
+  78. https://www.youtube.com/user/ydntheater

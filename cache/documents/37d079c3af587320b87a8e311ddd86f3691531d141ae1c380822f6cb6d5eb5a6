@@ -1,0 +1,923 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Video, Digital Imaging, and Displays - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Video, Digital Imaging, and Displays
+     * Descent 3 Demo Commands
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 2 of 2
+
+Thread: [27]Descent 3 Demo Commands
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. May 21st, 1999, 05:52 PM [38]#1
+       [39]Tarrant
+          + [40]View Profile
+          + [41]View Forum Posts
+       Tarrant is offline Senior Member
+
+        Join Date
+                Dec 1998
+
+        Location
+                Knoxville, TN
+
+        Posts
+                699
+
+Descent 3 Demo Commands
+
+     If anyone could help me out here, I'm looking for some information
+     on the in-game commands for the Descent 3 demo2. Commands like how
+     to chat to other players, so on and so forth. Anyone?
+
+     Intel i5-2500K 3.3GHz
+     Asus P8Z68-V Pro/Gen3
+     8GB G.Skill RipJaws DDR3 1600
+     EVGA GTX 570 HD 2560MB
+     Crucial M4 128GB SSD
+     Corsair HX 620W
+     Win7 Pro 64-bit SP1
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. May 23rd, 1999, 11:56 AM [44]#2
+       [45]Battman42
+          + [46]View Profile
+          + [47]View Forum Posts
+       Battman42 is offline 5000
+
+        Join Date
+                Mar 1999
+
+        Location
+                N.California
+
+        Posts
+                56
+
+     Tarrant
+     Here is the text from online readme for Descent3 Demo it is yr the
+     hardrive when you load the demo: MULTIPLAYER RELEASE NOTES FOR
+     DESCENT 3
+     INTERACTIVE DEMO v1.0
+     __________________________________________________________
+     TABLE of CONTENTS -- DESCENT 3 DEMO MULTIPLAYER README
+     __________________________________________________________
+     1. General Multiplayer Info
+     2. Starting A Multiplayer Game
+     a. Parallax Online
+     b. DirectPlay Modem
+     c. DirectPlay Serial
+     d. IPX
+     e. Direct TCP/IP
+     3. Starting (Hosting) A New Game
+     4. On-Screen F6 Multiplayer Menu
+     5. Multiplayer Control Commands
+     6. Firewalls And Proxies
+     7. Running A Dedicated Server
+     _______________________________
+     1. GENERAL MULTIPLAYER INFO
+     _______________________________
+     We hope you have as much fun playing multiplayer games of Descent 3
+     as
+     we do! This demo includes Capture-The-Flag and Anarchy games. The
+     full version of the game of course includes new multiplayer games,
+     weapons, powerups, and multiplayer levels!
+     You can play multiplayer games of Descent 3 on a LAN (Local Area
+     Network), over the Internet via your modem connection to an ISP
+     (Internet Service Provider), or directly against another single
+     computer via a modem or serial cable connection. If you're playing
+     over the Internet, you can use the free matching service from
+     Parallax Online ("PXO" for short) to find other Descent 3 players on
+     the Internet to play against. PXO works with when connecting to the
+     Internet via modem, cable modem, ISDN, or other connection.
+     For this demo, we recommend 8 players or fewer in a network game.
+     This file contains details on how to start (or join) a multiplayer
+     game, and also contains troubleshooting suggestions, and all the
+     details on the many multiplayer menus and options available while
+     playing.
+     __________________________________
+     2. STARTING A MULTIPLAYER GAME
+     __________________________________
+     After you click "Multiplayer" from the main menu, a dialog presents
+     you with several options:
+     Parallax Online: Play over the Internet via the PXO
+     matching service
+     DirectPlay Serial: Play against one other computer over a
+     serial cable
+     DirectPlay Modem: Play against one other computer over the
+     modem
+     IPX: Play over a LAN using the IPX network
+     protocol
+     Direct TCP/IP: Play over a LAN or the Internet using the
+     TCP/IP network protocol
+     Click the type of game you want to play and then click OK. Following
+     are details on joining, and starting, each type of game.
+     Parallax Online
+     ---------------
+     Parallax Online ("PXO") is a free matching service with a lobby and
+     chat rooms. You'll be able to chat with other Descent 3 players
+     worldwide, and play against them. This service is free, for no
+     additional matching or connect time charges.
+     Before you choose a PXO game in Descent 3, you must first register
+     on
+     PXO to get a user name and password. To do this, just click the
+     "PXO" button on the Descent 3 Launcher, or visit
+     http://www.parallaxonline.com to register. Once your account is
+     validated, which should take just a few minutes, you'll be able to
+     play a game of Descent 3 over PXO.
+     The login name you enter when registering for PXO is only used to
+     connect to the service -- no one else will ever see it. On PXO
+     you'll be identified to other players by the Pilot name you set in
+     Descent 3. When you register, you're given the option of allowing
+     other players to see your real name and email address, or you can
+     choose to be totally anonymous.
+     Parallax Online Details
+     -----------------------
+     After you select Parallax Online, the "Login to PXO" window
+     appears. Type in your PXO login name and password as given to
+     you when you registered (see above). After a few seconds,
+     you'll enter the PXO screen. (If you get to the login window
+     and haven't yet registered with PXO, click on "Create New
+     Profile" to go to the PXO registration page.)
+     To chat before you begin a game, double-click the name of one of
+     the chat rooms at the top of the PXO window. A dialog box will
+     appear letting you know what chat room you're in.
+     To type something that everyone in the chat room can view, just
+     type something and hit Enter. To send a private message to
+     another pilot, click "Send Private Message", then type the
+     message and pilot name in the dialog box that appears. You can
+     find a pilot if you know his name by clicking "Find Pilot" and
+     typing his or her name in the dialog box that appears. (This
+     option will only find pilots in PXO Chat, not pilots who are in
+     the middle of a PXO game.)
+     After entering a chat room, you can get any pilot's stats by
+     clicking on his name in the leftmost column then clicking "Get
+     Pilot Info".
+     When you're ready to start or join a game, click "Go To Games"
+     and start or join a game as detailed below.
+     In addition to the Chat and Game Matching services, PXO also gathers
+     statistics from games played, including kills and deaths for each
+     player. Visit the PXO web page at http://www.parallaxonline.com/ to
+     view your stats, see the latest rankings, or see a list of games
+     currently being played.
+     A note about firewalls and proxies: You can't host a PXO game from
+     behind a firewall. You can join a PXO game just fine, as long as the
+     appropriate ports are up. See "Firewalls and Proxies", below.
+     DirectPlay Modem
+     ----------------
+     This option lets you use your modem to directly play against another
+     player. Note that this is not for Internet games when you use your
+     modem to dial an ISP (Internet Service Provider) -- it's to let you
+     directly call a friend over the modem to play. You need DirectX 6 to
+     play a direct modem game, so Windows NT users can't use this option.
+     Before you try to play Descent 3 over a direct modem connection, you
+     must configure your modem through Windows. You can do this with the
+     "Modem" option in the Windows Control Panel.
+     After you choose a Direct Modem game, a screen appears letting you
+     choose your modem, in case you have more than one. Click on your
+     modem.
+     If you want to host a game -- that is, your modem will be set to
+     answer the phone when a friend calls -- click "Answer/Host Game",
+     and
+     see "Starting A New Game", below.
+     If you want to join a game -- that is, your computer will call a
+     friend who has already chosen to host a game -- type the phone
+     number
+     and click "Dial".
+     Troubleshooting: DirectX 6 is required for direct modem games; we
+     use DirectPlay for modem games. If the error "Unable to connect."
+     appears when looking for games, or you get other communication
+     problems, you should quit the Descent 3 demo on both machines and
+     make sure they can talk to each other in the first place. To do
+     this, run a terminal program like HyperTerminal on both machines --
+     Windows 95 and 98 include HyperTerminal in the Start menu, under
+     Programs-&gt;Accessories. Configure HyperTerminal on both machines
+     to
+     use the same settings, have one computer call the other, and type to
+     each other in the window that appears. If you don't see the text
+     that each other person is typing, you aren't set up correctly. Make
+     sure you have selected the correct modem in the "Modem" Control
+     Panel, with all the correct settings, including baud rate and COM
+     port.
+     DirectPlay Serial
+     -----------------
+     This option lets you play a two-player game in which both computers
+     are connected directly to each other via a null-modem cable attached
+     to each computer's serial port. You need DirectX 6 to play a direct
+     serial game, so Windows NT users can't use this option.
+     After you choose a Direct Serial game, a screen appears letting you
+     set up your COM port. The default settings are COM1, 38400 baud, 1
+     stop bit, no parity, and RTS/DTR flow control. Make sure both
+     computers are set to the same settings on this screen, and then set
+     the COM port to whichever COM port you have plugged the null modem
+     cable into on each computer. Then one player should click "Start A
+     New Game" and begin a new game as detailed in "Starting A
+     Multiplayer
+     Game", below. THEN, after that player is already in the game and
+     flying around, the second player should click "Look For Games" and
+     connect on the following screen.
+     If the game plays slowly, try increasing the baud speed on both
+     computers. We chose 38400 baud as a default speed to accommodate
+     slower computers. You can increase the baud speed and you'll
+     probably
+     get faster game play. Make sure you set the baud speed to the same
+     number on both computers.
+     Troubleshooting: DirectX 6 is required for direct serial games; we
+     use DirectPlay for serial games. If the error "Unable to connect."
+     appears when looking for games, you should quit the Descent 3 demo
+     on
+     both machines and make sure they can talk to each other. To do this,
+     run a terminal program like HyperTerminal on both machines --
+     Windows
+     95 and 98 include HyperTerminal in the Start menu, under
+     Programs-&gt;Accessories. Configure HyperTerminal on both machines
+     to
+     use the same settings, and type in the window that appears. If you
+     don't see the text that each other person is typing, you aren't set
+     up correctly. Make sure you have selected the correct COM port, and
+     make sure you are using a null-modem cable and not a
+     straight-through
+     serial cable. (There are also null-modem adapters you can attach to
+     a straight-through serial cable.)
+     IPX
+     ---
+     This option lets you join or start a game using the IPX network
+     protocol to play over a LAN. After choosing this option, you can
+     join an IPX game in progress by simply clicking the name of the
+     game,
+     then clicking "Join Selected". To start a game, click "Start A New
+     Game", then see "Starting A New Game", below.
+     Troubleshooting: Run NETTEST.EXE if you experience problems with IPX
+     games. It may be able to detect certain problems with your network
+     configuration. Beyond that, it's beyond the scope of a game readme
+     file to attempt to troubleshoot an IPX network. Try using Windows'
+     Network Control Panel, and take it from there.
+     Direct TCP/IP
+     -------------
+     This option lets you join or start a game using the TCP/IP network
+     protocol to play over a LAN, or over the Internet. To join a game on
+     your local LAN, just choose this option, click the name of the game
+     you want to join, and click "Join Selected".
+     To join a game across the Internet via TCP/IP, first find out the IP
+     address of the server. Click in the text box under the words "Search
+     For Games At Address". Type in the IP address you wish to search
+     (example: 127.0.0.127) and press Enter. If a game is available at
+     that address, click the name of the game and click "Join Selected"
+     to
+     begin.
+     To start a TCP/IP game, click "Start A New Game", then see "Starting
+     A
+     New Game", below.
+     Troubleshooting: Run NETTEST.EXE if you experience problems with
+     TCP/IP games. It may be able to detect certain problems with your
+     network configuration. Again, it's unfortunately beyond the scope of
+     a game readme file to attempt to troubleshoot a TCP/IP network. Try
+     using Windows' Network Control Panel, and take it from there.
+     ____________________________________
+     3. STARTING (HOSTING) A NEW GAME
+     ____________________________________
+     Once you've chosen one of the preceding network options and clicked
+     "Start A New Game", Descent 3 presents you with a screen listing
+     your
+     multiplayer options.
+     Mission Name:
+     Lets you choose the level to play. Choose "The Core"
+     for a multiplayer level designed for 2-4 players. Choose
+     "Polaris" for a multiplayer level designed for 4 players and up.
+     Game Name:
+     The name that will appear when other players attempt to join
+     your game.
+     Game Type:
+     The demo version supports Anarchy and Capture-The-Flag. Anarchy
+     is a big free-for-all: Everybody against everybody. In
+     Capture-The-Flag, all players are assigned to either the Red
+     Team or the Blue Team, and the goal is to find the other color's
+     base, grab their flag by flying through it, fly back to your
+     base, and drop off the enemy flag at your base. Your flag must
+     also be at your base, so if someone on the enemy team already
+     grabbed your flag, you must find him, blow him up, and return
+     your own flag to your own base before you can score points for
+     capturing the enemy flag.
+     Multiplayer Options: Another screen appears with multiplayer
+     options:
+     Time Limit: The level automatically ends after this many
+     minutes.
+     Kill Goal: The level automatically ends after a player
+     achieves this many kills.
+     Max. Players: The maximum number of players that will be
+     allowed into the game. We recommend 8 or
+     fewer for the demo.
+     Packets per second: The number of position update packets that
+     all the computers in your game will send per
+     second. (Technically, you also send packets
+     when you fire a weapon.) In most cases, just
+     5 packets per second is a good setting. You
+     can set this number lower to allow more
+     people in the game, and with less bandwidth
+     requirements. Note that it's usually not a
+     good idea to increase this number, because
+     this will just result in a flood of
+     superfluous data being transmitted over the
+     network, and your game lag will probably
+     increase.
+     Respawn rate: Amount of time before a fixed powerup
+     reappears.
+     Client-server: You can choose either client-server or
+     peer-to-peer. Client-server is best when the
+     server has a fast connection. This option
+     lets the most people join the game with
+     lesser bandwidth requirements for each
+     client. If you ever have problems with games
+     becoming extremely lagged after playing for a
+     while, try playing with a dedicated server
+     (see below), or play peer-to-peer.
+     Peer-peer: You can choose either client-server or peer-
+     to-peer. Peer-to-peer is good for games
+     when all the clients and the server have the
+     same amount of bandwidth. In peer-to-peer,
+     all clients will see player updates more
+     quickly, but they will all need more
+     bandwidth. In general, we predict peer-to-
+     peer may be better for fewer people, but
+     maybe not.
+     Use rotational
+     velocity: Produces smoother enemy ship movement, but
+     requires a little more bandwidth.
+     Drop out of order
+     packets: Prevents out-of-order packets from causing a
+     ship to ever appear to move backwards or pop
+     around, but requires a little more bandwidth.
+     Configure allowed
+     ships/items: Displays a screen on which you can change
+     what items are allowed and disallowed in
+     your game. If you want to play a game in
+     which the Vauss Cannon isn't allowed, this
+     is how.
+     Save Settings: Saves all the above settings in a file. If
+     you always start games with the same
+     multiplayer options, save them with this
+     option.
+     Load Settings: Load multiplayer settings which you
+     previously saved with the "Save Settings"
+     option.
+     Start Game: Launch!
+     ____________________________________
+     4. ON-SCREEN F6 MULTIPLAYER MENU
+     ____________________________________
+     Press F6 while playing to display the on-screen multiplayer menu.
+     While displaying this menu, use the following keys:
+     Up Arrow: Move up to highlight the previous menu item
+     Down Arrow: Move down to highlight the next menu item
+     Right Arrow: Enter a submenu
+     Left Arrow: Leave a submenu to enter the menu to the left
+     Enter Key: Activate highlighted option in menu
+     ESC Key or F6: Hide the on-screen menu
+     Description of items in On-Screen menu
+     --------------------------------------
+     1) Server Commands Menu (only displayed on the server)
+     This menu contains various options and commands that only the
+     server can issue. This menu contains the following submenus:
+     A) Kick
+     This command will kick a player from the game. When you
+     highlight this submenu you will get a list of all the players
+     currently in the game. The number that is between the
+     brackets ([]) is the player number of the player. To kick a
+     player from the game, highlight their pilot name and activate
+     (press Enter key).
+     B) Ban
+     This command will kick and ban a player from the game. This
+     ban will only last as long as the server is up. When you
+     highlight this submenu you will get a list of all the players
+     currently in the game. The number that is between the
+     brackets ([]) is the player number of the player. To ban a
+     player from the game, highlight their pilot name and
+     activate (press Enter key).
+     C) End Level
+     This command will end the level that is currently playing,
+     and will send the game to the post-level results screen. To
+     end the level, highlight this submenu and activate (press
+     Enter key).
+     D) Max HUD Name Level
+     This command determines whether players will be able to
+     display the pilot names of the other players on their HUD.
+     There are three options:
+     None - If this is set, the players will not be able to
+     display any names on their HUD.
+     Team Only - If playing a team game, players will be able
+     to display the names of their teammates, but
+     not of their opponents. In a non-team game,
+     this option is the same as None.
+     Full - Players will be ale to display the names of all
+     players.
+     E) Team Control (only available in team games)
+     This submenu contains submenus with commands to change
+     options for team games.
+     1.) Balance Teams
+     This command will automatically balance the number of
+     players on the teams to make the teams fair. It balances
+     based on seniority. Those that haven't been in the game
+     as long as another player on their team will be have a
+     greater chance of being forced to another team. To
+     automatically balance the teams, select this option and
+     activate (press Enter key).
+     2.) AutoTeam Balance
+     This command turns on/off the automatic placement of a
+     new player to a game to the team with the least number
+     of players. If this option is turned off then the
+     player must either change his team to the team he wants
+     to be on, or the server must force change him to a team.
+     To turn on/off this option select On or Off from the sub
+     menu of "AutoTeam Balance" and activate (press Enter
+     key). The item with the arrow pointing at it is the
+     current state of the option.
+     3.) Allow Team Changing
+     This command enables/disables allow players to change
+     teams. If this option is off than the teams are
+     essentially locked (until this option is turned on). To
+     turn this option on or off, select On or Off from the sub
+     menu of "Allow Team Changing" and activate (press Enter
+     key). The item with the arrow pointing at it is the
+     current state of the option.
+     2) Observer Mode Menu
+     This menu contains the commands to enter/exit observer mode to
+     watch the game as a spectator. There are two different kinds of
+     observer mode, roaming and piggyback. Roaming Observer mode
+     lets you fly around freely. In piggyback mode you must select
+     the player you want to observe, after doing so you will watch
+     the game through their eyes.
+     A) Observer Mode
+     In this submenu you can turn on roaming observer mode, or turn
+     off observer mode completely. To turn on/off this option select
+     On or Off from the sub menu of "Observer Mode" and activate
+     (press Enter key). The item with the arrow pointing at it is
+     the current state of the option.
+     B) PiggyBack Observer
+     In this submenu you can select what player you would like to
+     observe through the piggyback observer mode. Selecting this
+     menu will give you a list of players currently in the game. To
+     start piggybacking a player, highlight their pilot name and
+     activate (press Enter key). If you select yourself, it will end
+     the observer mode session.
+     3) OnScreen Background
+     In this menu you can enable or disable the backdrop of the
+     On-Screen menu. To turn on/off this option select On or Off from
+     the sub menu of "Background" and activate (press Enter key). The
+     item with the arrow pointing at it is the current state of the
+     option.
+     4) Max HUD Name Level
+     This command determines whether player names are visible on your
+     HUD. Note that these settings are subject to the limitations
+     set by the server; see "Max HUD Name Level" above. There are
+     three options:
+     None - If this is set, no names will appear on the HUD.
+     Team Only - If playing a team game, the names of the player's
+     teammates will appear on the HUD, but the names of
+     the opponents will not. In a non-team game, this
+     option is the same as None.
+     Full - The names of all players will appear on the HUD.
+     5) Game Stats To File Menu
+     This menu contains the options and commands that deal with the
+     saving of game stats to file. This file will be located in your
+     /netgames directory of where you installed Descent 3.
+     A) Save Stats To File
+     Activating this command will immediately save the current stats
+     to file. To activate highlight this command and press Enter key.
+     B) AutoSave On Level End
+     This submenu is used to enable/disable the automatic saving of
+     the stats when the level ends. To turn on/off this option select
+     On or Off from the sub menu of "AutoSave On Level End" and
+     activate (press Enter key). The item with the arrow pointing at
+     it is the current state of the option.
+     C) AutoSave On Disconnect
+     This submenu is used to enable/disable the automatic saving of
+     the stats when or if you disconnect from the game. To turn
+     on/off this option select On or Off from the sub menu of
+     "AutoSave On Disconnect" and activate (press Enter key). The
+     item with the arrow pointing at it is the current state of the
+     option.
+     6) Get Player Info Menu
+     This option allows you to choose a player currently in the game
+     and it will display information about the player on the screen.
+     It contains information like what team they are on (team games
+     only), their player number, network address, ship they are using
+     and total time in game. After you are done using the information
+     displayed, simply select and activate the same pilot (or select
+     &lt;none&gt; ) and the display will go away.
+     7) NetGame Info Menu
+     This option turns on/off the displaying of detailed information
+     about the netgame currently being played. This display contains
+     information like the name of the game, mission being played, the
+     multiplayer game being played, the packets per second threshold,
+     the max players allowed in the game, the time limit per level
+     (if enabled), the goal score per level (if enabled) and the
+     respawn time for powerups. To turn on/off this option select On
+     or Off from the sub menu of "Netgame Info" and activate (press
+     Enter key). The item with the arrow pointing at it is the
+     current state of the option.
+     8) Statistical HUD Messages Menu
+     This options turns on/off the displaying of the random
+     statistical HUD messages, that can occur after a player scores a
+     kill. To turn on/off this option select On or Off from the sub
+     menu of "Netgame Info" and activate (press Enter key). The item
+     with the arrow pointing at it is the current state of the
+     option.
+     9) Change Teams Menu (team games only)
+     This menu allows you to change the team you are currently on.
+     This is more of a request to change teams, as the server can
+     deny the request if the option to allow team changing is
+     disabled (or the multiplayer game will not allow it, for
+     instance, in a CTF game, if you have a flag and try to change
+     teams, the request will be denied).
+     10) Exit Menu
+     Exits from the On-Screen Menu
+     ____________________________________
+     5. MULTIPLAYER CONTROL COMMANDS
+     ____________________________________
+     Here is a list of commands you can give to the Descent 3 demo --
+     both
+     to your copy of the game and to the server -- while playing a
+     multiplayer game, or while running a dedicated server. To enter a
+     command, press the F8 key, then type the command and press Enter.
+     For
+     example, to show player info for player 0, you would press F8, then
+     type:
+     $playerinfo 0
+     then press return. Many of these commands are available from the F6
+     multiplayer menu that's available while playing the game. If you run
+     a dedicated server, you'll need to type in these commands, since the
+     multiplayer menu will be unavailable.
+     Command List
+     ------------
+     $team &lt;Team_name&gt;
+     From a client, changes your team. Team_name is the name of the
+     team you want to change to.
+     $changeteam &lt;Pnum&gt; &lt;Team_name&gt;
+     From the server, changes a player to a team. Pnum is the player
+     number, and Team_name is the name of the team.
+     $playerinfo &lt;Pnum&gt;
+     From a client, request information about a player. Pnum is the
+     player number.
+     $balance
+     From the server, automatically balance teams.
+     $autobalance &lt;off/on&gt;
+     From the server, turn off or on the autobalancing of teams.
+     $allowteamchange &lt;off/on&gt;
+     From the server, turn off or on the ability of clients to change
+     their teams.
+     $kick &lt;Pnum&gt;
+     From the server, kick a player out of the game. Pnum is the
+     player number to kick.
+     $ban &lt;Pnum&gt;
+     From the server, ban a player from the game. Pnum is the player
+     number to ban.
+     $banlist
+     On a dedicated server, shows the list of banned players so you
+     can removeban that player.
+     $removeban &lt;Playernum&gt;
+     Removes a ban from a player. Playernum is the player number as
+     listed when you typed $banlist.
+     $endlevel
+     From the server, ends the current level.
+     $players
+     Shows all players in the game.
+     $scores
+     Shows the scores and stats of the game.
+     $savestats
+     Saves the game stats to a file.
+     $statmsgs &lt;on/off&gt;
+     Turns on or off the stats messages during a multiplayer game.
+     $autosavelevel &lt;on/off&gt;
+     Turns off or on the saving of game stats to a file at the end of
+     the level.
+     $autosavedisconnect &lt;on/off&gt;
+     Turns off or on the saving of game stats to a file upon
+     disconnect.
+     $settimelimit &lt;Minutes&gt;
+     Changes the level time limit of a multiplayer game. Minutes is
+     the number of minutes; the level will end after that many minutes.
+     $setgoallimit &lt;Goal&gt;
+     Changes the level goal of a multiplayer game. Goal is the
+     number of points at which the level will end.
+     $setmaxplayers &lt;Max&gt;
+     Sets the maximum number of players in a multiplayer game. Max
+     is the maximum number of players.
+     $setrespawntime &lt;Seconds&gt;
+     Sets the respawn time of the powerups on the current level of a
+     multiplayer game. After a powerup is picked up, after this many
+     seconds, it will respawn.
+     $netgameinfo
+     From the client, request net game info.
+     $setpps &lt;Number&gt;
+     From the server, set the maximum number of packets per second
+     that will be exchanged. Number is the maximum number of packets
+     per second.
+     $killmsgfilter &lt;full/simple/none&gt;
+     Changes the kill messages you get on this machine. "full" is
+     the normal set of messages. "simple" will simply say who killed
+     who. "none" will display no kill messages.
+     $hudnames &lt;full/team/none&gt;
+     In a multiplayer game, sets whether your HUD displays the pilot
+     names of all other ships you see (full), only your team members
+     (team), or no pilot names at all (none). This command may be
+     restricted if the server has used the $serverhudnames command
+     (below).
+     $serverhudnames &lt;full/team/none&gt;
+     From the server, sets the maximum value that users can set
+     $hudnames to.
+     $serverhudnames full : Users can set $hudnames to any value.
+     $serverhudnames team : Users can set $hudnames to 'team' or 'none'.
+     $serverhudnames none : Users can set $hudnames to 'none'.
+     ____________________________
+     6. FIREWALLS AND PROXIES
+     ____________________________
+     You can play a Descent 3 Demo net game over the Internet from behind
+     a firewall or proxy, if you can talk your network administrators
+     into
+     opening the following ports:
+     UDP 6493
+     UDP 6440
+     UDP 6200
+     UDP 6201
+     TCP 7070
+     If you experience problems, run the NETTEST.EXE program that's
+     included in the Descent 3 Demo directory. It will verify that your
+     network and firewall configuration is operational, and will give you
+     specific reasons for any failures that it finds. You can get help by
+     launching the program by typing NETTEST.EXE --HELP for some
+     information on its use.
+     You can join PXO games from behind a firewall, but you can't host
+     them. Someone who isn't behind a firewall will have to host the
+     game.
+     _________________________________
+     7. RUNNING A DEDICATED SERVER
+     _________________________________
+     If you are lucky enough to have a spare computer on your network
+     that
+     nobody uses, put it to good work! Set it up as a Descent 3 dedicated
+     server. This may help the speed of network games for all clients.
+     To start a dedicated server, install the Descent 3 Demo on the
+     machine, and in the Misc. tab in setup, type:
+     -dedicated example.cfg
+     where "example.cfg" is the name of the dedicated server
+     configuration
+     file. This is a file you can configure yourself with various
+     commands. The commands are:
+     PPS &lt;num&gt; - Sets the packets per second that the server sends
+     out.
+     Timelimit &lt;num&gt; -How long (in minutes) each level lasts
+     Killgoal &lt;num&gt; - End the level after this many kills
+     RepsawnTime &lt;num&gt; - How long (in seconds) it takes powerups to
+     respawn
+     Gamename &lt;string&gt; - The name of the game
+     MissionName &lt;string&gt; - The mission you're playing
+     ScriptName &lt;string&gt; the name of the netgame you want
+     ConnectionName &lt;string&gt; the name of the connection you want
+     MaxPlayers &lt;num&gt; - The max numbers of players in the game
+     In addition, you can type:
+     Quit
+     Endlevel
+     while the game is running to quit the game or end the level,
+     respectively.
+     NOTE: The first line of the server config file must read:
+     [server config file]
+     A sample dedicated server .cfg file might look like this:
+     ----------------------------------
+     [server config file]
+     PPS=8
+     TimeLimit=10
+     KillGoal=0
+     RespawnTime=60
+     GameName=Dedicated Server!
+     MissionName=Polaris.d3l
+     Scriptname=Anarchy
+     ConnectionName=Direct TCP~IP
+     ----------------------------------
+     There is an example server config file included with the demo.
+     Its filename is "dedicated.cfg" and it can be found in the same
+     directory as the demo.
+     END OF MULTIPLAYER README FILE. HAVE FUN.
+     There you go
+     Battman
+       [48]Reply With Quote Reply With Quote [49]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [50]PC Video, Digital Imaging, and Displays [51]Top
+     * Site Areas
+     * [52]Settings
+     * [53]Private Messages
+     * [54]Subscriptions
+     * [55]Who's Online
+     * [56]Search Forums
+     * [57]Forums Home
+     * Forums
+     * [58]General Forums
+         1. [59]General Tech Talk and Support
+         2. [60]PC and Console Gaming
+         3. [61]Software
+     * [62]Hardware Forums
+         1. [63]CPUs and Motherboards
+         2. [64]Cases, Cooling, and Overclocking
+         3. [65]PC Audio and Home Theater
+         4. [66]PC Video, Digital Imaging, and Displays
+         5. [67]Storage and Peripherals
+         6. [68]Networking and the Internet
+         7. [69]Mobile Technology
+     * [70]Community
+         1. [71]HWC Feedback
+         2. [72]Central Lounge
+         3. [73]For Sale Or Trade
+
+   « [74]Previous Thread | [75]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [76]BB code is On
+     * [77]Smilies are On
+     * [78][IMG] code is On
+     * [79][VIDEO] code is On
+     * HTML code is Off
+
+   [80]Forum Rules
+   [-- hardwarecentral yellow]
+     * [81]Contact Us
+     * [82]HardwareCentral Forums
+     * [83]Archive
+     * [84]Top
+
+   IFRAME:
+   [85]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecen
+   tral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLis
+   ting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:07 PM.
+
+   Powered by [86]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=8
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=18172&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=18172
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=18172
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=18172&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f&p=123465&mode=threaded#post123465
+  38. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f&p=123465#post123465
+  39. http://www.hardwarecentral.com/member.php?1351-Tarrant&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?1351-Tarrant&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1351&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=123465
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?18172&p=123465#post123465
+  44. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f&p=123466#post123466
+  45. http://www.hardwarecentral.com/member.php?3376-Battman42&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?3376-Battman42&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=3376&contenttype=vBForum_Post&showposts=1
+  48. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=123466
+  49. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?18172&p=123466#post123466
+  50. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f
+  51. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands#top
+  52. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  56. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  58. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+  75. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+  76. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+  77. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+  78. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+  79. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+  80. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+  81. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/
+  83. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands#top
+  85. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+  86. https://www.vbulletin.com/
+
+   Hidden links:
+  88. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F18172%26p%3D123465%23post123465&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+  89. http://twitter.com/share?text=Descent%203%20Demo%20Commands&url=http://www.hardwarecentral.com%2Fshowthread.php%3F18172%26p%3D123465%23post123465&source=webclient
+  90. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F18172%26p%3D123465%23post123465&title=Descent%203%20Demo%20Commands&summary=&source=HardwareCentral%20Forums
+  91. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F18172%26p%3D123466%23post123466&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+  92. http://twitter.com/share?text=Descent%203%20Demo%20Commands&url=http://www.hardwarecentral.com%2Fshowthread.php%3F18172%26p%3D123466%23post123466&source=webclient
+  93. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F18172%26p%3D123466%23post123466&title=Descent%203%20Demo%20Commands&summary=&source=HardwareCentral%20Forums
+  94. http://www.hardwarecentral.com/showthread.php?18172-Descent-3-Demo-Commands#top

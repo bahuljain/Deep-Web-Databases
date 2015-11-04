@@ -1,0 +1,543 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Storage
+   and Peripherals - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Storage and Peripherals
+     * Memory Module Identification
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 9 of 9
+
+Thread: [27]Memory Module Identification
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. July 16th, 2000, 10:29 PM [38]#1
+       [39]SexyMF's Avatar
+       [40]SexyMF
+          + [41]View Profile
+          + [42]View Forum Posts
+       SexyMF is offline Multiphasic
+
+        Join Date
+                Mar 2000
+
+        Location
+                New Zealand
+
+        Posts
+                2,332
+
+Memory Module Identification
+
+     Anyone know about these 64Meg SDRAM modules
+     Hyundai
+     GM72V66841XT7J
+     LGS
+     GM72V661641CT10K
+     Cannot find anything on the Hyundai site
+     I'm need to know if they are 66 or 100 sticks
+     Thanx
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. July 16th, 2000, 11:54 PM [45]#2
+       [46]jrusse
+          + [47]View Profile
+          + [48]View Forum Posts
+       jrusse is offline 5000
+
+        Join Date
+                May 2000
+
+        Posts
+                11
+
+     try chking out hundia website. bad thing about ram chips are they
+     are hard to identify
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. July 17th, 2000, 01:44 AM [51]#3
+       [52]eugene_v
+          + [53]View Profile
+          + [54]View Forum Posts
+          + [55]Visit Homepage
+       eugene_v is offline 5000
+
+        Join Date
+                Jul 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                123
+
+     Hi,
+     Try going over all these search results from Deja.com:
+     [56]http://www.deja.com/dnquery.xp?QRY=m...dnserver&DBS=2
+     Hope this helps.
+     ------------------
+     Eugene
+     [57]http://www.hardwareforum.cjb.net
+
+     Eugene
+     [58]http://www.hardwareforum.cjb.net
+       [59]Reply With Quote Reply With Quote [60]Share on Google+
+         ______________________________________________________________
+
+    4. July 17th, 2000, 08:22 AM [61]#4
+       [62]SexyMF's Avatar
+       [63]SexyMF
+          + [64]View Profile
+          + [65]View Forum Posts
+       SexyMF is offline Multiphasic
+
+        Join Date
+                Mar 2000
+
+        Location
+                New Zealand
+
+        Posts
+                2,332
+
+     Took about an hour but I found stuff on them
+     The SDRAM marked Hyundai I believe is LGS manufactured. And it
+     looked like LGS just doesn't want to be found (the website is down)
+     but I did find a datasheet on how to identify them
+     the Hyundai is PC100 (3-2-2)
+     the LGS is PC66
+     Which was why my system was very unstable
+     All better now
+       [66]Reply With Quote Reply With Quote [67]Share on Google+
+         ______________________________________________________________
+
+    5. July 18th, 2000, 01:13 AM [68]#5
+       [69]Axe's Avatar
+       [70]Axe
+          + [71]View Profile
+          + [72]View Forum Posts
+       Axe is offline Member
+
+        Join Date
+                Jul 2000
+
+        Posts
+                348
+
+     Good info
+     [73]www.pcstats.com/articleview.cfm?articleID=179
+     Axe
+       [74]Reply With Quote Reply With Quote [75]Share on Google+
+         ______________________________________________________________
+
+    6. July 18th, 2000, 02:02 PM [76]#6
+       [77]Killaspeed
+          + [78]View Profile
+          + [79]View Forum Posts
+       Killaspeed is offline 5000
+
+        Join Date
+                Mar 1999
+
+        Location
+                Newcastle, UK
+
+        Posts
+                21
+
+     Even easier way is to go to: [80]http://www.sisoftware.co.uk/sandra
+     And download the standard/shareware version.
+     Run the program and click on "Mainboard Information" It tells you a
+     load of stuff and just before half way (Memory Modules) it tells you
+     what memory modules you have in each slot, 64Mb PC100 etc....
+     Cool eh ?
+       [81]Reply With Quote Reply With Quote [82]Share on Google+
+         ______________________________________________________________
+
+    7. June 15th, 2006, 01:54 PM [83]#7
+       [84]shrivinayaka
+          + [85]View Profile
+          + [86]View Forum Posts
+       shrivinayaka is offline Junior Member
+
+        Join Date
+                Jun 2006
+
+        Posts
+                1
+
+     Dear sir ,
+     Please refer your post :-
+     [ Took about an hour but I found stuff on them
+     The SDRAM marked Hyundai I believe is LGS manufactured. And it
+     looked like LGS just doesn't want to be found (the website is down)
+     but I did find a datasheet on how to identify them
+     the Hyundai is PC100 (3-2-2)
+     the LGS is PC66
+     Which was why my system was very unstable
+     All better now ]
+     Please mail the datasheet / web link & oblige .
+     Regards
+     Sincerely yours
+     shrivinayaka
+       [87]Reply With Quote Reply With Quote [88]Share on Google+
+         ______________________________________________________________
+
+    8. June 15th, 2006, 02:50 PM [89]#8
+       [90]Shinma's Avatar
+       [91]Shinma
+          + [92]View Profile
+          + [93]View Forum Posts
+       Shinma is offline ____________
+
+        Join Date
+                Mar 2000
+
+        Posts
+                27,283
+
+     ?!
+     Note date of original post.
+
+     "I know nothing."
+     Cheers.
+       [94]Reply With Quote Reply With Quote [95]Share on Google+
+         ______________________________________________________________
+
+    9. June 15th, 2006, 03:06 PM [96]#9
+       [97]jankerson's Avatar
+       [98]jankerson
+          + [99]View Profile
+          + [100]View Forum Posts
+       jankerson is offline Super Moderator
+
+        Join Date
+                Jun 1999
+
+        Location
+                North Carolina
+
+        Posts
+                12,263
+
+     Quote Originally Posted by SexyMF
+
+     Anyone know about these 64Meg SDRAM modules
+     Hyundai
+     GM72V66841XT7J
+     LGS
+     GM72V661641CT10K
+     Cannot find anything on the Hyundai site
+     I'm need to know if they are 66 or 100 sticks
+     Thanx
+     HYU GM72V66841XT7J-06 128MB, PC-100, SDRAM
+     GM72V661641CT10K sounds like it's PC 66 to me looking at what
+     machines it was installed in, old Pent 133 machines etc.
+
+     Intel I5 750 @ 2.67 Ghz, 4gb GSkill DDR3 1600, GB P55M-UD2, XFX
+     Radeon 5850. , Seagate Constellation ES 1 TB, Seasonic Gold 620w,
+     Win Vista Ultimate, Toshiba 32" HDTV
+     E6750 Core 2 Duo, 2GB Corsair XMS2 DDR2 800, GB P35C-DS3R MB, ATI
+     Radeon X1950XT, Seagate 7200.9 320GB, Win XP Pro SP2, Enermax
+     Liberty 500w
+     [101]HWC Folding@Home Team -- [102]Learn How to Join the Team Here
+     ---[103]Detailed Stats
+       [104]Reply With Quote Reply With Quote [105]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [106]Storage and Peripherals [107]Top
+     * Site Areas
+     * [108]Settings
+     * [109]Private Messages
+     * [110]Subscriptions
+     * [111]Who's Online
+     * [112]Search Forums
+     * [113]Forums Home
+     * Forums
+     * [114]General Forums
+         1. [115]General Tech Talk and Support
+         2. [116]PC and Console Gaming
+         3. [117]Software
+     * [118]Hardware Forums
+         1. [119]CPUs and Motherboards
+         2. [120]Cases, Cooling, and Overclocking
+         3. [121]PC Audio and Home Theater
+         4. [122]PC Video, Digital Imaging, and Displays
+         5. [123]Storage and Peripherals
+         6. [124]Networking and the Internet
+         7. [125]Mobile Technology
+     * [126]Community
+         1. [127]HWC Feedback
+         2. [128]Central Lounge
+         3. [129]For Sale Or Trade
+
+   « [130]Previous Thread | [131]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [132]BB code is On
+     * [133]Smilies are On
+     * [134][IMG] code is On
+     * [135][VIDEO] code is On
+     * HTML code is Off
+
+   [136]Forum Rules
+   [-- hardwarecentral yellow]
+     * [137]Contact Us
+     * [138]HardwareCentral Forums
+     * [139]Archive
+     * [140]Top
+
+   IFRAME:
+   [141]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:12 PM.
+
+   Powered by [142]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=9
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=35608&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=35608
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=35608
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=35608&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206897&mode=threaded#post206897
+  38. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206897#post206897
+  39. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  42. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=17911&contenttype=vBForum_Post&showposts=1
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=206897
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=206897#post206897
+  45. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206898#post206898
+  46. http://www.hardwarecentral.com/member.php?21540-jrusse&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?21540-jrusse&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=21540&contenttype=vBForum_Post&showposts=1
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=206898
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=206898#post206898
+  51. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206899#post206899
+  52. http://www.hardwarecentral.com/member.php?23860-eugene_v&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?23860-eugene_v&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23860&contenttype=vBForum_Post&showposts=1
+  55. http://www.hardwareforum.cjb.net/
+  56. http://www.deja.com/dnquery.xp?QRY=memory+LGS+Hyundai&ST=MS&svcclass=dnserver&DBS=2
+  57. http://www.hardwareforum.cjb.net/
+  58. http://www.hardwareforum.cjb.net/
+  59. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=206899
+  60. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=206899#post206899
+  61. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206900#post206900
+  62. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=17911&contenttype=vBForum_Post&showposts=1
+  66. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=206900
+  67. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=206900#post206900
+  68. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206901#post206901
+  69. http://www.hardwarecentral.com/member.php?23892-Axe&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/member.php?23892-Axe&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/member.php?23892-Axe&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23892&contenttype=vBForum_Post&showposts=1
+  73. http://www.pcstats.com/articleview.cfm?articleID=179
+  74. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=206901
+  75. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=206901#post206901
+  76. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=206902#post206902
+  77. http://www.hardwarecentral.com/member.php?4287-Killaspeed&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/member.php?4287-Killaspeed&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=4287&contenttype=vBForum_Post&showposts=1
+  80. http://www.sisoftware.co.uk/sandra
+  81. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=206902
+  82. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=206902#post206902
+  83. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=981613#post981613
+  84. http://www.hardwarecentral.com/member.php?46651-shrivinayaka&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/member.php?46651-shrivinayaka&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=46651&contenttype=vBForum_Post&showposts=1
+  87. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=981613
+  88. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=981613#post981613
+  89. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=981619#post981619
+  90. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18693&contenttype=vBForum_Post&showposts=1
+  94. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=981619
+  95. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=981619#post981619
+  96. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&p=981623#post981623
+  97. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37514&contenttype=vBForum_Post&showposts=1
+ 101. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 102. http://discussions.hardwarecentral.com/showthread.php?p=963597#post963597
+ 103. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+ 104. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=981623
+ 105. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?35608&p=981623#post981623
+ 106. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification#top
+ 108. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 110. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 131. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 132. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 133. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 134. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 135. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 136. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 137. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/
+ 139. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification#top
+ 141. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 142. https://www.vbulletin.com/
+
+   Hidden links:
+ 144. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206897%23post206897&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 145. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206897%23post206897&source=webclient
+ 146. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206897%23post206897&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 147. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206898%23post206898&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 148. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206898%23post206898&source=webclient
+ 149. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206898%23post206898&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 150. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206899%23post206899&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 151. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206899%23post206899&source=webclient
+ 152. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206899%23post206899&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 153. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206900%23post206900&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 154. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206900%23post206900&source=webclient
+ 155. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206900%23post206900&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 156. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206901%23post206901&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 157. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206901%23post206901&source=webclient
+ 158. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206901%23post206901&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 159. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206902%23post206902&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 160. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206902%23post206902&source=webclient
+ 161. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D206902%23post206902&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 162. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981613%23post981613&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 163. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981613%23post981613&source=webclient
+ 164. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981613%23post981613&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 165. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981619%23post981619&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 166. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981619%23post981619&source=webclient
+ 167. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981619%23post981619&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 168. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981623%23post981623&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 169. http://twitter.com/share?text=Memory%20Module%20Identification&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981623%23post981623&source=webclient
+ 170. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F35608%26p%3D981623%23post981623&title=Memory%20Module%20Identification&summary=&source=HardwareCentral%20Forums
+ 171. http://www.hardwarecentral.com/showthread.php?35608-Memory-Module-Identification#top

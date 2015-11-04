@@ -1,0 +1,461 @@
+   #[1]How to clear buffer memory on runtime using VB code.? [2]alternate
+   [3]alternate [4]alternate [5]alternate [6]alternate [7]alternate
+   [8]alternate [9]alternate [10]alternate [11]next
+
+   [b?s=2115323978&t=1297512109]
+
+     * [12]⌂Home
+     * [13]Mail
+     * [14]News
+     * [15]Cricket
+     * [16]Movies
+     * [17]Style
+     * [18]Celebrity
+     * [19]Screen
+     * [20]Flickr
+     * [21]Mobile
+     * [22]More⋁
+
+       IFRAME:
+       [23]https://s.yimg.com/os/mit/media/m/base/images/transparent-95031
+       .png
+
+          + [24]Answers
+          + [25]Groups
+          + [26]Messenger
+          + [27]Weather
+          + [28]Games
+
+   [29]Yahoo India Answers
+   ____________________
+                       Search Answers Search Web
+     * [30]👤 Sign In
+     * [31]✉ Mail
+     * [32]⚙ Help
+          + [33]Account Info
+          + [34]Help
+          + [35]Send feedback
+
+     * [36]Answers Home
+
+     * [37]All Categories
+     * [38]Arts & Humanities
+     * [39]Beauty & Style
+     * [40]Business & Finance
+     * [41]Cars & Transportation
+     * [42]Computers & Internet
+     * [43]Consumer Electronics
+     * [44]Dining Out
+     * [45]Education & Reference
+     * [46]Entertainment & Music
+     * [47]Environment
+     * [48]Family & Relationships
+     * [49]Food & Drink
+     * [50]Games & Recreation
+     * [51]Health
+     * [52]Home & Garden
+     * [53]Local Businesses
+     * [54]News & Events
+     * [55]Pets
+     * [56]Politics & Government
+     * [57]Pregnancy & Parenting
+     * [58]Science & Mathematics
+     * [59]Social Science
+     * [60]Society & Culture
+     * [61]Sports
+     * [62]Travel
+     * [63]Yahoo Products
+
+     * International
+          + [64]Argentina
+          + [65]Australia
+          + [66]Brazil
+          + [67]Canada
+          + [68]France
+          + [69]Germany
+          + [70]Indonesia
+          + [71]Italy
+          + [72]Malaysia
+          + [73]Mexico
+          + [74]New Zealand
+          + [75]Philippines
+          + [76]Quebec
+          + [77]Singapore
+          + [78]Taiwan
+          + [79]Hong Kong
+          + [80]Spain
+          + [81]Thailand
+          + [82]UK & Ireland
+          + [83]United States
+          + [84]Vietnam
+          + [85]Espanol
+     * About
+          + [86]About Answers
+          + [87]Community Guidelines
+          + [88]Leaderboard
+          + [89]Knowledge Partners
+          + [90]Points & Levels
+          + [91]Blog
+          + [92]Safety Tips
+
+   [93]Computers & Internet [94]Programming & Design
+   [95]Next
+   [96]Vijee
+
+How to clear buffer memory on runtime using VB code.?
+
+   Dear friends! Im facing a problem by running too long array
+   calculation. by executing these large array calculation my pc getting
+   slower.... so i want to clear the buffer memory on runtime. so pls help
+   me to recover this problem....
+   Follow
+   2 answers 2
+   Report Abuse
+   Are you sure that you want to delete this answer? (BUTTON) Yes (BUTTON)
+   No
+
+   IFRAME:
+   [97]https://dmros.ysm.yahoo.com/ros/?c=e1a303d2&w=678&h=315&ty=noscript
+   &tt=How to clear buffer memory on runtime using VB
+   code.?&r=yahoo%2C+answers%2C+questions%2C+Computers+%26+Internet%2CProg
+   ramming+%26+Design
+
+   Sorry, something has gone wrong.
+
+Answers
+
+   [98]DogmaBites
+   Best Answer:  There are a couple of ways to free memory in VB.
+   One is to make the array variable local to a function. When the
+   function returns, the array is deleted, returning the memory. To do
+   this, declare the array with the Private statement.
+   Another way, if you are using dynamic arrays, is to ReDim the array.
+   You can ReDim to a size of 1, thereby releasing the original memory.
+   Of course, don't do this while you are using the array.
+   Source(s):
+   [99]DogmaBites · 8 years ago
+   0
+   Thumbs up
+   0
+   Thumbs down
+   Comment
+   [profile_b96.png]
+
+   Add a comment
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Submit
+   []
+   · just now
+   Report Abuse
+     * [100]Shell Answer Man
+       better to persist such a large array to a database file, where the
+       index is the primary key to the table. it will be slower, but
+       stable. disk space is cheap.
+       [101]Shell Answer Man · 8 years ago
+       0
+       Thumbs up
+       0
+       Thumbs down
+       Comment
+       [profile_b96.png]
+       Add a comment
+
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       ____________________________________________________________
+       Submit
+       []
+       · just now
+       Report Abuse
+
+Add your answer
+
+   How to clear buffer memory on runtime using VB code.?
+   Dear friends! Im facing a problem by running too long array
+   calculation. by executing these large array calculation my pc getting
+   slower.... so i want to clear the buffer memory on runtime. so pls help
+   me to recover this problem....
+   Add your answer
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Source
+   Submit Cancel
+
+Report Abuse
+
+   (*) I think that this question violates the Community Guidelines
+
+   Chat or rant, adult content, spam, insulting other members,[102]show
+   more
+   ( ) I think that this question violates the Terms of Service
+
+   Harm to minors, violence or threats, harassment or privacy invasion,
+   impersonation or misrepresentation, fraud or phishing, [103]show more
+
+Additional Details
+
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   If you believe that your intellectual property has been infringed and
+   would like to file a complaint, please see our [104]Copyright/IP Policy
+   Report Abuse
+   Cancel
+
+Report Abuse
+
+   (*) I think that this answer violates the Community Guidelines
+
+   Chat or rant, adult content, spam, insulting other members,[105]show
+   more
+   ( ) I think that this answer violates the Terms of Service
+
+   Harm to minors, violence or threats, harassment or privacy invasion,
+   impersonation or misrepresentation, fraud or phishing, [106]show more
+
+Additional Details
+
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   If you believe that your intellectual property has been infringed and
+   would like to file a complaint, please see our [107]Copyright/IP Policy
+   Report Abuse
+   Cancel
+
+Report Abuse
+
+   (*) I think this comment violates the Community Guidelines
+
+   Chat or rant, adult content, spam, insulting other members,[108]show
+   more
+   ( ) I think that this comment violates the Terms of Service
+
+   Harm to minors, violence or threats, harassment or privacy invasion,
+   impersonation or misrepresentation, fraud or phishing, [109]show more
+
+Additional Details
+
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   If you believe that your intellectual property has been infringed and
+   would like to file a complaint, please see our [110]Copyright/IP Policy
+   Report Abuse
+   Cancel
+
+Ask a Question
+
+   usually answered within minutes!
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Expand»
+   Details
+   Details
+   Submit
+   Existing questions
+
+   [111]More
+     * Tell us some more
+     * Upload in progress
+
+     * Upload failed. Please upload a file larger than 100 x 100 pixels
+     * We are experiencing some problems, please try again.
+     * You can only upload files of type PNG, JPG or JPEG.
+     * You can only upload files of type 3GP, 3GPP, MP4, MOV, AVI, MPG,
+       MPEG or RM.
+     * You can only upload photos smaller than 5 MB.
+     * You can only upload videos smaller than 600 MB.
+     * You can only upload a photo (png, jpg, jpeg) or video (3gp, 3gpp,
+       mp4, mov, avi, mpg, mpeg, rm).
+     * You can only upload a photo or video.
+     * Video should be smaller than <b>600 MB/5 minutes</b>
+     * Photo should be smaller than <b>5 MB</b>
+     * Video should be smaller than <b>600 MB/5 minutes</b>
+       Photo should be smaller than <b>5 MB</b>
+
+Answer Questions
+
+   [112]Our school has a website that was maintain by a web person who
+   only wrote code.. now he's gone and we have no way of updating it?
+   [113]How do character pointers work with strings in C?
+   [114]"Class" in python, how will i be able to use it?
+   [115]Java programming question?
+
+   Trending
+   [116]How do I print the internet?
+   16 answers
+   [117]Programming and animating good for my age?
+   4 answers
+   [118]Whom would buy my COBOL programming services?
+   4 answers
+   More questions
+   [119]What's the difference between a https and http?
+   9 answers
+   [120]Best web browser?
+   306 answers
+   [121]What are the must need languages for a Web Developer?
+   40 answers
+     * [122]Terms
+     * [123]Privacy
+     * [124]RSS
+
+References
+
+   Visible links
+   1. https://in.answers.yahoo.com/rss/question?qid=20080124201312AAdvW6s
+   2. https://uk.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   3. https://answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   4. https://sg.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   5. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   6. https://ca.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   7. https://au.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   8. https://nz.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+   9. https://ph.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+  10. https://malaysia.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+  11. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s&page=2
+  12. https://in.yahoo.com/
+  13. https://in.mail.yahoo.com/?.intl=in&.lang=en-IN
+  14. http://in.news.yahoo.com/
+  15. https://cricket.yahoo.com/
+  16. https://in.movies.yahoo.com/
+  17. https://in.style.yahoo.com/
+  18. https://in.celebrity.yahoo.com/
+  19. https://in.screen.yahoo.com/
+  20. https://www.flickr.com/
+  21. http://in.mobile.yahoo.com/
+  22. http://in.everything.yahoo.com/
+  23. https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png
+  24. https://in.answers.yahoo.com/
+  25. https://in.groups.yahoo.com/
+  26. https://in.messenger.yahoo.com/
+  27. https://in.weather.yahoo.com/
+  28. https://games.yahoo.com/
+  29. https://in.answers.yahoo.com/
+  30. https://login.yahoo.com/config/login?.src=knowsrch&.intl=in&.lang=en-IN&.done=https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+  31. https://in.mail.yahoo.com/?.intl=in&.lang=en-IN
+  32. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+  33. https://login.yahoo.com/account/personalinfo?.intl=in&.lang=en-IN&.done=https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s&.src=knowsrch
+  34. https://help.yahoo.com/l/in/yahoo/answers/
+  35. https://yahoo.uservoice.com/forums/211240-us-answers
+  36. https://in.answers.yahoo.com/
+  37. https://in.answers.yahoo.com/dir/index
+  38. https://in.answers.yahoo.com/dir/index?sid=396545012
+  39. https://in.answers.yahoo.com/dir/index?sid=396545144
+  40. https://in.answers.yahoo.com/dir/index?sid=396545013
+  41. https://in.answers.yahoo.com/dir/index?sid=396545311
+  42. https://in.answers.yahoo.com/dir/index?sid=396545660
+  43. https://in.answers.yahoo.com/dir/index?sid=396545014
+  44. https://in.answers.yahoo.com/dir/index?sid=396545327
+  45. https://in.answers.yahoo.com/dir/index?sid=396545015
+  46. https://in.answers.yahoo.com/dir/index?sid=396545016
+  47. https://in.answers.yahoo.com/dir/index?sid=396545451
+  48. https://in.answers.yahoo.com/dir/index?sid=396545433
+  49. https://in.answers.yahoo.com/dir/index?sid=396545367
+  50. https://in.answers.yahoo.com/dir/index?sid=396545019
+  51. https://in.answers.yahoo.com/dir/index?sid=396545018
+  52. https://in.answers.yahoo.com/dir/index?sid=396545394
+  53. https://in.answers.yahoo.com/dir/index?sid=396545401
+  54. https://in.answers.yahoo.com/dir/index?sid=396545439
+  55. https://in.answers.yahoo.com/dir/index?sid=396545443
+  56. https://in.answers.yahoo.com/dir/index?sid=396545444
+  57. https://in.answers.yahoo.com/dir/index?sid=396546046
+  58. https://in.answers.yahoo.com/dir/index?sid=396545122
+  59. https://in.answers.yahoo.com/dir/index?sid=396545301
+  60. https://in.answers.yahoo.com/dir/index?sid=396545454
+  61. https://in.answers.yahoo.com/dir/index?sid=396545213
+  62. https://in.answers.yahoo.com/dir/index?sid=396545469
+  63. https://in.answers.yahoo.com/dir/index?sid=396546089
+  64. https://ar.answers.yahoo.com/
+  65. https://au.answers.yahoo.com/
+  66. https://br.answers.yahoo.com/
+  67. https://ca.answers.yahoo.com/
+  68. https://fr.answers.yahoo.com/
+  69. https://de.answers.yahoo.com/
+  70. https://id.answers.yahoo.com/
+  71. https://it.answers.yahoo.com/
+  72. https://malaysia.answers.yahoo.com/
+  73. https://mx.answers.yahoo.com/
+  74. https://nz.answers.yahoo.com/
+  75. https://ph.answers.yahoo.com/
+  76. https://qc.answers.yahoo.com/
+  77. https://sg.answers.yahoo.com/
+  78. https://tw.answers.yahoo.com/
+  79. https://hk.answers.yahoo.com/
+  80. https://es.answers.yahoo.com/
+  81. https://th.answers.yahoo.com/
+  82. https://uk.answers.yahoo.com/
+  83. https://answers.yahoo.com/
+  84. https://vn.answers.yahoo.com/
+  85. https://espanol.answers.yahoo.com/
+  86. https://in.answers.yahoo.com/info/about
+  87. https://in.answers.yahoo.com/info/community_guidelines
+  88. https://in.answers.yahoo.com/rank_total
+  89. https://in.answers.yahoo.com/info/knowledge_partners
+  90. https://in.answers.yahoo.com/info/scoring_system
+  91. http://yahooanswers.tumblr.com/
+  92. https://in.safely.yahoo.com/safety-tips/
+  93. https://in.answers.yahoo.com/dir/index?sid=396545660&link=list
+  94. https://in.answers.yahoo.com/dir/index?sid=396545663&link=list
+  95. https://in.answers.yahoo.com/question/nextQuestion?lang=en-IN&qs=REFERENCE&qid=20080124201312AAdvW6s&cid=396545663
+  96. https://in.answers.yahoo.com/activity/questions?show=BAKCZFQG65LXECAEGARUAUNS44&t=g
+  97. https://dmros.ysm.yahoo.com/ros/?c=e1a303d2&w=678&h=315&ty=noscript&tt=How to clear buffer memory on runtime using VB code.?&r=yahoo,+answers,+questions,+Computers+&+Internet,Programming+&+Design
+  98. https://in.answers.yahoo.com/activity/questions?show=2Q2EA5FDBAXLO5CFXXTYPMGWFU&t=g
+  99. https://in.answers.yahoo.com/activity/questions?show=2Q2EA5FDBAXLO5CFXXTYPMGWFU&t=g
+ 100. https://in.answers.yahoo.com/activity/questions?show=W3M5643NS432K2WDX3HEUOQSNA&t=g
+ 101. https://in.answers.yahoo.com/activity/questions?show=W3M5643NS432K2WDX3HEUOQSNA&t=g
+ 102. https://in.answers.yahoo.com/info/community_guidelines
+ 103. https://info.yahoo.com/legal/in/yahoo/utos/en-in/
+ 104. http://info.yahoo.com/legal/in/yahoo/copyright/en-in/
+ 105. https://in.answers.yahoo.com/info/community_guidelines
+ 106. https://info.yahoo.com/legal/in/yahoo/utos/en-in/
+ 107. http://info.yahoo.com/legal/in/yahoo/copyright/en-in/
+ 108. https://in.answers.yahoo.com/info/community_guidelines
+ 109. https://info.yahoo.com/legal/in/yahoo/utos/en-in/
+ 110. http://info.yahoo.com/legal/in/yahoo/copyright/en-in/
+ 111. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+ 112. https://in.answers.yahoo.com/question/index?qid=20151103160826AATPEqp
+ 113. https://in.answers.yahoo.com/question/index?qid=20151103162129AAWb6ij
+ 114. https://in.answers.yahoo.com/question/index?qid=20151103160405AALke6A
+ 115. https://in.answers.yahoo.com/question/index?qid=20151103162421AAVDPln
+ 116. https://in.answers.yahoo.com/question/index?qid=20151102124601AAs9jX3
+ 117. https://in.answers.yahoo.com/question/index?qid=20151103101935AAHajwV
+ 118. https://in.answers.yahoo.com/question/index?qid=20151102014041AARbBwB
+ 119. https://in.answers.yahoo.com/question/index?qid=20151102143739AACPQ0l
+ 120. https://in.answers.yahoo.com/question/index?qid=20151025203557AAeIJqx
+ 121. https://in.answers.yahoo.com/question/index?qid=20151027192650AAxD1DS
+ 122. https://info.yahoo.com/legal/in/yahoo/utos/en-in/
+ 123. https://info.yahoo.com/privacy/in/yahoo/
+ 124. https://in.answers.yahoo.com/rss/question?qid=20080124201312AAdvW6s
+
+   Hidden links:
+ 126. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+ 127. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s
+ 128. https://in.answers.yahoo.com/question/index?qid=20080124201312AAdvW6s

@@ -1,0 +1,727 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Cases,
+   Cooling, and Overclocking - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Cases, Cooling, and Overclocking
+     * Overclocking PIII 500
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 12 of 12
+
+Thread: [27]Overclocking PIII 500
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. July 26th, 2002, 08:39 PM [38]#1
+       [39]Polski-Krol
+          + [40]View Profile
+          + [41]View Forum Posts
+       Polski-Krol is offline Junior Member
+
+        Join Date
+                Dec 2001
+
+        Location
+                Hoboken, NJ 07030
+
+        Posts
+                135
+
+Overclocking PIII 500
+
+     Hey everyone,
+     Need some help overclocking a DELL XPS T500 system... the cpu is a
+     pentium iii 500 mhz processor and the board is a SE440BX-3. I know
+     it is possible to overclock with software such as softfsb but is it
+     possible to hardware overlcock through a method of covering up a pin
+     on the processor for example. I have KingMax PC133 memory on the way
+     and should be in on monday. Would appreciate any help...
+
+     Ebay Handle: creek-chub-maniac (70)
+     Heatware Handle: polski-krol (10)
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. July 26th, 2002, 10:22 PM [44]#2
+       [45]SolApathy's Avatar
+       [46]SolApathy
+          + [47]View Profile
+          + [48]View Forum Posts
+       SolApathy is offline Careful...I bite
+
+        Join Date
+                Mar 2000
+
+        Location
+                widgetville
+
+        Posts
+                373
+
+     what are the details on that PIII 550
+
+     Soyo P4S-Ultra Rev1 (RAID)
+     P4-1.8A @2.35
+     1024 MB DDR-2700
+     4 60GB ATA-133 HDD
+     SB-Audigy Gamer
+     Leadtek GeForce 4 ti4400
+     Win-TV
+     Sony 16x DVD
+     Sony 24x10x40 CD-RW
+     Mitsubishi 2020u 22"
+     and not a dime left to my name
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. July 26th, 2002, 11:27 PM [51]#3
+       [52]Todd a's Avatar
+       [53]Todd a
+          + [54]View Profile
+          + [55]View Forum Posts
+          + [56]Visit Homepage
+       Todd a is offline HWC Master
+
+        Join Date
+                Dec 1998
+
+        Location
+                Grand Haven, Michigan, USA
+
+        Posts
+                11,332
+
+     Likely you are looking at a .25 micron P3 Slot1 CPU with 1/2 speed
+     512MB "on package" L2 memory cache. These things only made it to
+     600Mhz and even with good cooling and extra voltage 650 was beyond
+     most. Very few made it to 700Mhz. Just see if you can get a Slotket
+     addaptor and a Celeron 1Ghz or something like that. Probably cost
+     you under $100 and really fly. Maybe a new graphics card while
+     you're at it, but I'm not sure if you have an AGP slot. Otherwise
+     you are stuck with something like a GeForce4 MX420 or slower.
+
+     AMD Phenom II x4 945 3Ghz | ASUS M4A77TD | 2X WD 1TB SATA 2 hard
+     drive | 2x2GB Corsair XMS3 | nVidia GeForce 8800 GTS | ATI TV Wonder
+     Theater Pro 550 | Antec P-160 case | Antec 650w Earth Watts | LG
+     Blu-ray Super Drive | LG DVD RW | Windows 7 Pro
+       [57]Reply With Quote Reply With Quote [58]Share on Google+
+         ______________________________________________________________
+
+    4. July 26th, 2002, 11:30 PM [59]#4
+       [60]dfgsd
+          + [61]View Profile
+          + [62]View Forum Posts
+       dfgsd is offline HWC Technician
+
+        Join Date
+                May 2000
+
+        Location
+                us
+
+        Posts
+                1,411
+
+     damn 512mb of cahce....that thing must kick ***.
+     yea as i remeber early p3s didn't overclock well....probaly not even
+     worth trying
+       [63]Reply With Quote Reply With Quote [64]Share on Google+
+         ______________________________________________________________
+
+    5. July 27th, 2002, 01:28 AM [65]#5
+       [66]Polski-Krol
+          + [67]View Profile
+          + [68]View Forum Posts
+       Polski-Krol is offline Junior Member
+
+        Join Date
+                Dec 2001
+
+        Location
+                Hoboken, NJ 07030
+
+        Posts
+                135
+
+     The processor is a slot 1 100 mhz bus pentium 3 katamai processor...
+     if you need specifics like l2 cache speed information then i dont
+     have that.
+
+     Ebay Handle: creek-chub-maniac (70)
+     Heatware Handle: polski-krol (10)
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    6. July 27th, 2002, 03:54 AM [71]#6
+       [72]Justintime's Avatar
+       [73]Justintime
+          + [74]View Profile
+          + [75]View Forum Posts
+       Justintime is offline Super Moderator
+
+        Join Date
+                Nov 2000
+
+        Location
+                London, England
+
+        Posts
+                11,079
+
+     Originally posted by dfgsd
+     damn 512mb of cahce....that thing must kick ***.
+
+     R.I.P Rangeral, To one of HWC's best moderators and a great guy
+     By the way, what does BTW stand for?
+     It is better to be tried by 12, than carried by 6.
+       [76]Reply With Quote Reply With Quote [77]Share on Google+
+         ______________________________________________________________
+
+    7. July 27th, 2002, 01:55 PM [78]#7
+       [79]SolApathy's Avatar
+       [80]SolApathy
+          + [81]View Profile
+          + [82]View Forum Posts
+       SolApathy is offline Careful...I bite
+
+        Join Date
+                Mar 2000
+
+        Location
+                widgetville
+
+        Posts
+                373
+
+     -all of the proc info will be silkscreened on the side :þ
+     ex- 550/512/100/2.0v S1
+     99201150-0401 Malay
+     '98 SL3F7
+
+     Soyo P4S-Ultra Rev1 (RAID)
+     P4-1.8A @2.35
+     1024 MB DDR-2700
+     4 60GB ATA-133 HDD
+     SB-Audigy Gamer
+     Leadtek GeForce 4 ti4400
+     Win-TV
+     Sony 16x DVD
+     Sony 24x10x40 CD-RW
+     Mitsubishi 2020u 22"
+     and not a dime left to my name
+       [83]Reply With Quote Reply With Quote [84]Share on Google+
+         ______________________________________________________________
+
+    8. July 27th, 2002, 10:30 PM [85]#8
+       [86]Dacs's Avatar
+       [87]Dacs
+          + [88]View Profile
+          + [89]View Forum Posts
+       Dacs is offline True blue PC Geek
+
+        Join Date
+                Jun 2000
+
+        Location
+                Manila, Philippines
+
+        Posts
+                255
+
+     I suppose that is a Slot 1 processor. You can actually cover the A14
+     pin to have a default FSB of 133 MHz (though I tried it with my PIII
+     450 and it didn't work)
+     I have no idea about your mobo but it may offer some settings on
+     FSB. From there you can tweak it.
+     It also helps to post the stepping of your PIII 500.
+     And though it has 512 kb L2 cache, it only runs at half the CPU
+     speed. So a PIII 500 would have a 256 MHz L2 cache.
+     And FYI, my PIII 450 can go up to 600 without problems (@ 2.20 V).
+
+     One claims to know everything and yet knows nothing
+     System 1:
+     Athlon XP 1800+@2408MHz(14x172MHz) cooled by Aero 7 Lite
+     Jetway N2PAP-400 nForce2 mobo
+     256 MB DDR333 Kingston
+     Lite-On 48x24x48 (x16) DVDROM/CDRW Combo Drive
+     Gainward Ultra-750X Ti4800SE 64MB DDR
+     15" monitor
+     ACS 45.1 speakers
+     System 2:
+     Pentium 3 450@600 MHz(4.5*133 MHz)
+     PC-Chips M748MR
+     64 MB RAM
+     48x CDROM Drive
+     15" monitor
+     Voodoo 3 2000 PCI@188 MHz
+     loads of crap
+       [90]Reply With Quote Reply With Quote [91]Share on Google+
+         ______________________________________________________________
+
+    9. July 27th, 2002, 11:06 PM [92]#9
+       [93]Polski-Krol
+          + [94]View Profile
+          + [95]View Forum Posts
+       Polski-Krol is offline Junior Member
+
+        Join Date
+                Dec 2001
+
+        Location
+                Hoboken, NJ 07030
+
+        Posts
+                135
+
+     Alright guys, here are the specifications...
+     Processor
+     ------------
+     Intel Pentium III 500 MHZ
+     500/512/100/2.0V S1
+     99110267-0016 MALAY
+     i '98 SL365
+     Motherboard
+     ----------------
+     Intel SE440BX-3
+     Cypress 149 Clock Generator
+     Memory
+     ---------
+     2 X 256 KingMax PC-133 ECC (Is in the mail and I am waiting for it)
+     Video Card
+     --------------
+     Nvidia TNT2
+     If you need any other info please let me know as I want this thing
+     to fly! Many thank!
+
+     Ebay Handle: creek-chub-maniac (70)
+     Heatware Handle: polski-krol (10)
+       [96]Reply With Quote Reply With Quote [97]Share on Google+
+         ______________________________________________________________
+
+   10. July 28th, 2002, 03:07 AM [98]#10
+       [99]Dacs's Avatar
+       [100]Dacs
+          + [101]View Profile
+          + [102]View Forum Posts
+       Dacs is offline True blue PC Geek
+
+        Join Date
+                Jun 2000
+
+        Location
+                Manila, Philippines
+
+        Posts
+                255
+
+     I took the liberty on going to [103]www.overclockers.com and to it's
+     database and I've seen a PIII 500 with the same stepping as yours
+     overclocked at 650 MHz with retail heatsink. So there you go, you
+     might just reach 650 (it is on 130 FSB) with retail HSF.
+     You can try CPUCool to change your FSB within windows provided the
+     PLL is supported (go to their website and have a look at it)
+     Good Luck!
+     I'm not really familiar with the motherboard so I can't say for sure
+     on tweaks regarding your mobo. But maybe others can help on this
+
+     One claims to know everything and yet knows nothing
+     System 1:
+     Athlon XP 1800+@2408MHz(14x172MHz) cooled by Aero 7 Lite
+     Jetway N2PAP-400 nForce2 mobo
+     256 MB DDR333 Kingston
+     Lite-On 48x24x48 (x16) DVDROM/CDRW Combo Drive
+     Gainward Ultra-750X Ti4800SE 64MB DDR
+     15" monitor
+     ACS 45.1 speakers
+     System 2:
+     Pentium 3 450@600 MHz(4.5*133 MHz)
+     PC-Chips M748MR
+     64 MB RAM
+     48x CDROM Drive
+     15" monitor
+     Voodoo 3 2000 PCI@188 MHz
+     loads of crap
+       [104]Reply With Quote Reply With Quote [105]Share on Google+
+         ______________________________________________________________
+
+   11. July 28th, 2002, 03:27 AM [106]#11
+       [107]Polski-Krol
+          + [108]View Profile
+          + [109]View Forum Posts
+       Polski-Krol is offline Junior Member
+
+        Join Date
+                Dec 2001
+
+        Location
+                Hoboken, NJ 07030
+
+        Posts
+                135
+
+     I know the motherboard supports software changing of fsb as I was
+     able to clock it to about 105 fsb before it conked out on me due to
+     my ram being early pc100 memory. Wondering if there is a hardware
+     way of overclocking it... like my covering a few pins or
+     undocumented jumpers... looking at all options available..
+
+     Ebay Handle: creek-chub-maniac (70)
+     Heatware Handle: polski-krol (10)
+       [110]Reply With Quote Reply With Quote [111]Share on Google+
+         ______________________________________________________________
+
+   12. July 28th, 2002, 04:24 AM [112]#12
+       [113]Dacs's Avatar
+       [114]Dacs
+          + [115]View Profile
+          + [116]View Forum Posts
+       Dacs is offline True blue PC Geek
+
+        Join Date
+                Jun 2000
+
+        Location
+                Manila, Philippines
+
+        Posts
+                255
+
+     I'd recommend waiting for the memory. Your PC100 memory is keeping
+     you from getting higher. Intel has loooong locked their multiplier
+     so you can only change the FSB.
+
+     One claims to know everything and yet knows nothing
+     System 1:
+     Athlon XP 1800+@2408MHz(14x172MHz) cooled by Aero 7 Lite
+     Jetway N2PAP-400 nForce2 mobo
+     256 MB DDR333 Kingston
+     Lite-On 48x24x48 (x16) DVDROM/CDRW Combo Drive
+     Gainward Ultra-750X Ti4800SE 64MB DDR
+     15" monitor
+     ACS 45.1 speakers
+     System 2:
+     Pentium 3 450@600 MHz(4.5*133 MHz)
+     PC-Chips M748MR
+     64 MB RAM
+     48x CDROM Drive
+     15" monitor
+     Voodoo 3 2000 PCI@188 MHz
+     loads of crap
+       [117]Reply With Quote Reply With Quote [118]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [119]Cases, Cooling, and Overclocking [120]Top
+     * Site Areas
+     * [121]Settings
+     * [122]Private Messages
+     * [123]Subscriptions
+     * [124]Who's Online
+     * [125]Search Forums
+     * [126]Forums Home
+     * Forums
+     * [127]General Forums
+         1. [128]General Tech Talk and Support
+         2. [129]PC and Console Gaming
+         3. [130]Software
+     * [131]Hardware Forums
+         1. [132]CPUs and Motherboards
+         2. [133]Cases, Cooling, and Overclocking
+         3. [134]PC Audio and Home Theater
+         4. [135]PC Video, Digital Imaging, and Displays
+         5. [136]Storage and Peripherals
+         6. [137]Networking and the Internet
+         7. [138]Mobile Technology
+     * [139]Community
+         1. [140]HWC Feedback
+         2. [141]Central Lounge
+         3. [142]For Sale Or Trade
+
+   « [143]Previous Thread | [144]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [145]BB code is On
+     * [146]Smilies are On
+     * [147][IMG] code is On
+     * [148][VIDEO] code is On
+     * HTML code is Off
+
+   [149]Forum Rules
+   [-- hardwarecentral yellow]
+     * [150]Contact Us
+     * [151]HardwareCentral Forums
+     * [152]Archive
+     * [153]Top
+
+   IFRAME:
+   [154]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:07 PM.
+
+   Powered by [155]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=16
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=132389&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=132389
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=132389
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=132389&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713768&mode=threaded#post713768
+  38. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713768#post713768
+  39. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36549&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713768
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713768#post713768
+  44. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713800#post713800
+  45. http://www.hardwarecentral.com/member.php?37829-SolApathy&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?37829-SolApathy&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?37829-SolApathy&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37829&contenttype=vBForum_Post&showposts=1
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713800
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713800#post713800
+  51. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713811#post713811
+  52. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?1408-Todd-a&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1408&contenttype=vBForum_Post&showposts=1
+  56. http://www.geocities.com/todd_e_abbott/HomePage.html
+  57. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713811
+  58. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713811#post713811
+  59. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713814#post713814
+  60. http://www.hardwarecentral.com/member.php?22223-dfgsd&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?22223-dfgsd&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=22223&contenttype=vBForum_Post&showposts=1
+  63. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713814
+  64. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713814#post713814
+  65. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713845#post713845
+  66. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36549&contenttype=vBForum_Post&showposts=1
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713845
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713845#post713845
+  71. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713899#post713899
+  72. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/member.php?28368-Justintime&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28368&contenttype=vBForum_Post&showposts=1
+  76. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713899
+  77. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713899#post713899
+  78. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=713990#post713990
+  79. http://www.hardwarecentral.com/member.php?37829-SolApathy&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/member.php?37829-SolApathy&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?37829-SolApathy&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37829&contenttype=vBForum_Post&showposts=1
+  83. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=713990
+  84. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=713990#post713990
+  85. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=714104#post714104
+  86. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=22303&contenttype=vBForum_Post&showposts=1
+  90. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=714104
+  91. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=714104#post714104
+  92. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=714116#post714116
+  93. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+  95. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36549&contenttype=vBForum_Post&showposts=1
+  96. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=714116
+  97. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=714116#post714116
+  98. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=714169#post714169
+  99. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+ 102. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=22303&contenttype=vBForum_Post&showposts=1
+ 103. http://www.overclockers.com/
+ 104. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=714169
+ 105. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=714169#post714169
+ 106. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=714173#post714173
+ 107. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/member.php?36549-Polski-Krol&s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36549&contenttype=vBForum_Post&showposts=1
+ 110. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=714173
+ 111. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=714173#post714173
+ 112. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&p=714197#post714197
+ 113. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/member.php?22303-Dacs&s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=22303&contenttype=vBForum_Post&showposts=1
+ 117. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=714197
+ 118. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?132389&p=714197#post714197
+ 119. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500#top
+ 121. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 136. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 144. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 145. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 146. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 147. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 148. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 149. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 150. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 151. http://www.hardwarecentral.com/
+ 152. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500#top
+ 154. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 155. https://www.vbulletin.com/
+
+   Hidden links:
+ 157. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713768%23post713768&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 158. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713768%23post713768&source=webclient
+ 159. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713768%23post713768&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 160. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713800%23post713800&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 161. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713800%23post713800&source=webclient
+ 162. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713800%23post713800&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 163. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713811%23post713811&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 164. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713811%23post713811&source=webclient
+ 165. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713811%23post713811&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 166. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713814%23post713814&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 167. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713814%23post713814&source=webclient
+ 168. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713814%23post713814&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 169. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713845%23post713845&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 170. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713845%23post713845&source=webclient
+ 171. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713845%23post713845&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 172. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713899%23post713899&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 173. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713899%23post713899&source=webclient
+ 174. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713899%23post713899&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 175. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713990%23post713990&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 176. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713990%23post713990&source=webclient
+ 177. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D713990%23post713990&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 178. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714104%23post714104&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 179. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714104%23post714104&source=webclient
+ 180. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714104%23post714104&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 181. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714116%23post714116&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 182. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714116%23post714116&source=webclient
+ 183. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714116%23post714116&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 184. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714169%23post714169&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 185. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714169%23post714169&source=webclient
+ 186. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714169%23post714169&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 187. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714173%23post714173&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 188. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714173%23post714173&source=webclient
+ 189. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714173%23post714173&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 190. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714197%23post714197&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 191. http://twitter.com/share?text=Overclocking%20PIII%20500&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714197%23post714197&source=webclient
+ 192. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F132389%26p%3D714197%23post714197&title=Overclocking%20PIII%20500&summary=&source=HardwareCentral%20Forums
+ 193. http://www.hardwarecentral.com/showthread.php?132389-Overclocking-PIII-500#top

@@ -1,0 +1,1045 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - CPUs
+   and Motherboards - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]CPUs and Motherboards
+     * Buffer underrun (audio)
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   [27]Page 1 of 2 [28]1[29]2 [30]Next [31]Last Last
+     * Jump to page: ____ Go
+
+   Results 1 to 15 of 17
+
+Thread: [32]Buffer underrun (audio)
+
+   [33]Tweet
+     * [34]Thread Tools
+          + [35]Show Printable Version
+          + [36]Email this Page…
+          + [37]Subscribe to this Thread…
+     * [38]Search Thread
+          + Search...___________ Search
+          +
+            [39]Advanced Search
+     * [40]Display
+          + Linear Mode
+          + [41]Switch to Hybrid Mode
+          + [42]Switch to Threaded Mode
+
+    1. December 6th, 2006, 05:58 AM [43]#1
+       [44]Kalki
+          + [45]View Profile
+          + [46]View Forum Posts
+       Kalki is offline 5000
+
+        Join Date
+                Dec 2006
+
+        Posts
+                7
+
+Question Buffer underrun (audio)
+
+     hi people, iam a computer music producer . i use fruityloops for
+     production. now iam facing buffer under run problem. all my projects
+     are clicking n distorted. i am confused. is it happening bcos of the
+     cpu buffers got damaged or the sound card. do sound cards have
+     buffers??
+     waiting for ur help
+     tnx
+       [47]Reply With Quote Reply With Quote [48]Share on Google+
+         ______________________________________________________________
+
+    2. December 6th, 2006, 08:47 AM [49]#2
+       [50]glussier's Avatar
+       [51]glussier
+          + [52]View Profile
+          + [53]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     A buffer underrun is an empty buffer, for some reason your system
+     can't keep a buffer filled fast enough. The reason for this could be
+     caused by an hard drive which is not fast enough, bottleneck in ram
+     bandwidth or not enough cpu processing power available.
+     Not knowing more about your computer, your o/s and what exactly what
+     you were doing with your computer end-up with vague explanations.
+     BTW, Welcome aboard.
+
+     Gilles Lussier
+     [54]HWC Folding@Home Team
+       [55]Reply With Quote Reply With Quote [56]Share on Google+
+         ______________________________________________________________
+
+    3. December 6th, 2006, 09:39 AM [57]#3
+       [58]Kalki
+          + [59]View Profile
+          + [60]View Forum Posts
+       Kalki is offline 5000
+
+        Join Date
+                Dec 2006
+
+        Posts
+                7
+
+     Quote Originally Posted by glussier
+
+     A buffer underrun is an empty buffer, for some reason your system
+     can't keep a buffer filled fast enough. The reason for this could be
+     caused by an hard drive which is not fast enough, bottleneck in ram
+     bandwidth or not enough cpu processing power available.
+     Not knowing more about your computer, your o/s and what exactly what
+     you were doing with your computer end-up with vague explanations.
+     BTW, Welcome aboard.
+     Bro
+     i will explain about my system later. in betwn, can it happen bcos
+     of buffer damage of processor. or anything with soundcard should i
+     change the cpu??
+       [61]Reply With Quote Reply With Quote [62]Share on Google+
+         ______________________________________________________________
+
+    4. December 6th, 2006, 10:09 AM [63]#4
+       [64]glussier's Avatar
+       [65]glussier
+          + [66]View Profile
+          + [67]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Don't think about changing nothing yet. We need more information
+     before trying to assess the problem. Give the information and we'll
+     try to help you solve the problem.
+
+     Gilles Lussier
+     [68]HWC Folding@Home Team
+       [69]Reply With Quote Reply With Quote [70]Share on Google+
+         ______________________________________________________________
+
+    5. December 6th, 2006, 10:45 AM [71]#5
+       [72]Intel_Peep's Avatar
+       [73]Intel_Peep
+          + [74]View Profile
+          + [75]View Forum Posts
+          + [76]Visit Homepage
+       Intel_Peep is offline Member
+
+        Join Date
+                Apr 2002
+
+        Location
+                Hillsboro, OR
+
+        Posts
+                488
+
+     Quote Originally Posted by Kalki
+
+     Bro
+     i will explain about my system later. in betwn, can it happen bcos
+     of buffer damage of processor. or anything with soundcard should i
+     change the cpu??
+     Hi Kalki,
+     Can you please explain what you mean by buffer damage? There are
+     buffers in the CPU, but if they become damaged it is most likely
+     that your CPU will either just stop working (lock up) or the data
+     will become corrupt (and more corrupt over time, essentially leading
+     to a lock up). The Sound Card has a buffer on it that takes data
+     from the rest of the sytem, either the hard disk if it is
+     pre-created or probably the CPU if you are creating the sound when
+     it is being created. If it is coming from the CPU it will be
+     transferred through the chipset (actually, most likely to the RAM
+     then the chipset), and into the sound card hardware where it is
+     translated (or looked up from ROM tables, if you are playing MIDI),
+     put into a buffer, then converted to analog signals for shipping out
+     to your speakers.
+     So, in order to help you diagnose, we really need more information.
+     Did this problem recently start, or did you buy a new system? What
+     type of hardware does the system have?
+     So, if you have a newer system but you are using sound card hardware
+     that is built onto the motherboard, then I would guess that the
+     hardware simply was not designed to be used by professionals
+     developing music from mulitple channels (they are more designed for
+     playing games and simpler things like that). In that case I would
+     suggest buying a new sound card that is not built into the MB.
+     If you are using an older system that has gotten worse over time,
+     then we can look in other directions. First, all transactions
+     handled by the sound card have to be handled by the driver (all
+     transfers of data, etc.). That driver runs on the CPU, and if you
+     have installed more programs over time (virus scans, etc) that run
+     in the background, it could be that the sound card software is not
+     getting the priority it used to (other things are using the CPU). In
+     that case, you might need to disable some of the other software
+     programs running in the background when you start developing music.
+     Or upgrade to a newer, dual core processor that is more designed to
+     handle all the other stuff and still give you plenty of speed in
+     your primary task. Another possiblity is that you have other
+     hardware conflicting with the sound card (assigned to the same
+     interrupt channel) that keeps the sound card from getting the
+     attention it needs. You can check the resources by going into the
+     system information icon in the Control Panel and finding your sound
+     card to see if it has any conflicts of resources. One final
+     possiblity is that you are using hardware that is using bus
+     bandwidth that the sound card needs to fill its buffers. For
+     example, if you are using a network card on the same bus as the
+     sound card, the network card can typically nearly saturate the
+     bandwidth of the bus it is operating on, essentially starving all
+     other hardware on the same bus (and would cause buffer underruns).
+     So, in summary, it is obvious that your sound card cannot keep it's
+     buffers full, but there are a huge number of possibilities as to why
+     that could be. One of them is not, however, damaged buffers in your
+     CPU. But, without more information from your end, you are expecting
+     the helpful people here to throw solutions at a (nearly) boundless
+     problems without really having an understanding for the problem. No
+     debugger worth his salt would even attempt that, and you are asking
+     them to know more about your situation than you are willing to
+     disclose. If you are looking to separate sound card from CPU, if one
+     of the two is damaged, it is almost certainly the sound card. But,
+     without more info, I could not reccomend replacing that either
+     (unless you are losing money from this problem faster than it would
+     cost you to just get a newer system, then you have an obvious
+     cost-benefit with just buying new hardware).
+     So, if you could please let us know more about your problem, then we
+     could help you to solve it (and at no cost to you... )
+     Best Regards,
+     Intel_Peep
+
+     Pentium Extreme Edition 965 (3.73GHz, HT Enabled)
+     ABit AW8D (975X)
+     1024MB Corsair XMS2 DDR2 667MHz 4-4-4-12
+     SB Audigy
+     Creative 5.1 speakers
+     P4 2.4GHz, 133MHz FSB 1.5V
+     A-Bit TH7-II
+     ATi Radeon 9800 Pro/128MB
+     512MB Kingston PC800 @ 1066
+     SB Audigy
+     El Cheapo (tm) speakers
+     My favorite toy:
+     Canon EOS 20D
+     Canon 17-85mm IS USM
+     Canon 70-300mm IS USM
+     Canon 85mm F1.8
+     Not speaking for Intel!
+       [77]Reply With Quote Reply With Quote [78]Share on Google+
+         ______________________________________________________________
+
+    6. December 6th, 2006, 12:45 PM [79]#6
+       [80]glussier's Avatar
+       [81]glussier
+          + [82]View Profile
+          + [83]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Intel-Peep,
+     You seem like having a lot of free time today, don't you?
+
+     Gilles Lussier
+     [84]HWC Folding@Home Team
+       [85]Reply With Quote Reply With Quote [86]Share on Google+
+         ______________________________________________________________
+
+    7. December 6th, 2006, 02:01 PM [87]#7
+       [88]Intel_Peep's Avatar
+       [89]Intel_Peep
+          + [90]View Profile
+          + [91]View Forum Posts
+          + [92]Visit Homepage
+       Intel_Peep is offline Member
+
+        Join Date
+                Apr 2002
+
+        Location
+                Hillsboro, OR
+
+        Posts
+                488
+
+     Quote Originally Posted by glussier
+
+     Intel-Peep,
+     You seem like having a lot of free time today, don't you?
+     he-he, well, our son woke up at 5:30 this morning, and I was just
+     waiting for him to finish his breakfast and waiting for my Dad to
+     show up to take him out for the day (my wife is currently unable to
+     help care for him), so I needed something to do...
+
+     Pentium Extreme Edition 965 (3.73GHz, HT Enabled)
+     ABit AW8D (975X)
+     1024MB Corsair XMS2 DDR2 667MHz 4-4-4-12
+     SB Audigy
+     Creative 5.1 speakers
+     P4 2.4GHz, 133MHz FSB 1.5V
+     A-Bit TH7-II
+     ATi Radeon 9800 Pro/128MB
+     512MB Kingston PC800 @ 1066
+     SB Audigy
+     El Cheapo (tm) speakers
+     My favorite toy:
+     Canon EOS 20D
+     Canon 17-85mm IS USM
+     Canon 70-300mm IS USM
+     Canon 85mm F1.8
+     Not speaking for Intel!
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    8. December 6th, 2006, 10:54 PM [95]#8
+       [96]equinoxe3d's Avatar
+       [97]equinoxe3d
+          + [98]View Profile
+          + [99]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     In FruityLoops audio settings you could try upping the sound buffer
+     latency (in milliseconds) a bit.
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [100]Join the HwC Folding@Home team!
+       [101]Reply With Quote Reply With Quote [102]Share on Google+
+         ______________________________________________________________
+
+    9. December 7th, 2006, 04:30 AM [103]#9
+       [104]Kalki
+          + [105]View Profile
+          + [106]View Forum Posts
+       Kalki is offline 5000
+
+        Join Date
+                Dec 2006
+
+        Posts
+                7
+
+     Quote Originally Posted by equinoxe3d
+
+     In FruityLoops audio settings you could try upping the sound buffer
+     latency (in milliseconds) a bit.
+     i have tried all in fruityloops. its some hardware problem
+       [107]Reply With Quote Reply With Quote [108]Share on Google+
+         ______________________________________________________________
+
+   10. December 7th, 2006, 07:26 AM [109]#10
+       [110]Kalki
+          + [111]View Profile
+          + [112]View Forum Posts
+       Kalki is offline 5000
+
+        Join Date
+                Dec 2006
+
+        Posts
+                7
+
+     My pc config is
+     AMD athlon XP 2000+ 1.6ghz
+     256MB Ram
+     AC'97 soundcard with vinyl AC'97 audio driver
+     OS - XP
+     i use this system for only makin music. i did the same before the
+     day i got this problem. nothing else. i sat whole night n made
+     something n in the morning when i opened it the track was clipping
+     alot. i tried everything. but nothing happened. i even reinstalled
+     the XP.
+     the thing i suspect is that i used ASIO4ALL drive some time for the
+     sound card. in fruity loops manual its said that "use it at ur own
+     risk". if that the cause which part of my pc is damaged.
+     i have used virtual synthsisers(VST) for creating sounds. samples
+     where less. vsts runs on real time processing. so its uses cpu alot
+     not hardisk. where wave samples are loaded in ram from disk n use
+     the mem.
+       [113]Reply With Quote Reply With Quote [114]Share on Google+
+         ______________________________________________________________
+
+   11. December 7th, 2006, 12:36 PM [115]#11
+       [116]Intel_Peep's Avatar
+       [117]Intel_Peep
+          + [118]View Profile
+          + [119]View Forum Posts
+          + [120]Visit Homepage
+       Intel_Peep is offline Member
+
+        Join Date
+                Apr 2002
+
+        Location
+                Hillsboro, OR
+
+        Posts
+                488
+
+     Quote Originally Posted by Kalki
+
+     My pc config is
+     AMD athlon XP 2000+ 1.6ghz
+     256MB Ram
+     AC'97 soundcard with vinyl AC'97 audio driver
+     OS - XP
+     i use this system for only makin music. i did the same before the
+     day i got this problem. nothing else. i sat whole night n made
+     something n in the morning when i opened it the track was clipping
+     alot. i tried everything. but nothing happened. i even reinstalled
+     the XP.
+     the thing i suspect is that i used ASIO4ALL drive some time for the
+     sound card. in fruity loops manual its said that "use it at ur own
+     risk". if that the cause which part of my pc is damaged.
+     i have used virtual synthsisers(VST) for creating sounds. samples
+     where less. vsts runs on real time processing. so its uses cpu alot
+     not hardisk. where wave samples are loaded in ram from disk n use
+     the mem.
+     Kalki,
+     Thanks for the additional information. First, let me stress that I
+     am not a music producer, nor have I ever done that sort of thing or
+     used the programs that you refer to. But, from my experience, I
+     would strongly reccomend that you NEVER use an AC'97 audio device
+     for anything other than the very basic playing of sounds for gaming
+     through two crappy speakers, and even then it is not reccomended...
+     The newer built-in sound cards are better, but from the timeframe
+     that you got yours they were quite frankly only intended for those
+     that wanted to have a system with a very tight budget. Developing
+     music on one of those devices would be, in my opinion, like trying
+     to move all your belongings accross the country in a Yugo, sure you
+     might be able to but at much peril to yourself... Not that I would
+     say that you should have known that, but from a hardware standpoint
+     those devices are not made to do alot of work.
+     OK, so with that said, that does not mean that the AC'97 audio is
+     definitely the problem, but I would say it is probably a 90% chance,
+     in my experience. The chance that a hardware problem in another part
+     of the system would show itself only in bad audio is highly
+     unlikely. You are more likely to see blue-screens, lockups, or other
+     problems if you have bad RAM, a problem in your CPU or other
+     hardware (hard-disk, etc).
+     Unfortunately, if a problem is really with the hardware, without
+     having very expensive test equipment, and an advanced knowledge of
+     the specifications of the hardware that would only come from having
+     designed it, the only real way to debug it is to replace it. If I
+     were you (and I don't know your financial situation, etc.), I would
+     certainly start with buying a new, non-built in sound card. Even if
+     that is not the problem with your system, you would still be doing
+     yourself a great service if you are really serious about using your
+     system for developing music. That hardware would be much more
+     capable and designed for the tasks that you are using it for. Not
+     sure where you are writing from, but in the United States you can
+     pick up a Sound Blaster Audigy for around $30, which is really
+     fairly low even though this is a several generations old card and is
+     mostly geared at the game player's market, it will be far more
+     capable than the AC'97 audio. If you are really serious about
+     developing audio, then there are cards with more advanced features
+     for doing that type of work for the $100-$200 price range.
+     As to the rest of the system, although it is only and AMD system
+     (Sorry, had to say that... ), it is more than capable for what you
+     are using it for. I would say that if you start woking with music
+     files much more than probably around 100MB, you would probably be
+     better off with more than 256MB or RAM in your system (after you
+     fill up the RAM, you have to start getting data from the much slower
+     hard disk, and Windows XP usually uses a good portion of 256MB
+     without running much else), so I would say that 512MB would probably
+     be better in your situation. Upgrading that would not hurt anything
+     other than your pocketbook.
+     Hope this helps,
+     Intel_Peep
+
+     Pentium Extreme Edition 965 (3.73GHz, HT Enabled)
+     ABit AW8D (975X)
+     1024MB Corsair XMS2 DDR2 667MHz 4-4-4-12
+     SB Audigy
+     Creative 5.1 speakers
+     P4 2.4GHz, 133MHz FSB 1.5V
+     A-Bit TH7-II
+     ATi Radeon 9800 Pro/128MB
+     512MB Kingston PC800 @ 1066
+     SB Audigy
+     El Cheapo (tm) speakers
+     My favorite toy:
+     Canon EOS 20D
+     Canon 17-85mm IS USM
+     Canon 70-300mm IS USM
+     Canon 85mm F1.8
+     Not speaking for Intel!
+       [121]Reply With Quote Reply With Quote [122]Share on Google+
+         ______________________________________________________________
+
+   12. December 9th, 2006, 10:51 AM [123]#12
+       [124]Kalki
+          + [125]View Profile
+          + [126]View Forum Posts
+       Kalki is offline 5000
+
+        Join Date
+                Dec 2006
+
+        Posts
+                7
+
+     Quote Originally Posted by Intel_Peep
+
+     Kalki,
+     Thanks for the additional information. First, let me stress that I
+     am not a music producer, nor have I ever done that sort of thing or
+     used the programs that you refer to. But, from my experience, I
+     would strongly reccomend that you NEVER use an AC'97 audio device
+     for anything other than the very basic playing of sounds for gaming
+     through two crappy speakers, and even then it is not reccomended...
+     The newer built-in sound cards are better, but from the timeframe
+     that you got yours they were quite frankly only intended for those
+     that wanted to have a system with a very tight budget. Developing
+     music on one of those devices would be, in my opinion, like trying
+     to move all your belongings accross the country in a Yugo, sure you
+     might be able to but at much peril to yourself... Not that I would
+     say that you should have known that, but from a hardware standpoint
+     those devices are not made to do alot of work.
+     OK, so with that said, that does not mean that the AC'97 audio is
+     definitely the problem, but I would say it is probably a 90% chance,
+     in my experience. The chance that a hardware problem in another part
+     of the system would show itself only in bad audio is highly
+     unlikely. You are more likely to see blue-screens, lockups, or other
+     problems if you have bad RAM, a problem in your CPU or other
+     hardware (hard-disk, etc).
+     Unfortunately, if a problem is really with the hardware, without
+     having very expensive test equipment, and an advanced knowledge of
+     the specifications of the hardware that would only come from having
+     designed it, the only real way to debug it is to replace it. If I
+     were you (and I don't know your financial situation, etc.), I would
+     certainly start with buying a new, non-built in sound card. Even if
+     that is not the problem with your system, you would still be doing
+     yourself a great service if you are really serious about using your
+     system for developing music. That hardware would be much more
+     capable and designed for the tasks that you are using it for. Not
+     sure where you are writing from, but in the United States you can
+     pick up a Sound Blaster Audigy for around $30, which is really
+     fairly low even though this is a several generations old card and is
+     mostly geared at the game player's market, it will be far more
+     capable than the AC'97 audio. If you are really serious about
+     developing audio, then there are cards with more advanced features
+     for doing that type of work for the $100-$200 price range.
+     As to the rest of the system, although it is only and AMD system
+     (Sorry, had to say that... ), it is more than capable for what you
+     are using it for. I would say that if you start woking with music
+     files much more than probably around 100MB, you would probably be
+     better off with more than 256MB or RAM in your system (after you
+     fill up the RAM, you have to start getting data from the much slower
+     hard disk, and Windows XP usually uses a good portion of 256MB
+     without running much else), so I would say that 512MB would probably
+     be better in your situation. Upgrading that would not hurt anything
+     other than your pocketbook.
+     Hope this helps,
+     Intel_Peep
+     wooooow great help bro. what u r saying about soundcard is a fact
+     that verymuch spoken in music making scene. i will upgrade my pc
+     after getting some money
+     As to the rest of the system, although it is only and AMD system
+     (Sorry, had to say that... )
+     bro, i have one p4 i don use it cos of lots of hanging problem i
+     faced with that (Sorry, had to say that... )
+     as u said 512MB is minimum for music production
+     Thanx alot for the great help
+       [127]Reply With Quote Reply With Quote [128]Share on Google+
+         ______________________________________________________________
+
+   13. December 9th, 2006, 01:33 PM [129]#13
+       [130]glussier's Avatar
+       [131]glussier
+          + [132]View Profile
+          + [133]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     bro, i have one p4 i don use it cos of lots of hanging problem i
+     faced with that (Sorry, had to say that... )
+     If you really have one, you should probably try to fix it, even the
+     original P4 willy was better at streaming tasks than the amd xp
+     processors.
+
+     Gilles Lussier
+     [134]HWC Folding@Home Team
+       [135]Reply With Quote Reply With Quote [136]Share on Google+
+         ______________________________________________________________
+
+   14. December 9th, 2006, 02:32 PM [137]#14
+       [138]Intel_Peep's Avatar
+       [139]Intel_Peep
+          + [140]View Profile
+          + [141]View Forum Posts
+          + [142]Visit Homepage
+       Intel_Peep is offline Member
+
+        Join Date
+                Apr 2002
+
+        Location
+                Hillsboro, OR
+
+        Posts
+                488
+
+     Quote Originally Posted by Kalki
+
+     wooooow great help bro. what u r saying about soundcard is a fact
+     that verymuch spoken in music making scene. i will upgrade my pc
+     after getting some money
+     bro, i have one p4 i don use it cos of lots of hanging problem i
+     faced with that (Sorry, had to say that... )
+     as u said 512MB is minimum for music production
+     Thanx alot for the great help
+     OK, even though you insulted my company... :P since it is the
+     Christmas season, if you live in the US, I have a SB Live 5.1
+     speaker PCI sound card sitting around that I will send you for the
+     cost of shipping if you are interested. But only if you promise to
+     upgrade to an Intel system when you get the money... Just IM me if
+     you are interested, and we can work out the details. I also have a
+     512MB Stick of DDR333 and an old P4 socket 478 Motherboard, we can
+     see if we can work out a good deal on that too, not sure what is
+     your budget, so again we could work that in IM.
+     Later,
+     Intel_Peep
+
+     Pentium Extreme Edition 965 (3.73GHz, HT Enabled)
+     ABit AW8D (975X)
+     1024MB Corsair XMS2 DDR2 667MHz 4-4-4-12
+     SB Audigy
+     Creative 5.1 speakers
+     P4 2.4GHz, 133MHz FSB 1.5V
+     A-Bit TH7-II
+     ATi Radeon 9800 Pro/128MB
+     512MB Kingston PC800 @ 1066
+     SB Audigy
+     El Cheapo (tm) speakers
+     My favorite toy:
+     Canon EOS 20D
+     Canon 17-85mm IS USM
+     Canon 70-300mm IS USM
+     Canon 85mm F1.8
+     Not speaking for Intel!
+       [143]Reply With Quote Reply With Quote [144]Share on Google+
+         ______________________________________________________________
+
+   15. December 9th, 2006, 04:43 PM [145]#15
+       [146]ThePerson98's Avatar
+       [147]ThePerson98
+          + [148]View Profile
+          + [149]View Forum Posts
+       ThePerson98 is offline HWC Technician
+
+        Join Date
+                Feb 2005
+
+        Location
+                Oklahoma, USA
+
+        Posts
+                1,253
+
+     I don't know if this will help or not, but I used to have problems
+     similar to this. With my Audigy 2 ZS.
+     A lot of older VIA chipset motherboards have PCI latency, I turned
+     that off and it worked fine..But I used to get pops very often in
+     games and everything.
+
+     Intel 2500k @ 4.5 GHz | Sapphire 6870 1GB | 8GB DDR31600 | Gigabyte
+     Z68A-D3H-B3 | 640 GB WD Caviar Black | 500GB WD something | ASUS
+     Xonar DS | Logitech Z-5300e | Logitech G500 | Das Keyboard Cherry MX
+     Brown | Dell S2740L
+       [150]Reply With Quote Reply With Quote [151]Share on Google+
+         ______________________________________________________________
+
+   [152]Page 1 of 2 [153]1[154]2 [155]Next [156]Last Last
+     * Jump to page: ____ Go
+
+   Quick Navigation [157]CPUs and Motherboards [158]Top
+     * Site Areas
+     * [159]Settings
+     * [160]Private Messages
+     * [161]Subscriptions
+     * [162]Who's Online
+     * [163]Search Forums
+     * [164]Forums Home
+     * Forums
+     * [165]General Forums
+         1. [166]General Tech Talk and Support
+         2. [167]PC and Console Gaming
+         3. [168]Software
+     * [169]Hardware Forums
+         1. [170]CPUs and Motherboards
+         2. [171]Cases, Cooling, and Overclocking
+         3. [172]PC Audio and Home Theater
+         4. [173]PC Video, Digital Imaging, and Displays
+         5. [174]Storage and Peripherals
+         6. [175]Networking and the Internet
+         7. [176]Mobile Technology
+     * [177]Community
+         1. [178]HWC Feedback
+         2. [179]Central Lounge
+         3. [180]For Sale Or Trade
+
+   « [181]Previous Thread | [182]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [183]BB code is On
+     * [184]Smilies are On
+     * [185][IMG] code is On
+     * [186][VIDEO] code is On
+     * HTML code is Off
+
+   [187]Forum Rules
+   [-- hardwarecentral yellow]
+     * [188]Contact Us
+     * [189]HardwareCentral Forums
+     * [190]Archive
+     * [191]Top
+
+   IFRAME:
+   [192]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:13 PM.
+
+   Powered by [193]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=7
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. javascript:///
+  28. javascript:///
+  29. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  30. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  31. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  32. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f
+  33. https://twitter.com/share
+  34. javascript:///
+  35. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=174347&pp=15&page=1
+  36. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=174347
+  37. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=174347
+  38. javascript:///
+  39. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=174347&contenttype=vBForum_Post
+  40. javascript:///
+  41. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  42. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998793&mode=threaded#post998793
+  43. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998793#post998793
+  44. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+  45. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=47954&contenttype=vBForum_Post&showposts=1
+  47. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998793
+  48. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998793#post998793
+  49. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998798#post998798
+  50. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  51. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  54. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  55. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998798
+  56. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998798#post998798
+  57. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998799#post998799
+  58. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=47954&contenttype=vBForum_Post&showposts=1
+  61. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998799
+  62. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998799#post998799
+  63. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998800#post998800
+  64. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  68. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  69. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998800
+  70. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998800#post998800
+  71. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998803#post998803
+  72. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38032&contenttype=vBForum_Post&showposts=1
+  76. http://espn.com/
+  77. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998803
+  78. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998803#post998803
+  79. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998805#post998805
+  80. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  84. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  85. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998805
+  86. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998805#post998805
+  87. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998806#post998806
+  88. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38032&contenttype=vBForum_Post&showposts=1
+  92. http://espn.com/
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998806
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998806#post998806
+  95. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998838#post998838
+  96. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+ 100. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 101. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998838
+ 102. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998838#post998838
+ 103. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998852#post998852
+ 104. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+ 105. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=47954&contenttype=vBForum_Post&showposts=1
+ 107. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998852
+ 108. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998852#post998852
+ 109. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998858#post998858
+ 110. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=47954&contenttype=vBForum_Post&showposts=1
+ 113. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998858
+ 114. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998858#post998858
+ 115. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=998877#post998877
+ 116. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38032&contenttype=vBForum_Post&showposts=1
+ 120. http://espn.com/
+ 121. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=998877
+ 122. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=998877#post998877
+ 123. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=999012#post999012
+ 124. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/member.php?47954-Kalki&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=47954&contenttype=vBForum_Post&showposts=1
+ 127. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=999012
+ 128. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=999012#post999012
+ 129. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=999018#post999018
+ 130. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+ 134. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 135. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=999018
+ 136. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=999018#post999018
+ 137. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=999023#post999023
+ 138. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/member.php?38032-Intel_Peep&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38032&contenttype=vBForum_Post&showposts=1
+ 142. http://espn.com/
+ 143. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=999023
+ 144. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=999023#post999023
+ 145. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&p=999029#post999029
+ 146. http://www.hardwarecentral.com/member.php?44097-ThePerson98&s=af52edabdca22194a05a25ea9dfcc77f
+ 147. http://www.hardwarecentral.com/member.php?44097-ThePerson98&s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/member.php?44097-ThePerson98&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=44097&contenttype=vBForum_Post&showposts=1
+ 150. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=999029
+ 151. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?174347&p=999029#post999029
+ 152. javascript:///
+ 153. javascript:///
+ 154. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 156. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 157. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f
+ 158. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)#top
+ 159. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 160. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 162. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 166. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 167. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 168. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 169. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 170. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 175. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 176. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 177. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 178. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 179. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 180. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 181. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 182. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 183. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 184. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 185. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 186. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 187. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 188. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 189. http://www.hardwarecentral.com/
+ 190. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 191. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)#top
+ 192. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 193. https://www.vbulletin.com/
+
+   Hidden links:
+ 195. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998793%23post998793&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 196. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998793%23post998793&source=webclient
+ 197. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998793%23post998793&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 198. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998798%23post998798&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 199. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998798%23post998798&source=webclient
+ 200. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998798%23post998798&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 201. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998799%23post998799&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 202. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998799%23post998799&source=webclient
+ 203. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998799%23post998799&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 204. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998800%23post998800&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 205. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998800%23post998800&source=webclient
+ 206. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998800%23post998800&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 207. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998803%23post998803&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 208. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998803%23post998803&source=webclient
+ 209. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998803%23post998803&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 210. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998805%23post998805&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 211. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998805%23post998805&source=webclient
+ 212. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998805%23post998805&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 213. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998806%23post998806&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 214. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998806%23post998806&source=webclient
+ 215. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998806%23post998806&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 216. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998838%23post998838&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 217. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998838%23post998838&source=webclient
+ 218. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998838%23post998838&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 219. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998852%23post998852&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 220. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998852%23post998852&source=webclient
+ 221. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998852%23post998852&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 222. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998858%23post998858&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 223. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998858%23post998858&source=webclient
+ 224. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998858%23post998858&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 225. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998877%23post998877&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 226. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998877%23post998877&source=webclient
+ 227. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D998877%23post998877&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 228. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999012%23post999012&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 229. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999012%23post999012&source=webclient
+ 230. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999012%23post999012&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 231. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999018%23post999018&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 232. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999018%23post999018&source=webclient
+ 233. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999018%23post999018&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 234. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999023%23post999023&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 235. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999023%23post999023&source=webclient
+ 236. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999023%23post999023&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 237. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999029%23post999029&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 238. http://twitter.com/share?text=Buffer%20underrun%20(audio)&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999029%23post999029&source=webclient
+ 239. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F174347%26p%3D999029%23post999029&title=Buffer%20underrun%20(audio)&summary=&source=HardwareCentral%20Forums
+ 240. http://www.hardwarecentral.com/showthread.php?174347-Buffer-underrun-(audio)#top

@@ -1,0 +1,393 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Cases,
+   Cooling, and Overclocking - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Cases, Cooling, and Overclocking
+     * Overclocking a 233MHz PII
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 5 of 5
+
+Thread: [27]Overclocking a 233MHz PII
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. August 7th, 1999, 03:19 PM [38]#1
+       [39]paulspage
+          + [40]View Profile
+          + [41]View Forum Posts
+          + [42]Visit Homepage
+       paulspage is offline 5000
+
+        Join Date
+                Feb 1999
+
+        Location
+                Newcastle Upon Tyne
+
+        Posts
+                150
+
+Overclocking a 233MHz PII
+
+     My old 233MHz PII is starting to show it's age a bit now and I was
+     wondering how overclockable these things are. In some diagnostic
+     program I've got, it says the CPU temperature is 3C. Is this
+     obviously wrong or does it just mean Ive got a good heatsink and
+     fan? My motherboard is an Intel AL440LX and I have 64MB of 66MHz
+     RAM. Would boosting the FSB to 68MHz make that much of a noticeable
+     difference?
+     Thanks
+
+     [43]http://www.toonweb.co.uk/
+       [44]Reply With Quote Reply With Quote [45]Share on Google+
+         ______________________________________________________________
+
+    2. August 7th, 1999, 04:40 PM [46]#2
+       [47]MadCat
+          + [48]View Profile
+          + [49]View Forum Posts
+       MadCat is offline HWC Technician
+
+        Join Date
+                Jan 1999
+
+        Posts
+                1,424
+
+     I doubt that small a boost would do much good. The theoretical limit
+     of Intel's older Klamath core PIIs is around 300-333mhz. Without any
+     extra cooling, you should be able to reach 263mhz (3.5x75). And, if
+     your motherboard supports it, you could make it to 290mhz (83.3x3.5)
+     or 300mhz (75x4.0), but for that I would suggest better cooling.
+     As for the temp: I doubt you have excellent cooling, you either dont
+     have hardware temp monitoring on your motherboard or you are using a
+     program like CPU monitor and you didnt configure the voltages
+     correctly.
+     ------------------
+     This signature space FOR RENT
+
+     This signature space FOR SALE
+       [50]Reply With Quote Reply With Quote [51]Share on Google+
+         ______________________________________________________________
+
+    3. August 7th, 1999, 08:48 PM [52]#3
+       [53]9503371m
+          + [54]View Profile
+          + [55]View Forum Posts
+       9503371m is offline 5000
+
+        Join Date
+                Jun 1999
+
+        Posts
+                18
+
+     I've been running my own PII 233 (Philipines SL264) at 300Mhz since
+     February.
+     If you overclock and fry the chip within a month so what ? It will
+     let you have some fun whilst you wait for that nice new Celeron to
+     get delivered.
+       [56]Reply With Quote Reply With Quote [57]Share on Google+
+         ______________________________________________________________
+
+    4. August 7th, 1999, 09:19 PM [58]#4
+       [59]Baloneyflaps's Avatar
+       [60]Baloneyflaps
+          + [61]View Profile
+          + [62]View Forum Posts
+          + [63]Visit Homepage
+       Baloneyflaps is offline Super Moderator
+
+        Join Date
+                Mar 1999
+
+        Location
+                Austin, TX USA (currently in Bosnia)
+
+        Posts
+                4,647
+
+     My old machine was a Klamath PII 266 (SL28L). It wouldn't even
+     overclock to 300 well. It got very hot, and liked to corrupt
+     registries, etc. Go ahead and give it a try though, if it fries just
+     drop in a Celeron 333.
+       [64]Reply With Quote Reply With Quote [65]Share on Google+
+         ______________________________________________________________
+
+    5. August 13th, 1999, 04:56 PM [66]#5
+       [67]peterfelgate
+          + [68]View Profile
+          + [69]View Forum Posts
+       peterfelgate is offline 5000
+
+        Join Date
+                Aug 1999
+
+        Posts
+                25
+
+     Hmmmm. The Intel Atlanta AL440LX can only run a 66MHz bus. The PII
+     233, unless manufactured before about Sept 1997, has a fixed
+     multiplier. So you can only run the two at 233, unless you take
+     surgery to the 233 and alter the multiplier (probably not worth the
+     bother). Even a new motherboard would only take the 233 to around
+     300 at best. Instead of overclocking, try a Celeron for a low cost
+     boost. If you go here:
+     http://home.earthlink.net/~billselk/al440lx.html
+     you will find advice as to how to update the AL440LX BIOS (even if
+     it's an OEM version such as from Dell or Sony) and advice as to
+     which slot 1/socket 370 converters will work if you want say a
+     Celeron 466 in this beast...You could then get a new motherboard
+     later to overclock the Celeron it if funds are tight.
+     HTH
+       [70]Reply With Quote Reply With Quote [71]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [72]Cases, Cooling, and Overclocking [73]Top
+     * Site Areas
+     * [74]Settings
+     * [75]Private Messages
+     * [76]Subscriptions
+     * [77]Who's Online
+     * [78]Search Forums
+     * [79]Forums Home
+     * Forums
+     * [80]General Forums
+         1. [81]General Tech Talk and Support
+         2. [82]PC and Console Gaming
+         3. [83]Software
+     * [84]Hardware Forums
+         1. [85]CPUs and Motherboards
+         2. [86]Cases, Cooling, and Overclocking
+         3. [87]PC Audio and Home Theater
+         4. [88]PC Video, Digital Imaging, and Displays
+         5. [89]Storage and Peripherals
+         6. [90]Networking and the Internet
+         7. [91]Mobile Technology
+     * [92]Community
+         1. [93]HWC Feedback
+         2. [94]Central Lounge
+         3. [95]For Sale Or Trade
+
+   « [96]Previous Thread | [97]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [98]BB code is On
+     * [99]Smilies are On
+     * [100][IMG] code is On
+     * [101][VIDEO] code is On
+     * HTML code is Off
+
+   [102]Forum Rules
+   [-- hardwarecentral yellow]
+     * [103]Contact Us
+     * [104]HardwareCentral Forums
+     * [105]Archive
+     * [106]Top
+
+   IFRAME:
+   [107]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:07 PM.
+
+   Powered by [108]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=16
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=107983&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=107983
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=107983
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=107983&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&p=545363&mode=threaded#post545363
+  38. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&p=545363#post545363
+  39. http://www.hardwarecentral.com/member.php?2652-paulspage&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?2652-paulspage&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=2652&contenttype=vBForum_Post&showposts=1
+  42. http://www.toonweb.co.uk/
+  43. http://www.toonweb.co.uk/
+  44. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=545363
+  45. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?107983&p=545363#post545363
+  46. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&p=545364#post545364
+  47. http://www.hardwarecentral.com/member.php?806-MadCat&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/member.php?806-MadCat&s=af52edabdca22194a05a25ea9dfcc77f
+  49. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=806&contenttype=vBForum_Post&showposts=1
+  50. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=545364
+  51. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?107983&p=545364#post545364
+  52. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&p=545365#post545365
+  53. http://www.hardwarecentral.com/member.php?5851-9503371m&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?5851-9503371m&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5851&contenttype=vBForum_Post&showposts=1
+  56. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=545365
+  57. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?107983&p=545365#post545365
+  58. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&p=545366#post545366
+  59. http://www.hardwarecentral.com/member.php?3856-Baloneyflaps&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/member.php?3856-Baloneyflaps&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?3856-Baloneyflaps&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=3856&contenttype=vBForum_Post&showposts=1
+  63. http://I_will_someday.com/
+  64. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=545366
+  65. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?107983&p=545366#post545366
+  66. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&p=545367#post545367
+  67. http://www.hardwarecentral.com/member.php?7587-peterfelgate&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?7587-peterfelgate&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7587&contenttype=vBForum_Post&showposts=1
+  70. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=545367
+  71. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?107983&p=545367#post545367
+  72. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII#top
+  74. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+  95. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+  96. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+  97. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+  98. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+  99. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 100. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 101. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 102. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 103. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/
+ 105. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII#top
+ 107. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 108. https://www.vbulletin.com/
+
+   Hidden links:
+ 110. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545363%23post545363&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 111. http://twitter.com/share?text=Overclocking%20a%20233MHz%20PII&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545363%23post545363&source=webclient
+ 112. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545363%23post545363&title=Overclocking%20a%20233MHz%20PII&summary=&source=HardwareCentral%20Forums
+ 113. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545364%23post545364&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 114. http://twitter.com/share?text=Overclocking%20a%20233MHz%20PII&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545364%23post545364&source=webclient
+ 115. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545364%23post545364&title=Overclocking%20a%20233MHz%20PII&summary=&source=HardwareCentral%20Forums
+ 116. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545365%23post545365&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 117. http://twitter.com/share?text=Overclocking%20a%20233MHz%20PII&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545365%23post545365&source=webclient
+ 118. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545365%23post545365&title=Overclocking%20a%20233MHz%20PII&summary=&source=HardwareCentral%20Forums
+ 119. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545366%23post545366&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 120. http://twitter.com/share?text=Overclocking%20a%20233MHz%20PII&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545366%23post545366&source=webclient
+ 121. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545366%23post545366&title=Overclocking%20a%20233MHz%20PII&summary=&source=HardwareCentral%20Forums
+ 122. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545367%23post545367&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 123. http://twitter.com/share?text=Overclocking%20a%20233MHz%20PII&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545367%23post545367&source=webclient
+ 124. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F107983%26p%3D545367%23post545367&title=Overclocking%20a%20233MHz%20PII&summary=&source=HardwareCentral%20Forums
+ 125. http://www.hardwarecentral.com/showthread.php?107983-Overclocking-a-233MHz-PII#top

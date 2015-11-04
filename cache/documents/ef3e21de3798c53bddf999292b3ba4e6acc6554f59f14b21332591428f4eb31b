@@ -1,0 +1,887 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - CPUs
+   and Motherboards - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]CPUs and Motherboards
+     * Both AMD and Intel guilty of BenchMarketing
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 11 of 11
+
+Thread: [27]Both AMD and Intel guilty of BenchMarketing
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. July 11th, 2003, 04:26 PM [38]#1
+       [39]Dr. Data
+          + [40]View Profile
+          + [41]View Forum Posts
+       Dr. Data is offline Senior Member
+
+        Join Date
+                Jun 2002
+
+        Posts
+                853
+
+Both AMD and Intel guilty of BenchMarketing
+
+     This was a very intresting article that largely explained away the
+     critism of the G5 Benchmarking technique.
+     There are several statements about hyperthreading, SSE, etc that
+     seem to indicate that these are purely marketing / benchmarketing
+     strategies which should not ever be considered when comparing
+     processor to processor.
+     If you followed that logic, it almost puts AMD back on top as the
+     true highest performer and knocks Intel down to nearly dead last.
+     Very intresting read.
+     Not at all dissimiliar to the recent benchmarking shattering news on
+     video cards related to Nvidia and ATI.
+     I hope sooner or later we can sift through all of the benchmarketing
+     bull crap and get honest performance indicators.
+     Reading the article really left me with the sick feeling in the pit
+     of my stomach that even well respected reviewers like Anand are
+     nothing more than puppets of Intel (and AMD) to do free advertising
+     using benchmarks which are optimized using code that will never be
+     realized in real world applications.
+     Down right disturbing.
+     After reading the article I am serioulsy considering re-reading
+     every review since Ive read since about the 2.0 ghz mark and try and
+     see who is really the best performer without all of the
+     optimizations, but I pretty much alreay know the AMDser.
+     Edit: Opps I forgot to post the link. Hehe
+     [42]http://www.osnews.com/story.php?news_id=3997&page=1
+
+     Last edited by Dr. Data; July 11th, 2003 at 04:31 PM.
+
+     Nforce 2 Mobo-oem stock
+     Athlon Xp3000-Stock
+     768 mgs PC2100 @ 2.5/3/3
+     Radeon 9700 PRO/365/342
+     Western Digital 8mg cache ATA-133/160G/7200 HD
+     Win XP Home SP1
+     19" KDS "Extreme Flat"
+     Laptop
+     Athlon 64 3200+
+     512mg Ram
+     Mobile Radeon 9600
+     80G Hard Drive
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. July 11th, 2003, 04:38 PM [45]#2
+       [46]Dr. Data
+          + [47]View Profile
+          + [48]View Forum Posts
+       Dr. Data is offline Senior Member
+
+        Join Date
+                Jun 2002
+
+        Posts
+                853
+
+     For those too lazy to read here is the section I was largely
+     referring to (although its better to read the whole thing).
+     Benchmarks
+     There has been a great deal of controversy over the benchmarks that
+     Apple has published when it announced the new PPC 970 based G5 [10].
+     The figures Apple gave for the Dell PC were a great deal lower than
+     the figures presented on the SPEC website. Many have criticised
+     Apple for this but all they did is use a different compiler (GCC)
+     and this gave the lower x86 results. GCC may not be the best x86
+     compiler but it contains a scheduler for neither the P4 or PPC 970
+     however it is considerably more mature on x86 than PowerPC. In fact
+     only very recently has the PowerPC code generation began to approach
+     the quality of x86 code generation. GCC 3.2 for instance produced
+     incorrect code for some PowerPC applications.
+     However, this does lead to the question of why the SPEC scores
+     produced by GCC are so different from those produced by Intel's ICC
+     compiler which it uses when submitting SPEC results. Is ICC really
+     that much better than GCC? In a recent test [11] of x86 compilers
+     most results turned out glaringly similar but when SEE2 is activated
+     ICC completely floors the competition. ICC is picking up the code
+     and auto-vectorising it for the x86 SSE2 unit, the other compilers
+     do not have this feature so don't get it's benefit. I think it's
+     fairly safe to assume this at least in part is the reason for the
+     difference between the SPEC scores produced by Apple and Intel.
+     This was a set of artificial benchmarks but does this translate into
+     real life speed improvements? According to this comment [12] by an
+     ICC user the auto-vectorising for the most part doesn't make any
+     difference as most code cannot be auto-vectorised.
+     In the description of the SPEC CPU2000 benchmarks the following is
+     stated:
+     "These benchmarks measure the performance of the processor, memory
+     and compiler on the tested system."
+     SPEC marks are generally used to compare the performance of CPUs
+     however the above states explicitly this is not what they are
+     designed for, SPEC marks also also test the compiler. There are no
+     doubt real life areas where the auto-vectorisation works but if
+     these are only a small minority of applications, benchmarks that are
+     effected by it become rather meaningless since they do show reliably
+     how most applications are likely to perform.
+     Auto-vetorisation also work the other way, The PowerPCs Altivec unit
+     is very powerful and benchmarks which are vectorised for it can show
+     a G4 outperforming a P4 by up to 3 1/2.
+     By using GCC Apple removed the compiler from the factors effecting
+     system speed and gave a more direct CPU to CPU comparison. This is a
+     better comparison if you just want to compare CPUs and prevents the
+     CPU vendor from getting inflated results due to the compiler.
+     x86 CPUs may use all the tricks in the book to improve performance
+     but for the reasons I explained above they remain inefficient and
+     are not as fast as you may think or as benchmarks appear to
+     indicate. I'm not the only one to hold such an opinion:
+     "Intel's chips perform disproportionately well on SPEC's tests
+     because Intel has optimised its compiler for such tests"[13]* -
+     Peter Glaskowsky, editor-in-chief of Microprocessor Report.
+     I note that the term "chips" is used, I wonder does the same apply
+     to the Itanium? This architecture is also highly sensitive to the
+     compiler and this author has read (on more than one occasion) from
+     Itanium users that it's performance is not what the benchmarks
+     suggest.
+     If SPEC marks are to a useful measure of CPU performance they should
+     use the same compiler, an open source compiler is ideal for this as
+     any optimisations added for one CPU will be in the source code and
+     can thus be added to the other CPUs also keeping things rather more
+     balanced.
+     People accuse Apple of fudging their benchmarks, but everybody in
+     the industry does it - and SPEC marks are certainly not immune, it's
+     called marketing.
+     Personally I liked the following comment from Slashdot which pretty
+     much sums the situation up:
+     "The only benchmarks that matter is my impression of the system
+     while using the apps I use. Everything else is opinion." - FooGoo
+     The Future
+
+     Last edited by Dr. Data; July 11th, 2003 at 04:40 PM.
+
+     Nforce 2 Mobo-oem stock
+     Athlon Xp3000-Stock
+     768 mgs PC2100 @ 2.5/3/3
+     Radeon 9700 PRO/365/342
+     Western Digital 8mg cache ATA-133/160G/7200 HD
+     Win XP Home SP1
+     19" KDS "Extreme Flat"
+     Laptop
+     Athlon 64 3200+
+     512mg Ram
+     Mobile Radeon 9600
+     80G Hard Drive
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    3. July 11th, 2003, 06:51 PM [51]#3
+       [52]ThreeOnTheTree's Avatar
+       [53]ThreeOnTheTree
+          + [54]View Profile
+          + [55]View Forum Posts
+       ThreeOnTheTree is offline HWC Master
+
+        Join Date
+                Sep 2001
+
+        Location
+                Independence, MO
+
+        Posts
+                8,071
+
+     I think more than AMD and Intel are guilty of this. Once people
+     started judging computer products by benchmarks (and believing them
+     as the standard), the makers of these products began to exploit the
+     benchmarks. Personally, I don't like the synthetics, as they aren't
+     useful, real world apps, but it's just as easy to cheat for popular
+     games/image editors all the same. I think much of this began with
+     Intel exploiting clockspeed with the Willamette, but AMD made it
+     worse with PR ratings (though not until the PR3000). ATi and nVidia
+     have been questioned about cheating, and we all know how Apple
+     plays. What seems to be the most painful truth is that consumers see
+     what they want to see that helps support their purchase decision,
+     but what else can we do since it's so hard to tell what the truth
+     is? I think it's gotten to the point that no one really trusts the
+     benchmarks, so manufacturers will make whatever claim they want, and
+     the claims go largely unchallenged.
+
+     Give what you cannot keep to gain what you cannot lose.
+       [56]Reply With Quote Reply With Quote [57]Share on Google+
+         ______________________________________________________________
+
+    4. July 11th, 2003, 07:10 PM [58]#4
+       [59]USSVoyager's Avatar
+       [60]USSVoyager
+          + [61]View Profile
+          + [62]View Forum Posts
+       USSVoyager is offline Excuse the name
+
+        Join Date
+                Nov 1999
+
+        Location
+                Suffolk, UK
+
+        Posts
+                3,849
+
+     What I have just figured out lately, and find quite interesting, is
+     just how far AMD has stretched it's PR numbers for the AthlonXP
+     lately.
+     The first Athlon XP, the 1500+, ran at 1.33GHz, so the PR rating was
+     112.5% of the core speed. Move forward to today and the XP3200+ has
+     a PR rating 145.5% of the true 2.2GHz core speed!
+     I know the platform has matured for the AthlonXP, and the first PR
+     numbers were very conservative against the Willa-sucka-met P4 of the
+     time, and the Athlon XP got 256KB more L2 cache, but the PR numbers
+     have certainly moved up a lot.
+     I think when Barton arrived, AMD started getting a bit desperate.
+     Well, they were a bit desperate before that, having to create the
+     Barton at all.
+     Sounds strange, me having a dig at the Athlon I hope the Athlon64
+     levels things out.
+     Oh, and when I look at the reviews, I only really look at the FPS in
+     the games and the encoding times for video. The rest is pure
+     garbage.
+       [63]Reply With Quote Reply With Quote [64]Share on Google+
+         ______________________________________________________________
+
+    5. July 11th, 2003, 10:02 PM [65]#5
+       [66]OneEng's Avatar
+       [67]OneEng
+          + [68]View Profile
+          + [69]View Forum Posts
+       OneEng is offline Speculator Extraordinaire
+
+        Join Date
+                Jan 1999
+
+        Location
+                MI
+
+        Posts
+                4,144
+
+     Oh, and when I look at the reviews, I only really look at the FPS in
+     the games and the encoding times for video. The rest is pure
+     garbage.
+     And even this is difficult to attribute a good analysis to. K8 is
+     going to really blur the benchmark lines here. Games will run like a
+     bad dog on this processor due to the very effecient link to the AGP
+     bus and the low latency IMC. Since K8 still uses only DDR333 (and
+     later DDR400) encoding times for video will likely stay behind the
+     current P4 due to the huge deficit in bandwidth K8 still has behind
+     P4.
+     The author of this article hit on one thing I have been saying for
+     quite some time...... Heat. According to the article:
+     What is going to be a hurdle for x86 systems is heat. x86 CPUs
+     already get hot and require considerable cooling but this is getting
+     worse and eventually it will hit a wall. A report by the publishers
+     of Microprocessor Report indicated that Intel is expected to start
+     hitting the heat wall in 2004.
+     I expect Intel to have signifigant issues with heat on Prescott. You
+     simply can't add more and more heat to less and less area without
+     running into cooling problems.
+     AMD still has the x86 legacy to deal with. It still has the CISC to
+     RISC decode step that RISC machines do not; however, it has a
+     signifigantly smaller pipe than that of Intel and none of its
+     transistors run at 2 times the processor speed like the P4. While I
+     think the idea of running parts of the processor at higher clock is
+     a sure way to increase performance, it will also produce more heat.
+     Prescott is reputedly moving to an even longer pipe than Northwood.
+     This decrease in IPC may well be offset by better hyperthreadding
+     and larger L2 cache; however, even existing hyperthreadding causes
+     P4 to run signifigantly hotter. Prescott is also reputed to increase
+     the clock in more areas than just the ALU as Northwood has it. All
+     of this makes more heat.
+
+     With greater knowledge comes greater understanding!
+       [70]Reply With Quote Reply With Quote [71]Share on Google+
+         ______________________________________________________________
+
+    6. July 12th, 2003, 07:18 PM [72]#6
+       [73]Hoyle's Avatar
+       [74]Hoyle
+          + [75]View Profile
+          + [76]View Forum Posts
+       Hoyle is offline HWC Master
+
+        Join Date
+                Sep 1999
+
+        Location
+                York, PA, USA
+
+        Posts
+                9,736
+
+     As horrible as X86 may be, I've watched it go head to head with, and
+     eventually beat almost every other instruction set ever produced.
+     The EV7, the IBM's Power series and the Itanium are literally all
+     that is left of those once proud and lauded "better" designs.
+     Furthermore, X86 has done all this without the benefit of a sealed,
+     proprietary environment, or the benfits associated with high cost
+     manufacture (Disgustingly large L2 and L3 caches are high on this
+     list... the next Itanium will have 9 MB).
+     If it is only 'compiler tricks' that make X86 deliver comperable
+     performance at the merest fraction of the cost, so be it... let's
+     use optimized compilers. I'm not at all adverse to using optimized
+     compilers for benchmarks, as long as that optimization is reflected
+     in the software developed for the platform. Example: I thought
+     Intel/Sysmark using the "Lighting Effects" Filter in Photoshop to
+     determine better than 35% of the 'score' was dishonest, because it
+     does not represent a realistic usage scenerio. It is wrong because
+     if someone bought the chip because of the performance in this app,
+     their decision may have been skewed. However, the heavy use of SSE2
+     today IS justified because software that uses it is readily
+     available (and very common, even prevailent).
+     As far as heat goes... What do you suggest OneEng? That we all toss
+     our X86 chips and buy much slower Macs that run cooler? I'd just as
+     soon buy a slower X86 chip that runs cooler.
+
+     We all Think Different too.
+       [77]Reply With Quote Reply With Quote [78]Share on Google+
+         ______________________________________________________________
+
+    7. July 14th, 2003, 07:34 AM [79]#7
+       [80]Moraelin v2.0
+          + [81]View Profile
+          + [82]View Forum Posts
+       Moraelin v2.0 is offline HWC Technician
+
+        Join Date
+                Jul 2002
+
+        Posts
+                1,230
+
+     Benchmarketing is an issue, yes.
+     For example, I was _very_ surprised to read that IBM's way of
+     dealing with SPEC is to basically run it through a special
+     "pre-compiler" which basically rewrites everything so it makes
+     better use of their CPU details. (E.g., cache architecture, memory
+     access patterns, etc.)
+     While technically speakin the resulting program is an exact
+     equivalent of the original, in terms of result produced for each set
+     of result data, I doubt that they can apply the same level of
+     optimization to any program that Random J Developper writes. I.e.,
+     the results _will_ be skewed, compared to what you'll observe in
+     real life scenarios.
+     That said, I think Intel is actually pretty honest there. I am not
+     aware of any special compiler tricks that Intel uses only for
+     benchmarks. Both the Intel compiler and the theory behind it were
+     always available for everyone, so a real life program _can_ and
+     _does_ display the exact same performance boost as the benchmarks.
+     For the end use it's the programs that count. Whether it runs fast
+     because of the CPU alone, or because of the compiler alone, or both,
+     means exactly _nothing_ to the end user. If I get, say, 100 fps in a
+     game, that's it. That's what matters. If it was made possible only
+     because they used Intel's compiler, I couldn't care less.
+     So in the end the CPU and the compiler are two halves of the same
+     whole. You can't really separate them and say "see, without that
+     half it runs slower, so Intel (or AMD) sucks."
+     It would be like trying to separate the CPU proper from the cache
+     and saying "yeah, but without the cache, the Intel is slower." Well
+     who cares? Noone uses a P4 without a cache, so that's irrelevant.
+     Ditto for the compiler. Noone uses a CPU without a compiler. It's
+     the sum of the two that really matters.
+     Which brings us to what Apple did. Actually it's not Intel who
+     cheated there, it's Apple who cheated in those benchmarks. On a
+     cheating scale, using a crappier compiler for the P4 is no better
+     than disabling half a P4s cache or half its memory bandwidth.
+     It reflects real life scenarios... how? How many major Windows
+     programs are compiled with gcc? Exactly zero.
+     It's like in a hypothetical scenario saying "but our CPU doesn't
+     have a L2 cache, so we disabled the L2 cache on the P4 too, to
+     compare everything on equal terms." Well, no, it's not comparing on
+     equal terms, it's deliberately crippling one competitor. It's
+     cheating.
+     Basically it's sad. If Apple needs to resort to this kind of lies
+     and BS to sell its computers... well, my opinion of Apple dropped a
+     long way.
+       [83]Reply With Quote Reply With Quote [84]Share on Google+
+         ______________________________________________________________
+
+    8. July 14th, 2003, 09:22 AM [85]#8
+       [86]OneEng's Avatar
+       [87]OneEng
+          + [88]View Profile
+          + [89]View Forum Posts
+       OneEng is offline Speculator Extraordinaire
+
+        Join Date
+                Jan 1999
+
+        Location
+                MI
+
+        Posts
+                4,144
+
+     How many major Windows programs are compiled with gcc? Exactly zero.
+     True; however, one could argue that the vast majority of apps are
+     compiled using JUST MS Visual Studio and NOT the Intel compiler
+     plugin. There are some that do use the plug-in or outright use the
+     Intel compiler; however, MOST do not. That being said, it is true
+     that SSE2 is now becomming widely used. I do not see the use of this
+     instruction set as being unfair in any way.
+     Hoyle,
+     While I agree with what you said, it is an undisputed fact that the
+     RISC design is simply a better one. If 1/10th the effort was put
+     into compiler optimizations for RISC as it is for x86, RISC would be
+     untouchable.
+     As far as performance goes, x86 has managed to catch up to all but
+     the FP performance of RISC. It has done so by using all the
+     fundamental designs that RISC uses and by actually BEING RISC in
+     most of its digital design.
+     RISC designs have a bizzillion general purpose registers. RISC
+     designs have no need to decode instructions into RISC since they
+     start out that way. RISC designs do not rely on the arcaine x86
+     stack based FP unit.
+     All of these factors give RISC a huge advantage from a hardware
+     standpoint. Just as I contend that P4's core design idea is junk,
+     x86's core design is just as flawed. Both of these examples have
+     managed to bandaid their weakness with an array of great periferial
+     ideas that have perfomed exceedingly well. Emagine how well RISC
+     would perform given the same periferial advantages as CISC in its
+     compiler and FSB, etc, etc.
+     As far as heat goes... What do you suggest OneEng? That we all toss
+     our X86 chips and buy much slower Macs that run cooler? I'd just as
+     soon buy a slower X86 chip that runs cooler.
+     You are missing the point.
+     You can't just pretend that the heat issue isn't there. I am sure
+     Intel is finding that out as we speak. You can't just pack more and
+     more heat into less and less area and expect the engineers just to
+     "come up with something" to keep it going.
+     If you build a house on a bad foundation, you will inevitably have
+     to tear it down, replace the foundation, and rebuild it.
+     Having said this, I truely believe that water cooling will be
+     comming to save Intel for the next 5 years. A water cooling solution
+     should provide Intel with heat removal capabilities sufficient to
+     scale their designs on .09um and .065um. Beyond that they may be in
+     trouble again.
+     AMD lies somewhere between RISC and P4 in its heat problems. K8 on
+     SOI is a fairly cool running design. Higher IPC means that it
+     doesn't have to scale as high in clock speed which further aids it
+     in the battle against heat.
+     When Prescott is released at the end of this year (we hope), we
+     should get a really good idea about how much of a problem heat
+     really is at .09um for Intel.
+
+     With greater knowledge comes greater understanding!
+       [90]Reply With Quote Reply With Quote [91]Share on Google+
+         ______________________________________________________________
+
+    9. July 14th, 2003, 11:49 AM [92]#9
+       [93]Dr. Data
+          + [94]View Profile
+          + [95]View Forum Posts
+       Dr. Data is offline Senior Member
+
+        Join Date
+                Jun 2002
+
+        Posts
+                853
+
+     Good points to be certain.
+     I was simply looking at it from the fact that while the range of
+     arguments given for the compilier have gone from "very little" to
+     "common" to "prevalant" exactly what does that do for the
+     performance of software that isnt using it? Misleading to be sure.
+
+     Nforce 2 Mobo-oem stock
+     Athlon Xp3000-Stock
+     768 mgs PC2100 @ 2.5/3/3
+     Radeon 9700 PRO/365/342
+     Western Digital 8mg cache ATA-133/160G/7200 HD
+     Win XP Home SP1
+     19" KDS "Extreme Flat"
+     Laptop
+     Athlon 64 3200+
+     512mg Ram
+     Mobile Radeon 9600
+     80G Hard Drive
+       [96]Reply With Quote Reply With Quote [97]Share on Google+
+         ______________________________________________________________
+
+   10. July 14th, 2003, 11:50 AM [98]#10
+       [99]Moraelin v2.0
+          + [100]View Profile
+          + [101]View Forum Posts
+       Moraelin v2.0 is offline HWC Technician
+
+        Join Date
+                Jul 2002
+
+        Posts
+                1,230
+
+     However:
+     1) there are entire Linux distributions compiled with Intel's
+     compiler (e.g., Mandrake.) So it's not like noone uses that compiler
+     in real life situations.
+     2) In practice it doesn't matter that much if non-critical stuff,
+     like web browsers and dialog boxes are compiled with MSVC, because
+     those aren't what you need a fast computer for. The stuff which
+     really needs speed, e.g., codecs or the rendering loop in games, is
+     typically hand optimized assembly which _does_ use those
+     instructions.
+     3) MSVC isn't that bad at generating code either.
+     However, ok, your point is noted. If that Apple test had used MSVC
+     for x86, I could see the merit it that comparison. But gcc?
+       [102]Reply With Quote Reply With Quote [103]Share on Google+
+         ______________________________________________________________
+
+   11. July 14th, 2003, 12:08 PM [104]#11
+       [105]Moraelin v2.0
+          + [106]View Profile
+          + [107]View Forum Posts
+       Moraelin v2.0 is offline HWC Technician
+
+        Join Date
+                Jul 2002
+
+        Posts
+                1,230
+
+     As for the RISC philosophy, well, it seems to me like:
+     A) The whole RISC detour was a dead end anyway. When you had tens of
+     thousands of transistors as a total budget for a CPU, yes, you had a
+     touch choice. You had enough transistors either for a CISC control
+     unit, or you could have more registers instead, but not both.
+     But today that aspect is irrelevant. You can have a _lot_ of CISC
+     logic and still have plenty of space left for an 128 or 256 register
+     stack.
+     And indeed, even the so called RISC processors today are in fact
+     _not_ RISC any more. Or at least they're not even near what the
+     original RISC philosophy was like. Today it's more like a buzzword
+     than anything meaningful.
+     B) The whole RISC architecture was good and fine, but it also
+     created its own disadvantages.
+     For a start the generated code was _huge_, compared to CISC code.
+     Stuff which could be packed in 1 byte or 2 bytes for a CISC CPU,
+     still needed the whole command word for a RISC CPU. Worse yet, it
+     often needed several command words in a true RISC CPU. What does it
+     mean in practice? They created their own bandwidth problem.
+     That's the kind of difference that happens between stuff which looks
+     good on paper, and stuff which happens in practice.
+     C) If you think about what RISC originally meant, it was precisely
+     about a philosophy along the lines of "don't do in hardware what the
+     compiler can do for you." Most of the complexity was offloaded to
+     the compiler, while the CPU used the freed transistors to provide
+     lots of registers and generally enough rope for the compiler to hang
+     itself with.
+     What's Intel doing nowadays? Well, it's doing precisely that.
+     So from this point of view, the x86 architecture nowadays is
+     actually more RISC than some proclaimed RISC CPUs.
+     So if I'm to summarize all this, what I'm saying is that today there
+     are no more RISC and CISC CPUs as such. Yes, the x86 archtecture
+     could be designed better from scratch, if someone were to re-design
+     it from scratch for today's technology. Unfortunately, we're stuck
+     with a register and command architecture designed over 20 years ago,
+     for a 16 bit CPU with very few transistors in it. That's the real
+     problem, not whether that original CPU was RISC or CISC.
+       [108]Reply With Quote Reply With Quote [109]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [110]CPUs and Motherboards [111]Top
+     * Site Areas
+     * [112]Settings
+     * [113]Private Messages
+     * [114]Subscriptions
+     * [115]Who's Online
+     * [116]Search Forums
+     * [117]Forums Home
+     * Forums
+     * [118]General Forums
+         1. [119]General Tech Talk and Support
+         2. [120]PC and Console Gaming
+         3. [121]Software
+     * [122]Hardware Forums
+         1. [123]CPUs and Motherboards
+         2. [124]Cases, Cooling, and Overclocking
+         3. [125]PC Audio and Home Theater
+         4. [126]PC Video, Digital Imaging, and Displays
+         5. [127]Storage and Peripherals
+         6. [128]Networking and the Internet
+         7. [129]Mobile Technology
+     * [130]Community
+         1. [131]HWC Feedback
+         2. [132]Central Lounge
+         3. [133]For Sale Or Trade
+
+   « [134]Previous Thread | [135]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [136]BB code is On
+     * [137]Smilies are On
+     * [138][IMG] code is On
+     * [139][VIDEO] code is On
+     * HTML code is Off
+
+   [140]Forum Rules
+   [-- hardwarecentral yellow]
+     * [141]Contact Us
+     * [142]HardwareCentral Forums
+     * [143]Archive
+     * [144]Top
+
+   IFRAME:
+   [145]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:09 PM.
+
+   Powered by [146]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=7
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=148111&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=148111
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=148111
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=148111&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=814859&mode=threaded#post814859
+  38. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=814859#post814859
+  39. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38605&contenttype=vBForum_Post&showposts=1
+  42. http://www.osnews.com/story.php?news_id=3997&page=1
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=814859
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=814859#post814859
+  45. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=814863#post814863
+  46. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38605&contenttype=vBForum_Post&showposts=1
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=814863
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=814863#post814863
+  51. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=814893#post814893
+  52. http://www.hardwarecentral.com/member.php?35270-ThreeOnTheTree&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?35270-ThreeOnTheTree&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?35270-ThreeOnTheTree&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=35270&contenttype=vBForum_Post&showposts=1
+  56. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=814893
+  57. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=814893#post814893
+  58. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=814896#post814896
+  59. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?12398-USSVoyager&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=12398&contenttype=vBForum_Post&showposts=1
+  63. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=814896
+  64. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=814896#post814896
+  65. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=814914#post814914
+  66. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=973&contenttype=vBForum_Post&showposts=1
+  70. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=814914
+  71. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=814914#post814914
+  72. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=815071#post815071
+  73. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/member.php?9694-Hoyle&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9694&contenttype=vBForum_Post&showposts=1
+  77. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=815071
+  78. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=815071#post815071
+  79. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=815399#post815399
+  80. http://www.hardwarecentral.com/member.php?38714-Moraelin-v2-0&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?38714-Moraelin-v2-0&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38714&contenttype=vBForum_Post&showposts=1
+  83. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=815399
+  84. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=815399#post815399
+  85. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=815413#post815413
+  86. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/member.php?973-OneEng&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=973&contenttype=vBForum_Post&showposts=1
+  90. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=815413
+  91. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=815413#post815413
+  92. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=815440#post815440
+  93. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/member.php?38605-Dr-Data&s=af52edabdca22194a05a25ea9dfcc77f
+  95. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38605&contenttype=vBForum_Post&showposts=1
+  96. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=815440
+  97. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=815440#post815440
+  98. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=815441#post815441
+  99. http://www.hardwarecentral.com/member.php?38714-Moraelin-v2-0&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/member.php?38714-Moraelin-v2-0&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38714&contenttype=vBForum_Post&showposts=1
+ 102. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=815441
+ 103. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=815441#post815441
+ 104. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&p=815445#post815445
+ 105. http://www.hardwarecentral.com/member.php?38714-Moraelin-v2-0&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/member.php?38714-Moraelin-v2-0&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38714&contenttype=vBForum_Post&showposts=1
+ 108. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=815445
+ 109. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?148111&p=815445#post815445
+ 110. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f
+ 111. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing#top
+ 112. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 116. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 117. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 135. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 136. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 137. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 138. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 139. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 140. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 141. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/
+ 143. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing#top
+ 145. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 146. https://www.vbulletin.com/
+
+   Hidden links:
+ 148. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814859%23post814859&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 149. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814859%23post814859&source=webclient
+ 150. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814859%23post814859&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 151. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814863%23post814863&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 152. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814863%23post814863&source=webclient
+ 153. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814863%23post814863&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 154. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814893%23post814893&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 155. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814893%23post814893&source=webclient
+ 156. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814893%23post814893&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 157. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814896%23post814896&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 158. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814896%23post814896&source=webclient
+ 159. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814896%23post814896&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 160. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814914%23post814914&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 161. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814914%23post814914&source=webclient
+ 162. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D814914%23post814914&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 163. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815071%23post815071&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 164. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815071%23post815071&source=webclient
+ 165. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815071%23post815071&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 166. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815399%23post815399&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 167. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815399%23post815399&source=webclient
+ 168. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815399%23post815399&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 169. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815413%23post815413&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 170. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815413%23post815413&source=webclient
+ 171. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815413%23post815413&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 172. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815440%23post815440&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 173. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815440%23post815440&source=webclient
+ 174. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815440%23post815440&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 175. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815441%23post815441&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 176. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815441%23post815441&source=webclient
+ 177. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815441%23post815441&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 178. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815445%23post815445&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 179. http://twitter.com/share?text=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815445%23post815445&source=webclient
+ 180. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F148111%26p%3D815445%23post815445&title=Both%20AMD%20and%20Intel%20guilty%20of%20BenchMarketing&summary=&source=HardwareCentral%20Forums
+ 181. http://www.hardwarecentral.com/showthread.php?148111-Both-AMD-and-Intel-guilty-of-BenchMarketing#top

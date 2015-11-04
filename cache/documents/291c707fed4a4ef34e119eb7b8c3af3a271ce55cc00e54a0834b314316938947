@@ -1,0 +1,396 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Video, Digital Imaging, and Displays - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Video, Digital Imaging, and Displays
+     * Algorithms - The future
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 4 of 4
+
+Thread: [27]Algorithms - The future
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. July 6th, 2001, 11:11 PM [38]#1
+       [39]SexyMF's Avatar
+       [40]SexyMF
+          + [41]View Profile
+          + [42]View Forum Posts
+       SexyMF is offline Multiphasic
+
+        Join Date
+                Mar 2000
+
+        Location
+                New Zealand
+
+        Posts
+                2,332
+
+Algorithms - The future
+
+     I think the way of textures on surfaces will see its end soon
+     enough. Generating textures/objects real-time based on algorithms
+     will superceed the current defined texture approach.
+     Most cards have 32-64MB or memory on them, thats somewhat wasted
+     filling it with textures, why not use it to compute things?
+     My first thoughts are to randomize the textures within tolerances,
+     this will give a hybrid of current texture based approach with
+     algorithms.
+     In real terms - simply change slightly the textures colour, hue,
+     saturation, that type thing. This will give the variation found the
+     in the real-world.
+     I'm very board with the same 'static' environment found in all
+     games.
+     Things like trees in games and simulators are usually 2 planes
+     perpendicular to each other simply because its not possible to
+     render an entire scene of Nvidia Treemark quality trees.
+     All done!
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. July 6th, 2001, 11:19 PM [45]#2
+       [46]SexyMF's Avatar
+       [47]SexyMF
+          + [48]View Profile
+          + [49]View Forum Posts
+       SexyMF is offline Multiphasic
+
+        Join Date
+                Mar 2000
+
+        Location
+                New Zealand
+
+        Posts
+                2,332
+
+     Before you hang me for say "...because its not possible to render an
+     entire scene ..."
+     I'm saying we have seen really good things in the benchmarking
+     programs but I feel it never reaches gaming level.
+     This is usually commercial viability - that is 'real world strikes
+     again'
+       [50]Reply With Quote Reply With Quote [51]Share on Google+
+         ______________________________________________________________
+
+    3. July 7th, 2001, 01:40 PM [52]#3
+       [53]equinoxe3d's Avatar
+       [54]equinoxe3d
+          + [55]View Profile
+          + [56]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     Yeah, I often think of things like that; Take by example a cube
+     mapped with a red, uniform texture. Why use a red texture that takes
+     memory and bandwidth when you can say to the hardware; You see that
+     surface? Fill it with a color using an RGB value of 253,0,6. Then,
+     apply those lighting patterns, etc...
+     It would be less consuming on the hardware ressources, and simply
+     changing the color parameters, hue, saturation, like you said would
+     give the same results as using another texture to show the changes.
+     Plus, it can be done in realtime; Imagine viewing the landscape of a
+     big city going rapidly from day to night, using the same textures on
+     the buildings and simply adjust the lighting values and make light
+     coming out of the windows - not with a light texture - but an
+     algorithm able to change the different degrees of light. It would
+     make the video chipset to think more and map less. THAT would use
+     that Hardware T&L.
+     I clearly see your point of view with that, that Nature scene in
+     3DMark 2001 looks pretty darn good, but runs at around 25 FPS
+     average with a GF3. Nobody would want those kinds of averages in
+     games. Sure it would be nice to render big huge trees with foliage,
+     but entering in a forest of these in a game would make the FPS drop
+     to a crawl, even on a GF3... that's a shame...Good showcase, but
+     utterly useless in gaming for that generation of cards. Let's hope
+     people just don't think that given they have a GF3, they will have a
+     completely optimized landscape in games optimized for it...well they
+     may have it, but running at 5 FPS. Just my 2 cents.
+     ------------------
+     Pentium II 350 MHz
+     160mb NEC PC100 SDRAM
+     Voodoo3 3000 AGP
+     Guillemot MaxiSound Fortissimo
+     Windows 98SE
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [57]Join the HwC Folding@Home team!
+       [58]Reply With Quote Reply With Quote [59]Share on Google+
+         ______________________________________________________________
+
+    4. July 7th, 2001, 08:08 PM [60]#4
+       [61]SexyMF's Avatar
+       [62]SexyMF
+          + [63]View Profile
+          + [64]View Forum Posts
+       SexyMF is offline Multiphasic
+
+        Join Date
+                Mar 2000
+
+        Location
+                New Zealand
+
+        Posts
+                2,332
+
+     Thanks man I did wonder if this message would come across as a
+     raving looney!
+     I want power now, not 'this is what it can do in a demo but not
+     chance in a real-time time'
+       [65]Reply With Quote Reply With Quote [66]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [67]PC Video, Digital Imaging, and Displays [68]Top
+     * Site Areas
+     * [69]Settings
+     * [70]Private Messages
+     * [71]Subscriptions
+     * [72]Who's Online
+     * [73]Search Forums
+     * [74]Forums Home
+     * Forums
+     * [75]General Forums
+         1. [76]General Tech Talk and Support
+         2. [77]PC and Console Gaming
+         3. [78]Software
+     * [79]Hardware Forums
+         1. [80]CPUs and Motherboards
+         2. [81]Cases, Cooling, and Overclocking
+         3. [82]PC Audio and Home Theater
+         4. [83]PC Video, Digital Imaging, and Displays
+         5. [84]Storage and Peripherals
+         6. [85]Networking and the Internet
+         7. [86]Mobile Technology
+     * [87]Community
+         1. [88]HWC Feedback
+         2. [89]Central Lounge
+         3. [90]For Sale Or Trade
+
+   « [91]Previous Thread | [92]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [93]BB code is On
+     * [94]Smilies are On
+     * [95][IMG] code is On
+     * [96][VIDEO] code is On
+     * HTML code is Off
+
+   [97]Forum Rules
+   [-- hardwarecentral yellow]
+     * [98]Contact Us
+     * [99]HardwareCentral Forums
+     * [100]Archive
+     * [101]Top
+
+   IFRAME:
+   [102]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:08 PM.
+
+   Powered by [103]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=8
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=30160&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=30160
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=30160
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=30160&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&p=181571&mode=threaded#post181571
+  38. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&p=181571#post181571
+  39. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  42. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=17911&contenttype=vBForum_Post&showposts=1
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=181571
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?30160&p=181571#post181571
+  45. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&p=181572#post181572
+  46. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  49. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=17911&contenttype=vBForum_Post&showposts=1
+  50. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=181572
+  51. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?30160&p=181572#post181572
+  52. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&p=181573#post181573
+  53. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  56. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+  57. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  58. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=181573
+  59. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?30160&p=181573#post181573
+  60. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&p=181574#post181574
+  61. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/member.php?17911-SexyMF&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=17911&contenttype=vBForum_Post&showposts=1
+  65. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=181574
+  66. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?30160&p=181574#post181574
+  67. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future#top
+  69. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  86. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+  92. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+  93. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+  94. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+  95. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+  96. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+  97. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+  98. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/
+ 100. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future#top
+ 102. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 103. https://www.vbulletin.com/
+
+   Hidden links:
+ 105. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181571%23post181571&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 106. http://twitter.com/share?text=Algorithms%20-%20The%20future&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181571%23post181571&source=webclient
+ 107. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181571%23post181571&title=Algorithms%20-%20The%20future&summary=&source=HardwareCentral%20Forums
+ 108. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181572%23post181572&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 109. http://twitter.com/share?text=Algorithms%20-%20The%20future&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181572%23post181572&source=webclient
+ 110. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181572%23post181572&title=Algorithms%20-%20The%20future&summary=&source=HardwareCentral%20Forums
+ 111. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181573%23post181573&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 112. http://twitter.com/share?text=Algorithms%20-%20The%20future&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181573%23post181573&source=webclient
+ 113. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181573%23post181573&title=Algorithms%20-%20The%20future&summary=&source=HardwareCentral%20Forums
+ 114. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181574%23post181574&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 115. http://twitter.com/share?text=Algorithms%20-%20The%20future&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181574%23post181574&source=webclient
+ 116. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F30160%26p%3D181574%23post181574&title=Algorithms%20-%20The%20future&summary=&source=HardwareCentral%20Forums
+ 117. http://www.hardwarecentral.com/showthread.php?30160-Algorithms-The-future#top

@@ -1,0 +1,904 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - Cases,
+   Cooling, and Overclocking - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Cases, Cooling, and Overclocking
+     * celeron 400Mhz overclocking
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   [27]Page 1 of 2 [28]1[29]2 [30]Next [31]Last Last
+     * Jump to page: ____ Go
+
+   Results 1 to 15 of 17
+
+Thread: [32]celeron 400Mhz overclocking
+
+   [33]Tweet
+     * [34]Thread Tools
+          + [35]Show Printable Version
+          + [36]Email this Page…
+          + [37]Subscribe to this Thread…
+     * [38]Search Thread
+          + Search...___________ Search
+          +
+            [39]Advanced Search
+     * [40]Display
+          + Linear Mode
+          + [41]Switch to Hybrid Mode
+          + [42]Switch to Threaded Mode
+
+    1. November 3rd, 1999, 02:53 AM [43]#1
+       [44]division2000
+          + [45]View Profile
+          + [46]View Forum Posts
+       division2000 is offline 5000
+
+        Join Date
+                Sep 1999
+
+        Location
+                Split,Croatia,Europe
+
+        Posts
+                63
+
+celeron 400Mhz overclocking
+
+     hi,
+     i have pIICeleron400Mhz and abbit m/b BH6...
+     how high i can go...
+     i have no experiance....
+     thanx
+     ------------------
+       [47]Reply With Quote Reply With Quote [48]Share on Google+
+         ______________________________________________________________
+
+    2. November 3rd, 1999, 03:14 AM [49]#2
+       [50]Intruder
+          + [51]View Profile
+          + [52]View Forum Posts
+       Intruder is offline 5000
+
+        Join Date
+                Sep 1999
+
+        Location
+                Netherlands
+
+        Posts
+                92
+
+     Hello,
+     Got some hints for you:
+     Go to Bios and set "Processor Speed" to manual. Than fill in:
+     Multiplier = 6
+     External Clock Speed = 83.3 Mhz
+     That shoot give you 500 Mhz without any problem, hoping your PCI and
+     AGP slots don't have any problem with that BUS speed.
+     If you want even more, make sure you got GOOD cooling, you can try
+     and set the FSB to 100 Mhz ... that should give you 600Mhz. If it
+     won't load Windows, try and turn up the voltage in the BIOS, I would
+     recommend a max. of 2.3V
+     That should be enough to make it stable. If not, too bad but your
+     Celeron probably won't run at 600Mhz.
+     Good luck ...
+     By the way --&gt; got my Celeron running at 500, because I have only
+     retail heatsink and fan on my cpu. waiting for that Global WIN FDP32
+     Cooler ...
+     Intruder
+
+     P4 2,8@3,5 Ghz <> 512 dual channel DDR500 <> ATI Radeon 9700
+     Pro@344/660 <> WinXP SP1 <> 1x120+1x30 Gb <>
+     ASUS P4C800-E Deluxe
+     P4 2,4@2,7Ghz <> 512 DDR400 <> Geforce3 Classic <> WinXP SP1 <> 4x40
+     Gb <> ASUS P4B533-E
+     P3 866@1 Ghz <> 768 DDR400 <> Win2003 Server <> 3x10 Gb <> Epox bla
+     bla bla.
+       [53]Reply With Quote Reply With Quote [54]Share on Google+
+         ______________________________________________________________
+
+    3. November 3rd, 1999, 03:42 AM [55]#3
+       [56]TNproud2b
+          + [57]View Profile
+          + [58]View Forum Posts
+       TNproud2b is offline HWC Technician
+
+        Join Date
+                Aug 1999
+
+        Location
+                North Carolina
+
+        Posts
+                1,750
+
+     You may have some trouble when you get near 600mhz. Celerons max out
+     somewhere near this speed. I would start with an FSB(CPUCLOCK) speed
+     setting of 92mhz(552mhz). Set AGP speed to 2/3, not 1/1 or you'll
+     end up with a 92mhz AGP clock instead of 61mhz - which is closer to
+     the ideal 66mhz AGP speed. Since Celerons are clock-locked, you can
+     only overclock them by increasing the speed of the FSB. The
+     multiplier is locked at 6 for your C400 (6 x FSBspeed = CPU
+     clockspeed). The system clock speed for your PCI bus is directly
+     related to the FSB speed setting. An FSB speed of 66mhz(default
+     Celeron) comes with a PCI divider of 1/2, so at 400mhz (66mhzFSB x 6
+     = 400) your PCI bus is running at one-half FSB speed or
+     33mhz(perfect PCI bus speed). That "1/2" PCI divider stays with you
+     all the way to 92mhz FSB. For example; 91mhz FSB would cause a
+     45.5mhz PCI bus speed, which is far enough away from the 33mhz its
+     expecting to see, that your hard drive will likely become corrupted
+     and all data will be lost. Things look better at the 92mhz(552mhz 6
+     x 92) FSB speed and up to over 100mhz, however. 92 comes with a PCI
+     divider of 1/3. So in this case your PCI bus would run at
+     30.66mhz(1/3 of 92) which is close enough to that ideal 33mhz. Your
+     AGP bus normally runs at 66mhz, at the 66mhz(400mhz 6 x 66) default
+     FSB. The AGP speed will match the FSB speed as long as the setting
+     in BIOS says "AGP clock 1/1".
+     I'd guess you need to drop the AGP clock setting to 2/3 when you
+     exceed 75mhz FSB. This will keep your AGP speed from getting out of
+     control and causing video problems. Don't increase CPU core voltage
+     unless you're having stability problems. You can go up to 2.3volts
+     if you're absolutely sure that cpu temp is OK. You gotta be careful
+     with higher voltages, what looks like a normal cpu temp one minute,
+     might look really bad in 10 minutes if you aren't paying attention.
+     You might already know all this crap, already. I'm just typing to
+     make myself happy (-: Thanks for the email, please write me again if
+     you have any other questions. I'm sorry but I have zero experience
+     with Slotket converter boards, I can refer you to other members that
+     know what they're doing with one of those, let me know.
+     Alan Vincent
+     Charlotte, NC
+     formerly Gatlinburg,TN (sigh)
+
+     P4 2.8@4.0 dual R134A phase change chillers with 600watt
+     thermoelectric array. Capable of -70F
+     Nixie tube numeric display control panel and pneumatic motherboard
+     tray.
+       [59]Reply With Quote Reply With Quote [60]Share on Google+
+         ______________________________________________________________
+
+    4. November 3rd, 1999, 04:11 AM [61]#4
+       [62]division2000
+          + [63]View Profile
+          + [64]View Forum Posts
+       division2000 is offline 5000
+
+        Join Date
+                Sep 1999
+
+        Location
+                Split,Croatia,Europe
+
+        Posts
+                63
+
+     thanx for info, guys, i will try....
+     ------------------
+       [65]Reply With Quote Reply With Quote [66]Share on Google+
+         ______________________________________________________________
+
+    5. November 3rd, 1999, 09:31 AM [67]#5
+       [68]K4
+          + [69]View Profile
+          + [70]View Forum Posts
+       K4 is offline Member
+
+        Join Date
+                Oct 1999
+
+        Location
+                Markham, Ontario, Canada
+
+        Posts
+                304
+
+     Listen to the man (TN), he knows what he's talking about when it
+     comes to o/c C400 .. (except for the AGP2x thingy which we ALL
+     forget already! hehe). My c400@564 is living and well mostly because
+     of his advice! Thanks TN!!
+       [71]Reply With Quote Reply With Quote [72]Share on Google+
+         ______________________________________________________________
+
+    6. November 3rd, 1999, 01:55 PM [73]#6
+       [74]TNproud2b
+          + [75]View Profile
+          + [76]View Forum Posts
+       TNproud2b is offline HWC Technician
+
+        Join Date
+                Aug 1999
+
+        Location
+                North Carolina
+
+        Posts
+                1,750
+
+     Yes, please forget my advice about AGP 2x. I was under the
+     impression that the phrase "AGP data transfer rate = 133mhz" meant
+     the bus speed of AGP was 133mhz. wrong. I'll never live that one
+     down, everybody read that post.damn.
+
+     P4 2.8@4.0 dual R134A phase change chillers with 600watt
+     thermoelectric array. Capable of -70F
+     Nixie tube numeric display control panel and pneumatic motherboard
+     tray.
+       [77]Reply With Quote Reply With Quote [78]Share on Google+
+         ______________________________________________________________
+
+    7. November 4th, 1999, 11:09 AM [79]#7
+       [80]division2000
+          + [81]View Profile
+          + [82]View Forum Posts
+       division2000 is offline 5000
+
+        Join Date
+                Sep 1999
+
+        Location
+                Split,Croatia,Europe
+
+        Posts
+                63
+
+     hey TN...
+     first thank you for your advice...
+     but now i am confused about your dialog with K4....
+     what AGP2x ???
+     if i understood you corectly your advice to me is:
+     set FSB to 92 Mhz
+     AGP clock settings set to 1/3....
+     so it wil be 552 (6 x 92)
+     cause you said like 30,6 Mhz is ok. cause 33Mhz is ideal.....
+     why is then 66Mhz is default ????
+     is it better to put AGP to 2/3????
+     thanx
+       [83]Reply With Quote Reply With Quote [84]Share on Google+
+         ______________________________________________________________
+
+    8. November 4th, 1999, 11:28 AM [85]#8
+       [86]Splatt
+          + [87]View Profile
+          + [88]View Forum Posts
+       Splatt is offline HWC Technician
+
+        Join Date
+                Mar 1999
+
+        Posts
+                1,220
+
+     The pci standard runs at 33, the agp at 66. There are agp cards that
+     say they are 2x or 4x, which means they 'run' at 2x or 4x the bus
+     speed of the agp port. (though there are no 4x boards yet
+     AGP options are 1/1 or 2/3 only (1/1 for 66 is 66, 2/3 of 100 is
+     66). PCI options are 1/4, 1/3 and sometimes 1/4 (1/2 of 66 is 33,
+     1/3 of 100 is 33, 1/4 of 133 is 33)
+     TN, not everyone read that post
+
+     I call it "No-Pants Wonderday," but it turns out the police just
+     call it "Thursday." Go figure.
+       [89]Reply With Quote Reply With Quote [90]Share on Google+
+         ______________________________________________________________
+
+    9. November 4th, 1999, 11:51 AM [91]#9
+       [92]K4
+          + [93]View Profile
+          + [94]View Forum Posts
+       K4 is offline Member
+
+        Join Date
+                Oct 1999
+
+        Location
+                Markham, Ontario, Canada
+
+        Posts
+                304
+
+     Yep, at FSB 92Mhz, your PCI @@30.6Mhz. Setting AGP ratio to 2/3
+     makes AGP@60.3Mhz. That's pretty good already. AGP2x should be
+     automatically enabled with that speed. AGP 2x /4x means: AGP Bus
+     still 66Mhz(or 60.3Mhz for this case) but double/quadripal the
+     bandwidth (i.e. twice/4x as much data can be transferred)
+     [95]http://discussions.hardwarecentral.c...ML/001118.html
+       [96]Reply With Quote Reply With Quote [97]Share on Google+
+         ______________________________________________________________
+
+   10. November 4th, 1999, 12:11 PM [98]#10
+       [99]division2000
+          + [100]View Profile
+          + [101]View Forum Posts
+       division2000 is offline 5000
+
+        Join Date
+                Sep 1999
+
+        Location
+                Split,Croatia,Europe
+
+        Posts
+                63
+
+     please, i need explanation ...
+     what is bus???
+     what is AGP???
+     what is PCI???
+     difference between AGP&PCI ???
+     thanx
+       [102]Reply With Quote Reply With Quote [103]Share on Google+
+         ______________________________________________________________
+
+   11. November 4th, 1999, 01:06 PM [104]#11
+       [105]Dave_B's Avatar
+       [106]Dave_B
+          + [107]View Profile
+          + [108]View Forum Posts
+       Dave_B is offline Overclocking Duffus
+
+        Join Date
+                Oct 1999
+
+        Posts
+                3,198
+
+     OK, here's some definitions!
+     Bus = Data path; typically 8, 16, 32, 64, or 128 bits of data
+     transfered in parallel to/from the CPU and the mobo (SDRAM, I/O
+     controllers), to peripherals, whatever.
+     FSB = Front Side Bus; the FSB is the 64-bit internal mobo bus, which
+     operates at the FSB clock rate. FSB clock spec setting is 66 MHz for
+     Celerons, 100 MHz for PII and PIII processors. This is what is
+     adjusted to overclock CPUs. I also overclocks the PCI and AGP
+     interfaces also.
+     ISA = Industry Standard Architecture; older 16-bit 8 MHz bus used
+     primarily for modems and sound cards. Will soon be phased out.
+     AGP = Accelerated Graphics Port; 32-bit multiplexed interface bus to
+     high performance video cards. The AGP clock speed is derived from
+     the FSB by 1/1 and 2/3 dividers; the spec operating frequency is 66
+     MHz. BX mobos have 1/1 dividers used for Celerons below the 100 MHz
+     FSB); and a 2/3 divider for use above 100 MHz. For example, with a
+     PIII 450 overclocked to 600 MHz with the 133 MHz FSB setting, the
+     AGP clock would be 133 * 2/3 = 89 MHz. Newer VIA Apollo Pro 133
+     chipsets have a 1/2 divider also; in the same 450 to 600 overclock,
+     the AGP clock would now be 133* 1/2 = 66 MHz (on spec).
+     PCI = Peripheral Component Interface; 32-bit interface bus used to
+     connect sound cards, modems, older video cards, and other
+     peripherals. Uses 1/2, 1/3 and 1/4 (on newer mobos only) divider to
+     derive the PCI clock from the FSB. Spec is 33 MHz; 1/2 divder used
+     for Celerons from 66 MHz FSB; over 100 MHz 1/3 divider is used for
+     PII and PIII processors. On new mobos, 1/4 divider is used to
+     provide 33 MHz on spec PCI bus at 133 MHz FSB.
+     IDE = Integrated Drive Electronics; control interface for hard
+     drives built into the mobo. Newer spec is EIDE (E = Enhanced). Works
+     off PCI clock so that a higher PCI clock can cause hard disk
+     corruption.
+     AGP vs. PCI = PCI is a universal bus used to connect all kinds of
+     peripherals. AGP was added later as an interface for video cards.
+     The 2x and 4x terms don't refer to speed of the bus between the mobo
+     and the AGP card though, they refer to the bandwidth of the data to
+     the display itself.
+
+     1.Old Antec Case, Asus PC-DL, 2 x 1.6 LV D1 Xeons @ 3 GHz, 2GB
+     Corsair PC3200 @ 200 MHz, Chaintech 6800 128MB AGP
+     2. Old Crap Beige Case, Gigabyte GA-H55M-S2H, Core i3 530, 4GB CL8
+     OCZ DDR3-1600, eVGA GTX465
+     3. Asus Pundit mATX Case, MSI AMD Zacate E350/dual core E350IS-E45
+     mini-ITX, 4GB CL9 Crucial Ballistix DDR3-1333, LG Blu Ray/HD DVD &
+     DVD Burner
+       [109]Reply With Quote Reply With Quote [110]Share on Google+
+         ______________________________________________________________
+
+   12. November 4th, 1999, 01:16 PM [111]#12
+       [112]K4
+          + [113]View Profile
+          + [114]View Forum Posts
+       K4 is offline Member
+
+        Join Date
+                Oct 1999
+
+        Location
+                Markham, Ontario, Canada
+
+        Posts
+                304
+
+     To be really simplistic:
+     If data are cars, then a BUS is the road. In order for the cars
+     (data) to from/to different destination (components), they need a
+     road (BUS) to connect destination (compoents). Technically, a bus is
+     an array of WIREs so that more than 1-bit of data or one high/low
+     electrical signal can travel at the same time.
+     PCI stands for "Peripheral Component Interconnect". The PCI local
+     bus is a high-performance bus that provides a processor-independant
+     data path between the CPU and high-speed peripherals. PCI is a
+     robust interconnect mechanism designed specifically to accomodate
+     multiple high performance peripherals for graphics, full motion
+     video, SCSI, LAN. etc. It has a scalable 64-bit and/or 66Mhz
+     performance. But we usually use it in 32-bit. Think of it as an
+     Upgrade to the good old 8/16-bit ISA Bus we used for our 486s.. Most
+     ISA peripherals are replaced by PCI for better, faster performance.
+     AGP stands for "Accelerated Graphics Port". It is a
+     high-performance, component level interconnect targeted ONLY at 3D
+     Graphics Card. It is based on enhancement to the 66Mhz PCI bus (so
+     even faster than PCI). It provides a big increase in magnitude
+     bandwidth improvement between your 3D card and the system memory.
+     (It lets your system RAM share some of the loads of the 3D card,
+     when loading texture maps, thus faster data transfer). In other
+     words, AGP is an enhanced PCI bus that makes 3D run faster.
+     Hope it helps.
+       [115]Reply With Quote Reply With Quote [116]Share on Google+
+         ______________________________________________________________
+
+   13. November 4th, 1999, 01:18 PM [117]#13
+       [118]K4
+          + [119]View Profile
+          + [120]View Forum Posts
+       K4 is offline Member
+
+        Join Date
+                Oct 1999
+
+        Location
+                Markham, Ontario, Canada
+
+        Posts
+                304
+
+     damnnn! I hit the Submit button too late and Dave_B took over!! .. I
+     hope what I said can be a redundant "Add-on" to Dave_B's.. *DOH*
+       [121]Reply With Quote Reply With Quote [122]Share on Google+
+         ______________________________________________________________
+
+   14. November 4th, 1999, 01:27 PM [123]#14
+       [124]TNproud2b
+          + [125]View Profile
+          + [126]View Forum Posts
+       TNproud2b is offline HWC Technician
+
+        Join Date
+                Aug 1999
+
+        Location
+                North Carolina
+
+        Posts
+                1,750
+
+     "Bus" speed refers to how fast data is exchanged between 2(or more)
+     devices connected(or plugged in) to the motherboard, or mounted
+     directly to the board. FSB stands for "Front Side Bus". This is the
+     setting that is changed in order to overclock the processor. FSB
+     speed is the rate at which data is exchanged between the processor
+     and motherboard(generally the memory DIMM's). 100mhz FSB translates
+     into 100 million exchanges of data each second. The PCI bus is what
+     all your expansion cards are plugged into. Those PCI slots and ISA
+     slots on your motherboard are using the PCI bus to exchange data
+     between the sound card, modem, or most anything plugged into a slot.
+     The PCI bus is also the pathway that your hard drive uses to move
+     data, so you can see how important it is to keep the PCI bus speed
+     near the 33mhz speed its expecting to see. LOts of devices on your
+     computer can act funny if the PCI bus speed is messed up. Kinda like
+     a clock thats running too fast or too slow. AGP stands for
+     "Accelerated Graphics Port"- something relatively new in the world
+     of computing. This "AGP" is specifically designed to improve the
+     graphics performance by doubling the amount of data that can be
+     moved thru the VGA card(VooDoo card etc). AGP is exclusively for
+     video. So there you have 3 Busses. FSB speed, PCI speed, and AGP
+     speed are all tied together; when you change FSB speed, you also
+     change the speed of AGP and PCI bus. PCI bus speed is supposed to be
+     33mhz, on all computers. AGP bus speed is supposed to be 66mhz.
+     Now....the FSB speed is either 66mhz(celeron,old pentium) or
+     100mhz(p2,p3,most others). Inside that CPU chip is a circuit that
+     detects the FSB speed and synchronizes its data flow with it.
+     Generally the CPU is working faster than the "bus speed". So its
+     common to have a CPU thats making many calculations for every cycle
+     of the bus speed. In the case of a Celeron400, this CPU is running
+     at 6 times the speed of the FSB. Celerons were meant to be used with
+     a 66mhz FSB speed. So you can always do the math to see the speed of
+     the processor----FSB(66mhz) X Multiplier inside CPU(6,for a c400,
+     5.5 for a c366, etc.)= Processor speed(400mhz for c400). That looks
+     like 66 x 6 = 400. That "multplier" of 4 or 5 or 6 or whatever is
+     set by INTEL at the time the chip is made, it cannot be changed.
+     This is what is meant by the term "clock-locked". If you were able
+     to change the "multiplier" setting in the chip, you wouldn't need to
+     increase the FSB speed to overclock the processor. There are ONLY 2
+     ways to increase the speed of your processor- raise FSB speed, or
+     raise multiplier setting(which is impossible on most INTEL cpu's).
+     The problem with raising the FSB speed is that EVERYTHING connected
+     to the computer is recieving its timing from that FSB speed. The PCI
+     bus runs at 1/3 FSB speed for a 100mhz system, or 1/2 FSB speed for
+     a 66mhz system. So either way the PCI bus speed is 33mhz. AGP bus
+     speed is always 66mhz, or twice the speed of PCI speed. The AGP
+     usually has a setting of 2/3 of the speed of FSB for a 100mhz system
+     or 1/1 for 66mhz system. Watch what happens when you raise that FSB
+     speed to get it to overclock: lets try the 83 mhz FSB setting for a
+     Celeron400- FSB= 83mhz(raised from 66mhz), PCI speed is 1/2 of this
+     or 41.5mhz, AGP is 1/1 with FSB for a speed of 83mhz. Raising the
+     FSB to 83 from 66 makes your C400 go from 400mhz to 498mhz. 6 x
+     66fsb = 400 and 6 x 83mhz = 498. If you were using a C366, instead,
+     then your CPU speed would be 5.5 x 66 = 366 and 5.5 x 83 = 456mhz.
+     The only difference in those Celeron chips is the setting of the
+     multiplier. c300's are locked at 4.5, 333's are 5, 366's are 5.5,
+     400's are 6, 433's are 6.5 etc. etc. All of this is basic
+     mathematics, once you understand how the numbers relate to each
+     other. Trust me, I am no genius. If I can understand this crap,
+     anyone can. You'll learn a lot just by reading the posts here at
+     HardwareCentral, I know thats where my knowledge comes from. All
+     overclocking really is, is the utilization of CPU resources above
+     the rate that the manufacturer intended(or warranties it to work for
+     that matter). Most electronics are designed with a manufacturing
+     tolerance that will still allow the "bad"(slow) ones to work just
+     fine. All you do is hope you got a chip that isn't at its max just
+     running at its factory speed. Damn this is getting long, email me
+     with any questions I haven't answered....
+
+     P4 2.8@4.0 dual R134A phase change chillers with 600watt
+     thermoelectric array. Capable of -70F
+     Nixie tube numeric display control panel and pneumatic motherboard
+     tray.
+       [127]Reply With Quote Reply With Quote [128]Share on Google+
+         ______________________________________________________________
+
+   15. November 4th, 1999, 01:27 PM [129]#15
+       [130]division2000
+          + [131]View Profile
+          + [132]View Forum Posts
+       division2000 is offline 5000
+
+        Join Date
+                Sep 1999
+
+        Location
+                Split,Croatia,Europe
+
+        Posts
+                63
+
+     okeee guys...
+     i am so thanksfull.......
+     after three years making music on someones elses computer, for the
+     firs time i got my own machine....
+     thats the reason i come out with this basics
+     questions......;-))))
+     thank you once again.....
+       [133]Reply With Quote Reply With Quote [134]Share on Google+
+         ______________________________________________________________
+
+   [135]Page 1 of 2 [136]1[137]2 [138]Next [139]Last Last
+     * Jump to page: ____ Go
+
+   Quick Navigation [140]Cases, Cooling, and Overclocking [141]Top
+     * Site Areas
+     * [142]Settings
+     * [143]Private Messages
+     * [144]Subscriptions
+     * [145]Who's Online
+     * [146]Search Forums
+     * [147]Forums Home
+     * Forums
+     * [148]General Forums
+         1. [149]General Tech Talk and Support
+         2. [150]PC and Console Gaming
+         3. [151]Software
+     * [152]Hardware Forums
+         1. [153]CPUs and Motherboards
+         2. [154]Cases, Cooling, and Overclocking
+         3. [155]PC Audio and Home Theater
+         4. [156]PC Video, Digital Imaging, and Displays
+         5. [157]Storage and Peripherals
+         6. [158]Networking and the Internet
+         7. [159]Mobile Technology
+     * [160]Community
+         1. [161]HWC Feedback
+         2. [162]Central Lounge
+         3. [163]For Sale Or Trade
+
+   « [164]Previous Thread | [165]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [166]BB code is On
+     * [167]Smilies are On
+     * [168][IMG] code is On
+     * [169][VIDEO] code is On
+     * HTML code is Off
+
+   [170]Forum Rules
+   [-- hardwarecentral yellow]
+     * [171]Contact Us
+     * [172]HardwareCentral Forums
+     * [173]Archive
+     * [174]Top
+
+   IFRAME:
+   [175]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:08 PM.
+
+   Powered by [176]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=16
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. javascript:///
+  28. javascript:///
+  29. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  30. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  31. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  32. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  33. https://twitter.com/share
+  34. javascript:///
+  35. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=108955&pp=15&page=1
+  36. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=108955
+  37. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=108955
+  38. javascript:///
+  39. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=108955&contenttype=vBForum_Post
+  40. javascript:///
+  41. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  42. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549853&mode=threaded#post549853
+  43. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549853#post549853
+  44. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+  45. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9719&contenttype=vBForum_Post&showposts=1
+  47. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549853
+  48. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549853#post549853
+  49. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549854#post549854
+  50. http://www.hardwarecentral.com/member.php?8656-Intruder&s=af52edabdca22194a05a25ea9dfcc77f
+  51. http://www.hardwarecentral.com/member.php?8656-Intruder&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=8656&contenttype=vBForum_Post&showposts=1
+  53. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549854
+  54. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549854#post549854
+  55. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549855#post549855
+  56. http://www.hardwarecentral.com/member.php?7931-TNproud2b&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/member.php?7931-TNproud2b&s=af52edabdca22194a05a25ea9dfcc77f
+  58. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7931&contenttype=vBForum_Post&showposts=1
+  59. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549855
+  60. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549855#post549855
+  61. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549856#post549856
+  62. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9719&contenttype=vBForum_Post&showposts=1
+  65. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549856
+  66. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549856#post549856
+  67. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549857#post549857
+  68. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=10127&contenttype=vBForum_Post&showposts=1
+  71. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549857
+  72. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549857#post549857
+  73. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549858#post549858
+  74. http://www.hardwarecentral.com/member.php?7931-TNproud2b&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/member.php?7931-TNproud2b&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7931&contenttype=vBForum_Post&showposts=1
+  77. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549858
+  78. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549858#post549858
+  79. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549859#post549859
+  80. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+  81. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9719&contenttype=vBForum_Post&showposts=1
+  83. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549859
+  84. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549859#post549859
+  85. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549860#post549860
+  86. http://www.hardwarecentral.com/member.php?4000-Splatt&s=af52edabdca22194a05a25ea9dfcc77f
+  87. http://www.hardwarecentral.com/member.php?4000-Splatt&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=4000&contenttype=vBForum_Post&showposts=1
+  89. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549860
+  90. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549860#post549860
+  91. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549861#post549861
+  92. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+  93. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+  94. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=10127&contenttype=vBForum_Post&showposts=1
+  95. http://discussions.hardwarecentral.com/Forum11/HTML/001118.html
+  96. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549861
+  97. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549861#post549861
+  98. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549862#post549862
+  99. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+ 100. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+ 101. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9719&contenttype=vBForum_Post&showposts=1
+ 102. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549862
+ 103. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549862#post549862
+ 104. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549863#post549863
+ 105. http://www.hardwarecentral.com/member.php?11417-Dave_B&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/member.php?11417-Dave_B&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/member.php?11417-Dave_B&s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=11417&contenttype=vBForum_Post&showposts=1
+ 109. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549863
+ 110. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549863#post549863
+ 111. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549864#post549864
+ 112. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=10127&contenttype=vBForum_Post&showposts=1
+ 115. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549864
+ 116. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549864#post549864
+ 117. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549865#post549865
+ 118. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/member.php?10127-K4&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=10127&contenttype=vBForum_Post&showposts=1
+ 121. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549865
+ 122. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549865#post549865
+ 123. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549866#post549866
+ 124. http://www.hardwarecentral.com/member.php?7931-TNproud2b&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/member.php?7931-TNproud2b&s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7931&contenttype=vBForum_Post&showposts=1
+ 127. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549866
+ 128. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549866#post549866
+ 129. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&p=549867#post549867
+ 130. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/member.php?9719-division2000&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=9719&contenttype=vBForum_Post&showposts=1
+ 133. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=549867
+ 134. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?108955&p=549867#post549867
+ 135. javascript:///
+ 136. javascript:///
+ 137. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking#top
+ 142. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 147. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 151. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 154. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 156. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 157. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 158. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 159. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 160. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 162. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 165. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 166. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 167. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 168. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 169. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 170. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 171. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/
+ 173. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking#top
+ 175. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 176. https://www.vbulletin.com/
+
+   Hidden links:
+ 178. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549853%23post549853&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 179. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549853%23post549853&source=webclient
+ 180. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549853%23post549853&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 181. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549854%23post549854&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 182. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549854%23post549854&source=webclient
+ 183. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549854%23post549854&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 184. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549855%23post549855&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 185. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549855%23post549855&source=webclient
+ 186. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549855%23post549855&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 187. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549856%23post549856&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 188. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549856%23post549856&source=webclient
+ 189. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549856%23post549856&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 190. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549857%23post549857&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 191. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549857%23post549857&source=webclient
+ 192. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549857%23post549857&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 193. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549858%23post549858&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 194. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549858%23post549858&source=webclient
+ 195. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549858%23post549858&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 196. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549859%23post549859&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 197. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549859%23post549859&source=webclient
+ 198. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549859%23post549859&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 199. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549860%23post549860&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 200. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549860%23post549860&source=webclient
+ 201. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549860%23post549860&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 202. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549861%23post549861&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 203. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549861%23post549861&source=webclient
+ 204. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549861%23post549861&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 205. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549862%23post549862&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 206. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549862%23post549862&source=webclient
+ 207. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549862%23post549862&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 208. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549863%23post549863&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 209. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549863%23post549863&source=webclient
+ 210. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549863%23post549863&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 211. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549864%23post549864&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 212. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549864%23post549864&source=webclient
+ 213. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549864%23post549864&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 214. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549865%23post549865&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 215. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549865%23post549865&source=webclient
+ 216. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549865%23post549865&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 217. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549866%23post549866&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 218. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549866%23post549866&source=webclient
+ 219. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549866%23post549866&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 220. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549867%23post549867&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 221. http://twitter.com/share?text=celeron%20400Mhz%20overclocking&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549867%23post549867&source=webclient
+ 222. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F108955%26p%3D549867%23post549867&title=celeron%20400Mhz%20overclocking&summary=&source=HardwareCentral%20Forums
+ 223. http://www.hardwarecentral.com/showthread.php?108955-celeron-400Mhz-overclocking#top

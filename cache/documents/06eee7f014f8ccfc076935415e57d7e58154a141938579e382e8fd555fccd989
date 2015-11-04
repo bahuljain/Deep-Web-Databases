@@ -1,0 +1,794 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - General
+   Tech Talk and Support - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]General Forums
+     * [24]General Tech Talk and Support
+     * July 15, 2001 Computer Specifications
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   [27]Page 1 of 2 [28]1[29]2 [30]Next [31]Last Last
+     * Jump to page: ____ Go
+
+   Results 1 to 15 of 19
+
+Thread: [32]July 15, 2001 Computer Specifications
+
+   [33]Tweet
+     * [34]Thread Tools
+          + [35]Show Printable Version
+          + [36]Email this Page…
+          + [37]Subscribe to this Thread…
+     * [38]Search Thread
+          + Search...___________ Search
+          +
+            [39]Advanced Search
+     * [40]Display
+          + Linear Mode
+          + [41]Switch to Hybrid Mode
+          + [42]Switch to Threaded Mode
+
+    1. July 15th, 2001, 05:48 AM [43]#1
+       [44]Toolbox
+          + [45]View Profile
+          + [46]View Forum Posts
+          + [47]Visit Homepage
+       Toolbox is offline Quantum Physics
+
+        Join Date
+                Apr 1999
+
+        Location
+                Manila, Philippines
+
+        Posts
+                13,273
+
+July 15, 2001 Computer Specifications
+
+     I have never been so frustrated about compters in my entire life. No
+     matter what I do, I can't get these two IBM 60GXP's to work
+     together.
+     I'm looking to rebuild my entire computer and I need some good
+     ideas... I figure the best way to do this is to see what everyone
+     else is running so I can start fresh.
+     Start Here:
+     ------------------
+     It Is Now Safe To Turn Off Your [48]Computer
+
+     ? Quantum Physics ? Light travels faster than sound. This is why
+     some people appear bright until you hear them speak.
+       [49]Reply With Quote Reply With Quote [50]Share on Google+
+         ______________________________________________________________
+
+    2. July 15th, 2001, 05:53 AM [51]#2
+       [52]Toolbox
+          + [53]View Profile
+          + [54]View Forum Posts
+          + [55]Visit Homepage
+       Toolbox is offline Quantum Physics
+
+        Join Date
+                Apr 1999
+
+        Location
+                Manila, Philippines
+
+        Posts
+                13,273
+
+     Intel Celeron 533A @ 800 MHz
+     Abit BE6-II
+     KingMax TinyBGA PC150 768MB PC150
+     2 IBM Deskstar 41.17GB 60GXP
+     1 Seagate Barracuda 20.4 GB
+     Asus GP-V7100
+     Turtle Beach Santa Cruz
+     3Com 3C905B-TX-NM
+     Plextor UltraPlex 32
+     Adaptec AHA-2930B
+     PC Power & Cooling 425ATX
+     This configuration does not work!
+     I cannot copy from one hard drive to another no matter what
+     Master/Slave/Primary/Secondary/UDMA66 configuration I try.
+     Do not, by any means, use this system! Nothing, absolutely nothing
+     works!
+
+     ? Quantum Physics ? Light travels faster than sound. This is why
+     some people appear bright until you hear them speak.
+       [56]Reply With Quote Reply With Quote [57]Share on Google+
+         ______________________________________________________________
+
+    3. July 15th, 2001, 06:08 AM [58]#3
+       [59]Pradeep
+          + [60]View Profile
+          + [61]View Forum Posts
+       Pradeep is offline Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Australia
+
+        Posts
+                464
+
+     Have you run IBM Drive Fitness Tools on the drives? Maybe one or the
+     other is fubar'd?
+       [62]Reply With Quote Reply With Quote [63]Share on Google+
+         ______________________________________________________________
+
+    4. July 15th, 2001, 09:10 AM [64]#4
+       [65]Chairman Mao
+          + [66]View Profile
+          + [67]View Forum Posts
+       Chairman Mao is offline Senior Member
+
+        Join Date
+                May 2000
+
+        Posts
+                502
+
+     oh yeah toolbox, just remembered.
+     have you tried with the CPU at stock speed?
+     sometimes the HD controller doesn't cooperate well when components
+     are overclocked.
+     try it at stock speed, and see how it goes.
+
+     ...everyone should taste a little bitterness in their lives....
+       [68]Reply With Quote Reply With Quote [69]Share on Google+
+         ______________________________________________________________
+
+    5. July 15th, 2001, 09:59 AM [70]#5
+       [71]jankerson's Avatar
+       [72]jankerson
+          + [73]View Profile
+          + [74]View Forum Posts
+       jankerson is offline Super Moderator
+
+        Join Date
+                Jun 1999
+
+        Location
+                North Carolina
+
+        Posts
+                12,263
+
+     Toolbox,
+     You have the cpu turned up pretty high there.
+     If you want 800mhz go out and buy a new cpu that you don't have to
+     turn up so much.
+     I think Chairman Mao is right on this one.
+     Remember when you turn up the bus speed you strain everything on the
+     motherboard.
+
+     Intel I5 750 @ 2.67 Ghz, 4gb GSkill DDR3 1600, GB P55M-UD2, XFX
+     Radeon 5850. , Seagate Constellation ES 1 TB, Seasonic Gold 620w,
+     Win Vista Ultimate, Toshiba 32" HDTV
+     E6750 Core 2 Duo, 2GB Corsair XMS2 DDR2 800, GB P35C-DS3R MB, ATI
+     Radeon X1950XT, Seagate 7200.9 320GB, Win XP Pro SP2, Enermax
+     Liberty 500w
+     [75]HWC Folding@Home Team -- [76]Learn How to Join the Team Here
+     ---[77]Detailed Stats
+       [78]Reply With Quote Reply With Quote [79]Share on Google+
+         ______________________________________________________________
+
+    6. July 15th, 2001, 10:39 AM [80]#6
+       [81]glussier's Avatar
+       [82]glussier
+          + [83]View Profile
+          + [84]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Toolbox has is cel533 running at 800 therefore nothing is overclock
+     except the cpu. You should go and get an UDMA100 pci ide controller
+     card.
+
+     Gilles Lussier
+     [85]HWC Folding@Home Team
+       [86]Reply With Quote Reply With Quote [87]Share on Google+
+         ______________________________________________________________
+
+    7. July 15th, 2001, 12:10 PM [88]#7
+       [89]Toolbox
+          + [90]View Profile
+          + [91]View Forum Posts
+          + [92]Visit Homepage
+       Toolbox is offline Quantum Physics
+
+        Join Date
+                Apr 1999
+
+        Location
+                Manila, Philippines
+
+        Posts
+                13,273
+
+     I've tried stock speed as well. I swear, there is nothing I haven't
+     tried.
+     I'm going to now try to connect these two drives to an Asus P3V4X to
+     see if that helps.
+
+     ? Quantum Physics ? Light travels faster than sound. This is why
+     some people appear bright until you hear them speak.
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    8. July 15th, 2001, 01:19 PM [95]#8
+       [96]wetling
+          + [97]View Profile
+          + [98]View Forum Posts
+          + [99]Visit Homepage
+       wetling is offline See my Sig
+
+        Join Date
+                Mar 2000
+
+        Location
+                Lakewood, CO
+
+        Posts
+                3,604
+
+     You want to see what others are running? [100]Edited by Toolbox is a
+     list.
+     ------------------
+     "What are you, my therapist!?! TAKE A WALK!!!
+     Interested in more great conversation? Visit [101]JJR512's Board
+     We'd love to have you on our [102]Genome@Home Team.
+     [This message has been edited by Toolbox (edited 07-15-2001).]
+
+     Athlon 64 2800+
+     1xWD 1200BB, 1xMaxtor 200GB SATA
+     Asus K8N-E
+     2x512MB Corsair XMS3200
+     Klipsch Pro Media 2.1
+     Radeon 9800 Pro, Dell 1801FP - WinTV Theater
+     Sony CRX320E Combo Drive, Pioneer A04
+     Microsoft Natural Keyboard Pro - Microsoft IntelliMouse Optical
+     Win XP Pro SP2
+       [103]Reply With Quote Reply With Quote [104]Share on Google+
+         ______________________________________________________________
+
+    9. July 15th, 2001, 02:34 PM [105]#9
+       [106]animal18's Avatar
+       [107]animal18
+          + [108]View Profile
+          + [109]View Forum Posts
+       animal18 is offline Rarrrrgh!
+
+        Join Date
+                Mar 1999
+
+        Location
+                Warner, NH
+
+        Posts
+                1,078
+
+     Toolbox, have you tried zeroing the drives? I'm sure Quantum has a
+     program just for that purpose. I've found that it'll fix some drives
+     that are beings pain's in the arse.
+
+     Quidquid latine dictum sit, altum viditur.
+       [110]Reply With Quote Reply With Quote [111]Share on Google+
+         ______________________________________________________________
+
+   10. July 15th, 2001, 02:36 PM [112]#10
+       [113]Toolbox
+          + [114]View Profile
+          + [115]View Forum Posts
+          + [116]Visit Homepage
+       Toolbox is offline Quantum Physics
+
+        Join Date
+                Apr 1999
+
+        Location
+                Manila, Philippines
+
+        Posts
+                13,273
+
+     Thanks wetling, but internet.com doesn't allow links to other
+     competing websites. I'm sorry for having to edit your post... but, I
+     really have to.
+     Cheers
+
+     ? Quantum Physics ? Light travels faster than sound. This is why
+     some people appear bright until you hear them speak.
+       [117]Reply With Quote Reply With Quote [118]Share on Google+
+         ______________________________________________________________
+
+   11. July 15th, 2001, 05:41 PM [119]#11
+       [120]terence
+          + [121]View Profile
+          + [122]View Forum Posts
+       terence is offline HWC Technician
+
+        Join Date
+                Nov 1998
+
+        Location
+                Irvine, CA,
+
+        Posts
+                1,787
+
+     I think its time for a new mobo/cpu. A AMD setup won't set you back
+     too much.
+
+     "We're going to get another one next year, again -- back to back to
+     back."
+     -Kobe Bryant
+       [123]Reply With Quote Reply With Quote [124]Share on Google+
+         ______________________________________________________________
+
+   12. July 15th, 2001, 05:49 PM [125]#12
+       [126]terence
+          + [127]View Profile
+          + [128]View Forum Posts
+       terence is offline HWC Technician
+
+        Join Date
+                Nov 1998
+
+        Location
+                Irvine, CA,
+
+        Posts
+                1,787
+
+     Here's what I'm running. Not top of the line but is more then enough
+     for my games, apps, etc...
+     AMD Thunderbird 1.2GHz (266mhz BUS)
+     Epox 8KTA3L
+     512MB Micron PC-133 RAM
+     Asus V7700 Geforce2 GTS
+     Plextor 16x CDRW drive
+     Pioneer 16x Slot DVD drive
+     IBM 30GXP (OS, Apps, Games)
+     Seagate 40GB (Storage, Backups)
+     HP NetServer 10/100TX
+     RCA Cable Modem
+     Linksys 1-port DSL router
+     SB Live! X-Gamer
+     Intellimouse Explorer
+
+     "We're going to get another one next year, again -- back to back to
+     back."
+     -Kobe Bryant
+       [129]Reply With Quote Reply With Quote [130]Share on Google+
+         ______________________________________________________________
+
+   13. July 16th, 2001, 05:27 AM [131]#13
+       [132]krusty
+          + [133]View Profile
+          + [134]View Forum Posts
+       krusty is offline 5000
+
+        Join Date
+                Mar 2000
+
+        Location
+                South of the Bombay Hills (NZ)
+
+        Posts
+                159
+
+     Ah well ...ahem.. my new setup, with some old bits.
+     AMD t-bone 1330 @ 1450
+     GA-7DXR mobo - DDR + ATA100 Raid
+     256mb PC2100 DDR ram
+     Maxtor 20gb HDD
+     ATI Rage 128 GL 32mb
+     Creative PCI128 4 channel sound (mobo)
+       [135]Reply With Quote Reply With Quote [136]Share on Google+
+         ______________________________________________________________
+
+   14. May 28th, 2012, 11:15 AM [137]#14
+       [138]John567
+          + [139]View Profile
+          + [140]View Forum Posts
+       John567 is offline Junior Member
+
+        Join Date
+                May 2012
+
+        Posts
+                2
+
+     Core i3 Dual Core 3.2ghz
+     8192mb DDR3 Ram
+     Sound Blaster x-fi Xtreme Audio
+     Asus 1GB GTX 560Ti
+     Seagate Barracuda 500GB 7200 RPM 6GB/S Internal SATA Drive
+     Crucial CT256M4SSD2 256GB M4 SSD
+       [141]Reply With Quote Reply With Quote [142]Share on Google+
+         ______________________________________________________________
+
+   15. May 28th, 2012, 05:14 PM [143]#15
+       [144]Ultim8_Evil
+          + [145]View Profile
+          + [146]View Forum Posts
+       Ultim8_Evil is offline Senior Member
+
+        Join Date
+                Jul 2000
+
+        Location
+                53° 08' 24" N 2° 23' 39" W
+
+        Posts
+                760
+
+     Why post in an 11 year old thread?
+     lol
+
+     Clevo P150HM - Intel Core i7-2760QM Sandy Bridge - 16Gb 1333Mhz DDR3
+     RAM - SanDisk Extreme 240Gb SSD - Radeon 6990M @ 740/1000
+       [147]Reply With Quote Reply With Quote [148]Share on Google+
+         ______________________________________________________________
+
+   [149]Page 1 of 2 [150]1[151]2 [152]Next [153]Last Last
+     * Jump to page: ____ Go
+
+   Quick Navigation [154]General Tech Talk and Support [155]Top
+     * Site Areas
+     * [156]Settings
+     * [157]Private Messages
+     * [158]Subscriptions
+     * [159]Who's Online
+     * [160]Search Forums
+     * [161]Forums Home
+     * Forums
+     * [162]General Forums
+         1. [163]General Tech Talk and Support
+         2. [164]PC and Console Gaming
+         3. [165]Software
+     * [166]Hardware Forums
+         1. [167]CPUs and Motherboards
+         2. [168]Cases, Cooling, and Overclocking
+         3. [169]PC Audio and Home Theater
+         4. [170]PC Video, Digital Imaging, and Displays
+         5. [171]Storage and Peripherals
+         6. [172]Networking and the Internet
+         7. [173]Mobile Technology
+     * [174]Community
+         1. [175]HWC Feedback
+         2. [176]Central Lounge
+         3. [177]For Sale Or Trade
+
+   « [178]Previous Thread | [179]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [180]BB code is On
+     * [181]Smilies are On
+     * [182][IMG] code is On
+     * [183][VIDEO] code is On
+     * HTML code is Off
+
+   [184]Forum Rules
+   [-- hardwarecentral yellow]
+     * [185]Contact Us
+     * [186]HardwareCentral Forums
+     * [187]Archive
+     * [188]Top
+
+   IFRAME:
+   [189]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:13 PM.
+
+   Powered by [190]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=10
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. javascript:///
+  28. javascript:///
+  29. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  30. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  31. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  32. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f
+  33. https://twitter.com/share
+  34. javascript:///
+  35. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=51555&pp=15&page=1
+  36. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=51555
+  37. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=51555
+  38. javascript:///
+  39. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=51555&contenttype=vBForum_Post
+  40. javascript:///
+  41. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  42. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300370&mode=threaded#post300370
+  43. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300370#post300370
+  44. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  45. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5040&contenttype=vBForum_Post&showposts=1
+  47. http://www.motorcycleasia.com/
+  48. http://www.veranda.com.ph/toolbox
+  49. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300370
+  50. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300370#post300370
+  51. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300371#post300371
+  52. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5040&contenttype=vBForum_Post&showposts=1
+  55. http://www.motorcycleasia.com/
+  56. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300371
+  57. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300371#post300371
+  58. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300372#post300372
+  59. http://www.hardwarecentral.com/member.php?22282-Pradeep&s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/member.php?22282-Pradeep&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=22282&contenttype=vBForum_Post&showposts=1
+  62. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300372
+  63. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300372#post300372
+  64. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300373#post300373
+  65. http://www.hardwarecentral.com/member.php?21878-Chairman-Mao&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/member.php?21878-Chairman-Mao&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=21878&contenttype=vBForum_Post&showposts=1
+  68. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300373
+  69. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300373#post300373
+  70. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300374#post300374
+  71. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/member.php?37514-jankerson&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=37514&contenttype=vBForum_Post&showposts=1
+  75. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  76. http://discussions.hardwarecentral.com/showthread.php?p=963597#post963597
+  77. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+  78. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300374
+  79. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300374#post300374
+  80. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300375#post300375
+  81. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+  85. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  86. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300375
+  87. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300375#post300375
+  88. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300376#post300376
+  89. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5040&contenttype=vBForum_Post&showposts=1
+  92. http://www.motorcycleasia.com/
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300376
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300376#post300376
+  95. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300377#post300377
+  96. http://www.hardwarecentral.com/member.php?18737-wetling&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?18737-wetling&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18737&contenttype=vBForum_Post&showposts=1
+  99. http://www.wetling.com/
+ 100. http://discussions.hardwarecentral.com/
+ 101. http://www.jjr512.com/forums/index.php
+ 102. http://www.jjr512.com/main.php?page=genome
+ 103. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300377
+ 104. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300377#post300377
+ 105. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300378#post300378
+ 106. http://www.hardwarecentral.com/member.php?3989-animal18&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/member.php?3989-animal18&s=af52edabdca22194a05a25ea9dfcc77f
+ 108. http://www.hardwarecentral.com/member.php?3989-animal18&s=af52edabdca22194a05a25ea9dfcc77f
+ 109. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=3989&contenttype=vBForum_Post&showposts=1
+ 110. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300378
+ 111. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300378#post300378
+ 112. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300379#post300379
+ 113. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/member.php?5040-Toolbox&s=af52edabdca22194a05a25ea9dfcc77f
+ 115. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=5040&contenttype=vBForum_Post&showposts=1
+ 116. http://www.motorcycleasia.com/
+ 117. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300379
+ 118. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300379#post300379
+ 119. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300380#post300380
+ 120. http://www.hardwarecentral.com/member.php?2999-terence&s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/member.php?2999-terence&s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=2999&contenttype=vBForum_Post&showposts=1
+ 123. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300380
+ 124. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300380#post300380
+ 125. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300381#post300381
+ 126. http://www.hardwarecentral.com/member.php?2999-terence&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/member.php?2999-terence&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=2999&contenttype=vBForum_Post&showposts=1
+ 129. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300381
+ 130. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300381#post300381
+ 131. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=300382#post300382
+ 132. http://www.hardwarecentral.com/member.php?18959-krusty&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/member.php?18959-krusty&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18959&contenttype=vBForum_Post&showposts=1
+ 135. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=300382
+ 136. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=300382#post300382
+ 137. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=1048322#post1048322
+ 138. http://www.hardwarecentral.com/member.php?59208-John567&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/member.php?59208-John567&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=59208&contenttype=vBForum_Post&showposts=1
+ 141. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1048322
+ 142. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=1048322#post1048322
+ 143. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&p=1048324#post1048324
+ 144. http://www.hardwarecentral.com/member.php?24449-Ultim8_Evil&s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/member.php?24449-Ultim8_Evil&s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=24449&contenttype=vBForum_Post&showposts=1
+ 147. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1048324
+ 148. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?51555&p=1048324#post1048324
+ 149. javascript:///
+ 150. javascript:///
+ 151. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 154. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications™#top
+ 156. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 157. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 158. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 159. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 160. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 162. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 166. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 167. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 168. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 169. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 170. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 175. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 176. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 177. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 178. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 179. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 180. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 181. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 182. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 183. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 184. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 185. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 186. http://www.hardwarecentral.com/
+ 187. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 188. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications™#top
+ 189. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 190. https://www.vbulletin.com/
+
+   Hidden links:
+ 192. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300370%23post300370&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 193. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300370%23post300370&source=webclient
+ 194. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300370%23post300370&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 195. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300371%23post300371&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 196. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300371%23post300371&source=webclient
+ 197. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300371%23post300371&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 198. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300372%23post300372&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 199. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300372%23post300372&source=webclient
+ 200. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300372%23post300372&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 201. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300373%23post300373&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 202. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300373%23post300373&source=webclient
+ 203. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300373%23post300373&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 204. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300374%23post300374&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 205. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300374%23post300374&source=webclient
+ 206. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300374%23post300374&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 207. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300375%23post300375&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 208. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300375%23post300375&source=webclient
+ 209. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300375%23post300375&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 210. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300376%23post300376&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 211. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300376%23post300376&source=webclient
+ 212. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300376%23post300376&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 213. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300377%23post300377&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 214. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300377%23post300377&source=webclient
+ 215. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300377%23post300377&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 216. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300378%23post300378&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 217. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300378%23post300378&source=webclient
+ 218. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300378%23post300378&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 219. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300379%23post300379&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 220. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300379%23post300379&source=webclient
+ 221. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300379%23post300379&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 222. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300380%23post300380&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 223. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300380%23post300380&source=webclient
+ 224. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300380%23post300380&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 225. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300381%23post300381&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 226. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300381%23post300381&source=webclient
+ 227. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300381%23post300381&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 228. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300382%23post300382&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 229. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300382%23post300382&source=webclient
+ 230. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D300382%23post300382&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 231. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D1048322%23post1048322&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 232. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D1048322%23post1048322&source=webclient
+ 233. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D1048322%23post1048322&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 234. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D1048324%23post1048324&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 235. http://twitter.com/share?text=July%2015,%202001%20Computer%20Specifications&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D1048324%23post1048324&source=webclient
+ 236. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F51555%26p%3D1048324%23post1048324&title=July%2015,%202001%20Computer%20Specifications&summary=&source=HardwareCentral%20Forums
+ 237. http://www.hardwarecentral.com/showthread.php?51555-July-15-2001-Computer-Specifications%E2%84%A2#top

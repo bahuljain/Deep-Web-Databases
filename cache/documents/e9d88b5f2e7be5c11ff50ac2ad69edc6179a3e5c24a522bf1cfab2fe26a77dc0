@@ -1,0 +1,943 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums -
+   Software - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]General Forums
+     * [24]Software
+     * Popular Open-Source Alternatives
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 13 of 13
+
+Thread: [27]Popular Open-Source Alternatives
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. September 9th, 2004, 09:47 AM [38]#1
+       [39]Bink's Avatar
+       [40]Bink
+          + [41]View Profile
+          + [42]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+Popular Open-Source Alternatives
+
+     I was asked to create this sticky, but it's something I'd also been
+     thinking about doing for a while, being the open-source advocate I
+     am. The ones I'll initially list are ones I've personally tested
+     against other software and continue to use.
+          + [43]SourceForge - Comprehensive directory of open-source
+            projects.
+          + [44]WEBI.ORG - Free and Open Source Software Directory.
+          + [45]Open Source Alternatives - Find open source software
+            alternatives to well-known commercial software.
+          + [46]AlternativeTo - Provides a large list of open-source and
+            other alternatives to popular commercial software.
+
+     Desktop Applications
+          + [47]LibreOffice - Office suite
+          + [48]OpenOffice - Office suite.
+          + [49]Notepad++ - Fully featured text editor with syntax
+            highlighting.
+          + [50]PDFCreator - PDF creation software.
+          + [51]Electric Sheep - Psychadelic screensaver.
+          + [52]InfraRecorder - CD/DVD burning software.
+          + [53]StarDict - Cross-Platform and international dictionary
+            Software. It has powerful features such as "Glob-style pattern
+            matching", "Scan selection word," "Fuzzy query," etc.
+
+     Internet Browsers / Email Clients
+          + [54]Mozilla Firefox - Extremely popular web browser, made very
+            personalised and modular by the availability of extensions.
+          + [55]Mozilla Thunderbird - Email client, made very personalised
+            and modular by the availability of extensions.
+               o [56]Lightning extension, for Thunderbird/Sunbird -
+                 Provides a calendar for Thunderbird/Sunbird (like
+                 Outlook).
+               o [57]Provider for Google Calendar, for Thunderbird/Sunbird
+                 - Allows Thunderbird/Sunbird to read and write events to
+                 Google Calendar.
+          + [58]Mozilla SeaMonkey - Web-browser, advanced e-mail and
+            newsgroup client, IRC chat client, and HTML editing made
+            simple.
+
+     FTP Clients
+          + [59]FileZilla
+
+     Image Manipulation / 3D Animation
+          + [60]The Gimp - Photoshop Equivalent.
+          + [61]Scribus - Desktop publishing. Equivalent to InDesign and
+            QuarkXPress.
+          + [62]Inkscape - Vector illustration, equivalent to Illustrator,
+            Freehand, Corel Draw and Xara X.
+          + [63]Paint.NET - Paint.NET is free image and photo editing
+            software.
+          + [64]Blender 3D modeling/animation software.
+          + [65]POV-Ray - 3D modeling/animation software.
+
+     Video Tools
+          + [66]FFmpeg - Video conversion utility.
+          + [67]MediaCoder - Universal batch media transcoder.
+          + [68]VirtualDub - Basic editor, featured encoder.
+          + [69]VirtualDubMod - Basic editor, featured encoder.
+          + [70]HandBrake - DVD to MPEG-4 converter. Outputs to MP4, MKV,
+            AVI or OGM.
+
+     Sound Editors / Rippers / Compression Tools
+          + [71]Audacity - Full featured sound editor.
+          + [72]CDex - CD audio extraction and audio conversion.
+          + [73]LAME mP3 Encoder ([74]download) - Highest quality MP3
+            codec.
+          + [75]RazorLame (LAME front-end)
+
+     Compression & Backup
+          + [76]7-Zip - Packs: 7z, ZIP, GZIP, BZIP2 and TAR. Unpacks: RAR,
+            CAB, ISO, ARJ, LZH, CHM, Z, CPIO, RPM, DEB and NSIS.
+          + [77]Cobian's Backup - Highly featured scheduled backup
+            software, which supports a lot of features normally only found
+            in commercial backup solutions.
+
+     Media Players
+          + [78]MediaPlayerClassic - With the right codecs, will play
+            virtually anything and everything.
+          + [79]VLC Media Player - Natively supports a large range of
+            video formats.
+          + [80]MPlayer - Natively supports a large range of video
+            formats.
+          + [81]Songbird - Desktop Web player, a digital jukebox and Web
+            browser mash-up.
+          + [82]aTunes - Audio player and manager.
+
+     Network Administration
+          + [83]Wireshark - Network analyzer previously known as Ethereal.
+          + [84]TightVNC - Simple remote access.
+          + [85]Ultr@VNC - More featured remote access.
+          + [86]Open Kiosk - Kiosk management system suited for use in
+            controlled computing environments such as public access
+            systems, libraries, school computer laboratories and internet
+            cafes.
+          + [87]Putty - Telnet/SSH client.
+          + [88]OCS Inventory NG - Automated network inventory and
+            deployment system.
+          + [89]Nmap - Network exploration or security auditing (port
+            scanner).
+          + [90]BO2K - Remote control of systems, including network,
+            registry, passwords, file system, and processes. Based on Back
+            Orifice.
+
+     System Tools
+          + [91]ClamWin Free AntiVirus - (doesn't support on-access
+            scanning yet)
+          + [92]Clonezilla - Drive cloning (like Ghost) and system
+            deployment.
+          + [93]GParted - Hard disk partitioning...
+          + [94]Partition Logic - Hard disk partitioning and data
+            management.
+          + [95]Rufus - A small utility that helps format and create
+            bootable USB flash drives, such as USB keys/pendrives, memory
+            sticks, etc.
+          + [96]Synergy - Share a single mouse and keyboard between
+            multiple computers with different operating systems, each with
+            its own display, without special hardware. Imagine the
+            functionality of dual monitors (expanded desktop) except each
+            monitor is connected to a different computer.
+
+     Security
+          + [97]Darik's Boot and Nuke - High security drive wiping.
+          + [98]Eraser - Delete files securely off your hard drive
+            utilizing DoD standards.
+          + [99]Extended Password Generator - Generates pronounceable and
+            random passwords.
+          + [100]PGP (Pretty Good Privacy) - Encryption package.
+          + [101]TrueCrypt - On the fly encryption. Supports volume
+            encryption.
+          + [102]Waste - Secure P2P.
+          + [103]KeePass - Password Manager.
+          + [104]DCFirewall - A rule based packet and application
+            filtering firewall.
+
+     Personal Finance
+          + [105]TurboCASH - For managing personal finance.
+          + [106]Quasar - Accounting package.
+
+     Games / Simulators
+          + [107]The Ur-Quan Masters (StarControl II remake)
+          + [108]The Bub's Brothers (Bubble Bobble remake)
+          + [109]Frozen Bubble (requires [110]ActivePerl 5.6.1 and
+            [111]SDL_Perl)
+          + [112]Scorched 3D (3D remake of classic Scorched Earth)
+          + [113]Racer
+          + [114]TuxRacer
+          + [115]FooBilliard
+          + [116]Open Transport Tycoon Deluxe - (OpenTTD) Transport Tycoon
+            Deluxe remake.
+          + [117]Celestia - Free space simulation that lets you explore
+            our universe in three dimensions.
+          + [118]Stellarium - Stellarium is a planetarium that shows a
+            realistic sky in 3D, like you would with the naked eye,
+            binoculars or a telescope.
+
+       [119]Reply With Quote Reply With Quote [120]Share on Google+
+         ______________________________________________________________
+
+    2. September 25th, 2007, 09:04 PM [121]#2
+       [122]Bink's Avatar
+       [123]Bink
+          + [124]View Profile
+          + [125]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+     Updated to add Electric Sheep, Cabos, Pidgin, Paint.NET, Blender,
+     MediaCoder, HandBrake, Cobian's Backup, MPlayer, Eraser, KeePass
+     (thanks krupted), TurboCASH, Quasar, Celestia and Stellarium.
+       [126]Reply With Quote Reply With Quote [127]Share on Google+
+         ______________________________________________________________
+
+    3. September 28th, 2007, 12:15 AM [128]#3
+       [129]GybrshThrepwd's Avatar
+       [130]GybrshThrepwd
+          + [131]View Profile
+          + [132]View Forum Posts
+       GybrshThrepwd is offline 5000
+
+        Join Date
+                Sep 2007
+
+        Location
+                Silver Spring, MD
+
+        Posts
+                6
+
+     Bink, I saw you put OpenOffice on there. What are your thoughts on
+     GoogleDocs? I know it's not open source but i just want an opinion.
+     I have MS Office 2007 right now and as bad as I really want to
+     convert to OpenOffice, I feel MS right now is still more
+     aesthetically pleasing then GoogleDocs and OpenOffice.
+     Your thoughts?
+       [133]Reply With Quote Reply With Quote [134]Share on Google+
+         ______________________________________________________________
+
+    4. September 29th, 2007, 11:07 AM [135]#4
+       [136]MAyers57's Avatar
+       [137]MAyers57
+          + [138]View Profile
+          + [139]View Forum Posts
+          + [140]Visit Homepage
+       MAyers57 is offline Elder Geek
+
+        Join Date
+                Aug 2007
+
+        Location
+                NJ,
+
+        Posts
+                484
+
+     Here's a couple of sites with some more Open Source Alternatives
+     [141]http://www.osalt.com/
+     [142]http://www.foogazi.com/2006/11/10/al...dows-programs/
+
+     Mike
+     [143]http://www.gegeek.com
+     Still XP and Loving it.
+     No God, No Peace. Know God, Know Peace.
+       [144]Reply With Quote Reply With Quote [145]Share on Google+
+         ______________________________________________________________
+
+    5. September 30th, 2007, 06:57 PM [146]#5
+       [147]Shinma's Avatar
+       [148]Shinma
+          + [149]View Profile
+          + [150]View Forum Posts
+       Shinma is offline ____________
+
+        Join Date
+                Mar 2000
+
+        Posts
+                27,283
+
+     Added SeaMonkey.
+
+     "I know nothing."
+     Cheers.
+       [151]Reply With Quote Reply With Quote [152]Share on Google+
+         ______________________________________________________________
+
+    6. October 6th, 2007, 10:45 PM [153]#6
+       [154]Bink's Avatar
+       [155]Bink
+          + [156]View Profile
+          + [157]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+     Added [158]InfraRecorder and [159]Partition Logic.
+       [160]Reply With Quote Reply With Quote [161]Share on Google+
+         ______________________________________________________________
+
+    7. October 6th, 2007, 11:04 PM [162]#7
+       [163]Bink's Avatar
+       [164]Bink
+          + [165]View Profile
+          + [166]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+     Quote Originally Posted by GybrshThrepwd
+
+     Bink, I saw you put OpenOffice on there. What are your thoughts on
+     GoogleDocs? I know it's not open source but i just want an opinion.
+     I have MS Office 2007 right now and as bad as I really want to
+     convert to OpenOffice, I feel MS right now is still more
+     aesthetically pleasing then GoogleDocs and OpenOffice.
+     Your thoughts?
+     To be honest, I haven't used GoogleDocs
+     If you already own legit Microsoft Office 2007, then I wouldn't
+     trouble yourself with making a switch to OpenOffice or GoogleDocs.
+     I've been using OpenOffice for years now. At first it was a bit
+     tricky to get used to because some functions are in different places
+     and back when OpenOffice was still fairly young, it lacked many
+     features still. But now it's matured and I'm very familiar with it,
+     it makes no difference now whether I use OpenOffice or MS Office.
+     I find the biggest issue people have with OpenOffice is that things
+     are in different places. That's fair enough, but also amusing seeing
+     as MS Office 2007 is really just a massive overhaul of the
+     navigation system (I can't find anything). If anyone's looking for a
+     time to switch to a free alternative, that's your cue
+     The worst case scenario is, you really can't get comfortable with
+     the free alternative and you buy MS Office. Nothing is lost.
+       [167]Reply With Quote Reply With Quote [168]Share on Google+
+         ______________________________________________________________
+
+    8. October 12th, 2007, 01:39 PM [169]#8
+       [170]Bink's Avatar
+       [171]Bink
+          + [172]View Profile
+          + [173]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+     Added:
+          + [174]StarDict
+          + [175]HTTrack
+          + [176]Free Download Manager
+          + [177]OpenWengo
+          + [178]SIP Communicator
+          + [179]Scribus
+          + [180]Inkscape
+          + [181]Songbird
+          + [182]aTunes
+          + [183]OCS Inventory NG
+          + [184]Nmap
+          + [185]BO2K
+          + [186]Synergy
+          + [187]DCFirewall
+
+       [188]Reply With Quote Reply With Quote [189]Share on Google+
+         ______________________________________________________________
+
+    9. November 1st, 2007, 09:48 PM [190]#9
+       [191]krupted's Avatar
+       [192]krupted
+          + [193]View Profile
+          + [194]View Forum Posts
+       krupted is offline HWC Elite Member
+
+        Join Date
+                Jan 2002
+
+        Posts
+                6,334
+
+     anyone discover [195]PortableApps yet? pretty damn slick, and ive
+     noticed a lot of the apps listed here already have portable versions
+     ready. no more worrying about leaving browing traces or using
+     webmail- everything stays on the usb drive. now i can leave my pc's
+     open as public computers and never worry about people stealing
+     private info.
+
+
+       [196]Reply With Quote Reply With Quote [197]Share on Google+
+         ______________________________________________________________
+
+   10. December 18th, 2007, 11:00 AM [198]#10
+       [199]wetling
+          + [200]View Profile
+          + [201]View Forum Posts
+          + [202]Visit Homepage
+       wetling is offline See my Sig
+
+        Join Date
+                Mar 2000
+
+        Location
+                Lakewood, CO
+
+        Posts
+                3,604
+
+     How about [203]Password Safe?
+
+     Athlon 64 2800+
+     1xWD 1200BB, 1xMaxtor 200GB SATA
+     Asus K8N-E
+     2x512MB Corsair XMS3200
+     Klipsch Pro Media 2.1
+     Radeon 9800 Pro, Dell 1801FP - WinTV Theater
+     Sony CRX320E Combo Drive, Pioneer A04
+     Microsoft Natural Keyboard Pro - Microsoft IntelliMouse Optical
+     Win XP Pro SP2
+       [204]Reply With Quote Reply With Quote [205]Share on Google+
+         ______________________________________________________________
+
+   11. December 23rd, 2007, 09:29 PM [206]#11
+       [207]Leoslocks's Avatar
+       [208]Leoslocks
+          + [209]View Profile
+          + [210]View Forum Posts
+       Leoslocks is offline _ _ _ _ _ _ _ _
+
+        Join Date
+                Sep 2000
+
+        Location
+                Memphis Tennessee
+
+        Posts
+                4,930
+
+     Wow, I downloaded Songbird and first impressions are much like their
+     speal.
+     This could be the Firefox of media players.
+     Thanks
+
+     [211]HWC General Forum|[212]Video Help|[213]HTPC News|[214]Toshiba
+     Laptop Disassembly Inst| [215]Learn to Phrogram
+     [216]Image Shack|[217]B&H Photo|[218]Digital Photo
+     Review||[219]LINKS to handy info. | [220]Various Downloads
+     Did we Help? Join our Folding @ Home Team [221]Here
+       [222]Reply With Quote Reply With Quote [223]Share on Google+
+         ______________________________________________________________
+
+   12. March 26th, 2008, 07:16 PM [224]#12
+       [225]Bink's Avatar
+       [226]Bink
+          + [227]View Profile
+          + [228]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+     Added Clonezilla. Thanks DanceMan
+       [229]Reply With Quote Reply With Quote [230]Share on Google+
+         ______________________________________________________________
+
+   13. April 16th, 2009, 08:39 AM [231]#13
+       [232]Bink's Avatar
+       [233]Bink
+          + [234]View Profile
+          + [235]View Forum Posts
+       Bink is offline Will moderate for food
+
+        Join Date
+                Jan 1999
+
+        Location
+                Melbourne, Australia
+
+        Posts
+                8,796
+
+     Added "AlternativeTo". Thanks Midknyte.
+       [236]Reply With Quote Reply With Quote [237]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [238]Software [239]Top
+     * Site Areas
+     * [240]Settings
+     * [241]Private Messages
+     * [242]Subscriptions
+     * [243]Who's Online
+     * [244]Search Forums
+     * [245]Forums Home
+     * Forums
+     * [246]General Forums
+         1. [247]General Tech Talk and Support
+         2. [248]PC and Console Gaming
+         3. [249]Software
+     * [250]Hardware Forums
+         1. [251]CPUs and Motherboards
+         2. [252]Cases, Cooling, and Overclocking
+         3. [253]PC Audio and Home Theater
+         4. [254]PC Video, Digital Imaging, and Displays
+         5. [255]Storage and Peripherals
+         6. [256]Networking and the Internet
+         7. [257]Mobile Technology
+     * [258]Community
+         1. [259]HWC Feedback
+         2. [260]Central Lounge
+         3. [261]For Sale Or Trade
+
+   « [262]Previous Thread | [263]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [264]BB code is On
+     * [265]Smilies are On
+     * [266][IMG] code is On
+     * [267][VIDEO] code is On
+     * HTML code is Off
+
+   [268]Forum Rules
+   [-- hardwarecentral yellow]
+     * [269]Contact Us
+     * [270]HardwareCentral Forums
+     * [271]Archive
+     * [272]Top
+
+   IFRAME:
+   [273]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 08:57 PM.
+
+   Powered by [274]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=13
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=159915&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=159915
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=159915
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=159915&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=892679&mode=threaded#post892679
+  38. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=892679#post892679
+  39. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+  42. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+  43. http://www.sourceforge.net/
+  44. http://www.webi.org/
+  45. http://www.osalt.com/
+  46. http://alternativeto.net/
+  47. http://www.libreoffice.org/
+  48. http://www.openoffice.org/
+  49. http://notepad-plus.sourceforge.net/
+  50. http://www.pdfforge.org/products/pdfcreator
+  51. http://www.electricsheep.org/
+  52. http://infrarecorder.sourceforge.net/
+  53. http://stardict.sourceforge.net/
+  54. http://www.mozilla.com/en-US/firefox/
+  55. http://www.mozilla.com/en-US/thunderbird/
+  56. https://addons.mozilla.org/en-US/thunderbird/addon/2313
+  57. https://addons.mozilla.org/en-US/thunderbird/addon/4631
+  58. http://www.mozilla.org/projects/seamonkey
+  59. http://filezilla.sourceforge.net/
+  60. http://www.gimp.org/
+  61. http://www.scribus.net/
+  62. http://www.inkscape.org/
+  63. http://getpaint.net/
+  64. http://www.blender.org/
+  65. http://www.povray.org/
+  66. http://ffmpeg.mplayerhq.hu/
+  67. http://mediacoder.sourceforge.net/
+  68. http://virtualdub.sourceforge.net/
+  69. http://virtualdubmod.sourceforge.net/
+  70. http://handbrake.m0k.org/
+  71. http://audacity.sourceforge.net/
+  72. http://cdexos.sourceforge.net/
+  73. http://lame.sourceforge.net/
+  74. http://mitiok.cjb.net/
+  75. http://www.dors.de/razorlame/index.php
+  76. http://www.7-zip.org/
+  77. http://www.educ.umu.se/~cobian/cobianbackup.htm
+  78. http://sourceforge.net/projects/guliverkli/
+  79. http://www.videolan.org/vlc
+  80. http://www.mplayerhq.hu/
+  81. http://www.songbirdnest.com/
+  82. http://www.atunes.org/
+  83. http://www.wireshark.org/
+  84. http://www.tightvnc.com/
+  85. http://ultravnc.sourceforge.net/
+  86. http://openkiosk.sourceforge.net/
+  87. http://www.putty.nl/
+  88. http://www.ocsinventory-ng.org/
+  89. http://insecure.org/nmap/
+  90. http://www.bo2k.com/whatis.html
+  91. http://www.clamwin.com/
+  92. http://clonezilla.sourceforge.net/
+  93. http://gparted.sourceforge.net/
+  94. http://partitionlogic.org.uk/
+  95. http://rufus.akeo.ie/
+  96. http://synergy2.sourceforge.net/
+  97. http://dban.sourceforge.net/
+  98. http://www.heidi.ie/eraser/
+  99. http://epg.sourceforge.net/
+ 100. http://www.pgpi.org/
+ 101. http://www.truecrypt.org/
+ 102. http://waste.sourceforge.net/
+ 103. http://keepass.info/
+ 104. http://sourceforge.net/projects/dcfirewall
+ 105. http://www.turbocash.co.za/
+ 106. http://www.linuxcanada.com/
+ 107. http://sc2.sourceforge.net/
+ 108. http://bub-n-bros.sourceforge.net/
+ 109. http://fb-win32.sourceforge.net/
+ 110. http://www.activestate.com/Products/Download/Download.plex?id=ActivePerl
+ 111. http://bloodgate.com/perl/sdl/pub/SDL_Perl-1.19.1.win32.1.exe
+ 112. http://scorched3d.sourceforge.net/
+ 113. http://www.racer.nl/
+ 114. http://tuxracer.sourceforge.net/
+ 115. http://foobillard.sourceforge.net/
+ 116. http://www.openttd.com/
+ 117. http://www.shatters.net/celestia/index.html
+ 118. http://www.stellarium.org/
+ 119. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=892679
+ 120. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=892679#post892679
+ 121. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1018589#post1018589
+ 122. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+ 126. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1018589
+ 127. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1018589#post1018589
+ 128. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1018691#post1018691
+ 129. http://www.hardwarecentral.com/member.php?50777-GybrshThrepwd&s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/member.php?50777-GybrshThrepwd&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/member.php?50777-GybrshThrepwd&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=50777&contenttype=vBForum_Post&showposts=1
+ 133. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1018691
+ 134. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1018691#post1018691
+ 135. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1018751#post1018751
+ 136. http://www.hardwarecentral.com/member.php?50468-MAyers57&s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/member.php?50468-MAyers57&s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/member.php?50468-MAyers57&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=50468&contenttype=vBForum_Post&showposts=1
+ 140. http://www.gegeek.com/
+ 141. http://www.osalt.com/
+ 142. http://www.foogazi.com/2006/11/10/alternatives-to-windows-programs/
+ 143. http://www.gegeek.com/
+ 144. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1018751
+ 145. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1018751#post1018751
+ 146. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1018823#post1018823
+ 147. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+ 148. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+ 149. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18693&contenttype=vBForum_Post&showposts=1
+ 151. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1018823
+ 152. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1018823#post1018823
+ 153. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1019292#post1019292
+ 154. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 156. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 157. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+ 158. http://infrarecorder.sourceforge.net/
+ 159. http://partitionlogic.org.uk/
+ 160. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1019292
+ 161. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1019292#post1019292
+ 162. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1019293#post1019293
+ 163. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 166. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+ 167. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1019293
+ 168. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1019293#post1019293
+ 169. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1019647#post1019647
+ 170. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+ 174. http://stardict.sourceforge.net/
+ 175. http://www.httrack.com/
+ 176. http://www.freedownloadmanager.org/
+ 177. http://www.openwengo.com/
+ 178. https://sip-communicator.dev.java.net/
+ 179. http://www.scribus.net/
+ 180. http://www.inkscape.org/
+ 181. http://www.songbirdnest.com/
+ 182. http://www.atunes.org/
+ 183. http://www.ocsinventory-ng.org/
+ 184. http://insecure.org/nmap/
+ 185. http://www.bo2k.com/whatis.html
+ 186. http://synergy2.sourceforge.net/
+ 187. http://sourceforge.net/projects/dcfirewall
+ 188. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1019647
+ 189. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1019647#post1019647
+ 190. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1021072#post1021072
+ 191. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+ 192. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+ 193. http://www.hardwarecentral.com/member.php?36893-krupted&s=af52edabdca22194a05a25ea9dfcc77f
+ 194. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36893&contenttype=vBForum_Post&showposts=1
+ 195. http://portableapps.com/
+ 196. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1021072
+ 197. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1021072#post1021072
+ 198. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1023446#post1023446
+ 199. http://www.hardwarecentral.com/member.php?18737-wetling&s=af52edabdca22194a05a25ea9dfcc77f
+ 200. http://www.hardwarecentral.com/member.php?18737-wetling&s=af52edabdca22194a05a25ea9dfcc77f
+ 201. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18737&contenttype=vBForum_Post&showposts=1
+ 202. http://www.wetling.com/
+ 203. http://passwordsafe.sourceforge.net/
+ 204. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1023446
+ 205. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1023446#post1023446
+ 206. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1023787#post1023787
+ 207. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+ 208. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+ 209. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+ 210. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=26654&contenttype=vBForum_Post&showposts=1
+ 211. http://discussions.hardwarecentral.com/forumdisplay.php?s=&daysprune=30&f=3
+ 212. http://www.videohelp.com/forum/
+ 213. http://htpcnews.com/forums/index.php?
+ 214. http://www.irisvista.com/tech/index.htm
+ 215. http://phrogram.com/
+ 216. http://www.imageshack.us/
+ 217. http://www.bhphotovideo.com/
+ 218. http://www.dpreview.com/
+ 219. http://discussions.hardwarecentral.com/showthread.php?t=141142
+ 220. http://discussions.hardwarecentral.com/showthread.php?t=141026
+ 221. http://discussions.hardwarecentral.com/showthread.php?t=169431
+ 222. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1023787
+ 223. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1023787#post1023787
+ 224. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1028841#post1028841
+ 225. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 226. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 227. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 228. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+ 229. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1028841
+ 230. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1028841#post1028841
+ 231. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&p=1038392#post1038392
+ 232. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 233. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 234. http://www.hardwarecentral.com/member.php?168-Bink&s=af52edabdca22194a05a25ea9dfcc77f
+ 235. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=168&contenttype=vBForum_Post&showposts=1
+ 236. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1038392
+ 237. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?159915&p=1038392#post1038392
+ 238. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f
+ 239. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives#top
+ 240. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 241. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 242. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 243. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 244. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 245. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 246. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 247. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 248. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 249. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 250. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 251. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 252. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 253. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 254. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 255. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 256. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 257. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 258. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 259. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 260. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 261. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 262. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 263. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 264. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 265. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 266. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 267. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 268. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 269. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 270. http://www.hardwarecentral.com/
+ 271. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 272. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives#top
+ 273. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 274. https://www.vbulletin.com/
+
+   Hidden links:
+ 276. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D892679%23post892679&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 277. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D892679%23post892679&source=webclient
+ 278. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D892679%23post892679&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 279. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018589%23post1018589&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 280. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018589%23post1018589&source=webclient
+ 281. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018589%23post1018589&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 282. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018691%23post1018691&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 283. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018691%23post1018691&source=webclient
+ 284. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018691%23post1018691&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 285. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018751%23post1018751&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 286. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018751%23post1018751&source=webclient
+ 287. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018751%23post1018751&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 288. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018823%23post1018823&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 289. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018823%23post1018823&source=webclient
+ 290. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1018823%23post1018823&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 291. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019292%23post1019292&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 292. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019292%23post1019292&source=webclient
+ 293. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019292%23post1019292&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 294. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019293%23post1019293&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 295. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019293%23post1019293&source=webclient
+ 296. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019293%23post1019293&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 297. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019647%23post1019647&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 298. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019647%23post1019647&source=webclient
+ 299. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1019647%23post1019647&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 300. http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=225bw&N=0&Dx=mode+matchall&Nty=1&D=225bw&Ntk=All&product_code=341469
+ 301. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1021072%23post1021072&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 302. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1021072%23post1021072&source=webclient
+ 303. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1021072%23post1021072&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 304. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1023446%23post1023446&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 305. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1023446%23post1023446&source=webclient
+ 306. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1023446%23post1023446&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 307. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1023787%23post1023787&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 308. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1023787%23post1023787&source=webclient
+ 309. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1023787%23post1023787&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 310. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1028841%23post1028841&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 311. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1028841%23post1028841&source=webclient
+ 312. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1028841%23post1028841&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 313. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1038392%23post1038392&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 314. http://twitter.com/share?text=Popular%20Open-Source%20Alternatives&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1038392%23post1038392&source=webclient
+ 315. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F159915%26p%3D1038392%23post1038392&title=Popular%20Open-Source%20Alternatives&summary=&source=HardwareCentral%20Forums
+ 316. http://www.hardwarecentral.com/showthread.php?159915-Popular-Open-Source-Alternatives#top

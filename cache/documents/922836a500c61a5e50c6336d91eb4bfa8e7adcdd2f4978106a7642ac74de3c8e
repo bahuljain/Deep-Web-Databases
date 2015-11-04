@@ -1,0 +1,700 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Audio and Home Theater - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Audio and Home Theater
+     * [RESOLVED] multiple sound cards/outputs requried
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 11 of 11
+
+Thread: [27][RESOLVED] multiple sound cards/outputs requried
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. August 14th, 2005, 09:42 PM [38]#1
+       [39]Weeboll's Avatar
+       [40]Weeboll
+          + [41]View Profile
+          + [42]View Forum Posts
+       Weeboll is offline NO MONEY NO SKI
+
+        Join Date
+                Feb 2001
+
+        Location
+                high wycombe, UK
+
+        Posts
+                676
+
+Thumbs up [RESOLVED] multiple sound cards/outputs requried
+
+     i currently use my pc as my HTPC with the sound card plugged into my
+     main living room hifi. but with the pc in the adjacent office there
+     are often times when we use the pc to watch dvd's, listen to
+     music/webradio etc in the living room and play games or use the pc
+     as a telephone in the office which currently requires me to unplug
+     the speakers and replace with headphones...
+     i'd like not to have to do this anymore! one solution is to rig up a
+     switch box which is easy enough but still means only one source.
+     what i would like to do is complement the motherboard sound with a
+     dedicated sound card to the living room but have the following
+     questions - can i have two soundcards working together that way -
+     will i have to direct software to specific cards so that skype uses
+     one and pwoerdvd uses another and what if on occasion i want to
+     switch over and use powerdvd in the office and windows media player
+     in the living room.. how easy is it to switch sources, can i have
+     two copies of windows media player running - one playing to the
+     living room and the other to the office?
+     is there some nice software that i can pull up from the task bar to
+     assit in switching sources etc.. will xp media centre edition do any
+     of this for me?
+     i'm sure others have run into the same issues.. obviously one
+     solution is a dedicated living room HTPC but thats not an option
+     with current funding!
+     and finally if a soundcard will do, what sound card - will having
+     two software codec cards in on pc stuff things up and so i need a
+     decent h/w one. i'm currently thinking of an sb live or audigy 2
+     which i'm hoping will get cheaper with the release of the x-fi..
+     help and suggestions please!!!
+     Thanks
+     WB
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. August 15th, 2005, 12:01 AM [45]#2
+       [46]ThreeOnTheTree's Avatar
+       [47]ThreeOnTheTree
+          + [48]View Profile
+          + [49]View Forum Posts
+       ThreeOnTheTree is offline HWC Master
+
+        Join Date
+                Sep 2001
+
+        Location
+                Independence, MO
+
+        Posts
+                8,071
+
+     I'm not sure, but I don't think PCs let you run multiple sound
+     devices. Even if you can get 2 cards working together, it's very
+     unlikely that windows will let you send different sounds to
+     different sound cards. It has just now gotten easier to run multiple
+     monitors in windows and that took a very long time to get right, so
+     I'm very doubtful multiple sound cards will work at all. Such
+     features would have to be written into windows drivers, and I've
+     never heard such a thing being offered.
+       [50]Reply With Quote Reply With Quote [51]Share on Google+
+         ______________________________________________________________
+
+    3. August 15th, 2005, 12:14 AM [52]#3
+       [53]equinoxe3d's Avatar
+       [54]equinoxe3d
+          + [55]View Profile
+          + [56]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     an i have two soundcards working together that way - will i have to
+     direct software to specific cards so that skype uses one and
+     pwoerdvd uses another and what if on occasion i want to switch over
+     and use powerdvd in the office and windows media player in the
+     living room.. how easy is it to switch sources, can i have two
+     copies of windows media player running - one playing to the living
+     room and the other to the office?
+     Yep, two soundcards will work, but the ability to use one or another
+     is dependant of the application used. Skype and WMP allows you to
+     choose which soundcard to use, but PowerDVD does not (at least in
+     version 4), so it should use the default soundcard (probably the one
+     specified in the Sounds section of the Control Panel). So basically
+     it will work, but switching sources will be done in each app, and
+     some apps that won't let you choose which card might behave
+     differently with two of them, like defaulting to one in particular.
+     WMP and many other playback software doesn't allow two instances
+     running at the same time, so you'd need two different players if you
+     want to play content at the same time through both soundcards.
+     is there some nice software that i can pull up from the task bar to
+     assit in switching sources etc.. will xp media centre edition do any
+     of this for me?
+     I don't know much about MCE but since the output soundcard is
+     usually defined by the app used I'd venture to say there's probably
+     not a fast way of doing that, outside of changing the output source
+     in the app in question.
+     and finally if a soundcard will do, what sound card - will having
+     two software codec cards in on pc stuff things up and so i need a
+     decent h/w one. i'm currently thinking of an sb live or audigy 2
+     which i'm hoping will get cheaper with the release of the x-fi.
+     Any soundcard should do, we used a 2-soundcard computer setup for a
+     party
+     at work (for the DJ software) and we used the onboard sound with a
+     cheap $10 soundcard. Just choose a card in regards to the output,
+     i.e. you're probably best to have the better add-on card routed to
+     your sound system.
+
+     Last edited by equinoxe3d; August 15th, 2005 at 12:19 AM.
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [57]Join the HwC Folding@Home team!
+       [58]Reply With Quote Reply With Quote [59]Share on Google+
+         ______________________________________________________________
+
+    4. August 15th, 2005, 04:25 AM [60]#4
+       [61]Weeboll's Avatar
+       [62]Weeboll
+          + [63]View Profile
+          + [64]View Forum Posts
+       Weeboll is offline NO MONEY NO SKI
+
+        Join Date
+                Feb 2001
+
+        Location
+                high wycombe, UK
+
+        Posts
+                676
+
+     thats fine, i'll use the best sound card for media player and
+     powerdvd 6.0.. ah except stiill no option to select device for
+     powerdvd that i can find, looks like i'll have to use the default
+     windows sound card for windows media player etc and only route skype
+     and other specifics where possible to the onboard sound.
+     good old winamp 2.xx allows multiple instances though i'd have to
+     select the audio device each time cos it will only default to one
+     unless i have two seperate instances installed in different
+     locations with different configs possibly.
+     its a bit poor that pc's can't handle this more easily, i can't
+     beleive i'm in such a small minority user group that its not worth
+     catering for!
+     how do venues with multiple sound setups handle this e.g. bars with
+     different music playing in different rooms or showing the match in
+     one room via projector and piping out music in another room.. must
+     be a slicker way to control!
+       [65]Reply With Quote Reply With Quote [66]Share on Google+
+         ______________________________________________________________
+
+    5. August 15th, 2005, 09:20 AM [67]#5
+       [68]equinoxe3d's Avatar
+       [69]equinoxe3d
+          + [70]View Profile
+          + [71]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     Quote Originally Posted by Weeboll
+
+     how do venues with multiple sound setups handle this e.g. bars with
+     different music playing in different rooms or showing the match in
+     one room via projector and piping out music in another room.. must
+     be a slicker way to control!
+     I guess usually different CD players altogether, or often multiple
+     audio systems. Some of those places still aren't very computerized
+     yet. I haven't seen many multi-soundcard setups except in
+     musician/recording rigs, or for the party I mentionned eariler,
+     because it was pretty much necessary to choose what to play next
+     with headphones, while the main track is out on the speakers.
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [72]Join the HwC Folding@Home team!
+       [73]Reply With Quote Reply With Quote [74]Share on Google+
+         ______________________________________________________________
+
+    6. August 15th, 2005, 07:00 PM [75]#6
+       [76]deltree_windows's Avatar
+       [77]deltree_windows
+          + [78]View Profile
+          + [79]View Forum Posts
+       deltree_windows is offline Computer Newbie
+
+        Join Date
+                Aug 1999
+
+        Location
+                New London, CT
+
+        Posts
+                1,888
+
+     Quote Originally Posted by Weeboll
+
+     good old winamp 2.xx allows multiple instances though i'd have to
+     select the audio device each time cos it will only default to one
+     unless i have two seperate instances installed in different
+     locations with different configs possibly.
+     yes you can do that. i have winamp 2 and winamp 5 installed in
+     parallel. they maintain their own settings
+       [80]Reply With Quote Reply With Quote [81]Share on Google+
+         ______________________________________________________________
+
+    7. August 31st, 2009, 12:28 AM [82]#7
+       [83]peejayer
+          + [84]View Profile
+          + [85]View Forum Posts
+       peejayer is offline Junior Member
+
+        Join Date
+                Aug 2009
+
+        Posts
+                2
+
+multiple sound cards/outputs requried
+
+     This is amazing! What Weeboll proposed in 2005 as a reasonable
+     expectation of computers (simultaneous handling of multiple audio
+     sources and destinations) still seems not to be readily available.
+     His description of desired tasks is exactly what I am trying to do 4
+     years on, without success. Custom computer builders give me blank
+     looks. Apple offers no solutions. Again, amazing.
+     Am I missing something?
+       [86]Reply With Quote Reply With Quote [87]Share on Google+
+         ______________________________________________________________
+
+    8. August 31st, 2009, 10:46 AM [88]#8
+       [89]Weeboll's Avatar
+       [90]Weeboll
+          + [91]View Profile
+          + [92]View Forum Posts
+       Weeboll is offline NO MONEY NO SKI
+
+        Join Date
+                Feb 2001
+
+        Location
+                high wycombe, UK
+
+        Posts
+                676
+
+     Am I missing something?
+     nope, its still not an easy task!
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    9. August 31st, 2009, 07:54 PM [95]#9
+       [96]peejayer
+          + [97]View Profile
+          + [98]View Forum Posts
+       peejayer is offline Junior Member
+
+        Join Date
+                Aug 2009
+
+        Posts
+                2
+
+     You say, "not easy", but not impossible. Have you come up with a
+     workaround?
+       [99]Reply With Quote Reply With Quote [100]Share on Google+
+         ______________________________________________________________
+
+   10. August 18th, 2010, 09:05 AM [101]#10
+       [102]fredfred
+          + [103]View Profile
+          + [104]View Forum Posts
+       fredfred is offline Junior Member
+
+        Join Date
+                Aug 2010
+
+        Posts
+                1
+
+     I have had the same issues that are now resolved - this is for
+     anyone else searching and looking for the solution.
+     Try these players:
+     [105]http://jrmediacenter.com/
+     [106]http://www.multizoneaudioplayer.com/
+     The term to seach for is "mulit zone audio"
+     Some of my info came from this thread on other forum
+     [107]http://www.theeldergeek.com/forum/lo...hp?t36301.html
+     HTH
+     Rob
+       [108]Reply With Quote Reply With Quote [109]Share on Google+
+         ______________________________________________________________
+
+   11. August 19th, 2010, 01:10 AM [110]#11
+       [111]equinoxe3d's Avatar
+       [112]equinoxe3d
+          + [113]View Profile
+          + [114]View Forum Posts
+       equinoxe3d is offline HWC Senior Technician
+
+        Join Date
+                Aug 2000
+
+        Location
+                Quebec, Canada
+
+        Posts
+                2,789
+
+     Well, it was slightly tricky to achieve multiple streams on Windows
+     XP, but nowadays you can get it easily with just lowly onboard sound
+     and Windows Vista/7
+     If you have Realtek onboard sound, open the Realtek HD Audio Manager
+     and click on the "Device advanced settings". Choose the output
+     option below :
+     Once applied, a second analog output will appear under your playback
+     devices :
+     Just point your secondary audio app to use that output and you're
+     done
+     By default, that secondary output is piped to the internal audio
+     header on your motherboard (usually linked to the front headphone
+     jack of your computer case). If you want to use one of the other
+     rear jacks, first plug in your device. You'll have a new audio
+     device notification and in the Realtek Audio Manager the
+     corresponding jack will appear on the diagram. Right click on it and
+     choose "Connector Retasking..." and check "Headphone" to send the
+     second output through it.
+     That's for Realtek ALC88x onboard audio, I'm not sure if VIA or
+     older onboard solutions have a similar feature. Heck, maybe it even
+     works on XP v v
+
+     Core i7 2600K @ 4GHz | Noctua NH-C12P SE14 | ASUS Maximus IV GENE-Z
+     | 16GB G.Skill Ripjaws X 1600 CL9 | Gigabyte GTX 670 OC 2GB | 256GB
+     Crucial m4 | 2TB WD Green | Samsung DVD±RW | Seasonic X 460w Fanless
+     | Fractal Design Define Mini | Windows 7 Ultimate | Dell 2209WA @
+     75Hz
+     [115]Join the HwC Folding@Home team!
+       [116]Reply With Quote Reply With Quote [117]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [118]PC Audio and Home Theater [119]Top
+     * Site Areas
+     * [120]Settings
+     * [121]Private Messages
+     * [122]Subscriptions
+     * [123]Who's Online
+     * [124]Search Forums
+     * [125]Forums Home
+     * Forums
+     * [126]General Forums
+         1. [127]General Tech Talk and Support
+         2. [128]PC and Console Gaming
+         3. [129]Software
+     * [130]Hardware Forums
+         1. [131]CPUs and Motherboards
+         2. [132]Cases, Cooling, and Overclocking
+         3. [133]PC Audio and Home Theater
+         4. [134]PC Video, Digital Imaging, and Displays
+         5. [135]Storage and Peripherals
+         6. [136]Networking and the Internet
+         7. [137]Mobile Technology
+     * [138]Community
+         1. [139]HWC Feedback
+         2. [140]Central Lounge
+         3. [141]For Sale Or Trade
+
+   « [142]Previous Thread | [143]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [144]BB code is On
+     * [145]Smilies are On
+     * [146][IMG] code is On
+     * [147][VIDEO] code is On
+     * HTML code is Off
+
+   [148]Forum Rules
+   [-- hardwarecentral yellow]
+     * [149]Contact Us
+     * [150]HardwareCentral Forums
+     * [151]Archive
+     * [152]Top
+
+   IFRAME:
+   [153]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:10 PM.
+
+   Powered by [154]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=6
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=166565&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=166565
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=166565
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=166565&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941328&mode=threaded#post941328
+  38. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941328#post941328
+  39. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  42. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=30468&contenttype=vBForum_Post&showposts=1
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=941328
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=941328#post941328
+  45. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941342#post941342
+  46. http://www.hardwarecentral.com/member.php?35270-ThreeOnTheTree&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?35270-ThreeOnTheTree&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/member.php?35270-ThreeOnTheTree&s=af52edabdca22194a05a25ea9dfcc77f
+  49. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=35270&contenttype=vBForum_Post&showposts=1
+  50. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=941342
+  51. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=941342#post941342
+  52. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941345#post941345
+  53. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  56. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+  57. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  58. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=941345
+  59. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=941345#post941345
+  60. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941358#post941358
+  61. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=30468&contenttype=vBForum_Post&showposts=1
+  65. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=941358
+  66. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=941358#post941358
+  67. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941373#post941373
+  68. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+  72. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+  73. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=941373
+  74. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=941373#post941373
+  75. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=941419#post941419
+  76. http://www.hardwarecentral.com/member.php?7834-deltree_windows&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/member.php?7834-deltree_windows&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/member.php?7834-deltree_windows&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=7834&contenttype=vBForum_Post&showposts=1
+  80. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=941419
+  81. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=941419#post941419
+  82. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=1040665#post1040665
+  83. http://www.hardwarecentral.com/member.php?56451-peejayer&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/member.php?56451-peejayer&s=af52edabdca22194a05a25ea9dfcc77f
+  85. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=56451&contenttype=vBForum_Post&showposts=1
+  86. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040665
+  87. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=1040665#post1040665
+  88. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=1040672#post1040672
+  89. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/member.php?30468-Weeboll&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=30468&contenttype=vBForum_Post&showposts=1
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040672
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=1040672#post1040672
+  95. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=1040684#post1040684
+  96. http://www.hardwarecentral.com/member.php?56451-peejayer&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?56451-peejayer&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=56451&contenttype=vBForum_Post&showposts=1
+  99. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040684
+ 100. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=1040684#post1040684
+ 101. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=1044607#post1044607
+ 102. http://www.hardwarecentral.com/member.php?57360-fredfred&s=af52edabdca22194a05a25ea9dfcc77f
+ 103. http://www.hardwarecentral.com/member.php?57360-fredfred&s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=57360&contenttype=vBForum_Post&showposts=1
+ 105. http://jrmediacenter.com/
+ 106. http://www.multizoneaudioplayer.com/
+ 107. http://www.theeldergeek.com/forum/lofiversion/index.php?t36301.html
+ 108. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1044607
+ 109. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=1044607#post1044607
+ 110. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&p=1044613#post1044613
+ 111. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/member.php?25170-equinoxe3d&s=af52edabdca22194a05a25ea9dfcc77f
+ 114. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=25170&contenttype=vBForum_Post&showposts=1
+ 115. http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 116. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1044613
+ 117. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?166565&p=1044613#post1044613
+ 118. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried#top
+ 120. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 121. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 122. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 123. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 126. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 129. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 130. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 136. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 140. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 141. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 143. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 144. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 145. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 146. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 147. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 148. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 149. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 150. http://www.hardwarecentral.com/
+ 151. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 152. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried#top
+ 153. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 154. https://www.vbulletin.com/
+
+   Hidden links:
+ 156. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941328%23post941328&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 157. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941328%23post941328&source=webclient
+ 158. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941328%23post941328&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 159. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941342%23post941342&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 160. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941342%23post941342&source=webclient
+ 161. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941342%23post941342&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 162. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941345%23post941345&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 163. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941345%23post941345&source=webclient
+ 164. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941345%23post941345&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 165. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941358%23post941358&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 166. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941358%23post941358&source=webclient
+ 167. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941358%23post941358&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 168. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941373%23post941373&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 169. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941373%23post941373&source=webclient
+ 170. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941373%23post941373&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 171. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941419%23post941419&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 172. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941419%23post941419&source=webclient
+ 173. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D941419%23post941419&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 174. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040665%23post1040665&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 175. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040665%23post1040665&source=webclient
+ 176. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040665%23post1040665&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 177. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040672%23post1040672&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 178. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040672%23post1040672&source=webclient
+ 179. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040672%23post1040672&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 180. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040684%23post1040684&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 181. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040684%23post1040684&source=webclient
+ 182. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1040684%23post1040684&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 183. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1044607%23post1044607&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 184. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1044607%23post1044607&source=webclient
+ 185. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1044607%23post1044607&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 186. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1044613%23post1044613&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 187. http://twitter.com/share?text=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1044613%23post1044613&source=webclient
+ 188. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F166565%26p%3D1044613%23post1044613&title=[RESOLVED]%20multiple%20sound%20cards/outputs%20requried&summary=&source=HardwareCentral%20Forums
+ 189. http://www.hardwarecentral.com/showthread.php?166565-RESOLVED-multiple-sound-cards-outputs-requried#top

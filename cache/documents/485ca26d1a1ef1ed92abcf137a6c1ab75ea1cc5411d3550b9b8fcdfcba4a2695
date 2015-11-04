@@ -1,0 +1,1439 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums -
+   Networking and the Internet - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]Networking and the Internet
+     * Subnet Mask's --> WHAT IS IT!?!?!
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   [27]Page 1 of 2 [28]1[29]2 [30]Next [31]Last Last
+     * Jump to page: ____ Go
+
+   Results 1 to 15 of 23
+
+Thread: [32]Subnet Mask's --> WHAT IS IT!?!?!
+
+   [33]Tweet
+     * [34]Thread Tools
+          + [35]Show Printable Version
+          + [36]Email this Page…
+          + [37]Subscribe to this Thread…
+     * [38]Search Thread
+          + Search...___________ Search
+          +
+            [39]Advanced Search
+     * [40]Display
+          + Linear Mode
+          + [41]Switch to Hybrid Mode
+          + [42]Switch to Threaded Mode
+
+    1. July 13th, 2001, 06:45 PM [43]#1
+       [44]cyber_ballz
+          + [45]View Profile
+          + [46]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+Subnet Mask's --> WHAT IS IT!?!?!
+
+     Guys!
+     I'm really trying to figure out Subnet Masks, and how to calculate
+     Network ID's, Number of Subnets, stuff like that.
+     [47]http://members.tripod.com/mcseforever/tcpipguides.htm
+     that's what i'm reading and trying to figure out...
+     but it's all over my head, and i know LANs and stuff you setup
+     255.255.255.0 for subnet, but what does it mean and what does it do
+     for the network??
+     Thanks alot, this will almost complete my TCP/IP Knowledge.
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [48]Reply With Quote Reply With Quote [49]Share on Google+
+         ______________________________________________________________
+
+    2. July 14th, 2001, 02:33 PM [50]#2
+       [51]Psyduck's Avatar
+       [52]Psyduck
+          + [53]View Profile
+          + [54]View Forum Posts
+          + [55]Visit Homepage
+       Psyduck is offline HWC Senior Technician
+
+        Join Date
+                Aug 1999
+
+        Location
+                Club Tropicana
+
+        Posts
+                2,047
+
+     You need to learn a little bit about how routers work to truely
+     understand SubNets.
+     It's primary function is to break networks up into groups. What it
+     does is break the IP address into two parts. One part is the network
+     adress and the other is the Host address.
+     Every computer on that network shares the same Network Adress. And
+     each computer on the network has a unique host adress.
+     For Example
+     Network Address = 192.168.1.x
+     Host Address = x.x.x.1
+     There can be up to 255 computers on this network because every one
+     of them must have the same network adress.
+     The Subnet mask for this network is 255.255.255.0 because it is
+     masking the first 3 sets of numbers as being the network address.
+     There are 5 classes of subnet masks
+     A,B,C,D,E
+     D and E are hardly ever used so ignore them.
+     A class subnet masks are n.h.h.h
+     B class subnet masks are n.n.h.h
+     C class subnet masks are n.n.n.h
+     (n=network address, h=host address)
+     However this is not all. I cannot have an IP of 192.168.1.100 and a
+     subnet mask of 255.0.0.0.
+     You need to find a table of what IP ranges matchup to what class
+     they are.
+     Why is a subnet mask used?
+     Well it means that routers only need to distinguish between certain
+     areas of the network (network ID) rather than every computer.
+     Say I have 50 PCs with one network ID (192.168.1.) and 50 PC with
+     another 150.100.x.x.
+     Then the router between them only has to know to all packets going
+     to 150.100.x.x have to go via a specific ethernet cable.
+     This dramatically cuts down on the number to entry's the router has
+     to have in it's table.
+     There is a hell of alot more to it than this though, and hopefully
+     thats just a rough guide so it can start to make sense.
+     ------------------
+     [56]MSWord to ya muthaboard \
+
+       [57]Reply With Quote Reply With Quote [58]Share on Google+
+         ______________________________________________________________
+
+    3. July 14th, 2001, 04:01 PM [59]#3
+       [60]cyber_ballz
+          + [61]View Profile
+          + [62]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+     hehe
+     thanks for the long post, i really appreciate it...
+     but it's still not sinking in.......
+     i do understand 192.168.0.X and 255.255.255.X
+     right?
+     hmm.........
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [63]Reply With Quote Reply With Quote [64]Share on Google+
+         ______________________________________________________________
+
+    4. July 14th, 2001, 06:45 PM [65]#4
+       [66]Shinma's Avatar
+       [67]Shinma
+          + [68]View Profile
+          + [69]View Forum Posts
+       Shinma is offline ____________
+
+        Join Date
+                Mar 2000
+
+        Posts
+                27,283
+
+     Another definiton of a subnet mask: [70]HERE and another [71]HERE.
+     ------------------
+     "I know nothing."
+     Cheers.
+
+     "I know nothing."
+     Cheers.
+       [72]Reply With Quote Reply With Quote [73]Share on Google+
+         ______________________________________________________________
+
+    5. July 14th, 2001, 06:51 PM [74]#5
+       [75]nettech98
+          + [76]View Profile
+          + [77]View Forum Posts
+       nettech98 is offline Member
+
+        Join Date
+                Nov 2000
+
+        Posts
+                251
+
+     It may be easier to convert everything to binary when doing subnets.
+     255 in binary is 11111111. If you take 255.255.255.0 and convert to
+     binary, you get 11111111.11111111.11111111.00000000. When looking at
+     a subnet, anytime a bit is equal to 1, that part of the address
+     belongs to the network, and anytime it is a 0, it belongs to the
+     address of the host.
+     In the above example, we can see that we have 8 bits (255 addresses)
+     available for hosts (a standard Class C subnet). But it gets fun
+     when you start changing the size of the subnets.
+     For example, many Internet connections only need a few public IP
+     addresses because they are using NAT or only have a couple of hosts.
+     In this case we may do a subnet like
+     11111111.11111111.11111111.11100000 which converts to
+     255.255.255.224. You can see that we have left ourselves 5 bits for
+     host addresses, which gives us 32 unique addresses (it is important
+     to note that the first and last addresses - 00000 and 11111 - cannot
+     be used for hosts).
+     Does that help??
+       [78]Reply With Quote Reply With Quote [79]Share on Google+
+         ______________________________________________________________
+
+    6. July 14th, 2001, 11:21 PM [80]#6
+       [81]Psyduck's Avatar
+       [82]Psyduck
+          + [83]View Profile
+          + [84]View Forum Posts
+          + [85]Visit Homepage
+       Psyduck is offline HWC Senior Technician
+
+        Join Date
+                Aug 1999
+
+        Location
+                Club Tropicana
+
+        Posts
+                2,047
+
+     It's hard I know, it took me quite a while for it to completely fit,
+     but once it does it'll all become blindingly obvious
+     OK to put in a real world example.
+     Say you are in charge of a corporation.
+     This corporation has 5 floors each with 200 computers on each floor.
+     There is one router (gateway) that connects to the internet and this
+     PC has a public IP assigned to it.
+     All the computers inside the the building must have private IP's
+     assigned to them.
+     You need to make sure that everyone of those PC's can access each
+     other quickly and effieciently.
+     You also need to make sure that the router performs no processing of
+     internal address (which would overload it).
+     We have 1000 PC's in our building. So we need to find a network
+     address that can accomodate this many PC's (hosts).
+     n.n.n.h is too short. I can only have 254 hosts (PC's) on this
+     address. If I add anymore PC's and give them address' outside of
+     this range, then they will begin to access the router (gateway) for
+     information.
+     This is because of the SubNet mask.
+     Say we have 255.255.255.0
+     What it is saying is that all 255 address in each IP section is
+     masked for network use only.
+     So the computer looks a it's own IP address, then looks at it's
+     subnet mask. It then determines that anything outside of that mask
+     is not local to the computer and it must go via the gateway to get
+     to it.
+     So My PC's IP is 192.168.1.1 and has a subnet mask of 255.255.255.0
+     If I attempt to send information to 192.168.1.2 then it sees that
+     that machine must be local, and transmits a packet straight to that
+     PC.
+     If I try to send information to 192.168.2.2 then it sees that that
+     PC is not local and attempts to redirect the information through the
+     gateway.
+     Back to my example.
+     If I have a network and host subnet of n.h.h.h I can have up 16
+     million PC's on my local network, which is great, loads of room for
+     expansion
+     Unfortunately it's going to cause terrible problems.
+     The PC's on the internal network need to access the internet.
+     Say my network was composed entirely of computers with 212.x.x.x
+     What happens if I need to access an IP such as 212.58.224.31?
+     Well my PC's going to look at it's subnet mask, and then try to send
+     the packet straight to that machine, however it's not there, it's
+     behind the gateway.
+     The request will timeout, and it will fail.
+     So I'm left with one option which is to have a network/host range of
+     n.n.h.h which gives me 65,000 odd host address's (which is more than
+     enough in this case).
+     Of cause if I try to access an address on the internet that has the
+     same network address as one of the PC's on my internal network then
+     I will still run into problems accessing that address, but out of
+     4.2 billion IP address's the chances of hitting an important site
+     (or important range of sites) is slim (and easy to add appropriate
+     mesures when that happens).
+     Classes are for public (on the internet) IP's and are so say you buy
+     from internic a Class of IP.
+     Class A IP's have a subnet of n.h.h.h
+     Class B n.n.h.h
+     Class C n.n.n.h
+     Obviously class A is more than B which is more than C.
+     The range of IP which are in each catorory are also broken up, so
+     that you cannot buy a class C network that is part of a class A
+     network.
+     1-126.x.x.x make up class A's
+     128-191.x.x.x make up class B's
+     192-223.x.x.x make up class C's
+     There are therefore 126 class A's, 16,384 class B's and 2,097,152.
+     Just out of extra information it is actually classes that is causing
+     the biggest concern in the industry, although there are more than
+     enough IP's to go around, the way they are allocated could cause a
+     shortage in the future, so you might well see this model redefined
+     in someway in 10 years time.
+     I've probably missed something out whilst writing this, (damm the
+     size of the text box ) so if there is anything specific you don't
+     understand I'll be happy to go into it.
+     Good luck
+     ------------------
+     [86]MSWord to ya muthaboard \
+     [This message has been edited by Psyduck (edited 07-14-2001).]
+
+       [87]Reply With Quote Reply With Quote [88]Share on Google+
+         ______________________________________________________________
+
+    7. July 15th, 2001, 09:41 AM [89]#7
+       [90]cyber_ballz
+          + [91]View Profile
+          + [92]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+     I kinda got the bits right.
+     like
+     255.255.255.0 is
+     11111111.11111111.11111111.00000000
+     BUT
+     what if it's something like 255.255.255.212.
+     How do i figure out the last 8 bits if they're 1's or 0's?
+     I think on that url i included in my first post has the formula, but
+     it's kinda hard to figure out, that's why i'm asking you guys to
+     rephrase it in dummy terms.
+     Btw, thank you ALL for that input...
+     i know a little more now!
+     i'm inching my way up!
+     and probably like you said, it looks hard, but easy...(i hope )
+     Thanks.
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+     [This message has been edited by cyber_ballz (edited 07-15-2001).]
+     [This message has been edited by cyber_ballz (edited 07-15-2001).]
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    8. July 15th, 2001, 08:27 PM [95]#8
+       [96]Psyduck's Avatar
+       [97]Psyduck
+          + [98]View Profile
+          + [99]View Forum Posts
+          + [100]Visit Homepage
+       Psyduck is offline HWC Senior Technician
+
+        Join Date
+                Aug 1999
+
+        Location
+                Club Tropicana
+
+        Posts
+                2,047
+
+     Right you have to learn a little binary, this is always useful to
+     know, and I've heard some computers even run on this stuff
+     Binary is a way of converting a number into a string of On's and
+     Off's. So that a computer can read it.
+     The computer doesn't give a damm about the numbers, it can't
+     understand them, but unfortunately humans aren't very good at
+     understanding a string of 1's and 0's
+     So so clever sod devised binary code.
+     Binary code is read from right to left, (unlike english).
+     The first didget (the one on the right) represents a 1 or a 0. If
+     the bit is on it is 1 if it is off it is 0
+     The second digit represents a 2 or a 0. If the bit is on it is 2 if
+     it is off it is 0.
+     The third digit represents a 4 or a 0.
+     The forth an 8 or a 0.
+     The fifth a 16 or a 0.
+     and so on alway muliplying by 2 each place to the left.
+     So for example:
+     00000000 = 0
+     00000001 = 1
+     00000010 = 2
+     00000100 = 4
+     00001000 = 8
+     00010000 = 16
+     etc etc
+     Now the bit's can be added together to give every combination of
+     number (however there is only one combination for each number).
+     So for example
+     00000011 = 3
+     00000101 = 5
+     00000111 = 7
+     etc etc.
+     IP's are 32 bit's long are are subdivided into 4 parts (which are
+     called octets because they contain 8 bit's each)
+     8 bit's have 256 combinations (including 0 remember) and this
+     equates into a range of 0-255
+     Hope this helps
+     ------------------
+     [101]MSWord to ya muthaboard \
+
+       [102]Reply With Quote Reply With Quote [103]Share on Google+
+         ______________________________________________________________
+
+    9. July 15th, 2001, 09:54 PM [104]#9
+       [105]cyber_ballz
+          + [106]View Profile
+          + [107]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+     hmmm....
+     it's actually kinda easy...
+     now if i can only get 255.255.255.212 into Binary...
+     Is there a formula to make it much easier to convert 212 into binary
+     0's and 1's?
+     Am i still missing something??
+     Oh, you actually showed me something new...
+     you read binary from right to left!
+     hehe
+     Thanks again.
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+     [This message has been edited by cyber_ballz (edited 07-15-2001).]
+     [This message has been edited by cyber_ballz (edited 07-15-2001).]
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [108]Reply With Quote Reply With Quote [109]Share on Google+
+         ______________________________________________________________
+
+   10. July 15th, 2001, 10:04 PM [110]#10
+       [111]cyber_ballz
+          + [112]View Profile
+          + [113]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+     oh hey
+     check to see if i'm doing my binary right...
+     00000000 = 0
+     00000001 = 1
+     00000010 = 2
+     00000011 = 3
+     00000100 = 4
+     00000101 = 5
+     00000110 = 6
+     00000111 = 7
+     00001000 = 8
+     00001001 = 9
+     00001010 = 10
+     00001011 = 11
+     00001100 = 12
+     00001101 = 13
+     00001110 = 14
+     00001111 = 15
+     00010000 = 16
+     00010001 = 17
+     00010010 = 18
+     00010011 = 19
+     00010100 = 20
+     I am doing it right, right?
+     hehehehe, i'm the only kid in my high school that knows binary!!
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [114]Reply With Quote Reply With Quote [115]Share on Google+
+         ______________________________________________________________
+
+   11. July 15th, 2001, 10:37 PM [116]#11
+       [117]cyber_ballz
+          + [118]View Profile
+          + [119]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+     HAHAHAHAHAHAHAHAHAHAHAHAHAHAH
+     i feel SOOO DUMB
+     there is a way to go from whole number to binary!!
+     just work backwards!!!
+     255.255.255.145
+     11111111.11111111.11111111.10010001
+     right?
+     i just picked that 145 off the top of my head...
+     hehehe, this is easy!
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [120]Reply With Quote Reply With Quote [121]Share on Google+
+         ______________________________________________________________
+
+   12. July 15th, 2001, 11:48 PM [122]#12
+       [123]unixfan
+          + [124]View Profile
+          + [125]View Forum Posts
+          + [126]Visit Homepage
+       unixfan is offline HWC Technician
+
+        Join Date
+                Jan 2001
+
+        Location
+                Sterling, VA, USA
+
+        Posts
+                1,097
+
+     Once you get the net mask, the formula is 2^n-2, when n=0 and it
+     will give you the amount of hosts available, or n=1, it will give
+     you the amount of networks available, the minus 2 is given broadcast
+     and network itself arent not valid addresses...
+     ------------------
+     AMD Tbird 1Ghz
+     ABit KT7
+     384MB PC100 SDRAM
+     50X ASUS CDROM
+     16X10X40 TDK VeloCD Writer
+     30 GB ULTRA/ATA 100 HD MAXTOR
+     13 GB UDMA/33 HD MAXTOR
+     Matrox G450 Dual Head 32M
+     WINTV Card
+     Netgear 10/100 LAN CARD
+     SB PCI128
+     19" Monitor
+     17" MOnitor
+     Win2K Pro
+
+     CNA(Novell), CCNA(Cisco)
+     -----
+     AMD Palomino 1800XP+
+     ABit KR7A
+     512 PC2100 DDRAM
+     16X DVDROM
+     16X10X40TDK CDRW
+     120 GB ULTRA/ATA 133 HD Maxtor
+     Nvidia GeForceFX 5200 128M DH
+     Netgear FE CARD
+     SBLive!
+     (2)19" Monitors
+     WinXP Pro
+       [127]Reply With Quote Reply With Quote [128]Share on Google+
+         ______________________________________________________________
+
+   13. July 16th, 2001, 12:09 AM [129]#13
+       [130]cyber_ballz
+          + [131]View Profile
+          + [132]View Forum Posts
+       cyber_ballz is offline Member
+
+        Join Date
+                Mar 2001
+
+        Location
+                Grand Rapids, MI, USA
+
+        Posts
+                326
+
+     hey unixfan, could you explain more on what you said.
+     And all you others, thanks so much for learning me the binary code.
+     As you can see, i've had some time on my hands:
+     00000000=0
+     00000001=1
+     00000010=2
+     00000011=3
+     00000100=4
+     00000101=5
+     00000110=6
+     00000111=7
+     00001000=8
+     00001001=9
+     00001010=10
+     00001011=11
+     00001100=12
+     00001101=13
+     00001110=14
+     00001111=15
+     00010000=16
+     00010001=17
+     00010010=18
+     00010011=19
+     00010100=20
+     00010101=21
+     00010110=22
+     00010111=23
+     00011000=24
+     00011001=25
+     00011010=26
+     00011011=27
+     00011010=28
+     00011101=29
+     00011110=30
+     00011111=31
+     00100000=32
+     00100001=33
+     00100010=34
+     00100011=35
+     00100100=36
+     00100101=37
+     00100110=38
+     00100111=39
+     00101000=40
+     00101011=41
+     00101010=42
+     00101111=43
+     00101100=44
+     00101101=45
+     00101110=46
+     00101111=47
+     00110000=48
+     00110001=49
+     00110010=50
+     00110011=51
+     00110100=52
+     00110101=53
+     00110110=54
+     00110111=55
+     00111000=56
+     00111001=57
+     00111010=58
+     00111011=59
+     00111100=60
+     00111101=61
+     00111110=62
+     00111111=63
+     01000000=64
+     01000001=65
+     01000010=66
+     01000011=67
+     01000100=68
+     01000101=69
+     01000110=70
+     01000111=71
+     01001000=72
+     01001001=73
+     01001010=74
+     01001011=75
+     01001100=76
+     01001101=77
+     01001110=78
+     01001111=79
+     01010000=80
+     01010001=81
+     01010010=82
+     01010011=83
+     01010100=84
+     01010101=85
+     01010110=86
+     01010111=87
+     01011000=88
+     01011001=89
+     01011010=90
+     01011011=91
+     01011100=92
+     01011101=93
+     01011110=94
+     01011111=95
+     01100000=96
+     01100001=97
+     01100010=98
+     01100011=99
+     01100100=100
+     01100101=101
+     01100110=102
+     01100111=103
+     01101000=104
+     01101001=105
+     01101010=106
+     01101011=107
+     01101100=108
+     01101101=109
+     01101110=110
+     01101111=111
+     01110000=112
+     01110001=113
+     01110010=114
+     01110011=115
+     01110100=116
+     01110101=117
+     01110110=118
+     01110111=119
+     01111000=120
+     01111001=121
+     01111010=122
+     01111011=123
+     01111100=124
+     01111101=125
+     01111110=126
+     01111111=127
+     10000000=128
+     10000001=129
+     10000010=130
+     10000011=131
+     10000100=132
+     10000101=133
+     10000110=134
+     10000111=135
+     10001000=136
+     10001001=137
+     10001010=138
+     10001011=139
+     10001100=140
+     10001101=141
+     10001110=142
+     10001111=143
+     10010000=144
+     10010001=145
+     10010010=146
+     10010011=147
+     10010100=148
+     10010101=149
+     10010110=150
+     10010111=151
+     10011000=152
+     10011001=153
+     10011010=154
+     10011011=155
+     10011100=156
+     10011101=157
+     10011110=158
+     10011111=159
+     10100000=160
+     10100001=161
+     10100010=162
+     10100011=163
+     10100100=164
+     10100101=165
+     10100110=166
+     10100111=167
+     10101000=168
+     10101001=169
+     10101010=170
+     10101011=171
+     10101100=172
+     10101101=173
+     10101110=174
+     10101111=175
+     10110000=176
+     10110001=177
+     10110010=178
+     10110011=179
+     10110100=180
+     10110101=181
+     10110110=182
+     10110111=183
+     10111000=184
+     10111001=185
+     10111010=186
+     10111011=187
+     10111100=188
+     10111101=189
+     10111110=190
+     10111111=191
+     11000000=192
+     11000001=193
+     11000010=194
+     11000011=195
+     11000100=196
+     11000101=197
+     11000110=198
+     11000111=199
+     11001000=200
+     11001001=201
+     11001010=202
+     11001011=203
+     11001100=204
+     11001101=205
+     11001110=206
+     11001111=207
+     11010000=208
+     11010001=209
+     11010010=210
+     11010011=211
+     11010100=212
+     11010101=213
+     11010110=214
+     11010111=215
+     11011000=216
+     11011001=217
+     11011010=218
+     11011011=219
+     11011100=220
+     11011101=221
+     11011110=222
+     11011111=223
+     11100000=224
+     11100001=225
+     11100010=226
+     11100011=227
+     11100100=228
+     11100101=229
+     11100110=230
+     11100111=231
+     11101000=232
+     11101001=233
+     11101010=234
+     11101011=235
+     11101100=236
+     11101101=237
+     11101110=238
+     11101111=239
+     11110000=240
+     11110001=241
+     11110010=242
+     11110011=243
+     11110100=244
+     11110101=245
+     11110110=246
+     11110111=247
+     11111000=248
+     11111001=249
+     11111010=250
+     11111011=251
+     11111100=252
+     11111101=253
+     11111110=254
+     11111111=255
+     hehe, i did that all in notepad, and checked my work with a
+     calculator when i wasn't for sure
+     ------------------
+     ¢ÿßér_ßällz®©
+     ICQ# 37042781
+     Windows 2000: Pro
+     AMD Athlon @ 850mhz/850mhz
+     Epox EP-K7XA Slot A Mobo
+     768Mb PC/133 SDRAM
+     Fujitsu 4Gb 5400RPM EIDE
+     Seagate 8.4Gb 5400RPM EIDE
+     Maxtor 40.6Gb 7200RPM EIDE
+     SOHOware 10/100 PCI NIC
+     Zoom Internal Data/Fax ISA Modem
+     Voodoo 5 5500 PCI 64mb SDRAM
+
+     Win2k Pro w/SP3 - AMD Tbird 1.4Ghz@1.47Ghz - (11X133.64) - Epox
+     8KTA3+ w/ onboard RAID - 1.25Gb PC/133 SDRAM (2x512 1X256)
+     NAS -- 480Gb (4x120Gb 7200) - Local Storage - 240Gb (2x120Gb 7200) -
+     Pioneer 16X DVD Slot Loading EIDE - Lite-On 52x24x52x EIDE
+     Sound Blaster Audigy 2 PCI - Klipsch ProMedia 5.1 - LG 19" Flatron
+     915+ - MSI GeForce4 Ti4600 300/660 @ 324/735 (mmmm, stiffy ) -
+     Netgear FA311 10/100 MBPS PCI
+       [133]Reply With Quote Reply With Quote [134]Share on Google+
+         ______________________________________________________________
+
+   14. July 16th, 2001, 03:56 AM [135]#14
+       [136]Tuttle's Avatar
+       [137]Tuttle
+          + [138]View Profile
+          + [139]View Forum Posts
+       Tuttle is offline Resident Cynic
+
+        Join Date
+                Dec 1998
+
+        Location
+                Adelaide, South Australia
+
+        Posts
+                6,916
+
+     There's a fantastic reference at
+     [140]http://www.3com.com/solutions/en_US/ncs/501302.html (3 PDF
+     files unfortunately, I think the old HTML version was more
+     convenient) which deals with IP addressing, you might want to read
+     through the relevant bits of that sometime.
+     To detail what unixfan said, suppose you have a typical subnet mask
+     which consists of m 1s followed by n 0s. That means that in an IP
+     address you're using m bits to represent the network and n bits to
+     represent an individual host. Within each network, there's 2^n
+     possible IP addresses. 2 of those are special. The address where the
+     host part is all 0s is used to refer to the network as a whole, for
+     example in routing tables. The address where the host part is all 1s
+     is used as a broadcast address. That means a packet sent to that
+     address would be received and acted upon by every machine on the
+     network. So you're limited to (2^n)-2 actual hosts on the network.
+
+     Safe computing is a habit, not a toolkit.
+       [141]Reply With Quote Reply With Quote [142]Share on Google+
+         ______________________________________________________________
+
+   15. July 16th, 2001, 04:17 AM [143]#15
+       [144]unixfan
+          + [145]View Profile
+          + [146]View Forum Posts
+          + [147]Visit Homepage
+       unixfan is offline HWC Technician
+
+        Join Date
+                Jan 2001
+
+        Location
+                Sterling, VA, USA
+
+        Posts
+                1,097
+
+     Given, an Ip address of 63.123.179.183 (my static IP addr and a
+     subnet mask of 255.255.255.240 what you do is called ANDING.
+     figure out the binary for each of the addresses...
+     63.123.179.183 is the following:
+     00111111.01111011.10110011.10110111
+     255.255.255.240 is the following:
+     1111111.11111111.11111111.11110000
+     and AND them together (1+1=1, 0+1=0, 0+0=0)
+     00111111.01111011.10110011.10110111
+     +11111111.11111111.11111111.11110000
+     ------------------------------------------
+     The answer is your net address which converts to
+     63.123.179.176 (netmask)
+     255.255.255.240 (subnet mask)
+     after finding the netmask take the right most zeros of the subnet
+     mask and those bits represent the hosts...so how to calculate the
+     available hosts in that netblock are as follows: 2^n-2=available
+     hosts.
+     for this example:
+     2^4(240 as the last octet in the subnet mask give yous 4
+     zeros)-2(broadcast & net addresses)=available hosts.
+     2^4-2=14 available hosts.
+     so the broacast address for this netblock, just take those same
+     zeros(hosts) and convert them to 1s:
+     00111111.01111011.10110011.10111111
+     which is 63.123.179.191 (broadcast addr)
+     so the end result for this netblock is:
+     IP addr: 63.123.179.183
+     subnet mask: 255.255.255.240
+     net address 63.123.179.176
+     broadcast addr: 63.123.179.191
+     available hosts: 63.123.179.177-190 (13 hosts)
+     any questions???
+     ------------------
+     AMD Tbird 1Ghz
+     ABit KT7
+     384MB PC100 SDRAM
+     50X ASUS CDROM
+     16X10X40 TDK VeloCD Writer
+     30 GB ULTRA/ATA 100 HD MAXTOR
+     13 GB UDMA/33 HD MAXTOR
+     Matrox G450 Dual Head 32M
+     WINTV Card
+     Netgear 10/100 LAN CARD
+     SB PCI128
+     19" Monitor
+     17" MOnitor
+     Win2K Pro
+
+     CNA(Novell), CCNA(Cisco)
+     -----
+     AMD Palomino 1800XP+
+     ABit KR7A
+     512 PC2100 DDRAM
+     16X DVDROM
+     16X10X40TDK CDRW
+     120 GB ULTRA/ATA 133 HD Maxtor
+     Nvidia GeForceFX 5200 128M DH
+     Netgear FE CARD
+     SBLive!
+     (2)19" Monitors
+     WinXP Pro
+       [148]Reply With Quote Reply With Quote [149]Share on Google+
+         ______________________________________________________________
+
+   [150]Page 1 of 2 [151]1[152]2 [153]Next [154]Last Last
+     * Jump to page: ____ Go
+
+   Quick Navigation [155]Networking and the Internet [156]Top
+     * Site Areas
+     * [157]Settings
+     * [158]Private Messages
+     * [159]Subscriptions
+     * [160]Who's Online
+     * [161]Search Forums
+     * [162]Forums Home
+     * Forums
+     * [163]General Forums
+         1. [164]General Tech Talk and Support
+         2. [165]PC and Console Gaming
+         3. [166]Software
+     * [167]Hardware Forums
+         1. [168]CPUs and Motherboards
+         2. [169]Cases, Cooling, and Overclocking
+         3. [170]PC Audio and Home Theater
+         4. [171]PC Video, Digital Imaging, and Displays
+         5. [172]Storage and Peripherals
+         6. [173]Networking and the Internet
+         7. [174]Mobile Technology
+     * [175]Community
+         1. [176]HWC Feedback
+         2. [177]Central Lounge
+         3. [178]For Sale Or Trade
+
+   « [179]Previous Thread | [180]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [181]BB code is On
+     * [182]Smilies are On
+     * [183][IMG] code is On
+     * [184][VIDEO] code is On
+     * HTML code is Off
+
+   [185]Forum Rules
+   [-- hardwarecentral yellow]
+     * [186]Contact Us
+     * [187]HardwareCentral Forums
+     * [188]Archive
+     * [189]Top
+
+   IFRAME:
+   [190]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:09 PM.
+
+   Powered by [191]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=15
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. javascript:///
+  28. javascript:///
+  29. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  30. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  31. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!/page2&s=af52edabdca22194a05a25ea9dfcc77f
+  32. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f
+  33. https://twitter.com/share
+  34. javascript:///
+  35. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=106578&pp=15&page=1
+  36. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=106578
+  37. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=106578
+  38. javascript:///
+  39. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=106578&contenttype=vBForum_Post
+  40. javascript:///
+  41. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  42. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538851&mode=threaded#post538851
+  43. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538851#post538851
+  44. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+  45. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+  47. http://members.tripod.com/mcseforever/tcpipguides.htm
+  48. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538851
+  49. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538851#post538851
+  50. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538852#post538852
+  51. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  54. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=15329&contenttype=vBForum_Post&showposts=1
+  55. http://www.7internet.co.uk/
+  56. http://www.7internet.co.uk/setup.htm
+  57. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538852
+  58. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538852#post538852
+  59. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538853#post538853
+  60. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+  63. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538853
+  64. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538853#post538853
+  65. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538854#post538854
+  66. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/member.php?18693-Shinma&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=18693&contenttype=vBForum_Post&showposts=1
+  70. http://webopedia.internet.com/TERM/s/subnet_mask.html
+  71. http://searchsecurity.techtarget.com/sDefinition/0,,sid14_gci213065,00.html
+  72. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538854
+  73. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538854#post538854
+  74. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538855#post538855
+  75. http://www.hardwarecentral.com/member.php?28533-nettech98&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/member.php?28533-nettech98&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=28533&contenttype=vBForum_Post&showposts=1
+  78. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538855
+  79. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538855#post538855
+  80. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538856#post538856
+  81. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  82. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  83. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  84. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=15329&contenttype=vBForum_Post&showposts=1
+  85. http://www.7internet.co.uk/
+  86. http://www.7internet.co.uk/setup.htm
+  87. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538856
+  88. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538856#post538856
+  89. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538857#post538857
+  90. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+  91. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+  92. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538857
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538857#post538857
+  95. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538858#post538858
+  96. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/member.php?15329-Psyduck&s=af52edabdca22194a05a25ea9dfcc77f
+  99. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=15329&contenttype=vBForum_Post&showposts=1
+ 100. http://www.7internet.co.uk/
+ 101. http://www.7internet.co.uk/setup.htm
+ 102. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538858
+ 103. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538858#post538858
+ 104. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538859#post538859
+ 105. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 106. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 107. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+ 108. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538859
+ 109. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538859#post538859
+ 110. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538860#post538860
+ 111. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+ 114. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538860
+ 115. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538860#post538860
+ 116. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538861#post538861
+ 117. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+ 120. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538861
+ 121. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538861#post538861
+ 122. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538862#post538862
+ 123. http://www.hardwarecentral.com/member.php?29878-unixfan&s=af52edabdca22194a05a25ea9dfcc77f
+ 124. http://www.hardwarecentral.com/member.php?29878-unixfan&s=af52edabdca22194a05a25ea9dfcc77f
+ 125. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=29878&contenttype=vBForum_Post&showposts=1
+ 126. http://www.dnd4ever.net/
+ 127. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538862
+ 128. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538862#post538862
+ 129. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538863#post538863
+ 130. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 131. http://www.hardwarecentral.com/member.php?31382-cyber_ballz&s=af52edabdca22194a05a25ea9dfcc77f
+ 132. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=31382&contenttype=vBForum_Post&showposts=1
+ 133. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538863
+ 134. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538863#post538863
+ 135. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538864#post538864
+ 136. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+ 137. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+ 138. http://www.hardwarecentral.com/member.php?1444-Tuttle&s=af52edabdca22194a05a25ea9dfcc77f
+ 139. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=1444&contenttype=vBForum_Post&showposts=1
+ 140. http://www.3com.com/solutions/en_US/ncs/501302.html
+ 141. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538864
+ 142. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538864#post538864
+ 143. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&p=538865#post538865
+ 144. http://www.hardwarecentral.com/member.php?29878-unixfan&s=af52edabdca22194a05a25ea9dfcc77f
+ 145. http://www.hardwarecentral.com/member.php?29878-unixfan&s=af52edabdca22194a05a25ea9dfcc77f
+ 146. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=29878&contenttype=vBForum_Post&showposts=1
+ 147. http://www.dnd4ever.net/
+ 148. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=538865
+ 149. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?106578&p=538865#post538865
+ 150. javascript:///
+ 151. javascript:///
+ 152. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 153. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 154. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!/page2&s=af52edabdca22194a05a25ea9dfcc77f
+ 155. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f
+ 156. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!#top
+ 157. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 158. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 159. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 160. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 162. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 163. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 164. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 165. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 166. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 167. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 168. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 169. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 170. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 175. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 176. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 177. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 178. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 179. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 180. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 181. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 182. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 183. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 184. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 185. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 186. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 187. http://www.hardwarecentral.com/
+ 188. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 189. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!#top
+ 190. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 191. https://www.vbulletin.com/
+
+   Hidden links:
+ 193. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538851%23post538851&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 194. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538851%23post538851&source=webclient
+ 195. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538851%23post538851&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 196. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538852%23post538852&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 197. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538852%23post538852&source=webclient
+ 198. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538852%23post538852&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 199. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538853%23post538853&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 200. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538853%23post538853&source=webclient
+ 201. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538853%23post538853&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 202. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538854%23post538854&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 203. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538854%23post538854&source=webclient
+ 204. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538854%23post538854&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 205. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538855%23post538855&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 206. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538855%23post538855&source=webclient
+ 207. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538855%23post538855&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 208. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538856%23post538856&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 209. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538856%23post538856&source=webclient
+ 210. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538856%23post538856&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 211. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538857%23post538857&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 212. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538857%23post538857&source=webclient
+ 213. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538857%23post538857&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 214. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538858%23post538858&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 215. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538858%23post538858&source=webclient
+ 216. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538858%23post538858&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 217. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538859%23post538859&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 218. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538859%23post538859&source=webclient
+ 219. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538859%23post538859&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 220. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538860%23post538860&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 221. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538860%23post538860&source=webclient
+ 222. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538860%23post538860&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 223. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538861%23post538861&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 224. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538861%23post538861&source=webclient
+ 225. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538861%23post538861&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 226. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538862%23post538862&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 227. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538862%23post538862&source=webclient
+ 228. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538862%23post538862&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 229. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538863%23post538863&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 230. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538863%23post538863&source=webclient
+ 231. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538863%23post538863&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 232. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538864%23post538864&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 233. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538864%23post538864&source=webclient
+ 234. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538864%23post538864&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 235. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538865%23post538865&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 236. http://twitter.com/share?text=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538865%23post538865&source=webclient
+ 237. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F106578%26p%3D538865%23post538865&title=Subnet%20Mask's%20-->%20WHAT%20IS%20IT!?!?!&summary=&source=HardwareCentral%20Forums
+ 238. http://www.hardwarecentral.com/showthread.php?106578-Subnet-Mask-s-WHAT-IS-IT!-!-!#top

@@ -1,0 +1,764 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - CPUs
+   and Motherboards - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]CPUs and Motherboards
+     * Help! How do I check motherboard and processor to see if they are
+       shot?
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 14 of 14
+
+Thread: [27]Help! How do I check motherboard and processor to see if they are
+shot?
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. March 5th, 2008, 08:15 PM [38]#1
+       [39]stephanie2991
+          + [40]View Profile
+          + [41]View Forum Posts
+       stephanie2991 is offline Junior Member
+
+        Join Date
+                Mar 2008
+
+        Posts
+                4
+
+Help! How do I check motherboard and processor to see if they are shot?
+
+     I need to know how to diagnose if my motherboard and/or processor
+     are shot. Yesterday, my computer shut off and when I restarted it, I
+     got the 4 long beeps. I ran Intel's Active monitor and found my
+     processor was running at 86 degrees Fahrenheit. I shut the computer
+     off and checked the heat sink. It was working, but the thermal
+     compound had not completely covered the area the had contact with
+     the processor. I cleaned the processor and heat sink and applied new
+     thermal compound. When I tried to restart the computer, I have no
+     monitor. I have tested the monitor and it works with my laptop. I am
+     unsure how to test my motherboard and processor without the video.
+     The motherboard does have integrated video, so I'm wondering if just
+     the video is the problem. I have an Intel desktop microATX board
+     with a Pentium 4 processor. This is the link for the specs on my
+     motherboard.
+     [42]http://www.intel.com/support/motherb.../CS-012059.htm
+     This motherboard uses a PCI Express x16 for the video card and I
+     don't have access to one without buying one. However, funds are
+     limited at this time so I don't want to buy a video card if the
+     motherboard is shot. I would like to just purchase a motherboard to
+     go with my existing P4 processor if it is not shot. Is there a way
+     to test my motherboard or processor besides using a known good
+     device?
+     Thank you for any and all advice
+     Stephanei
+       [43]Reply With Quote Reply With Quote [44]Share on Google+
+         ______________________________________________________________
+
+    2. March 5th, 2008, 10:14 PM [45]#2
+       [46]jimbo1763's Avatar
+       [47]jimbo1763
+          + [48]View Profile
+          + [49]View Forum Posts
+       jimbo1763 is offline Super Moderator
+
+        Join Date
+                Dec 1999
+
+        Location
+                Augusta, Georgia, USA
+
+        Posts
+                3,963
+
+     I think you probably meant 86 degrees Celsius, not Fahrenheit.
+     Here is a link that may help on the beep codes.
+     [50]http://www.computerhope.com/beep.htm
+     Have you tried clearing the CMOS?
+     It can be done, but processors are pretty hard to kill, particularly
+     with overheating protection.
+       [51]Reply With Quote Reply With Quote [52]Share on Google+
+         ______________________________________________________________
+
+    3. March 6th, 2008, 01:13 AM [53]#3
+       [54]DanceMan's Avatar
+       [55]DanceMan
+          + [56]View Profile
+          + [57]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     When you try to boot the computer, do fans spin? Can you hear the
+     hard drive spinning? When it boots, do the leds on the keyboard
+     light up? Can you shut it down with the power on switch on the front
+     of the tower by holding it down for 6 sec or so, or do you have to
+     use the switch on the back of the psu?
+
+     Go Silent [58]SPCR
+     [59]Useful PSU info
+       [60]Reply With Quote Reply With Quote [61]Share on Google+
+         ______________________________________________________________
+
+    4. March 6th, 2008, 10:25 AM [62]#4
+       [63]stephanie2991
+          + [64]View Profile
+          + [65]View Forum Posts
+       stephanie2991 is offline Junior Member
+
+        Join Date
+                Mar 2008
+
+        Posts
+                4
+
+     Quote Originally Posted by DanceMan
+
+     When you try to boot the computer, do fans spin? Can you hear the
+     hard drive spinning? When it boots, do the leds on the keyboard
+     light up? Can you shut it down with the power on switch on the front
+     of the tower by holding it down for 6 sec or so, or do you have to
+     use the switch on the back of the psu?
+     Yes, the fans are spinning. Yes, it sounds like the hard drive is
+     spinning. Yes I can shut it down with the power switch on the front
+     of the tower.
+     I just checked and the keyboard led and mouse led do not light up.
+     The are working as I am using them with my laptop. I disconnected
+     everything but the primary hard drive, the memory cards, the mouse
+     and the keyboard. I'm thinking the motherboard is toast.
+     Thank you very much for your help.
+     Stephanie
+
+     Last edited by stephanie2991; March 6th, 2008 at 11:17 AM.
+       [66]Reply With Quote Reply With Quote [67]Share on Google+
+         ______________________________________________________________
+
+    5. March 6th, 2008, 06:07 PM [68]#5
+       [69]Leoslocks's Avatar
+       [70]Leoslocks
+          + [71]View Profile
+          + [72]View Forum Posts
+       Leoslocks is offline _ _ _ _ _ _ _ _
+
+        Join Date
+                Sep 2000
+
+        Location
+                Memphis Tennessee
+
+        Posts
+                4,930
+
+     Try resetting the CMOS.
+     Unplug the power cord from the computer.
+     Take the cmos battery out for several minutes.
+     Replace battery, power cord and try to boot.
+
+     [73]HWC General Forum|[74]Video Help|[75]HTPC News|[76]Toshiba
+     Laptop Disassembly Inst| [77]Learn to Phrogram
+     [78]Image Shack|[79]B&H Photo|[80]Digital Photo Review||[81]LINKS to
+     handy info. | [82]Various Downloads
+     Did we Help? Join our Folding @ Home Team [83]Here
+       [84]Reply With Quote Reply With Quote [85]Share on Google+
+         ______________________________________________________________
+
+    6. March 7th, 2008, 01:58 AM [86]#6
+       [87]DanceMan's Avatar
+       [88]DanceMan
+          + [89]View Profile
+          + [90]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     Sounds like both cpu and motherboard are okay. Hope Leo's suggestion
+     works -- I think it might.
+
+     Go Silent [91]SPCR
+     [92]Useful PSU info
+       [93]Reply With Quote Reply With Quote [94]Share on Google+
+         ______________________________________________________________
+
+    7. March 9th, 2008, 08:59 AM [95]#7
+       [96]stephanie2991
+          + [97]View Profile
+          + [98]View Forum Posts
+       stephanie2991 is offline Junior Member
+
+        Join Date
+                Mar 2008
+
+        Posts
+                4
+
+Motherboard DOA
+
+     I've followed all the suggestions that were given to me, plus a few
+     others I found in my repair books. At this time, I have no video, no
+     audio, no USBs, no network, no mouse and no keyboard. At this time I
+     have given up on the motherboard and I'm scrapping the parts and
+     selling the known good parts. I was able to borrow some money to
+     purchase a new tower. Thank you for all your help.
+     Thank you,
+     Stephanie
+       [99]Reply With Quote Reply With Quote [100]Share on Google+
+         ______________________________________________________________
+
+    8. March 9th, 2008, 11:21 AM [101]#8
+       [102]DanceMan's Avatar
+       [103]DanceMan
+          + [104]View Profile
+          + [105]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     I would have looked further at the video card, but you're hampered
+     by not having enough parts to swap. For the future, since you seem
+     to have both the interest and the capability to deal with these
+     sorts of issues, get hold of an old Pentium tower someone is tossing
+     out, and get an old PCI slot video card from it. They will still
+     provide you with video in a current motherboard and are useful as a
+     backstop for diagnosis.
+
+     Go Silent [106]SPCR
+     [107]Useful PSU info
+       [108]Reply With Quote Reply With Quote [109]Share on Google+
+         ______________________________________________________________
+
+    9. March 9th, 2008, 11:34 AM [110]#9
+       [111]stephanie2991
+          + [112]View Profile
+          + [113]View Forum Posts
+       stephanie2991 is offline Junior Member
+
+        Join Date
+                Mar 2008
+
+        Posts
+                4
+
+     The funny thing is that I actually have an AGP card, I just haven't
+     had the extra funds to get a PCI card. I had dual monitors on my old
+     computer, but have been unable to get the new PCI card for this
+     system. I believe the new system I was able to order supports dual
+     monitors as well, so I don't know if I'll have a need for a PCI
+     card.
+     Most of my training is actually in Web Design, I just took some
+     repair and maintenence classes for my degree. It's really just
+     something I do for fun and family. Most of my computer funds go into
+     design software and programming books.
+     Thanks though.
+       [114]Reply With Quote Reply With Quote [115]Share on Google+
+         ______________________________________________________________
+
+   10. March 9th, 2008, 03:22 PM [116]#10
+       [117]DanceMan's Avatar
+       [118]DanceMan
+          + [119]View Profile
+          + [120]View Forum Posts
+       DanceMan is offline Procrastinating Member
+
+        Join Date
+                Jun 2000
+
+        Location
+                Vancouver, B.C., Canada
+
+        Posts
+                8,117
+
+     Shouldn't have to buy a PCI video card. The old 1Mb to 4Mb ones out
+     of early Pentiums (eg. P75 to P200) get thrown out with the tower.
+     As long as a motherboard still has a regular PCI slot, they should
+     still work to provide a display, as long as you have a monitor with
+     a VGA connector.
+
+     Go Silent [121]SPCR
+     [122]Useful PSU info
+       [123]Reply With Quote Reply With Quote [124]Share on Google+
+         ______________________________________________________________
+
+   11. September 5th, 2009, 12:50 PM [125]#11
+       [126]kotarak
+          + [127]View Profile
+          + [128]View Forum Posts
+       kotarak is offline Banned
+
+        Join Date
+                Feb 2009
+
+        Posts
+                4
+
+     If you see a 45 caliber hole through it, then its shot.
+       [129]Reply With Quote Reply With Quote [130]Share on Google+
+         ______________________________________________________________
+
+   12. September 5th, 2009, 01:08 PM [131]#12
+       [132]glussier's Avatar
+       [133]glussier
+          + [134]View Profile
+          + [135]View Forum Posts
+       glussier is offline HWC Master
+
+        Join Date
+                Jun 2000
+
+        Location
+                Montreal, Que, Canada
+
+        Posts
+                8,818
+
+     Quote Originally Posted by kotarak [136]View Post
+
+     If you see a 45 caliber hole through it, then its shot.
+     Trying to build-up your post count?
+
+     Gilles Lussier
+     [137]HWC Folding@Home Team
+       [138]Reply With Quote Reply With Quote [139]Share on Google+
+         ______________________________________________________________
+
+   13. September 5th, 2009, 01:19 PM [140]#13
+       [141]Leoslocks's Avatar
+       [142]Leoslocks
+          + [143]View Profile
+          + [144]View Forum Posts
+       Leoslocks is offline _ _ _ _ _ _ _ _
+
+        Join Date
+                Sep 2000
+
+        Location
+                Memphis Tennessee
+
+        Posts
+                4,930
+
+     Probably spam.
+
+     [145]HWC General Forum|[146]Video Help|[147]HTPC News|[148]Toshiba
+     Laptop Disassembly Inst| [149]Learn to Phrogram
+     [150]Image Shack|[151]B&H Photo|[152]Digital Photo
+     Review||[153]LINKS to handy info. | [154]Various Downloads
+     Did we Help? Join our Folding @ Home Team [155]Here
+       [156]Reply With Quote Reply With Quote [157]Share on Google+
+         ______________________________________________________________
+
+   14. September 5th, 2009, 10:24 PM [158]#14
+       [159]ELF2000
+          + [160]View Profile
+          + [161]View Forum Posts
+       ELF2000 is offline HWC Technician
+
+        Join Date
+                Sep 2001
+
+        Location
+                Australia
+
+        Posts
+                1,405
+
+     Yeah it's spam. I have read his other comments in other threads.
+
+     Intel Q6600 | Asus P5K SE | 8 GB DDR2 800 | 500GB Seagate SATA |
+     250GB Seagate SATA | 18x Pioneer SATA DVD-RW | 1 GB Geforce GTX 650
+     Ti | Logitech Keyboard & Mouse | 650 Watt Cooler Master PSU | Benq
+     22" LCD
+     [162]Learn How to Join our Folding@Home Team - [163]Detailed
+     Folding@Home Stats
+       [164]Reply With Quote Reply With Quote [165]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [166]CPUs and Motherboards [167]Top
+     * Site Areas
+     * [168]Settings
+     * [169]Private Messages
+     * [170]Subscriptions
+     * [171]Who's Online
+     * [172]Search Forums
+     * [173]Forums Home
+     * Forums
+     * [174]General Forums
+         1. [175]General Tech Talk and Support
+         2. [176]PC and Console Gaming
+         3. [177]Software
+     * [178]Hardware Forums
+         1. [179]CPUs and Motherboards
+         2. [180]Cases, Cooling, and Overclocking
+         3. [181]PC Audio and Home Theater
+         4. [182]PC Video, Digital Imaging, and Displays
+         5. [183]Storage and Peripherals
+         6. [184]Networking and the Internet
+         7. [185]Mobile Technology
+     * [186]Community
+         1. [187]HWC Feedback
+         2. [188]Central Lounge
+         3. [189]For Sale Or Trade
+
+   « [190]Previous Thread | [191]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [192]BB code is On
+     * [193]Smilies are On
+     * [194][IMG] code is On
+     * [195][VIDEO] code is On
+     * HTML code is Off
+
+   [196]Forum Rules
+   [-- hardwarecentral yellow]
+     * [197]Contact Us
+     * [198]HardwareCentral Forums
+     * [199]Archive
+     * [200]Top
+
+   IFRAME:
+   [201]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarece
+   ntral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLi
+   sting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:09 PM.
+
+   Powered by [202]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=7
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=179809&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=179809
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=179809
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=179809&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1027952&mode=threaded#post1027952
+  38. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1027952#post1027952
+  39. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=53031&contenttype=vBForum_Post&showposts=1
+  42. http://www.intel.com/support/motherboards/desktop/d915gag/sb/CS-012059.htm
+  43. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1027952
+  44. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1027952#post1027952
+  45. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1027959#post1027959
+  46. http://www.hardwarecentral.com/member.php?13794-jimbo1763&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/member.php?13794-jimbo1763&s=af52edabdca22194a05a25ea9dfcc77f
+  48. http://www.hardwarecentral.com/member.php?13794-jimbo1763&s=af52edabdca22194a05a25ea9dfcc77f
+  49. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=13794&contenttype=vBForum_Post&showposts=1
+  50. http://www.computerhope.com/beep.htm
+  51. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1027959
+  52. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1027959#post1027959
+  53. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1027963#post1027963
+  54. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  55. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  56. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+  58. http://www.silentpcreview.com/
+  59. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+  60. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1027963
+  61. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1027963#post1027963
+  62. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1027978#post1027978
+  63. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=53031&contenttype=vBForum_Post&showposts=1
+  66. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1027978
+  67. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1027978#post1027978
+  68. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1027998#post1027998
+  69. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=26654&contenttype=vBForum_Post&showposts=1
+  73. http://discussions.hardwarecentral.com/forumdisplay.php?s=&daysprune=30&f=3
+  74. http://www.videohelp.com/forum/
+  75. http://htpcnews.com/forums/index.php?
+  76. http://www.irisvista.com/tech/index.htm
+  77. http://phrogram.com/
+  78. http://www.imageshack.us/
+  79. http://www.bhphotovideo.com/
+  80. http://www.dpreview.com/
+  81. http://discussions.hardwarecentral.com/showthread.php?t=141142
+  82. http://discussions.hardwarecentral.com/showthread.php?t=141026
+  83. http://discussions.hardwarecentral.com/showthread.php?t=169431
+  84. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1027998
+  85. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1027998#post1027998
+  86. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1028025#post1028025
+  87. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  89. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+  91. http://www.silentpcreview.com/
+  92. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+  93. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1028025
+  94. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1028025#post1028025
+  95. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1028152#post1028152
+  96. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+  97. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+  98. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=53031&contenttype=vBForum_Post&showposts=1
+  99. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1028152
+ 100. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1028152#post1028152
+ 101. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1028159#post1028159
+ 102. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 103. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 104. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 105. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+ 106. http://www.silentpcreview.com/
+ 107. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+ 108. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1028159
+ 109. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1028159#post1028159
+ 110. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1028160#post1028160
+ 111. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+ 112. http://www.hardwarecentral.com/member.php?53031-stephanie2991&s=af52edabdca22194a05a25ea9dfcc77f
+ 113. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=53031&contenttype=vBForum_Post&showposts=1
+ 114. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1028160
+ 115. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1028160#post1028160
+ 116. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1028166#post1028166
+ 117. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 118. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 119. http://www.hardwarecentral.com/member.php?23116-DanceMan&s=af52edabdca22194a05a25ea9dfcc77f
+ 120. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23116&contenttype=vBForum_Post&showposts=1
+ 121. http://www.silentpcreview.com/
+ 122. http://forum.ncix.com/forums/index.php?mode=showthread&forum=1&threadid=1218226&pagenumber=2&msgcount=42&subpage=1
+ 123. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1028166
+ 124. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1028166#post1028166
+ 125. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1040791#post1040791
+ 126. http://www.hardwarecentral.com/member.php?55904-kotarak&s=af52edabdca22194a05a25ea9dfcc77f
+ 127. http://www.hardwarecentral.com/member.php?55904-kotarak&s=af52edabdca22194a05a25ea9dfcc77f
+ 128. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=55904&contenttype=vBForum_Post&showposts=1
+ 129. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040791
+ 130. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1040791#post1040791
+ 131. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1040793#post1040793
+ 132. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 133. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 134. http://www.hardwarecentral.com/member.php?23307-glussier&s=af52edabdca22194a05a25ea9dfcc77f
+ 135. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=23307&contenttype=vBForum_Post&showposts=1
+ 136. http://www.hardwarecentral.com/showthread.php?s=af52edabdca22194a05a25ea9dfcc77f&p=1040791#post1040791
+ 137. http://vspx27.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=34878
+ 138. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040793
+ 139. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1040793#post1040793
+ 140. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1040794#post1040794
+ 141. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+ 142. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+ 143. http://www.hardwarecentral.com/member.php?26654-Leoslocks&s=af52edabdca22194a05a25ea9dfcc77f
+ 144. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=26654&contenttype=vBForum_Post&showposts=1
+ 145. http://discussions.hardwarecentral.com/forumdisplay.php?s=&daysprune=30&f=3
+ 146. http://www.videohelp.com/forum/
+ 147. http://htpcnews.com/forums/index.php?
+ 148. http://www.irisvista.com/tech/index.htm
+ 149. http://phrogram.com/
+ 150. http://www.imageshack.us/
+ 151. http://www.bhphotovideo.com/
+ 152. http://www.dpreview.com/
+ 153. http://discussions.hardwarecentral.com/showthread.php?t=141142
+ 154. http://discussions.hardwarecentral.com/showthread.php?t=141026
+ 155. http://discussions.hardwarecentral.com/showthread.php?t=169431
+ 156. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040794
+ 157. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1040794#post1040794
+ 158. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&p=1040802#post1040802
+ 159. http://www.hardwarecentral.com/member.php?34846-ELF2000&s=af52edabdca22194a05a25ea9dfcc77f
+ 160. http://www.hardwarecentral.com/member.php?34846-ELF2000&s=af52edabdca22194a05a25ea9dfcc77f
+ 161. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=34846&contenttype=vBForum_Post&showposts=1
+ 162. http://discussions.hardwarecentral.com/showthread.php?t=169431
+ 163. http://folding.extremeoverclocking.com/team_summary.php?s=&t=34878
+ 164. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=1040802
+ 165. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?179809&p=1040802#post1040802
+ 166. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f
+ 167. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot#top
+ 168. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 169. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 170. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 171. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 172. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 173. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 174. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 175. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+ 176. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+ 177. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+ 178. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+ 179. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+ 180. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+ 181. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+ 182. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+ 183. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+ 184. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+ 185. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+ 186. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+ 187. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+ 188. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+ 189. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+ 190. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+ 191. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+ 192. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+ 193. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+ 194. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+ 195. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+ 196. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+ 197. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 198. http://www.hardwarecentral.com/
+ 199. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+ 200. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot#top
+ 201. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+ 202. https://www.vbulletin.com/
+
+   Hidden links:
+ 204. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027952%23post1027952&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 205. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027952%23post1027952&source=webclient
+ 206. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027952%23post1027952&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 207. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027959%23post1027959&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 208. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027959%23post1027959&source=webclient
+ 209. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027959%23post1027959&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 210. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027963%23post1027963&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 211. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027963%23post1027963&source=webclient
+ 212. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027963%23post1027963&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 213. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027978%23post1027978&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 214. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027978%23post1027978&source=webclient
+ 215. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027978%23post1027978&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 216. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027998%23post1027998&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 217. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027998%23post1027998&source=webclient
+ 218. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1027998%23post1027998&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 219. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028025%23post1028025&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 220. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028025%23post1028025&source=webclient
+ 221. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028025%23post1028025&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 222. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028152%23post1028152&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 223. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028152%23post1028152&source=webclient
+ 224. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028152%23post1028152&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 225. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028159%23post1028159&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 226. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028159%23post1028159&source=webclient
+ 227. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028159%23post1028159&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 228. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028160%23post1028160&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 229. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028160%23post1028160&source=webclient
+ 230. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028160%23post1028160&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 231. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028166%23post1028166&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 232. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028166%23post1028166&source=webclient
+ 233. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1028166%23post1028166&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 234. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040791%23post1040791&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 235. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040791%23post1040791&source=webclient
+ 236. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040791%23post1040791&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 237. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040793%23post1040793&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 238. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040793%23post1040793&source=webclient
+ 239. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040793%23post1040793&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 240. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040794%23post1040794&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 241. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040794%23post1040794&source=webclient
+ 242. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040794%23post1040794&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 243. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040802%23post1040802&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 244. http://twitter.com/share?text=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040802%23post1040802&source=webclient
+ 245. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F179809%26p%3D1040802%23post1040802&title=Help!%20How%20do%20I%20check%20motherboard%20and%20processor%20to%20see%20if%20they%20are%20shot?&summary=&source=HardwareCentral%20Forums
+ 246. http://www.hardwarecentral.com/showthread.php?179809-Help!-How-do-I-check-motherboard-and-processor-to-see-if-they-are-shot#top

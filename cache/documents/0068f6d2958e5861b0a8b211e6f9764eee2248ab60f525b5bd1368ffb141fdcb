@@ -1,0 +1,378 @@
+   #[1]HardwareCentral Forums RSS Feed [2]HardwareCentral Forums - PC
+   Video, Digital Imaging, and Displays - RSS Feed
+
+   [p?c1=2&c2=17199065&cv=2.0&cj=1] dcsimg
+
+   [3]Home | [4]Reviews and Features | [5]Special Reports | [6]Forums |
+
+   [7]HardwareCentral Forums - Powered by vBulletin
+     * [8]Register
+     * [9]Help
+     *
+
+       User Name_ __________ Password__ Log in
+
+       [ ] Remember Me?
+     __________________________________________________________________
+
+     * [10]Forum
+
+     * [11]New Posts
+     * [12]FAQ
+     * [13]Calendar
+     * [14]Forum Actions
+          + [15]Mark Forums Read
+     * [16]Quick Links
+          + [17]Today's Posts
+          + [18]View Site Leaders
+
+     [19]What's New?
+
+   ____________________ [search.png]-Submit
+     * [20]Advanced Search
+
+     * [21]Home
+     * [22]Forum
+     * [23]Hardware Forums
+     * [24]PC Video, Digital Imaging, and Displays
+     * How to disable onboard graphics on compaq presario 7598
+     __________________________________________________________________
+
+    1. If this is your first visit, be sure to check out the [25]FAQ by
+       clicking the link above. You may have to [26]register before you
+       can post: click the register link above to proceed. To start
+       viewing messages, select the forum that you want to visit from the
+       selection below.
+
+   Results 1 to 3 of 3
+
+Thread: [27]How to disable onboard graphics on compaq presario 7598
+
+   [28]Tweet
+     * [29]Thread Tools
+          + [30]Show Printable Version
+          + [31]Email this Page…
+          + [32]Subscribe to this Thread…
+     * [33]Search Thread
+          + Search...___________ Search
+          +
+            [34]Advanced Search
+     * [35]Display
+          + Linear Mode
+          + [36]Switch to Hybrid Mode
+          + [37]Switch to Threaded Mode
+
+    1. June 28th, 2002, 03:42 PM [38]#1
+       [39]rmuniran
+          + [40]View Profile
+          + [41]View Forum Posts
+       rmuniran is offline Junior Member
+
+        Join Date
+                Jun 2002
+
+        Location
+                Houston
+
+        Posts
+                2
+
+How to disable onboard graphics on compaq presario 7598
+
+     I am trying to install an ATI RADEON 32MB SDR graphics card (PCI) to
+     my Compaq Presario 7598 computer which has Integrated 2X AGP 3D
+     Graphics. When I put the video card to the PCI slot and boot the
+     computer, nothing comes up. The computer just hangs up, I guess. I
+     already checked the BIOS and there is no option for disabling the
+     onboard graphics and I have also checked to see if there are any
+     jumper settings for the onboard graphics and there are none. Does
+     anyone know a way around this ? I would greatly appreciate it if
+     anyone could help me out. Thanks !
+       [42]Reply With Quote Reply With Quote [43]Share on Google+
+         ______________________________________________________________
+
+    2. June 29th, 2002, 02:06 PM [44]#2
+       [45]pradhan_aditya
+          + [46]View Profile
+          + [47]View Forum Posts
+       pradhan_aditya is offline 5000
+
+        Join Date
+                Nov 2001
+
+        Location
+                INDIA
+
+        Posts
+                130
+
+     "The onboard video might have not been properly disabled.
+     To disable the factory-installed component, follow these steps:
+     1. Right-click My Computer and select Properties.
+     2. Select the Device Manager tab.
+     3. Scroll to the desired device category like Display Adapters.
+     4. Click the plus (+) sign to expand the list.
+     5. Double-click the item.
+     6. Select the "Disable in this Hardware Profile" option or deselect
+     the "Exists in All Hardware Profiles" option.
+     7. Click OK and then click OK again.
+     8. Restart the computer.
+     WARNING: The steps to install the display adapter involve registry
+     modifications. Using Registry Editor incorrectly can cause very
+     serious, system-wide problems. Incorrect entries may cause
+     installation problems or prevent the system from starting the
+     computer. You may be required to reinstall the Operating System.
+     You will not be warned of incorrect entries while you edit the
+     Registry to change values. Therefore, please take a full backup of
+     the registry files, particularly user.dat, system.dat, and
+     policy.pol. If you make any incorrect entries, the backed-up
+     registry files can be used to replace the corrupted registry
+     entries. To take a backup of the registry files, follow these steps:
+     1. Click Start and select Run.
+     2. Type Regedit.
+     3. Click REGISTRY on the menu bar and then click Export Registry.
+     4. Give a destination file name (say Regbackup) and save it on to
+     the desktop.
+     To install the display adapter, follow these steps:
+     1. Right click on the desktop, click Properties to view the display
+     properties, and then click the Settings tab.
+     2. Click the Advanced button and then click the Adapter tab.
+     3. Click Change and change the adapter to a Standard VGA card. It
+     does not matter if you do not select PCI.
+     NOTE: Do not restart the computer even if you are prompted.
+     4. Open Windows Explorer and go to the "C:\Windows\Inf\Other"
+     directory.
+     5. Delete all INF files relating to video cards.
+     NOTE: There may be other INF files for sound cards and other
+     peripherals. Remove only the INF files related to video cards.
+     6. Go back to the "C:\Windows\Inf" folder. Delete the drvdata.bin
+     and drvidx.bin files if they exist.
+     7. Click the Start button, select Run, and type regedit.
+     8. Click the plus (+) sign beside HKEY_LOCAL_MACHINE and then the
+     plus (+) sign beside Software folder.
+     9. Look for folders referring to video cards like "3Dfx
+     Interactive," "NVIDIA" and so on. The folder names will vary
+     depending on the drivers and cards installed. However, the folders
+     related to video cards can be easily identified.
+     10. Delete the directories related to video cards.
+     11. Restart the computer. The computer will redetect the video card.
+     12. Cancel the request for drivers and load into 640x480x16 colors.
+     13. Insert the CD that came with the video card to load the drivers
+     and tools.
+     14. Restart the computer when prompted and install the drivers from
+     the CD.
+     This will install the display adapter in your computer.
+     This should help."
+
+     Last edited by pradhan_aditya; June 29th, 2002 at 02:14 PM.
+
+     Config
+     P III 450 MHz
+     128 MB RAM
+     32 MB TNT2 Model 64 with Det v28.32
+     Win 98SE/XP Dual Boot
+       [48]Reply With Quote Reply With Quote [49]Share on Google+
+         ______________________________________________________________
+
+    3. June 29th, 2002, 08:55 PM [50]#3
+       [51]rmuniran
+          + [52]View Profile
+          + [53]View Forum Posts
+       rmuniran is offline Junior Member
+
+        Join Date
+                Jun 2002
+
+        Location
+                Houston
+
+        Posts
+                2
+
+     I finally got this thing working just now. The ONLY thing I had to
+     do was to update the BIOS from the compaq site and everything went
+     off smoothly after that. i still wonder why Compaq is keeping its so
+     called "support" since when I called them, they told me, they did
+     not have any idea about this. I had called the ATI people too and
+     they said it may be not possible at all !! Anyway, I am finally set
+     now. Thanks a lot for all the people who replied to this thread.
+     This was the first time I was using a forum and I can say I look
+     forward to use it again or to answer someone's question on it.
+       [54]Reply With Quote Reply With Quote [55]Share on Google+
+         ______________________________________________________________
+
+   Quick Navigation [56]PC Video, Digital Imaging, and Displays [57]Top
+     * Site Areas
+     * [58]Settings
+     * [59]Private Messages
+     * [60]Subscriptions
+     * [61]Who's Online
+     * [62]Search Forums
+     * [63]Forums Home
+     * Forums
+     * [64]General Forums
+         1. [65]General Tech Talk and Support
+         2. [66]PC and Console Gaming
+         3. [67]Software
+     * [68]Hardware Forums
+         1. [69]CPUs and Motherboards
+         2. [70]Cases, Cooling, and Overclocking
+         3. [71]PC Audio and Home Theater
+         4. [72]PC Video, Digital Imaging, and Displays
+         5. [73]Storage and Peripherals
+         6. [74]Networking and the Internet
+         7. [75]Mobile Technology
+     * [76]Community
+         1. [77]HWC Feedback
+         2. [78]Central Lounge
+         3. [79]For Sale Or Trade
+
+   « [80]Previous Thread | [81]Next Thread »
+
+Thread Information
+
+Users Browsing this Thread
+
+   There are currently 1 users browsing this thread. (0 members and 1
+   guests)
+
+Posting Permissions
+
+     * You may not post new threads
+     * You may not post replies
+     * You may not post attachments
+     * You may not edit your posts
+     *
+
+     * [82]BB code is On
+     * [83]Smilies are On
+     * [84][IMG] code is On
+     * [85][VIDEO] code is On
+     * HTML code is Off
+
+   [86]Forum Rules
+   [-- hardwarecentral yellow]
+     * [87]Contact Us
+     * [88]HardwareCentral Forums
+     * [89]Archive
+     * [90]Top
+
+   IFRAME:
+   [91]http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecen
+   tral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetLis
+   ting&lyt=l9&title=Top White Papers and
+   Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.c
+   ss&wi=21297010
+
+   All times are GMT -4. The time now is 09:11 PM.
+
+   Powered by [92]vBulletin® Version 4.2.2
+   Copyright © 2015 vBulletin Solutions, Inc. All rights reserved.
+
+References
+
+   Visible links
+   1. http://www.hardwarecentral.com/external.php?type=RSS2
+   2. http://www.hardwarecentral.com/external.php?type=RSS2&forumids=8
+   3. http://www.hardwarecentral.com/hardwarecentral/
+   4. http://www.hardwarecentral.com/hardwarecentral/reviews/
+   5. http://www.hardwarecentral.com/hardwarecentral/reports/
+   6. http://www.hardwarecentral.com/index.php
+   7. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+   8. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+   9. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  10. http://www.hardwarecentral.com/forum.php?s=af52edabdca22194a05a25ea9dfcc77f
+  11. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getnew&contenttype=vBForum_Post
+  12. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  13. http://www.hardwarecentral.com/calendar.php?s=af52edabdca22194a05a25ea9dfcc77f
+  14. javascript:///
+  15. http://www.hardwarecentral.com/forumdisplay.php?s=af52edabdca22194a05a25ea9dfcc77f&do=markread&markreadhash=guest
+  16. javascript:///
+  17. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=getdaily&contenttype=vBForum_Post
+  18. http://www.hardwarecentral.com/showgroups.php?s=af52edabdca22194a05a25ea9dfcc77f
+  19. http://www.hardwarecentral.com/activity.php?s=af52edabdca22194a05a25ea9dfcc77f
+  20. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  21. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  22. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  23. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  24. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  25. http://www.hardwarecentral.com/faq.php?s=af52edabdca22194a05a25ea9dfcc77f
+  26. http://www.hardwarecentral.com/register.php?s=af52edabdca22194a05a25ea9dfcc77f
+  27. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f
+  28. https://twitter.com/share
+  29. javascript:///
+  30. http://www.hardwarecentral.com/printthread.php?s=af52edabdca22194a05a25ea9dfcc77f&t=131029&pp=15&page=1
+  31. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f&do=sendtofriend&t=131029
+  32. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f&do=addsubscription&t=131029
+  33. javascript:///
+  34. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&search_type=1&searchthreadid=131029&contenttype=vBForum_Post
+  35. javascript:///
+  36. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&mode=hybrid
+  37. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&p=704474&mode=threaded#post704474
+  38. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&p=704474#post704474
+  39. http://www.hardwarecentral.com/member.php?38685-rmuniran&s=af52edabdca22194a05a25ea9dfcc77f
+  40. http://www.hardwarecentral.com/member.php?38685-rmuniran&s=af52edabdca22194a05a25ea9dfcc77f
+  41. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38685&contenttype=vBForum_Post&showposts=1
+  42. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=704474
+  43. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?131029&p=704474#post704474
+  44. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&p=704829#post704829
+  45. http://www.hardwarecentral.com/member.php?36187-pradhan_aditya&s=af52edabdca22194a05a25ea9dfcc77f
+  46. http://www.hardwarecentral.com/member.php?36187-pradhan_aditya&s=af52edabdca22194a05a25ea9dfcc77f
+  47. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=36187&contenttype=vBForum_Post&showposts=1
+  48. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=704829
+  49. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?131029&p=704829#post704829
+  50. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&p=704931#post704931
+  51. http://www.hardwarecentral.com/member.php?38685-rmuniran&s=af52edabdca22194a05a25ea9dfcc77f
+  52. http://www.hardwarecentral.com/member.php?38685-rmuniran&s=af52edabdca22194a05a25ea9dfcc77f
+  53. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f&do=finduser&userid=38685&contenttype=vBForum_Post&showposts=1
+  54. http://www.hardwarecentral.com/newreply.php?s=af52edabdca22194a05a25ea9dfcc77f&do=newreply&p=704931
+  55. https://plus.google.com/share?url=http://www.hardwarecentral.com/showthread.php?131029&p=704931#post704931
+  56. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f
+  57. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598#top
+  58. http://www.hardwarecentral.com/usercp.php?s=af52edabdca22194a05a25ea9dfcc77f
+  59. http://www.hardwarecentral.com/private.php?s=af52edabdca22194a05a25ea9dfcc77f
+  60. http://www.hardwarecentral.com/subscription.php?s=af52edabdca22194a05a25ea9dfcc77f
+  61. http://www.hardwarecentral.com/online.php?s=af52edabdca22194a05a25ea9dfcc77f
+  62. http://www.hardwarecentral.com/search.php?s=af52edabdca22194a05a25ea9dfcc77f
+  63. http://www.hardwarecentral.com/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  64. http://www.hardwarecentral.com/forumdisplay.php?3-General-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  65. http://www.hardwarecentral.com/forumdisplay.php?10-General-Tech-Talk-and-Support&s=af52edabdca22194a05a25ea9dfcc77f
+  66. http://www.hardwarecentral.com/forumdisplay.php?23-PC-and-Console-Gaming&s=af52edabdca22194a05a25ea9dfcc77f
+  67. http://www.hardwarecentral.com/forumdisplay.php?13-Software&s=af52edabdca22194a05a25ea9dfcc77f
+  68. http://www.hardwarecentral.com/forumdisplay.php?4-Hardware-Forums&s=af52edabdca22194a05a25ea9dfcc77f
+  69. http://www.hardwarecentral.com/forumdisplay.php?7-CPUs-and-Motherboards&s=af52edabdca22194a05a25ea9dfcc77f
+  70. http://www.hardwarecentral.com/forumdisplay.php?16-Cases-Cooling-and-Overclocking&s=af52edabdca22194a05a25ea9dfcc77f
+  71. http://www.hardwarecentral.com/forumdisplay.php?6-PC-Audio-and-Home-Theater&s=af52edabdca22194a05a25ea9dfcc77f
+  72. http://www.hardwarecentral.com/forumdisplay.php?8-PC-Video-Digital-Imaging-and-Displays&s=af52edabdca22194a05a25ea9dfcc77f
+  73. http://www.hardwarecentral.com/forumdisplay.php?9-Storage-and-Peripherals&s=af52edabdca22194a05a25ea9dfcc77f
+  74. http://www.hardwarecentral.com/forumdisplay.php?15-Networking-and-the-Internet&s=af52edabdca22194a05a25ea9dfcc77f
+  75. http://www.hardwarecentral.com/forumdisplay.php?28-Mobile-Technology&s=af52edabdca22194a05a25ea9dfcc77f
+  76. http://www.hardwarecentral.com/forumdisplay.php?30-Community&s=af52edabdca22194a05a25ea9dfcc77f
+  77. http://www.hardwarecentral.com/forumdisplay.php?17-HWC-Feedback&s=af52edabdca22194a05a25ea9dfcc77f
+  78. http://www.hardwarecentral.com/forumdisplay.php?27-Central-Lounge&s=af52edabdca22194a05a25ea9dfcc77f
+  79. http://www.hardwarecentral.com/forumdisplay.php?14-For-Sale-Or-Trade&s=af52edabdca22194a05a25ea9dfcc77f
+  80. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextoldest
+  81. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598&s=af52edabdca22194a05a25ea9dfcc77f&goto=nextnewest
+  82. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode
+  83. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showsmilies
+  84. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#imgcode
+  85. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=bbcode#videocode
+  86. http://www.hardwarecentral.com/misc.php?s=af52edabdca22194a05a25ea9dfcc77f&do=showrules
+  87. http://www.hardwarecentral.com/sendmessage.php?s=af52edabdca22194a05a25ea9dfcc77f
+  88. http://www.hardwarecentral.com/
+  89. http://www.hardwarecentral.com/archive/index.php?s=af52edabdca22194a05a25ea9dfcc77f
+  90. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598#top
+  91. http://www.hardwarecentral.com/sl/assetlisting/?wsn=www.hardwarecentral.com&wpu=/&lurl=http://assetform.eweek.com/controller&wpos=AssetListing&lyt=l9&title=Top White Papers and Webcasts&css=http://www.hardwarecentral.com/hqb2b/css/qmp/qmp_default.css&wi=21297010
+  92. https://www.vbulletin.com/
+
+   Hidden links:
+  94. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704474%23post704474&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+  95. http://twitter.com/share?text=How%20to%20disable%20onboard%20graphics%20on%20compaq%20presario%207598&url=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704474%23post704474&source=webclient
+  96. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704474%23post704474&title=How%20to%20disable%20onboard%20graphics%20on%20compaq%20presario%207598&summary=&source=HardwareCentral%20Forums
+  97. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704829%23post704829&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+  98. http://twitter.com/share?text=How%20to%20disable%20onboard%20graphics%20on%20compaq%20presario%207598&url=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704829%23post704829&source=webclient
+  99. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704829%23post704829&title=How%20to%20disable%20onboard%20graphics%20on%20compaq%20presario%207598&summary=&source=HardwareCentral%20Forums
+ 100. http://www.facebook.com/sharer.php?u=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704931%23post704931&send=true&layout=box_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=90
+ 101. http://twitter.com/share?text=How%20to%20disable%20onboard%20graphics%20on%20compaq%20presario%207598&url=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704931%23post704931&source=webclient
+ 102. http://www.linkedin.com/shareArticle?mini=true&url=http://www.hardwarecentral.com%2Fshowthread.php%3F131029%26p%3D704931%23post704931&title=How%20to%20disable%20onboard%20graphics%20on%20compaq%20presario%207598&summary=&source=HardwareCentral%20Forums
+ 103. http://www.hardwarecentral.com/showthread.php?131029-How-to-disable-onboard-graphics-on-compaq-presario-7598#top
