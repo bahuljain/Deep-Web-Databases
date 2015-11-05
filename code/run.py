@@ -121,6 +121,8 @@ def getContentSummary():
         completeVocab = reduce(lambda a,b:a.union(b), vocabList, set())
         print '\nTotal Words in Content Summary of Category ' + key + ': ' + `len(completeVocab)` + '\n'
         writeToFile(getDocFrequency(vocabList, completeVocab), finalData, key + '-' + website + '.txt')
+
+    print 'Result stored in path: ' + resultPath
     print "...Completed!!"
 
 # gets the entire vocabulary from the contents of the given url (this includes
@@ -141,7 +143,7 @@ cachePath = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, '
 # previously created file with that same url is read.
 def getPageContent(url):
     if not os.path.exists(cachePath):
-        os.makedirs(cachePath)
+        os.makedirs(cachePath, 0755)
 
     print "Crawling through : " + url
     fname = os.path.join(cachePath, sha256(url.encode("ascii", "ignore")).hexdigest())
@@ -161,8 +163,9 @@ resultPath = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 
 # this method writes the content summary in a text file
 def writeToFile(wordMap, finalData, fname):
     if not os.path.exists(resultPath):
-        os.makedirs(resultPath)
+        os.makedirs(resultPath, 0755)
 
+    fname = os.path.join(resultPath, fname)
     with open(fname, 'w') as f:
         for word, count in sorted(wordMap.iteritems()):
             if word in finalData.keys():
