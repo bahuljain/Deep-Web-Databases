@@ -6,7 +6,7 @@ import base64
 import json
 import pickle
 from hashlib import sha256
-import os
+import os, sys
 
 # this method takes a website (database) and a query word and returns search results of the query word
 # on the given database via bing's search api
@@ -173,7 +173,7 @@ def writeToFile(wordMap, finalData, fname):
             else:
                 f.write("{0}#{1}#-1.0\n".format(word, count))
 
-# retrurns the document frequency of every word in completeVocab in vocabList which contains
+# returns the document frequency of every word in completeVocab in vocabList which contains
 # the vocabList of the individual documents.
 def getDocFrequency(vocabList, completeVocab):
     docFreq = dict.fromkeys(completeVocab, 0)
