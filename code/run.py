@@ -144,6 +144,7 @@ cachePath = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, '
 def getPageContent(url):
     if not os.path.exists(cachePath):
         os.makedirs(cachePath, 0755)
+    url = url.encode('ascii','ignore')
 
     print "Crawling through : " + url
     fname = os.path.join(cachePath, sha256(url.encode("ascii", "ignore")).hexdigest())
