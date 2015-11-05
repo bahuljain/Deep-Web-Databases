@@ -8,13 +8,6 @@ import pickle
 from hashlib import sha256
 import os
 
-GRAPH = {
-    "Root": ["Computers", "Health", "Sports"],
-    "Computers": ["Hardware", "Programming"],
-    "Sports": ["Basketball", "Soccer"],
-    "Health": ["Diseases", "Fitness"]
-}
-
 # this method takes a website (database) and a query word and returns search results of the query word
 # on the given database via bing's search api
 def getBingResult(website, query, accountKey):
@@ -44,6 +37,13 @@ def getResults(website, resPath, accountKey):
                 'urls': set([result['Url'] for result in result['Web']])
             }
     return cache
+
+GRAPH = {
+    "Root": ["Computers", "Health", "Sports"],
+    "Computers": ["Hardware", "Programming"],
+    "Sports": ["Basketball", "Soccer"],
+    "Health": ["Diseases", "Fitness"]
+}
 
 # using two threshold values tc and ts, the database is classified to a particular category
 # if it successfully finds a category, it tries to further classify the database to a
@@ -135,12 +135,16 @@ def getVocab(url):
         vocab = set([w.lower() for w in re.split(r'\W+', content) if str.isalpha(w)])
     return vocab
 
+cachePath = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'cache/documents'))
 # to keep the file associated with every url unique the files are stored with names
 # as hash value of their urls. If the same url is fetched again, the contents of the
 # previously created file with that same url is read.
 def getPageContent(url):
+    if not os.path.exists(cachePath):
+        os.makedirs(cachePath)
+
     print "Crawling through : " + url
-    fname = "cache/documents/" + sha256(url.encode("ascii", "ignore")).hexdigest()
+    fname = os.path.join(cachePath, sha256(url.encode("ascii", "ignore")).hexdigest())
     output = None
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
@@ -153,8 +157,12 @@ def getPageContent(url):
                 f.write(output)
     return output
 
+resultPath = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'results'))
 # this method writes the content summary in a text file
 def writeToFile(wordMap, finalData, fname):
+    if not os.path.exists(resultPath):
+        os.makedirs(resultPath)
+
     with open(fname, 'w') as f:
         for word, count in sorted(wordMap.iteritems()):
             if word in finalData.keys():
